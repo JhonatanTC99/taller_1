@@ -1,0 +1,16 @@
+[project]
+name = "taller-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "crawl4ai>=0.8.6",
+    "langchain>=1.2.15",
+    "langchain-community>=0.4.1",
+    "ollama>=0.6.1",
+    "pandas>=3.0.2",
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.56.0",
+]

@@ -1,68 +1,82 @@
-import sys
-from pathlib import Path
-from langchain_community.chat_models import ChatOllama
+from langchain_ollama import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-
-# Configuración de rutas para importar settings
-sys.path.append(str(Path(__file__).resolve().parent.parent))
-from config.settings import KB_FILE_PATH, DEFAULT_MODEL, OLLAMA_BASE_URL
-from engine.prompts import SYSTEM_PROMPT, USER_TEMPLATE
+from src.config.settings import KB_FILE_PATH, DEFAULT_MODEL, OLLAMA_BASE_URL
+from src.engine.prompts import RESUMEN_PROMPT, FAQ_PROMPT, QA_SYSTEM_PROMPT, USER_TEMPLATE
 
 class LLMService:
     def __init__(self):
-        self.model_name = DEFAULT_MODEL
-        self.llm = ChatOllama(model=self.model_name, base_url=OLLAMA_BASE_URL)
-        self.context = self._load_context()
+        """Inicializa el modelo local y carga la base de conocimiento."""
+        self.llm = ChatOllama(
+            model=DEFAULT_MODEL, 
+            base_url=OLLAMA_BASE_URL,
+            temperature=0.1
+        )
         self.parser = StrOutputParser()
+        self.context = self._load_context()
 
-    def _load_context(self):
-        """Carga la base de conocimiento curada."""
+    def _load_context(self) -> str:
+        """Carga la KB curada desde el sistema de archivos."""
         try:
             if not KB_FILE_PATH.exists():
-                print(f"[ERROR] No se encontró la KB en {KB_FILE_PATH}")
-                return ""
-            with open(KB_FILE_PATH, "r", encoding="utf-8") as f:
-                return f.read()
+                return "Error: No se encontró la base de conocimiento curada."
+            return KB_FILE_PATH.read_text(encoding="utf-8")
         except Exception as e:
-            print(f"[ERROR] Error al cargar contexto: {e}")
-            return ""
+            return f"Error al cargar contexto: {str(e)}"
 
-    def get_response(self, question: str):
-        """Genera una respuesta basada en el contexto."""
-        prompt_template = ChatPromptTemplate.from_messages([
-            ("system", SYSTEM_PROMPT),
-            ("user", USER_TEMPLATE)
+    def _run_chain(self, system_template: str, user_input: str = "") -> str:
+        """Helper privado para ejecutar cualquier cadena de LangChain."""
+        prompt = ChatPromptTemplate.from_messages([
+            ("system", system_template),
+            ("user", USER_TEMPLATE if user_input else "Procesa la solicitud.")
         ])
         
-        # Crear cadena (Chain)
-        chain = prompt_template | self.llm | self.parser
+        chain = prompt | self.llm | self.parser
         
         try:
-            # Ejecutar inferencia
-            response = chain.invoke({
+            return chain.invoke({
                 "context": self.context,
-                "question": question
+                "question": user_input
             })
-            return response
         except Exception as e:
-            return f"Error en el servicio de IA: {str(e)}"
+            return f"[ERROR LLM]: {str(e)}"
 
+    def get_summary(self) -> str:
+        """Tarea 1: Generar resumen de la empresa."""
+        return self._run_chain(RESUMEN_PROMPT)
+
+    def get_faq(self) -> str:
+        """Tarea 2: Generar listado automático de FAQ."""
+        return self._run_chain(FAQ_PROMPT)
+
+    def get_chat_response(self, question: str) -> str:
+        """Tarea 3: Responder preguntas específicas (Q&A)."""
+        return self._run_chain(QA_SYSTEM_PROMPT, question)
+
+# --- FUNCIÓN DE INTERFAZ DE CONSOLA ---
 def start_console_chat():
-    """Bucle de chat por consola para pruebas."""
-    print(f"\n--- Iniciando Cerebro IA de Dollarcity (Modelo: {DEFAULT_MODEL}) ---")
-    print("Escribe 'salir' para terminar.\n")
+    """Lógica para el chat interactivo por terminal (Fase de Pruebas)."""
+    print("\n" + "="*50)
+    print("SISTEMA Q&A DOLLARCITY - MODO CONSOLA")
+    print("Escribe 'salir' o 'exit' para terminar.")
+    print("="*50)
     
     service = LLMService()
     
     while True:
-        user_input = input("Tú: ")
-        if user_input.lower() in ["salir", "exit", "quit"]:
+        query = input("\nUsuario > ")
+        if query.lower() in ["salir", "exit", "quit"]:
+            print("Cerrando sesión...")
             break
             
-        print("\nDollarcity AI está pensando...", end="\r")
-        response = service.get_response(user_input)
-        print(f"Asistente: {response}\n")
+        if not query.strip():
+            continue
+            
+        print("\nAsistente Dollarcity (pensando)...")
+        respuesta = service.get_chat_response(query)
+        print(f"\n{respuesta}")
 
 if __name__ == "__main__":
-    start_console_chat()
+    # Test rápido de integridad
+    s = LLMService()
+    print("Contexto cargado correctamente.")

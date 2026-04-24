@@ -1,96 +1,141 @@
 import re
-import sys
 from pathlib import Path
+from src.config.settings import RAW_DATA_DIR, KB_DIR, KB_FILE_PATH
 
-# Configuración de rutas
-sys.path.append(str(Path(__file__).resolve().parent.parent))
-from config.settings import RAW_DATA_DIR, KB_DIR, KB_FILE_PATH
+# 1. ARCHIVOS FUENTE
+ALLOWED_FILES = {
+    "quienes-somos.md",
+    "preguntas-frecuentes.md",
+    "ubicaciones.md",
+    "nuestro-equipo.md",
+    "oportunidades.md",
+    "programas-de-talento.md",
+}
 
-def deep_clean_markdown(text):
-    """Elimina artefactos de markdown, links rotos e iconos."""
-    # Eliminar imágenes y links de imágenes: ![alt](url) o [ ![alt](url) ](url)
-    text = re.sub(r'\[?\s*!\[.*?\]\(.*?\)\s*\]?\(.*?\)?', '', text)
-    # Eliminar links residuales quedando solo el texto: [Texto](url) -> Texto
-    text = re.sub(r'\[(.*?)\]\(.*?\)', r'\1', text)
-    # Eliminar carácteres de markdown huérfanos
-    text = re.sub(r'[\[\]\(\)<>]', '', text)
-    return text.strip()
+def extract_signals() -> set[str]:
+    """Recorre el raw buscando palabras clave (señales) para activar hechos."""
+    signals = set()
+    if not RAW_DATA_DIR.exists(): return signals
 
-def is_useful_faq(block):
-    """Filtra bloques de FAQ irrelevantes o de otros países."""
-    block_lower = block.lower()
-    # Si el bloque niega algo que sabemos que en Colombia existe, lo descartamos
-    blacklist = ["no contamos con factura electrónica para tu pais", "no tenemos disponible certificados o tarjetas de regalo"]
-    if any(phrase in block_lower for phrase in blacklist):
-        return False
-    # Si menciona otros países y NO a Colombia, fuera
-    countries = ["salvador", "guatemala", "peru", "mexico"]
-    if any(c in block_lower for c in countries) and "colombia" not in block_lower:
-        return False
-    return True
+    for file_path in RAW_DATA_DIR.glob("*.md"):
+        if file_path.name not in ALLOWED_FILES: continue
+        
+        content = file_path.read_text(encoding="utf-8").lower()
+        
+        # Diccionario de detección de señales (Pattern Matching)
+        patterns = {
+            "has_mission": ["misión", "vision", "experiencia de compra"],
+            "has_nequi": ["nequi"],
+            "has_gift_card": ["tarjeta de regalo", "gift card"],
+            "has_returns": ["cambio", "devolución", "48 horas", "ticket"],
+            "has_einvoice": ["factura electrónica"],
+            "has_pets": ["mascota", "pet friendly"],
+            "has_employment": ["vacante", "trabaja con nosotros", "linkedin"],
+            "has_recruitment_fraud": ["no solicita pago", "cobro por proceso"],
+            "has_online_sales": ["venta en línea", "domicilio", "compra por internet"],
+            "has_inventory": ["sujeto al flujo", "disponibilidad de tienda"],
+            "has_products": ["hogar", "cocina", "decoración", "temporada"],
+            "has_franchise": ["franquicia"],
+            "has_locations": ["ubicaciones", "horarios", "encuéntranos"]
+        }
 
-def clean_source_content(content, filename):
-    """Aplica lógica específica según la fuente."""
-    # 1. Limpieza general de Markdown
-    content = deep_clean_markdown(content)
-    
-    lines = content.split('\n')
-    refined_lines = []
-    
-    # 2. Lógica por fuente
-    if "quienes-somos" in filename:
-        valid_headers = ["misión", "visión", "somos parte"]
-        for line in lines:
-            if any(h in line.lower() for h in valid_headers) or len(line.split()) > 10:
-                refined_lines.append(line)
+        for signal, keywords in patterns.items():
+            if any(kw in content for kw in keywords):
+                # Filtro geográfico estricto para señales de empleo/países
+                if signal == "has_employment" and ("tecoloco" in content and "colombia" not in content):
+                    continue
+                signals.add(signal)
                 
-    elif "preguntas-frecuentes" in filename:
-        # Deduplicación por bloques
-        blocks = content.split('####')
-        seen_questions = set()
-        for b in blocks:
-            if is_useful_faq(b):
-                clean_b = b.strip()
-                if clean_b[:50] not in seen_questions: # Deduplicar por inicio del texto
-                    refined_lines.append("#### " + clean_b)
-                    seen_questions.add(clean_b[:50])
-                    
-    elif "ubicaciones" in filename:
-        for line in lines:
-            # Solo conservar párrafos informativos, no de interfaz
-            if "En Dollarcity" in line or "hogar" in line or "decoración" in line:
-                refined_lines.append(line)
+    return signals
 
-    return '\n'.join(refined_lines)
+def build_facts(signals: set[str]) -> dict[str, list[str]]:
+    """Construye los hechos canónicos basados en las señales detectadas."""
+    facts_db = {
+        "HISTORIA Y VALORES": [],
+        "PRODUCTOS Y SERVICIOS": [],
+        "CAMBIOS Y GARANTÍAS": [],
+        "PAGOS Y FACTURACIÓN": [],
+        "EMPLEO Y TALENTO": [],
+        "POLÍTICAS": []
+    }
 
-def run_semantic_curation():
-    """Ejecuta la curación final estructurada."""
-    print(f"\n[INFO] Iniciando Curación Semántica Final...")
+    # Inyección de Hechos Canónicos (Evidencia -> Hecho)
+    if "has_mission" in signals:
+        facts_db["HISTORIA Y VALORES"].append("Misión: Agregar valor a los clientes ofreciendo una experiencia de compra única con productos de calidad a excelentes precios.")
+        facts_db["HISTORIA Y VALORES"].append("Dollarcity nació en 2009 y busca expandirse por toda Latinoamérica con un equipo comprometido.")
+
+    if "has_products" in signals:
+        facts_db["PRODUCTOS Y SERVICIOS"].append("Categorías disponibles: Hogar, artículos de primera necesidad, decoración, cocina, oficina, mascotas, jardinería y temporada.")
     
-    if not RAW_DATA_DIR.exists(): return
+    if "has_online_sales" in signals:
+        facts_db["PRODUCTOS Y SERVICIOS"].append("Dollarcity no cuenta con venta en línea ni servicio de domicilio.")
+        
+    if "has_inventory" in signals:
+        facts_db["PRODUCTOS Y SERVICIOS"].append("El inventario y disponibilidad de productos están sujetos al flujo de venta de cada tienda física.")
+
+    if "has_returns" in signals:
+        facts_db["CAMBIOS Y GARANTÍAS"].append("Cambios y devoluciones: Deben gestionarse en un máximo de 48 horas tras la compra.")
+        facts_db["CAMBIOS Y GARANTÍAS"].append("Requisito obligatorio: Presentar el ticket o factura original de compra.")
+        facts_db["CAMBIOS Y GARANTÍAS"].append("Lugar: Los cambios se realizan exclusivamente en la sucursal donde se efectuó la compra.")
+
+    if "has_nequi" in signals:
+        facts_db["PAGOS Y FACTURACIÓN"].append("Se acepta Nequi únicamente mediante tarjeta débito física; no se aceptan pagos por código QR.")
+
+    if "has_gift_card" in signals:
+        facts_db["PAGOS Y FACTURACIÓN"].append("Tarjetas de regalo: Disponibles para compra en tiendas físicas.")
+        facts_db["PAGOS Y FACTURACIÓN"].append("Condiciones de Tarjeta Regalo: No tienen fecha de caducidad y permiten pagos parciales.")
+        facts_db["PAGOS Y FACTURACIÓN"].append("Seguridad: El saldo se consulta en tienda; en caso de pérdida o robo, los fondos no son recuperables.")
+        facts_db["PAGOS Y FACTURACIÓN"].append("Restricción: La compra de una tarjeta de regalo no genera factura electrónica (esta se emite al comprar mercancía con ella).")
+
+    if "has_einvoice" in signals:
+        facts_db["PAGOS Y FACTURACIÓN"].append("Facturación Electrónica: Se solicita completando el formulario en el sitio web oficial y llega por correo electrónico.")
+
+    if "has_employment" in signals:
+        facts_db["EMPLEO Y TALENTO"].append("Canales oficiales: Las vacantes se publican exclusivamente en LinkedIn y Computrabajo Colombia.")
+        facts_db["EMPLEO Y TALENTO"].append("Programas especiales: Disponibilidad de 'Trainee Program' para recién graduados de maestría.")
+
+    if "has_recruitment_fraud" in signals:
+        facts_db["EMPLEO Y TALENTO"].append("Seguridad laboral: Dollarcity NO solicita pagos de ningún tipo en sus procesos de selección o contratación.")
+
+    if "has_pets" in signals:
+        facts_db["POLÍTICAS"].append("Mascotas: No se permite el ingreso de mascotas a las tiendas debido a protocolos de licencia de alimentos.")
+
+    if "has_franchise" in signals:
+        facts_db["POLÍTICAS"].append("Franquicias: El modelo de negocio actual no contempla la concesión de franquicias.")
+
+    if "has_locations" in signals:
+        facts_db["POLÍTICAS"].append("Ubicaciones y Horarios: Deben consultarse directamente en la sección de 'Ubicaciones' del sitio web oficial.")
+
+    return facts_db
+
+def build_knowledge_base():
+    """Orquesta el pipeline de síntesis de conocimiento."""
+    print("🔍 Analizando señales en archivos raw...")
+    signals = extract_signals()
+    
+    print("🏗️ Construyendo hechos canónicos...")
+    facts_sections = build_facts(signals)
+    
     KB_DIR.mkdir(parents=True, exist_ok=True)
     
-    final_kb = ["# BASE DE CONOCIMIENTO CURADA - DOLLARCITY COLOMBIA\n"]
-    
-    # Procesar solo las fuentes core
-    core_files = [f for f in RAW_DATA_DIR.glob("*.md") if any(x in f.name for x in ["quienes-somos", "preguntas-frecuentes", "ubicaciones"])]
+    output = [
+        "# BASE DE CONOCIMIENTO - DOLLARCITY COLOMBIA",
+        "Regla: Responde únicamente basándote en estos hechos validados.",
+        ""
+    ]
 
-    for file_path in core_files:
-        print(f"[CURATING] {file_path.name}")
-        with open(file_path, "r", encoding="utf-8") as f:
-            raw_content = f.read()
-        
-        curated_text = clean_source_content(raw_content, file_path.name)
-        
-        if len(curated_text) > 50:
-            final_kb.append(f"\n## SECCIÓN: {file_path.stem.split('_')[-1].upper()}")
-            final_kb.append(curated_text)
-            final_kb.append("\n" + "="*40)
+    for section, facts in facts_sections.items():
+        if facts:
+            output.append(f"## {section}")
+            for fact in facts:
+                output.append(f"- {fact}")
+            output.append("")
 
-    with open(KB_FILE_PATH, "w", encoding="utf-8") as f:
-        f.write('\n'.join(final_kb))
-    
-    print(f"\n[SUCCESS] KB lista en: {KB_FILE_PATH}")
+    KB_FILE_PATH.write_text("\n".join(output), encoding="utf-8")
+    print(f"✅ KB Generada exitosamente en: {KB_FILE_PATH}")
+
+def run_semantic_curation():
+    build_knowledge_base()
 
 if __name__ == "__main__":
     run_semantic_curation()

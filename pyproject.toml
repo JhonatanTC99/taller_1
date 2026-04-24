@@ -1,16 +1,24 @@
 [project]
-name = "taller-1"
+name = "taller-llm-modulo1"
 version = "0.1.0"
-description = "Add your description here"
+description = "Base de Conocimiento Semántica y Sistema Q&A para Dollarcity"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "beautifulsoup4>=4.14.3",
-    "crawl4ai>=0.8.6",
-    "langchain>=1.2.15",
-    "langchain-community>=0.4.1",
-    "ollama>=0.6.1",
-    "pandas>=3.0.2",
-    "python-dotenv>=1.2.2",
-    "streamlit>=1.56.0",
+    "beautifulsoup4>=4.12.3",
+    "crawl4ai>=0.3.5",
+    "langchain>=0.3.0",
+    "langchain-community>=0.3.0",
+    "langchain-ollama>=0.2.0",
+    "pandas>=2.2.0",
+    "python-dotenv>=1.0.1",
+    "streamlit>=1.38.0",
 ]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

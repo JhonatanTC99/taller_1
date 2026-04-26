@@ -5,15 +5,30 @@ description = "Base de Conocimiento Semántica y Sistema Q&A para Dollarcity"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "beautifulsoup4>=4.12.3",
-    "crawl4ai>=0.3.5",
+    # --- CORE IA & LANGCHAIN ---
     "langchain>=0.3.0",
     "langchain-community>=0.3.0",
     "langchain-ollama>=0.2.0",
+    
+    # --- WEB API (Para conectar con React) ---
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.9.0",
+    
+    # --- SCRAPING & DATA ---
+    "crawl4ai>=0.4.0",
+    "beautifulsoup4>=4.12.3",
+    "playwright>=1.47.0",
     "pandas>=2.2.0",
+    
+    # --- UTILS ---
     "python-dotenv>=1.0.1",
-    "streamlit>=1.38.0",
+    "requests>=2.32.0",
+    "aiohttp>=3.10.0",
 ]
+
+[dependency-groups]
+dev = []
 
 [tool.setuptools.packages.find]
 where = ["."]

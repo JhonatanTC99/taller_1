@@ -28,7 +28,7 @@ TARGET_URLS = [
 
 # --- CONFIGURACIÓN LLM ---
 # Se prioriza la variable de entorno, de lo contrario usa el default
-DEFAULT_MODEL = os.getenv("LLM_MODEL", "gemma4:latest") 
+DEFAULT_MODEL = os.getenv("LLM_MODEL", "gemma3:1b") #"gemma4:latest") 
 OLLAMA_BASE_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
 
 def ensure_dirs():

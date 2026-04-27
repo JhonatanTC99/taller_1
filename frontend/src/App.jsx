@@ -52,6 +52,7 @@ const App = () => {
     syncEngine();
   }, []);
 
+
   useEffect(() => {
     if (activeTab === 'chat') {
       const timeout = setTimeout(() => {
@@ -61,6 +62,12 @@ const App = () => {
       return () => clearTimeout(timeout);
     }
   }, [messages, activeTab]);
+
+  // useEffect(() => {
+  //   if (activeTab === 'summary' || activeTab === 'faq') {
+  //     fetchData(activeTab);
+  //   }
+  // }, [activeTab]);
 
   const cleanAIResponse = (rawText) => {
     if (!rawText) return "";
@@ -271,6 +278,7 @@ const App = () => {
           }`}
         >
             <div className="mb-10 flex justify-between items-start">
+              
               <div>
                 <h2 className="text-5xl font-black text-gray-900 tracking-tighter capitalize">
                   {activeTab}<span className="text-[#00843D]">.</span>
@@ -279,6 +287,18 @@ const App = () => {
               </div>
               {result && <div className="bg-slate-50 px-4 py-2 rounded-xl text-[10px] font-black text-slate-600 border border-slate-200">{wordCount} PALABRAS</div>}
             </div>
+
+            {activeTab !== 'chat' && (
+                <div className="mb-6 flex">
+                    <button
+                      onClick={() => fetchData(activeTab)}
+                      disabled={loading}
+                      className="bg-[#00843D] hover:bg-green-700 text-white px-8 py-4 rounded-2xl font-bold shadow-lg transition-all disabled:bg-slate-300"
+                    >
+                      {loading ? 'Procesando...' : `🗲  Generar ${activeTab}`}
+                    </button>
+                  </div>
+                )}
           
 
             <div className="flex-1 bg-slate-100 rounded-[3rem] border border-dashed border-slate-200 p-2 overflow-hidden relative shadow-inner mb-6">
@@ -405,25 +425,26 @@ const App = () => {
 
             <div className="pt-2">
               {activeTab === 'chat' && (
-                  <div className="relative group">
-                    <input 
-                      type="text" 
-                      value={question} 
-                      onChange={(e) => setQuestion(e.target.value)}
-                      onKeyDown={(e) => e.key === 'Enter' && sendMessage()}
-                      placeholder="Escribe tu consulta..."
-                      className="w-full bg-slate-100/50 border-2 border-slate-200 focus:border-[#00843D] focus:bg-white rounded-[2rem] px-8 py-6 pr-24 outline-none transition-all text-lg font-bold text-slate-800 placeholder:text-slate-400 shadow-inner"
-                    />
-                    
-                    <button 
-                      onClick={sendMessage}
-                      disabled={!question || isTyping}
-                      className="absolute right-3 top-1/2 -translate-y-1/2 bg-[#00843D] hover:bg-green-700 disabled:bg-slate-200 text-white p-5 rounded-[1.5rem] shadow-xl transition-all"
-                    >
-                      {loading ? <Loader2 className="animate-spin" size={24} /> : <Send size={24}/>}
-                    </button>
-                  </div>
-                )}
+                <div className="relative group">
+                  <input 
+                    type="text" 
+                    value={question} 
+                    onChange={(e) => setQuestion(e.target.value)}
+                    onKeyDown={(e) => e.key === 'Enter' && sendMessage()}
+                    placeholder="Escribe tu consulta..."
+                    className="w-full bg-slate-100/50 border-2 border-slate-200 focus:border-[#00843D] focus:bg-white rounded-[2rem] px-8 py-6 pr-24 outline-none transition-all text-lg font-bold text-slate-800 placeholder:text-slate-400 shadow-inner"
+                  />
+                  
+                  <button 
+                    onClick={sendMessage}
+                    disabled={!question || isTyping}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 bg-[#00843D] hover:bg-green-700 disabled:bg-slate-200 text-white p-5 rounded-[1.5rem] shadow-xl transition-all"
+                  >
+                    {loading ? <Loader2 className="animate-spin" size={24} /> : <Send size={24}/>}
+                  </button>
+                </div>
+              )}
+
               </div>    
 
           </motion.div>

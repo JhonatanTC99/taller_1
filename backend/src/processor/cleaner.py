@@ -110,10 +110,10 @@ def build_facts(signals: set[str]) -> dict[str, list[str]]:
 
 def build_knowledge_base():
     """Orquesta el pipeline de síntesis de conocimiento."""
-    print("🔍 Analizando señales en archivos raw...")
+    print("Analizando señales en archivos raw...")
     signals = extract_signals()
     
-    print("🏗️ Construyendo hechos canónicos...")
+    print("Construyendo hechos canónicos...")
     facts_sections = build_facts(signals)
     
     KB_DIR.mkdir(parents=True, exist_ok=True)
@@ -132,7 +132,7 @@ def build_knowledge_base():
             output.append("")
 
     KB_FILE_PATH.write_text("\n".join(output), encoding="utf-8")
-    print(f"✅ KB Generada exitosamente en: {KB_FILE_PATH}")
+    print(f"KB Generada exitosamente en: {KB_FILE_PATH}")
 
 def run_semantic_curation():
     build_knowledge_base()

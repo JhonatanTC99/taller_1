@@ -321,7 +321,7 @@ const App = () => {
                         <div key={i} className={msg.role === 'user' ? 'text-right' : 'text-left'}>
                           <div className={`inline-block px-4 py-3 rounded-2xl max-w-[70%] ${
                             msg.role === 'user' 
-                              ? 'bg-[#00843D] text-white border-r-4 border-[#004d26] shadow-md'
+                              ? 'bg-[#00843D] text-white shadow-md'
                               : 'bg-white text-gray-800 border-l-4 border-[#00843D] shadow-sm'
                           }`}>
                             

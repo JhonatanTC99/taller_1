@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef} from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   MessageSquare, FileText, HelpCircle, Send, 
@@ -12,6 +12,7 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState('');
   const [question, setQuestion] = useState('');
+  const [isTyping, setIsTyping] = useState(false);
   
   // ESTADOS AUTOMÁTICOS
   const [latency, setLatency] = useState(0);
@@ -21,6 +22,10 @@ const App = () => {
   const [aiModel, setAiModel] = useState('Sincronizando...'); 
 
   const API_URL = "http://localhost:8000/api";
+    
+  const [messages, setMessages] = useState([]);
+
+  const messagesEndRef = useRef(null);
 
   // EFECTO DE SINCRONIZACIÓN INICIAL
   // Aquí es donde detectamos el modelo sin poner nombres manuales
@@ -33,13 +38,12 @@ const App = () => {
           body: JSON.stringify({ question: "identity_check" }) 
         });
         const data = await res.json();
-        console.log("Respuesta del servidor al inicio:", data); // <-- MIRA ESTO EN LA CONSOLA (F12)
-        
+        console.log("Respuesta del servidor al inicio:", data);
         if (data && data.model) {
-        setAiModel(data.model);
-      } else {
-        setAiModel("Modelo Desconocido");
-      }
+          setAiModel(data.model);
+        } else {
+          setAiModel("Modelo Desconocido");
+        }
     } catch (err) {
       console.error("Fallo de sincronización:", err);
       setAiModel("Servidor Offline");
@@ -47,6 +51,16 @@ const App = () => {
     };
     syncEngine();
   }, []);
+
+  useEffect(() => {
+    if (activeTab === 'chat') {
+      const timeout = setTimeout(() => {
+        messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+
+      return () => clearTimeout(timeout);
+    }
+  }, [messages, activeTab]);
 
   const cleanAIResponse = (rawText) => {
     if (!rawText) return "";
@@ -64,16 +78,36 @@ const App = () => {
     return final;
   };
 
+  const sendMessage = () => {
+    if (!question.trim()) return;
+
+    setMessages(prev => [
+      ...prev,
+      { role: 'user', content: question }
+    ]);
+    setIsTyping(true);
+
+    setTimeout(() => {
+      messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }, 50);
+
+    if (!question.trim() || loading || isTyping) return;
+
+    fetchData('chat', 'POST', { question });
+  };
+
   const fetchData = async (endpoint, method = 'GET', body = null) => {
     const startTime = performance.now(); 
     setLoading(true);
-    setResult('');
     
     try {
       const config = { 
         method,
         headers: { 'Content-Type': 'application/json' },
-        ...(body && { body: JSON.stringify(body) })
+        ...(body && { body: JSON.stringify({
+            ...body,
+            ...(aiModel && !aiModel.includes("Sincronizando") ? { model: aiModel } : {})
+        })})
       };
       const res = await fetch(`${API_URL}/${endpoint}`, config);
       const data = await res.json();
@@ -84,18 +118,38 @@ const App = () => {
       setAiModel(data?.model || "Modelo Desconocido");
       
       // Si el backend devuelve 'content', lo usamos; si es chat, suele ser 'content' también por tu _run_chain
-      setResult(cleanAIResponse(data.content));
-      console.log("RESULTADO:", data.content);
-      
+      const cleaned = cleanAIResponse(data.content);
+      if (endpoint === 'chat') {
+        setMessages(prev => [
+          ...prev,
+          { role: 'assistant', content: cleaned }
+        ]);
+        
+        setIsTyping(false);
+        setQuestion('');
+      } else {
+        setResult(cleaned);
+      }
+
     } catch (err) {
       console.error("Error en la operación:", err);
-      setResult("❌ Error: No se pudo conectar con el motor de IA.");
+
+      if (endpoint === 'chat') {
+        setMessages(prev => [
+          ...prev,
+          { role: 'assistant', content: 'Error: no se pudo conectar con el servidor.' }
+        ]);
+        setIsTyping(false);
+      } else {
+        setResult("Error: No se pudo conectar con el motor de IA.");
+      }
+
       setAiModel("Error de Conexión");
+
     } finally {
       setLoading(false);
     }
   };
-
     const parseFAQ = (text) => {
       if (!text) return [];
 
@@ -210,7 +264,12 @@ const App = () => {
 
         {/* ÁREA DE CONTENIDO */}
         <section className="lg:col-span-9">
-          <motion.div layout className="bg-white rounded-[3.5rem] shadow-2xl shadow-slate-300/20 border border-slate-100 p-10 min-h-[650px] flex flex-col relative">
+          <motion.div layout className ={`bg-white rounded-[3.5rem] shadow-2xl shadow-slate-300/20 border border-slate-100 p-10 min-h-[650px] flex flex-col relative justify-between"${
+            activeTab === 'chat' && messages.length === 0
+              ? 'min-h-[400px]'
+              : 'min-h-[650px]'
+          }`}
+        >
             <div className="mb-10 flex justify-between items-start">
               <div>
                 <h2 className="text-5xl font-black text-gray-900 tracking-tighter capitalize">
@@ -220,42 +279,81 @@ const App = () => {
               </div>
               {result && <div className="bg-slate-50 px-4 py-2 rounded-xl text-[10px] font-black text-slate-600 border border-slate-200">{wordCount} PALABRAS</div>}
             </div>
+          
 
-            <div className="mb-10">
-              {activeTab === 'chat' ? (
-                <div className="relative group">
-                  <input 
-                    type="text" 
-                    value={question} 
-                    onChange={(e) => setQuestion(e.target.value)}
-                    onKeyPress={(e) => e.key === 'Enter' && fetchData('chat', 'POST', { question })}
-                    placeholder="Escribe tu consulta técnica..."
-                    className="w-full bg-slate-100/50 border-2 border-slate-200 focus:border-[#00843D] focus:bg-white rounded-[2rem] px-8 py-6 pr-24 outline-none transition-all text-lg font-bold text-slate-800 placeholder:text-slate-400 shadow-inner"
-                  />
-                  <button 
-                    onClick={() => fetchData('chat', 'POST', { question })}
-                    disabled={!question || loading}
-                    className="absolute right-3 top-1/2 -translate-y-1/2 bg-[#00843D] hover:bg-green-700 disabled:bg-slate-200 text-white p-5 rounded-[1.5rem] shadow-xl transition-all"
-                  >
-                    {loading ? <Loader2 className="animate-spin" size={24} /> : <Send size={24}/>}
-                  </button>
-                </div>
-              ) : (
-                <button 
-                  onClick={() => fetchData(activeTab)}
-                  disabled={loading}
-                  className="bg-[#00843D] text-white px-12 py-6 rounded-[2rem] font-black text-sm uppercase tracking-widest shadow-2xl shadow-green-100 transition-all hover:scale-[1.02] flex items-center gap-4"
-                >
-                  {loading ? <Loader2 className="animate-spin" size={20} /> : <Zap size={20} className="fill-current" />}
-                  Procesar {activeTab}
-                </button>
-              )}
-            </div>
-
-            <div className="flex-1 bg-slate-100 rounded-[3rem] border border-dashed border-slate-200 p-2 overflow-hidden relative shadow-inner">
-              <div className="h-full w-full overflow-y-auto p-10 custom-scrollbar text-slate-700">
+            <div className="flex-1 bg-slate-100 rounded-[3rem] border border-dashed border-slate-200 p-2 overflow-hidden relative shadow-inner mb-6">
+              <div className="h-full w-full overflow-y-auto p-6 custom-scrollbar text-slate-700">
                 <AnimatePresence mode="wait">
-                  {loading ? (
+
+                  {activeTab === 'chat' && messages.length === 0 && (
+                    <div className="flex flex-col items-center py-5 opacity-40">
+                      <p className="text-lg font-semibold text-gray-500">
+                        Haz tu primera pregunta para iniciar la conversación con Dollie AI.
+                      </p>
+                    </div>
+                  )}
+
+                  {activeTab === 'chat' && messages.length > 0 ? (
+                    <div className="space-y-4 max-h-[500px] overflow-y-auto pr-2">
+                      {/* HISTORIAL */}
+                      
+                      {messages.map((msg, i) => (
+                        <div key={i} className={msg.role === 'user' ? 'text-right' : 'text-left'}>
+                          <div className={`inline-block px-4 py-3 rounded-2xl max-w-[70%] ${
+                            msg.role === 'user' 
+                              ? 'bg-[#00843D] text-white border-r-4 border-[#004d26] shadow-md'
+                              : 'bg-white text-gray-800 border-l-4 border-[#00843D] shadow-sm'
+                          }`}>
+                            
+                            {/* LABEL */}
+                            <div className="text-xs mb-1 font-bold opacity-60">
+                              {msg.role === 'user' ? 'Tú' : 'Dollie AI'}
+                            </div>
+
+                            {/* CONTENIDO */}
+                            <ReactMarkdown>
+                              {msg.content}
+                            </ReactMarkdown>
+                          </div>
+                        </div>
+                      ))}
+                      {activeTab === 'chat' && isTyping && (
+                      <motion.div
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="text-left"
+                      >
+                        <div className="inline-block px-4 py-3 rounded-2xl bg-gray-100">
+                          
+                          <div className="flex items-center gap-2">
+                            <span>Escribiendo</span>
+
+                            {/* punticos animados */}
+                            <div className="flex gap-1">
+                              <motion.span
+                                animate={{ opacity: [0.2, 1, 0.2] }}
+                                transition={{ repeat: Infinity, duration: 1 }}
+                              >.</motion.span>
+                              <motion.span
+                                animate={{ opacity: [0.2, 1, 0.2] }}
+                                transition={{ repeat: Infinity, duration: 1, delay: 0.2 }}
+                              >.</motion.span>
+                              <motion.span
+                                animate={{ opacity: [0.2, 1, 0.2] }}
+                                transition={{ repeat: Infinity, duration: 1, delay: 0.4 }}
+                              >.</motion.span>
+                            </div>
+
+                          </div>
+
+                        </div>
+                      </motion.div>
+                    )}
+
+                    <div ref={messagesEndRef} />
+                  </div>
+                  ) : loading ? (
                     <div className="h-full flex flex-col items-center justify-center space-y-4">
                       <div className="w-16 h-16 border-4 border-slate-100 border-t-[#00843D] rounded-full animate-spin" />
                       <p className="text-[10px] font-black text-[#00843D] uppercase tracking-[0.4em] animate-pulse">Consultando Motor...</p>
@@ -296,7 +394,7 @@ const App = () => {
 
                     </motion.div>
                   ) : (
-                    <div className="h-full flex flex-col items-center justify-center opacity-30 grayscale space-y-4">
+                    <div className="absolute inset-0 flex flex-col items-center justify-center opacity-30 grayscale space-y-4">
                       <img src={dollarcityLogo} className="w-40" alt="Logo" />
                       <p className="font-bold text-[10px] uppercase tracking-[0.4em]">Engine Standby</p>
                     </div>
@@ -304,6 +402,30 @@ const App = () => {
                 </AnimatePresence>
               </div>
             </div>
+
+            <div className="pt-2">
+              {activeTab === 'chat' && (
+                  <div className="relative group">
+                    <input 
+                      type="text" 
+                      value={question} 
+                      onChange={(e) => setQuestion(e.target.value)}
+                      onKeyDown={(e) => e.key === 'Enter' && sendMessage()}
+                      placeholder="Escribe tu consulta..."
+                      className="w-full bg-slate-100/50 border-2 border-slate-200 focus:border-[#00843D] focus:bg-white rounded-[2rem] px-8 py-6 pr-24 outline-none transition-all text-lg font-bold text-slate-800 placeholder:text-slate-400 shadow-inner"
+                    />
+                    
+                    <button 
+                      onClick={sendMessage}
+                      disabled={!question || isTyping}
+                      className="absolute right-3 top-1/2 -translate-y-1/2 bg-[#00843D] hover:bg-green-700 disabled:bg-slate-200 text-white p-5 rounded-[1.5rem] shadow-xl transition-all"
+                    >
+                      {loading ? <Loader2 className="animate-spin" size={24} /> : <Send size={24}/>}
+                    </button>
+                  </div>
+                )}
+              </div>    
+
           </motion.div>
         </section>
       </main>

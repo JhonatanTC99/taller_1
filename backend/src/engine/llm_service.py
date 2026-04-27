@@ -9,16 +9,20 @@ from src.engine.prompts import RESUMEN_PROMPT, FAQ_PROMPT, QA_SYSTEM_PROMPT
 class LLMService:
     def __init__(self):
         """Inicializa el modelo"""
-        self.llm = ChatOllama(
-            model=DEFAULT_MODEL, 
-            base_url=OLLAMA_BASE_URL,
-            temperature=0.2, 
-            seed=42,
-            top_p=0.7,
-            stop=["</output>", "[CONTEXTO]", "[REGLAS", "[FLUJO", "BASE DE CONOCIMIENTO"] # El modelo se detiene inmediatamente al terminar la respuesta
-        )
+        self.set_model(DEFAULT_MODEL)
         self.parser = StrOutputParser()
         self.context = self._load_context()
+        self.chat_history = []
+
+    def set_model(self, model_name: str):
+        self.llm = ChatOllama(
+            model=model_name,
+            base_url=OLLAMA_BASE_URL,
+            temperature=0.2,
+            seed=42,
+            top_p=0.7,
+            stop=["</output>"]
+        )
 
     def _load_context(self) -> str:
         """Carga la base de conocimiento de forma segura."""
@@ -53,7 +57,6 @@ class LLMService:
 
         # 3. ELIMINAR TODO LO TÉCNICO
         text = re.sub(r"\[.*?\]", "", text, flags=re.DOTALL)
-        text = re.sub(r"\(.*?\)", "", text, flags=re.DOTALL)
 
         # 4. LIMPIEZA FINAL
         return text.strip()
@@ -65,6 +68,7 @@ class LLMService:
         input_data = {"context": self.context}
 
         if user_input:
+            messages += self.chat_history
             messages.append(("user", "{question}"))
             input_data["question"] = user_input
 
@@ -75,13 +79,44 @@ class LLMService:
         
         try:
             raw_response = chain.invoke(input_data)
+            cleaned = self._clean_output(raw_response)
+            #cleaned = self._enforce_rules(cleaned, user_input or "")
+
+            #VALIDACIÓN SOLO PARA FAQ
+            is_faq = system_template == FAQ_PROMPT
+            if is_faq and cleaned.count("Respuesta:") < 5:
+                return {
+                    "content": "Error: el modelo no generó respuestas completas.",
+                    "model": self.get_model_name(),
+                    "status": "error"
+                }
+
+            is_summary = "Sintetizar la información" in system_template
+
+            if is_summary:
+                paragraphs = cleaned.split("\n\n")
+                cleaned = "\n\n".join(paragraphs[:3])
+
+            #cleaned = self._enforce_rules(cleaned, user_input or "")
+            if user_input:
+                self.chat_history.append(("user", user_input))
+                self.chat_history.append(("assistant", cleaned))
+
+                MAX_TURNS = 5  # 5 intercambios (user + assistant)
+                self.chat_history = self.chat_history[-(MAX_TURNS * 2):]
             return {
-                "content": self._clean_output(raw_response),
-                "model": str(DEFAULT_MODEL),
+                "content": cleaned,
+                "model": self.get_model_name(),
                 "status": "success"
             }
         except Exception as e:
-            return {"content": str(e), "model": "Error", "status": "error"}
+            return {
+                "content": f"Error interno: {str(e)}",
+                "model": "Error",
+                "status": "error"
+            }
+    def get_model_name(self):
+        return getattr(self.llm, "model", "unknown")
 
     # --- MÉTODOS DE INTERFAZ PÚBLICA ---
 
@@ -95,7 +130,11 @@ class LLMService:
 
     def get_chat_response(self, question: str) -> str:
         if not question.strip():
-            return "Por favor, escribe una pregunta."
+                return {
+                    "content": "Por favor, escribe una pregunta.",
+                    "model": self.get_model_name(),
+                    "status": "error"
+                }
         return self._run_chain(QA_SYSTEM_PROMPT, question)
 
 # --- INICIALIZADOR DE CONSOLA (Debug) ---

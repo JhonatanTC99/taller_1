@@ -8,7 +8,7 @@ from pydantic import BaseModel
 # Importaciones de tu lógica interna
 from src.scraper.collector import run_scraper
 from src.processor.cleaner import run_semantic_curation
-from src.engine.llm_service import DEFAULT_MODEL, start_console_chat, LLMService
+from src.engine.llm_service import LLMService, start_console_chat
 
 # --- CONFIGURACIÓN DE LA API (Fuera de funciones para que Uvicorn la vea) ---
 app = FastAPI(title="Dollarcity AI API")
@@ -25,6 +25,8 @@ service = LLMService()
 
 class ChatQuery(BaseModel):
     question: str
+    model: str | None = None
+
 
 @app.get("/")
 def home():
@@ -43,12 +45,26 @@ def chat(query: ChatQuery):
     try:
         q = query.question.lower().strip()
 
+        if query.model:
+            service.set_model(query.model)
+
+        if q == "identity_check":
+            return {
+                "content": "ok",
+                "model": service.get_model_name()
+            }
+
         greetings = ["hola", "buenas", "hey", "hello"]
 
         if q in greetings:
             return {
                 "content": "¡Hola! Somos Dollarcity Colombia. ¿En qué podemos ayudarte?",
-                "model": DEFAULT_MODEL
+                "model": service.get_model_name()
+            }
+        if q.isdigit():
+            return {
+                "content": "Lo sentimos, no contamos con esa información específica.",
+                "model": service.get_model_name()
             }
 
         return service.get_chat_response(query.question)
@@ -59,7 +75,7 @@ def chat(query: ChatQuery):
 def debug():
     return {
         "msg": "ESTOY EN MAIN.PY",
-        "model": DEFAULT_MODEL
+        "model": service.get_model_name()
     }
 
 # --- LÓGICA DEL ORQUESTADOR (Consola) ---

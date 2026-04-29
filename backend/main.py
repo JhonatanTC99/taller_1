@@ -7,7 +7,7 @@ from pydantic import BaseModel
 
 # Importaciones de tu lógica interna
 from src.scraper.collector import run_scraper
-from src.processor.cleaner import run_semantic_curation
+from src.processor.cleaner import build_dynamic_kb as run_semantic_curation
 from src.engine.llm_service import LLMService, start_console_chat
 
 # --- CONFIGURACIÓN DE LA API (Fuera de funciones para que Uvicorn la vea) ---

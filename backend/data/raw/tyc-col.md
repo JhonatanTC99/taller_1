@@ -1,6 +1,6 @@
 SOURCE_URL: https://dollarcity.com/wp-content/uploads/2023/09/tyc-col.pdf
 
-# PDF: https://dollarcity.com/wp-content/uploads/2023/09/tyc-col.pdf
+# PDF: tyc-col.md
 
 POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES DE  
 SURAMERICA COMERCIAL, S.A.S. 

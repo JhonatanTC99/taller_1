@@ -25,14 +25,14 @@ TARGET_URLS = [
     "https://dollarcity.com/preguntas-frecuentes/",
     "https://dollarcity.com/ubicaciones",
     "https://dollarcity.com/privacidad/",
-
+    "https://co.computrabajo.com/dollarcityco",
     "https://co.computrabajo.com/dollarcityco/empleos",
     "https://www.lafm.com.co/economia/los-cinco-productos-de-dollarcity-que-no-pueden-faltar-322827",
     "https://www.las2orillas.co/los-10-productos-de-dollarcity-para-equipar-su-cocina-bano-sala-y-otros-espacios-del-hogar/",
     "https://dollarcity.com/wp-content/uploads/2023/09/tyc-col.pdf",
     "https://empresas.larepublica.co/colombia/valle-del-cauca/cali/suramerica-comercial-s-a-s-900943243",
     "https://www.las2orillas.co/la-genial-idea-de-dollarcity-que-enriquecio-un-par-de-salvadorenos/",
-    "https://www.las2orillas.co/los-canadienses-duenos-de-dollarcity-que-la-pusieron-a-volar-con-colombia-como-eje-regional-del-negocio/#:~:text=Dollorama%20est%C3%A1%20hoy%20a%20cargo,miembro%20de%20la%20junta%20directiva.",
+    "https://www.las2orillas.co/los-canadienses-duenos-de-dollarcity-que-la-pusieron-a-volar-con-colombia-como-eje-regional-del-negocio/",
     "https://www.eltiempo.com/economia/empresas/quienes-son-los-duenos-de-dollarcity-fundacion-y-secreto-de-su-exito-750212",
     "https://www.kienyke.com/marketing/dollarcity-cual-es-la-historia-detras-de-su-concepto",
     "https://redmas.com.co/tendencias/El-multimillonario-detras-del-exito-de-Dollarcity-en-Colombia-con-exitosa-estrategia-desafia-a-Tiendas-D1-y-Oxxo-20250422-0044.html",
@@ -47,8 +47,8 @@ TARGET_URLS = [
     "https://www.valoraanalitik.com/dollarama-duenos-de-dollarcity-hizo-inesperado-anuncio-con-tiendas-para-expandir-su-emporio/",
     "https://redmas.com.co/tendencias/Dueno-de-Dollarcity-toma-decision-determinante-para-la-cadena-de-supermercados-con-presencia-en-Colombia-Es-estrategia-20250722-0041.html",
     "https://www.eltiempo.com/economia/empresas/plan-de-expansion-de-dollarcity-en-colombia-383164",
-
-
+    "https://www.halconesypalomas.com/2025/06/27/dollarcity-se-metera-entre-las-40-empresas-mas-grandes-de-colombia-en-2025-facturara-10-mas-que-el-ano-pasado-hasta-cerca-de-31-billones/",
+    "https://directorio-empresas.einforma.co/informacion-empresa/suramerica-comercial-sas"
 ]
 
 # --- CONFIGURACIÓN LLM ---

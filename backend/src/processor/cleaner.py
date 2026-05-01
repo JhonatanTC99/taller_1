@@ -1,99 +1,167 @@
 import re
+import hashlib
 from pathlib import Path
 from src.config.settings import RAW_DATA_DIR, KB_DIR, KB_FILE_PATH
 
-def clean_text(text: str) -> str:
-    """Limpia ruido y quita la línea SOURCE_URL para que no ensucie el contenido."""
-    
-    # Eliminar la URL de origen al inicio
-    text = re.sub(r'^SOURCE_URL: .*?\n', '', text)
+# --- CONFIGURACIÓN DE CURACIÓN ---
+RELEVANCE_KEYWORDS = ["dollarcity", "dólar city", "suramerica comercial", "dollarama", "baldocchi", "tiendas", "expansión", "colombia"]
+ERROR_SIGNATURES = ["crawl4ai error", "invalid expression", "too many requests", "captcha", "blocked by"]
 
-    # Eliminar basura de Markdown (Imágenes y Links)
-    text = re.sub(r'!\[.*?\]\(.*?\)', '', text) # Imágenes con link
-    text = re.sub(r'\[.*?\]\(.*?\)', '', text)  # Links
-    text = re.sub(r'!?\[.*?\]', '', text)       # Restos de etiquetas [ ]
+# Encabezados que marcan el FIN del contenido útil en prensa
+TRASH_HEADERS = [
+    "últimas noticias", "en video", "enlaces patrocinados", "enlaces promovidos", 
+    "también te puede interesar", "te puede gustar", "sigue leyendo", "más de economía", 
+    "programas", "comentarios", "deja tu comentario", "artículos relacionados", 
+    "sugerencias", "boletines", "newsletter", "lea también", "temas relacionados"
+]
 
-    # Eliminar líneas de navegación (Breadcrumbs)
-    text = re.sub(r'.* \> .* \> .*', '', text)
+UI_NOISE = [
+    "cerrar", "entiendo", "deshacer", "aceptar", "compartir", "leer más", "síguenos", 
+    "suscríbete", "newsletter", "publicidad", "anuncio", "cookies", "derechos reservados",
+    "regístrate", "iniciar sesión", "ver nota completa", "descarga la app"
+]
 
-    # Lista de ruido agresiva (Elimina la línea completa donde aparezca el término)
-    ruido_patterns = [
-        r'(?i)(te puede interesar|lea también|artículos relacionados|relacionado:).*',
-        r'(?i)(descargue la app|síguenos en redes|todos los derechos reservados|copyright|©).*',
-        r'(?i)(aviso legal|política de cookies|aviso de privacidad|términos y condiciones).*',
-        r'(?i)(publicidad|anuncio|newsletter|suscríbete).*',
-        r'(?i)(derechos reservados|aviso de seguridad|aviso de datos).*'
-    ]
-    for pattern in ruido_patterns:
-        text = re.sub(pattern, '', text)
+def get_block_hash(text: str) -> str:
+    """Genera un hash único para un bloque de texto para detectar duplicados."""
+    clean_text = re.sub(r'\s+', '', text).lower()
+    return hashlib.md5(clean_text.encode()).hexdigest()
+
+def clean_noise(text: str, url: str, stats: dict) -> str:
+    """Limpia ruido, corta bloques basura y filtra por relevancia."""
+    is_official = "dollarcity.com" in url.lower() or "pdf" in url.lower()
+    is_computrabajo = "computrabajo.com" in url.lower()
     
-    #Normalización final para eliminar espacios y saltos de línea excesivos
-    # Quitar múltiples saltos de línea (convertir 3 o más en solo 2)
-    text = re.sub(r'\n{3,}', '\n\n', text)
-    # Quitar espacios en blanco al inicio/final de cada línea
-    text = '\n'.join([line.strip() for line in text.split('\n')])
-    # Quitar espacios horizontales duplicados
-    text = re.sub(r'[ \t]+', ' ', text)
+    lines = text.split('\n')
+    cleaned_lines = []
     
-    return text.strip()
+    for line in lines:
+        l_original = line.strip()
+        l_lower = l_original.lower()
+
+        # 1. STOP & CUT: Si llegamos a un encabezado de basura, terminamos esta fuente
+        if any(trash in l_lower for trash in TRASH_HEADERS):
+            stats["bloques_cortados"] += 1
+            break
+
+        # 2. Filtro UI Noise
+        if any(noise == l_lower for noise in UI_NOISE) or len(l_original) < 3:
+            stats["lineas_eliminadas"] += 1
+            continue
+
+        # 3. Limpieza específica Computrabajo
+        if is_computrabajo:
+            # Eliminar basura legal de la plataforma DGNET y formularios
+            if any(k in l_lower for k in ["dgnet", "ver más ofertas", "filtros", "denunciar", "puntuación", "hace ", "contraseña"]):
+                stats["lineas_eliminadas"] += 1
+                continue
+
+        # 4. Filtro de relevancia para fuentes externas
+        if not is_official:
+            # Solo guardamos párrafos que mencionen palabras clave
+            if not any(k in l_lower for k in RELEVANCE_KEYWORDS):
+                stats["lineas_eliminadas"] += 1
+                continue
+
+        cleaned_lines.append(l_original)
+
+    return '\n'.join(cleaned_lines)
+
+def get_semantic_section(url: str, content: str) -> str:
+    u, t = url.lower(), content.lower()
+    if "dollarcity.com" in u:
+        if any(k in u for k in ["preguntas", "faq", "ubicaciones"]): return "PREGUNTAS FRECUENTES Y ATENCIÓN AL CLIENTE"
+        if any(k in u for k in ["privacidad", "tyc", "legal"]): return "POLÍTICAS, PRIVACIDAD Y DATOS PERSONALES"
+        if any(k in u for k in ["equipo", "oportunidades", "talento"]): return "TALENTO HUMANO Y EMPLEO"
+        if any(k in u for k in ["quienes", "mision"]): return "IDENTIDAD CORPORATIVA"
+        return "FUENTES OFICIALES"
+    if any(k in t for k in ["historia", "fundó", "expansión"]): return "HISTORIA, EXPANSIÓN Y CONTEXTO EMPRESARIAL"
+    return "PRODUCTOS Y SERVICIOS"
 
 def build_dynamic_kb():
-    print(f"\n[INFO] Iniciando Curación Dinámica...")
+    print(f"\n[INFO] 🛠️ Iniciando Curación Estricta de KB...")
+    if not RAW_DATA_DIR.exists(): return
+
+    sections = {
+        "FUENTES OFICIALES": [], "IDENTIDAD CORPORATIVA": [], "PRODUCTOS Y SERVICIOS": [],
+        "PREGUNTAS FRECUENTES Y ATENCIÓN AL CLIENTE": [], "TALENTO HUMANO Y EMPLEO": [],
+        "POLÍTICAS, PRIVACIDAD Y DATOS PERSONALES": [], "HISTORIA, EXPANSIÓN Y CONTEXTO EMPRESARIAL": []
+    }
     
-    if not RAW_DATA_DIR.exists():
-        print("[ERROR] No hay datos raw.")
-        return
+    stats = {
+        "leidos": 0, "procesados": 0, "descartados": 0, 
+        "lineas_eliminadas": 0, "bloques_cortados": 0, "duplicados_bloque": 0,
+        "fuentes_lens": {}
+    }
+    
+    seen_blocks = set() # Deduplicación global de bloques grandes
+    talla_previa_est = 0
 
-    oficial_content = []
-    prensa_content = []
-    otros_content = []
+    all_files = sorted(RAW_DATA_DIR.glob("*.md"))
+    
+    for file_path in all_files:
+        stats["leidos"] += 1
+        raw_text = file_path.read_text(encoding="utf-8")
+        talla_previa_est += len(raw_text)
+        
+        if any(sig in raw_text.lower() for sig in ERROR_SIGNATURES):
+            stats["descartados"] += 1
+            continue
 
-    for file_path in RAW_DATA_DIR.glob("*.md"):
         try:
-            raw_text = file_path.read_text(encoding="utf-8")
+            parts = raw_text.split('\n')
+            url = parts[0].replace("SOURCE_URL: ", "").strip()
+            body = clean_noise('\n'.join(parts[1:]), url, stats)
             
-            # EXTRAEMOS LA URL REAL de la primera línea
-            first_line = raw_text.split('\n')[0]
-            if "SOURCE_URL: " in first_line:
-                actual_url = first_line.replace("SOURCE_URL: ", "").strip()
+            # Deduplicación por bloques (>300 chars)
+            content_blocks = []
+            for block in body.split('\n\n'):
+                block = block.strip()
+                if not block: continue
+                
+                if len(block) > 300:
+                    b_hash = get_block_hash(block)
+                    if b_hash in seen_blocks:
+                        stats["duplicados_bloque"] += 1
+                        continue
+                    seen_blocks.add(b_hash)
+                content_blocks.append(block)
+
+            final_content = '\n\n'.join(content_blocks)
+
+            if len(final_content) > 150:
+                sec_name = get_semantic_section(url, final_content)
+                sections[sec_name].append(f"### FUENTE: {url}\n{final_content}\n")
+                stats["procesados"] += 1
+                stats["fuentes_lens"][url] = len(final_content)
             else:
-                actual_url = file_path.name # Fallback al nombre de archivo
+                stats["descartados"] += 1
 
-            content = clean_text(raw_text)
-            
-            # CLASIFICACIÓN
-            if "dollarcity.com" in actual_url:
-                header = f"### [FUENTE OFICIAL: DOLLARCITY]\n- URL: {actual_url}"
-                oficial_content.append(f"{header}\n{content}\n")
-            
-            elif any(d in actual_url for d in ["eltiempo", "larepublica", "portafolio", "las2orillas", "valoraanalitik", "pulzo", "redmas"]):
-                header = f"### [PRENSA Y ECONOMÍA]\n- URL: {actual_url}"
-                prensa_content.append(f"{header}\n{content}\n")
-            
-            else:
-                header = f"### [INFORMACIÓN COMPLEMENTARIA]\n- URL: {actual_url}"
-                otros_content.append(f"{header}\n{content}\n")
+        except:
+            stats["descartados"] += 1
 
-        except Exception as e:
-            print(f"   [SKIP] Error en {file_path.name}: {e}")
-
-    # CONSTRUCCIÓN DE LA KB (Con instrucciones de peso para Gemma 3)
-    final_kb = [
-        "# BASE DE CONOCIMIENTO UNIFICADA - DOLLARCITY COLOMBIA",
-        "\n" + "="*40 + "\n",
-        "## SECCIÓN I: FUENTES OFICIALES (POLÍTICAS Y T&C)",
-        "\n".join(oficial_content) if oficial_content else "No hay datos oficiales disponibles.",
-        "\n" + "="*40 + "\n",
-        "## SECCIÓN II: PRENSA, NOTICIAS Y ANÁLISIS EXTERNO",
-        "\n".join(prensa_content) if prensa_content else "No hay datos de prensa disponibles.",
-        "\n" + "="*40 + "\n",
-        "## SECCIÓN III: OTROS DATOS",
-        "\n".join(otros_content) if otros_content else "No hay datos complementarios."
-    ]
+    # Construcción final
+    final_md = ["# KB DOLLARCITY COLOMBIA\n", "> Contexto Curado v2 - Optimizado para gemma3:1b\n"]
+    for name, entries in sections.items():
+        if entries:
+            final_md.append(f"## {name}")
+            final_md.extend(entries)
+            final_md.append("\n---\n")
 
     KB_DIR.mkdir(parents=True, exist_ok=True)
-    KB_FILE_PATH.write_text("\n".join(final_kb), encoding="utf-8")
-    print(f"[SUCCESS] KB generada en: {KB_FILE_PATH}")
+    KB_FILE_PATH.write_text("\n".join(final_md), encoding="utf-8")
+
+    # REPORTE FINAL
+    print(f"\n--- 📊 REPORTE DE OPTIMIZACIÓN ---")
+    print(f"📄 Archivos (leídos/procesados): {stats['leidos']} / {stats['procesados']}")
+    print(f"❌ Archivos descartados:        {stats['descartados']}")
+    print(f"🧹 Líneas eliminadas:           {stats['lineas_eliminadas']}")
+    print(f"✂️  Fuentes cortadas (Trash):     {stats['bloques_cortados']}")
+    print(f"👯 Bloques duplicados borrados: {stats['duplicados_bloque']}")
+    print(f"📉 Reducción de tamaño:         {talla_previa_est/1024:.1f}KB -> {KB_FILE_PATH.stat().st_size/1024:.1f}KB")
+    
+    print(f"\n🔝 TOP FUENTES:")
+    for url, size in sorted(stats["fuentes_lens"].items(), key=lambda x: x[1], reverse=True)[:3]:
+        print(f"   - {size} chars | {url[:50]}...")
 
 if __name__ == "__main__":
     build_dynamic_kb()

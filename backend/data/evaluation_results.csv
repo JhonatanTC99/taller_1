@@ -1,4 +1,0 @@
-ID,Categoria,Pregunta,Respuesta_LLM,Latencia_Seg,Status
-1,Corp,¿Cuál es la misión de Dollarcity?,"Nuestra misión en Dollarcity es agregar valor a nuestros clientes, ofreciendo una experiencia de compra única a través de una amplia variedad de productos de buena calidad a excelentes precios.",40.34,SUCCESS
-2,Corp,¿Desde qué año opera la empresa y cuál es su visión de crecimiento?,"Desde el año 2009, la empresa ha estado creciendo exponencialmente, manteniendo la visión de llegar a toda Latinoamérica.",26.59,SUCCESS
-3,Prod,¿Puedo comprar productos a través de la página web o pedir domicilio?,"Actualmente, no contamos con venta en línea ni servicio a domicilio. Te invitamos a visitar cualquiera de nuestras tiendas para realizar tu compra.",29.98,SUCCESS

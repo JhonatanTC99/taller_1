@@ -1,10 +1,8 @@
 SOURCE_URL: https://co.computrabajo.com/dollarcityco
 
-Utilizamos cookies propias necesarias para el funcionamiento correcto y personalización del sitio web. También utilizamos cookies de terceros para fines analíticos y mostrarte publicidad relacionada según tus preferencias. Para más información sobre las cookies y configurar tus preferencias, consulta nuestra Política de Cookies
-Acepto
 # Dollarcity
 Empresa verificada
-139.789 seguidores
+139.815 seguidores
 + Seguir 
 Volver a enviar 
 Dejar de seguir 

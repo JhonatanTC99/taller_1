@@ -2,31 +2,31 @@ SOURCE_URL: https://www.portafolio.co/tendencias/la-historia-detras-de-dollarcit
 
 En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí
 Entiendo
-Viernes, 01.05.2026 / 13:01
+Viernes, 01.05.2026 / 18:09
 BOLETINES
 Indicadores en línea 
   * TRM  $ 3.637,51 
   * ICOLCAP  $ 21.832,00  +0,841%  +$ 182,0 
   * Dólar  $ 3.654,20  -0,14%  -$ 5,3 
-  * Euro  $ 4.292,59  +0,06%  +$ 2,56 
+  * Euro  $ 4.292,59  -0,21%  -$ 9,14 
   * Bolívar  US$ 488,330813  +0,5%  +US$ 2,429411 
-  * Peso mexicano  US$ 0,475  -0,42%  -US$ 0,002 
-  * Oro  US$ 4642,83  +0,46%  +US$ 21,24 
+  * Peso mexicano  US$ 0,476  -0,21%  -US$ 0,001 
+  * Oro  US$ 4623,87  +0,05%  +US$ 2,28 
   * Tasa de usura en Colombia  28,17 % 
   * Tasa de interés del Banrep  11,25 % 
-  * Café  US$ 300,35  -0,18%  -US$ 0,55 
+  * Café  US$ 304,45  +0,81%  +US$ 2,45 
 
 
   * TRM  $ 3.637,51 
   * ICOLCAP  $ 21.832,00  +0,841%  +$ 182,0 
   * Dólar  $ 3.654,20  -0,14%  -$ 5,3 
-  * Euro  $ 4.292,59  +0,06%  +$ 2,56 
+  * Euro  $ 4.292,59  -0,21%  -$ 9,14 
   * Bolívar  US$ 488,330813  +0,5%  +US$ 2,429411 
-  * Peso mexicano  US$ 0,475  -0,42%  -US$ 0,002 
-  * Oro  US$ 4642,83  +0,46%  +US$ 21,24 
+  * Peso mexicano  US$ 0,476  -0,21%  -US$ 0,001 
+  * Oro  US$ 4623,87  +0,05%  +US$ 2,28 
   * Tasa de usura en Colombia  28,17 % 
   * Tasa de interés del Banrep  11,25 % 
-  * Café  US$ 300,35  -0,18%  -US$ 0,55 
+  * Café  US$ 304,45  +0,81%  +US$ 2,45 
 
 
   * Economía
@@ -91,20 +91,20 @@ PORTAFOLIO WHATSAPP
 Únete al canal de El Tiempo en WhatsApp para estar al día con las noticias más relevantes al momento.
 quiero recibirlo
 Ponte al día
+Trump declara el fin de las hostilidades con Irán en medio de presión del Congreso
+Nazly Carolina Morales Herrera
+Minsalud confirma segundo caso de viruela símica clado Ib en el país
+Nazly Carolina Morales Herrera
 Burger Master 2026: ¿en dónde están los restaurantes ganadores con las mejores hamburguesas del país?
 Valentina Delgadillo Abello
 Historia de la asesina de las frambuesas llega a la ficción con nuevo libro que se presentará en la Feria del Libro
 Daniel Hernandez Naranjo
 Libros en Colombia rompen récord: ventas superan $1 billón en 2025
 Nazly Carolina Morales Herrera
-Petro anuncia constituyente tras derrotas en las cortes: “voy a convocarla el 1 de mayo”
-Nazly Carolina Morales Herrera
-Dimayor abre licitación por derechos de TV 2027-2030: arranca la puja clave del fútbol colombiano
-Nazly Carolina Morales Herrera
 Nuestros Portales
-A 24 años de la Masacre de Bojayá, el Estado pedirá perdón y recuperará prácticas ancestrales para dignificar la memoria 
+La historia detrás del megaoperativo en Pereira para capturar a un iraní que llevaba 20 años oculto en esa ciudad 
 EL TIEMPO 
-River Plate gana sin Quintero ni Castaño: cuentas en Copa Sudamericana 
+Sin relajarse: Once Caldas 0-0 Nacional EN VIVO a mantener el ritmo 
 FUTBOL RED 
-Se restablece el servicio de agua tras instalación de válvula antisísmica en Bogotá 
+Más de 160.000 viajeros saldrán de la capital este viernes de puente festivo 
 CITY TV 

@@ -12,7 +12,7 @@ Por favor resuelva el Captcha para verificar que no es un robot y poder acceder 
 /informacion-empresa/suramerica-comercial-sas
 Tip: DU
 Cod1: ECR
-Id: c-1777658512005
+Id: c-1777676957132
 INFORMA COLOMBIA S.A,
 eInforma
 es una marca de

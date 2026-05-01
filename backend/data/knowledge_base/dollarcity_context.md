@@ -16,67 +16,6 @@ Quiénes somos
 
 ---
 
-## PRODUCTOS Y SERVICIOS
-### FUENTE: https://www.halconesypalomas.com/2025/06/27/dollarcity-se-metera-entre-las-40-empresas-mas-grandes-de-colombia-en-2025-facturara-10-mas-que-el-ano-pasado-hasta-cerca-de-31-billones/
-* Dollarcity se «meterá» entre las 40 empresas más grandes de Colombia: en 2025 facturará 10% más que el año pasado (hasta cerca de $3,1 billones)
-Colombia  Noticias recientes  Portada
-**Bogotá.** -Suramérica Comercial S.A.S. (operadora en Colombia de la marca de tiendas de bajos precios Dollarcity) reportó a la Superintendencia de Sociedades las cifras de su ejercicio contable del año pasado.
-De esa manera, Suramérica Comercial se ubicó en el puesto 48 entre las empresas más grandes de Colombia (la primera fue Ecopetrol, con ventas por $113,9 billones), y tras ocho años de haber abierto el primer almacén.
-En total, Dollarcity tiene 377 tiendas en Colombia, que representan el 59% de las que opera fuera de Canadá la compañía Dollarama Inc., que es la que controla indirectamente la mencionada cadena de tiendas de bajos precios.
-La revisión de **Primera Página** al reporte de establecimientos de las cámaras de comercio indica que al corte del tercer trimestre del 2023 Dollarcity contaba 287 puntos de venta en Colombia y al finalizar igual periodo del año pasado 349.
-Por tanto, en los últimos nueve meses inauguró 28 locales más en el mercado nacional, corroborando su crecimiento inorgánico, aunque la facturación comparando el mismo número de tiendas también crece trimestre a trimestre.
-Dado un crecimiento estimado este año del 10%, contra el 2024, Suramérica Comercial (Dollarcity Colombia) podría alcanzar ventas en el 2025 por $3,15 billones. Igualmente, se ubicaría en el puesto 40 del ránking de empresas que más venden en Colombia desplazando a la compañía de alimentos Italcol S.A.
-Es de recordar que la compañía es propiedad 100% de Dollarcity Holdings Inc., firma panameña a su vez controlada por Dollarama Inc. (Canadá), que tiene el 60,1%, y la familia salvadoreña Baldocchi, que cuenta con el 39,9% restante de las acciones.
-_Marco Andrés Baldocchi Kriete, sobrino de Roberto José Kriete._
-El presidente de la Junta Directiva y fundador de Dollarcity Holdings Inc. (dueña directa del 100% de Suramérica Comercial) es el salvadoreño Marco Andrés Baldocchi Kriete, sobrino de Roberto José Kriete (accionista de las aerolíneas Avianca de Colombia y Volaris de México).
-_**Acerca de Dollarama Inc.**_
-Es un minorista canadiense de productos económicos, que ofrece una variedad de productos de consumo, artículos generales y de temporada, tanto en tiendas físicas como en línea. Las cerca de 1.650 sucursales en Canadá brindan a los clientes productos económicos atractivos en ubicaciones convenientes, incluidas áreas metropolitanas, ciudades medianas y pueblos pequeños.
-En el 2025, ingresos de Dollarcity en Colombia crecieron 17,5%, frente al 2024, al totalizar $3,37 billones13 de marzo de 2026En «Colombia»
-Con apertura en Bogotá del local “Nomad”, compañía operadora de la cadena de comercio al detal Dollarcity llegó a cerca de 385 tiendas en Colombia12 de noviembre de 2025En «Colombia»
-De las 100 nuevas tiendas que abrió en los últimos 15 meses a nivel mundial, la canadiense Dollarama inauguró 38 en Colombia bajo la marca Dollarcity24 de marzo de 2026En «Colombia»
-
-### FUENTE: https://co.computrabajo.com/dollarcityco
-# Dollarcity
-# Acerca de Dollarcity
-Somos una empresa latinoamericana de retail con presencia en Colombia, El Salvador, Guatemala, Panamá y Perú.
-Nuestro modelo de negocio se basa en agregar valor a nuestros clientes por medio de nuestras tiendas, ofreciendo una experiencia de compra única con una amplia variedad de productos de buena calidad a excelentes precios.
-Desde el 2009 hasta el día de hoy, buscamos construir una empresa exitosa enfocada en nuestra gente. Es gracias a su pasión, trabajo en equipo y esfuerzo que seguimos rompiendo fronteras, abriendo más tiendas, generando más oportunidades y haciendo realidad nuestra visión de llegar a toda Latinoamérica.
-¿Cómo es trabajar en Dollarcity?
-* En Dollarcity, cada día es un reto diferente, tenemos muchas oportunidades de crecer en el área laboral como personal, y sobre todo a cada uno de los que formamos parte de la empresa nos dan un valor especial.”
-* Disfruto trabajar en Dollarcity por su rápido crecimiento y oportunidades de desarrollo internacionales.”
-Empleos en Dollarcity
-Recibe notificaciones nuevas de Dollarcity
-
-### FUENTE: https://www.lafm.com.co/economia/los-cinco-productos-de-dollarcity-que-no-pueden-faltar-322827
-# Los cinco productos de Dollarcity que no pueden faltar en su casa
-Estos productos del Dollarcity resultarán siendo muy útiles en su hogar.
-**Crédito: dollarcity**
-Desde que Dollarcity llegó a Colombia se ha convertido en una de las grandes **opciones para los ciudadanos que buscan diversos productos a precios demasiado bajos.**
-Esta tienda, que se ha ganado el cariño de los colombianos, ofrece novedosos productos que pueden resultar útiles para el hogar. Asimismo, ofrecen una gran variedad de**estos donde no solo los grandes se pueden ver beneficiados, también venden juguetes y otras cosas más.**
-
-### FUENTE: https://www.las2orillas.co/los-10-productos-de-dollarcity-para-equipar-su-cocina-bano-sala-y-otros-espacios-del-hogar/
-#  Los 10 productos de Dollarcity para equipar su cocina, baño, sala y otros espacios del hogar
-**Si busca variedad, economía y practicidad en un solo lugar** , Dollarcity se ha convertido en una parada obligada para miles de compradores en Colombia. Esta cadena de tiendas, conocida por sus precios accesibles y su extenso catálogo, ofrece desde artículos de hogar y decoración hasta productos de papelería, cocina, juguetería, limpieza y mucho más. **Con un concepto que combina calidad, buen precio y surtido constante** , por eso le damos una lista de **10 productos de Dollarcity para equipar su cocina, baño, sala y otros espacios del hogar.**
-**Cada vez son más los que se animan a pasar por Dollarcity** en busca de tesoros para la casa. Ya sea para darle un toque bonito a algún rincón, organizar el desorden o simplemente reponer los productos de limpieza, esta tienda se ha vuelto el lugar ideal para encontrar de todo. **Hay quienes entran “solo a mirar” y salen con canastas llenas** de cosas útiles, lindas y prácticas para el día a día.
-## ¿Cuáles son los 10 productos de Dollarcity para equipar su hogar?
-Fue la creadora de contenido en YouTube ‘Casarcoiris_Deco’ quien fue a una de las tiendas e hizo una lista completa de artículos que cumplieran ciertos requisitos, como por ejemplo: **ser bonitos, ser muy útiles y, sobre todo, tener un precio bajo**. Este es el compilado que hizo:
-* **Dispensador de papel aluminio con base de bambú** Dollarcity por $18.000
-**| Ver también:**La ciudad colombiana que fue bautizada como la ‘fábrica de atardeceres’; llena de café y bellos paisajes
-* De Tiendas
-
-### FUENTE: https://www.pulzo.com/empleo/como-hacer-hoja-vida-llamativa-para-conseguir-trabajo-PP5142763?utm_source=scroll_pulzo&utm_medium=pulzo_comercial&utm_campaign=scroll_pulzo
-## María Alejandra Puentes, gerente regional para Colombia de Pharmbills, compartió estos consejos durante el 'workshop' 'Florece y factura' que desarrolló Pulzo.
-¿Eres funcionario público en Colombia? Conoce cómo ganar una beca internacional y transformar tu carrera
-Urabá acelera su transformación: así crece el “nuevo polo empresarial” de Antioquia y Colombia
-Comercio minorista colombiano arranca 2026 con ventas récord: vehículos y tecnología lideran el repunte
-¿Vas a contratar extranjeros en Colombia? Revisa estos requisitos clave para cumplir la ley y evitar sanciones
-María Alejandra Puentes, gerente regional de Pharmbills para Colombia / Pulzo
-**María Alejandra Puentes, gerente regional para Colombia de Pharmbills** , participó en este encuentro y brindó una charla sobre cómo mejorar la hoja de vida al momento de presentarse a un nuevo puesto de trabajo y cómo comunicarse de manera asertiva con futuros reclutadores.
-## ¿Qué es Pharmbills y cómo opera en Colombia?
-
-
----
-
 ## PREGUNTAS FRECUENTES Y ATENCIÓN AL CLIENTE
 ### FUENTE: https://dollarcity.com/preguntas-frecuentes/
 #  Preguntas Frecuentes
@@ -274,66 +213,6 @@ En Dollarcity encontrarás todo lo que necesitas para tu hogar, artículos de pr
 
 ---
 
-## TALENTO HUMANO Y EMPLEO
-### FUENTE: https://dollarcity.com/nuestro-equipo/
-Inicio
-# Haz historia con nosotros
-## Quiénes somos
-Conoce más sobre nosotros: Nuestra historia, valores, principios y más.
-Ver más
-## Ofertas laborales
-Descubre cómo es trabajar en Dollarcity y como aplicar a nuestras oportunidades.
-Ver más
-
-### FUENTE: https://dollarcity.com/oportunidades/
-Inicio
-# Ofertas laborales
-#### Dollarcity no solicita ningún tipo de pago en procesos de selección ¡Tu aplicación es gratis!
-Nuestros canales oficiales son el único medio por el cual podrás encontrar nuestras oportunidades laborales
-Nuestros canales oficiales son:
-El Salvador
-Linkedin
-Tecoloco
-Guatemala
-Linkedin
-Tecoloco
-Colombia
-Linkedin
-Computrabajo
-México
-Linkedin
-Computrabajo
-OCC Mundial
-Perú
-Linkedin
-Computrabajo
-Panamá
-Linkedin
-#### Dollarcity no solicita ningún tipo de pago en procesos de selección ¡Tu aplicación es gratis!
-Nuestros canales oficiales son el único medio por el cual podrás encontrar nuestras oportunidades laborales
-Nuestros canales oficiales son:
-El Salvador
-Linkedin
-Tecoloco
-Guatemala
-Linkedin
-Tecoloco
-Colombia
-Linkedin
-Computrabajo
-México
-Linkedin
-Computrabajo
-OCC Mundial
-Perú
-Linkedin
-Computrabajo
-Panamá
-Linkedin
-
-
----
-
 ## POLÍTICAS, PRIVACIDAD Y DATOS PERSONALES
 ### FUENTE: https://dollarcity.com/privacidad/
 # POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES DE SURAMERICA COMERCIAL, S.A.S. – SURAMERICA COMERCIAL
@@ -406,6 +285,127 @@ o identificable), relativa tanto a su identidad (nombre y apellidos, domicilio, 
 como a su existencia y ocupaciones (estudios, trabajo, enfermedades, etc.).
 f. Dato Público: Es el dato calificado como tal por la Constitución o la Ley y todos aquellos
 que no sean semiprivados o privados, de conformidad con la ley colombiana. Son públicos,
+
+
+---
+
+## TALENTO HUMANO Y EMPLEO
+### FUENTE: https://dollarcity.com/nuestro-equipo/
+Inicio
+# Haz historia con nosotros
+## Quiénes somos
+Conoce más sobre nosotros: Nuestra historia, valores, principios y más.
+Ver más
+## Ofertas laborales
+Descubre cómo es trabajar en Dollarcity y como aplicar a nuestras oportunidades.
+Ver más
+
+### FUENTE: https://dollarcity.com/oportunidades/
+Inicio
+# Ofertas laborales
+#### Dollarcity no solicita ningún tipo de pago en procesos de selección ¡Tu aplicación es gratis!
+Nuestros canales oficiales son el único medio por el cual podrás encontrar nuestras oportunidades laborales
+Nuestros canales oficiales son:
+El Salvador
+Linkedin
+Tecoloco
+Guatemala
+Linkedin
+Tecoloco
+Colombia
+Linkedin
+Computrabajo
+México
+Linkedin
+Computrabajo
+OCC Mundial
+Perú
+Linkedin
+Computrabajo
+Panamá
+Linkedin
+#### Dollarcity no solicita ningún tipo de pago en procesos de selección ¡Tu aplicación es gratis!
+Nuestros canales oficiales son el único medio por el cual podrás encontrar nuestras oportunidades laborales
+Nuestros canales oficiales son:
+El Salvador
+Linkedin
+Tecoloco
+Guatemala
+Linkedin
+Tecoloco
+Colombia
+Linkedin
+Computrabajo
+México
+Linkedin
+Computrabajo
+OCC Mundial
+Perú
+Linkedin
+Computrabajo
+Panamá
+Linkedin
+
+
+---
+
+## PRODUCTOS Y SERVICIOS
+### FUENTE: https://www.halconesypalomas.com/2025/06/27/dollarcity-se-metera-entre-las-40-empresas-mas-grandes-de-colombia-en-2025-facturara-10-mas-que-el-ano-pasado-hasta-cerca-de-31-billones/
+* Dollarcity se «meterá» entre las 40 empresas más grandes de Colombia: en 2025 facturará 10% más que el año pasado (hasta cerca de $3,1 billones)
+Colombia  Noticias recientes  Portada
+**Bogotá.** -Suramérica Comercial S.A.S. (operadora en Colombia de la marca de tiendas de bajos precios Dollarcity) reportó a la Superintendencia de Sociedades las cifras de su ejercicio contable del año pasado.
+De esa manera, Suramérica Comercial se ubicó en el puesto 48 entre las empresas más grandes de Colombia (la primera fue Ecopetrol, con ventas por $113,9 billones), y tras ocho años de haber abierto el primer almacén.
+En total, Dollarcity tiene 377 tiendas en Colombia, que representan el 59% de las que opera fuera de Canadá la compañía Dollarama Inc., que es la que controla indirectamente la mencionada cadena de tiendas de bajos precios.
+La revisión de **Primera Página** al reporte de establecimientos de las cámaras de comercio indica que al corte del tercer trimestre del 2023 Dollarcity contaba 287 puntos de venta en Colombia y al finalizar igual periodo del año pasado 349.
+Por tanto, en los últimos nueve meses inauguró 28 locales más en el mercado nacional, corroborando su crecimiento inorgánico, aunque la facturación comparando el mismo número de tiendas también crece trimestre a trimestre.
+Dado un crecimiento estimado este año del 10%, contra el 2024, Suramérica Comercial (Dollarcity Colombia) podría alcanzar ventas en el 2025 por $3,15 billones. Igualmente, se ubicaría en el puesto 40 del ránking de empresas que más venden en Colombia desplazando a la compañía de alimentos Italcol S.A.
+Es de recordar que la compañía es propiedad 100% de Dollarcity Holdings Inc., firma panameña a su vez controlada por Dollarama Inc. (Canadá), que tiene el 60,1%, y la familia salvadoreña Baldocchi, que cuenta con el 39,9% restante de las acciones.
+_Marco Andrés Baldocchi Kriete, sobrino de Roberto José Kriete._
+El presidente de la Junta Directiva y fundador de Dollarcity Holdings Inc. (dueña directa del 100% de Suramérica Comercial) es el salvadoreño Marco Andrés Baldocchi Kriete, sobrino de Roberto José Kriete (accionista de las aerolíneas Avianca de Colombia y Volaris de México).
+_**Acerca de Dollarama Inc.**_
+Es un minorista canadiense de productos económicos, que ofrece una variedad de productos de consumo, artículos generales y de temporada, tanto en tiendas físicas como en línea. Las cerca de 1.650 sucursales en Canadá brindan a los clientes productos económicos atractivos en ubicaciones convenientes, incluidas áreas metropolitanas, ciudades medianas y pueblos pequeños.
+En el 2025, ingresos de Dollarcity en Colombia crecieron 17,5%, frente al 2024, al totalizar $3,37 billones13 de marzo de 2026En «Colombia»
+Con apertura en Bogotá del local “Nomad”, compañía operadora de la cadena de comercio al detal Dollarcity llegó a cerca de 385 tiendas en Colombia12 de noviembre de 2025En «Colombia»
+De las 100 nuevas tiendas que abrió en los últimos 15 meses a nivel mundial, la canadiense Dollarama inauguró 38 en Colombia bajo la marca Dollarcity24 de marzo de 2026En «Colombia»
+
+### FUENTE: https://co.computrabajo.com/dollarcityco
+# Dollarcity
+# Acerca de Dollarcity
+Somos una empresa latinoamericana de retail con presencia en Colombia, El Salvador, Guatemala, Panamá y Perú.
+Nuestro modelo de negocio se basa en agregar valor a nuestros clientes por medio de nuestras tiendas, ofreciendo una experiencia de compra única con una amplia variedad de productos de buena calidad a excelentes precios.
+Desde el 2009 hasta el día de hoy, buscamos construir una empresa exitosa enfocada en nuestra gente. Es gracias a su pasión, trabajo en equipo y esfuerzo que seguimos rompiendo fronteras, abriendo más tiendas, generando más oportunidades y haciendo realidad nuestra visión de llegar a toda Latinoamérica.
+¿Cómo es trabajar en Dollarcity?
+* En Dollarcity, cada día es un reto diferente, tenemos muchas oportunidades de crecer en el área laboral como personal, y sobre todo a cada uno de los que formamos parte de la empresa nos dan un valor especial.”
+* Disfruto trabajar en Dollarcity por su rápido crecimiento y oportunidades de desarrollo internacionales.”
+Empleos en Dollarcity
+Recibe notificaciones nuevas de Dollarcity
+
+### FUENTE: https://www.lafm.com.co/economia/los-cinco-productos-de-dollarcity-que-no-pueden-faltar-322827
+# Los cinco productos de Dollarcity que no pueden faltar en su casa
+Estos productos del Dollarcity resultarán siendo muy útiles en su hogar.
+**Crédito: dollarcity**
+Desde que Dollarcity llegó a Colombia se ha convertido en una de las grandes **opciones para los ciudadanos que buscan diversos productos a precios demasiado bajos.**
+Esta tienda, que se ha ganado el cariño de los colombianos, ofrece novedosos productos que pueden resultar útiles para el hogar. Asimismo, ofrecen una gran variedad de**estos donde no solo los grandes se pueden ver beneficiados, también venden juguetes y otras cosas más.**
+
+### FUENTE: https://www.las2orillas.co/los-10-productos-de-dollarcity-para-equipar-su-cocina-bano-sala-y-otros-espacios-del-hogar/
+#  Los 10 productos de Dollarcity para equipar su cocina, baño, sala y otros espacios del hogar
+**Si busca variedad, economía y practicidad en un solo lugar** , Dollarcity se ha convertido en una parada obligada para miles de compradores en Colombia. Esta cadena de tiendas, conocida por sus precios accesibles y su extenso catálogo, ofrece desde artículos de hogar y decoración hasta productos de papelería, cocina, juguetería, limpieza y mucho más. **Con un concepto que combina calidad, buen precio y surtido constante** , por eso le damos una lista de **10 productos de Dollarcity para equipar su cocina, baño, sala y otros espacios del hogar.**
+**Cada vez son más los que se animan a pasar por Dollarcity** en busca de tesoros para la casa. Ya sea para darle un toque bonito a algún rincón, organizar el desorden o simplemente reponer los productos de limpieza, esta tienda se ha vuelto el lugar ideal para encontrar de todo. **Hay quienes entran “solo a mirar” y salen con canastas llenas** de cosas útiles, lindas y prácticas para el día a día.
+## ¿Cuáles son los 10 productos de Dollarcity para equipar su hogar?
+Fue la creadora de contenido en YouTube ‘Casarcoiris_Deco’ quien fue a una de las tiendas e hizo una lista completa de artículos que cumplieran ciertos requisitos, como por ejemplo: **ser bonitos, ser muy útiles y, sobre todo, tener un precio bajo**. Este es el compilado que hizo:
+* **Dispensador de papel aluminio con base de bambú** Dollarcity por $18.000
+**| Ver también:**La ciudad colombiana que fue bautizada como la ‘fábrica de atardeceres’; llena de café y bellos paisajes
+* De Tiendas
+
+### FUENTE: https://www.pulzo.com/empleo/como-hacer-hoja-vida-llamativa-para-conseguir-trabajo-PP5142763?utm_source=scroll_pulzo&utm_medium=pulzo_comercial&utm_campaign=scroll_pulzo
+## María Alejandra Puentes, gerente regional para Colombia de Pharmbills, compartió estos consejos durante el 'workshop' 'Florece y factura' que desarrolló Pulzo.
+¿Eres funcionario público en Colombia? Conoce cómo ganar una beca internacional y transformar tu carrera
+Urabá acelera su transformación: así crece el “nuevo polo empresarial” de Antioquia y Colombia
+Comercio minorista colombiano arranca 2026 con ventas récord: vehículos y tecnología lideran el repunte
+¿Vas a contratar extranjeros en Colombia? Revisa estos requisitos clave para cumplir la ley y evitar sanciones
+María Alejandra Puentes, gerente regional de Pharmbills para Colombia / Pulzo
+**María Alejandra Puentes, gerente regional para Colombia de Pharmbills** , participó en este encuentro y brindó una charla sobre cómo mejorar la hoja de vida al momento de presentarse a un nuevo puesto de trabajo y cómo comunicarse de manera asertiva con futuros reclutadores.
+## ¿Qué es Pharmbills y cómo opera en Colombia?
 
 
 ---

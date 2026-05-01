@@ -1,7 +1,7 @@
 SOURCE_URL: https://colombiaretail.com/los-canadienses-duenos-de-dollarcity-que-la-pusieron-a-volar-con-colombia-como-eje-regional-del-negocio-las2orillas/
 
 Últimas noticias
-El hard discount en Colombia ya no es un formato. Es infraestructura. Durante años lo explicamos asi:¿Por qué hablo tanto de Hard Discount?El dilema del fabricante: ¿Adaptarse a la maquila o desaparecer? – AmericaMalls & RetailEE. UU.: La revolución de «ALDI»: de marca propia a marca de gran poder global.Rexona, Axe y otras marcas de Unilever entrarán en las vitrinas de Mercado Libre
+Lidl y Aldi crecen más que Mercadona en el primer cuatrimestre de 2026 | FRSEl Hard Discount no está compitiendo: está reescribiendo las reglas IGNACIO GOMEZ ESCOBAREl hard discount en Colombia ya no es un formato. Es infraestructura. Durante años lo explicamos asi:¿Por qué hablo tanto de Hard Discount?El dilema del fabricante: ¿Adaptarse a la maquila o desaparecer? – AmericaMalls & Retail
 Saltar al contenido
 Anterior Siguiente
   * Ver imagen más grande
@@ -29,12 +29,16 @@ Publicar un comentario
 FacebookTwitterRedditLinkedInWhatsAppPinterestVkCorreo electrónico
 ##  Sobre el Autor: Colombia Retail
 ##  Artículos relacionados
+¿Por qué hablo tanto de Hard Discount?
+####  ¿Por qué hablo tanto de Hard Discount? 
+El dilema del fabricante: ¿Adaptarse a la maquila o desaparecer? – AmericaMalls & Retail
+####  El dilema del fabricante: ¿Adaptarse a la maquila o desaparecer? – AmericaMalls & Retail 
 EE. UU.: La revolución de «ALDI»: de marca propia a marca de gran poder global.
 ####  EE. UU.: La revolución de «ALDI»: de marca propia a marca de gran poder global. 
-Rexona, Axe y otras marcas de Unilever entrarán en las vitrinas de Mercado Libre
-####  Rexona, Axe y otras marcas de Unilever entrarán en las vitrinas de Mercado Libre 
-México: Bara, de bajo costo, vence a FEMSA. – DISCOUNT RETAIL CONSULTING
-####  México: Bara, de bajo costo, vence a FEMSA. – DISCOUNT RETAIL CONSULTING 
+Lidl y Aldi crecen más que Mercadona en el primer cuatrimestre de 2026 | FRS
+####  Lidl y Aldi crecen más que Mercadona en el primer cuatrimestre de 2026 | FRS 
+El Hard Discount no está compitiendo: está reescribiendo las reglas IGNACIO GOMEZ ESCOBAR
+####  El Hard Discount no está compitiendo: está reescribiendo las reglas IGNACIO GOMEZ ESCOBAR 
 El hard discount en Colombia ya no es un formato. Es infraestructura. Durante años lo explicamos asi:
 ####  El hard discount en Colombia ya no es un formato. Es infraestructura. Durante años lo explicamos asi: 
 ¿Por qué hablo tanto de Hard Discount?
@@ -43,16 +47,12 @@ El dilema del fabricante: ¿Adaptarse a la maquila o desaparecer? – AmericaMal
 ####  El dilema del fabricante: ¿Adaptarse a la maquila o desaparecer? – AmericaMalls & Retail 
 EE. UU.: La revolución de «ALDI»: de marca propia a marca de gran poder global.
 ####  EE. UU.: La revolución de «ALDI»: de marca propia a marca de gran poder global. 
-Rexona, Axe y otras marcas de Unilever entrarán en las vitrinas de Mercado Libre
-####  Rexona, Axe y otras marcas de Unilever entrarán en las vitrinas de Mercado Libre 
-México: Bara, de bajo costo, vence a FEMSA. – DISCOUNT RETAIL CONSULTING
-####  México: Bara, de bajo costo, vence a FEMSA. – DISCOUNT RETAIL CONSULTING 
+Lidl y Aldi crecen más que Mercadona en el primer cuatrimestre de 2026 | FRS
+####  Lidl y Aldi crecen más que Mercadona en el primer cuatrimestre de 2026 | FRS 
+El Hard Discount no está compitiendo: está reescribiendo las reglas IGNACIO GOMEZ ESCOBAR
+####  El Hard Discount no está compitiendo: está reescribiendo las reglas IGNACIO GOMEZ ESCOBAR 
 El hard discount en Colombia ya no es un formato. Es infraestructura. Durante años lo explicamos asi:
 ####  El hard discount en Colombia ya no es un formato. Es infraestructura. Durante años lo explicamos asi: 
-¿Por qué hablo tanto de Hard Discount?
-####  ¿Por qué hablo tanto de Hard Discount? 
-El dilema del fabricante: ¿Adaptarse a la maquila o desaparecer? – AmericaMalls & Retail
-####  El dilema del fabricante: ¿Adaptarse a la maquila o desaparecer? – AmericaMalls & Retail 
 ## Deja tu comentario Cancelar la respuesta
 ### **Sobre nosotros**
 **COLOMBIA RETAIL**, nace de la asociación de un grupo de amigos con un propósito común, la difusión y profesionalización del **RETAIL** en Colombia y con impacto en otros mercados latinoamericanos e hispano parlantes. Este propósito comprende fuertes alianzas con gremios, universidades, escuelas de negocios, industrias del sector y otras organizaciones que tengan con **COLOMBIA RETAIL** objetivos comunes centrados en la profesionalización del **RETAIL.**

@@ -3,11 +3,9 @@ import hashlib
 from pathlib import Path
 from src.config.settings import RAW_DATA_DIR, KB_DIR, KB_FILE_PATH
 
-# --- CONFIGURACIÓN DE CURACIÓN ---
 RELEVANCE_KEYWORDS = ["dollarcity", "dólar city", "suramerica comercial", "dollarama", "baldocchi", "tiendas", "expansión", "colombia"]
 ERROR_SIGNATURES = ["crawl4ai error", "invalid expression", "too many requests", "captcha", "blocked by"]
 
-# Encabezados que marcan el FIN del contenido útil en prensa
 TRASH_HEADERS = [
     "últimas noticias", "en video", "enlaces patrocinados", "enlaces promovidos", 
     "también te puede interesar", "te puede gustar", "sigue leyendo", "más de economía", 
@@ -22,12 +20,10 @@ UI_NOISE = [
 ]
 
 def get_block_hash(text: str) -> str:
-    """Genera un hash único para un bloque de texto para detectar duplicados."""
     clean_text = re.sub(r'\s+', '', text).lower()
     return hashlib.md5(clean_text.encode()).hexdigest()
 
 def clean_noise(text: str, url: str, stats: dict) -> str:
-    """Limpia ruido, corta bloques basura y filtra por relevancia."""
     is_official = "dollarcity.com" in url.lower() or "pdf" in url.lower()
     is_computrabajo = "computrabajo.com" in url.lower()
     
@@ -38,32 +34,25 @@ def clean_noise(text: str, url: str, stats: dict) -> str:
         l_original = line.strip()
         l_lower = l_original.lower()
 
-        # 1. STOP & CUT: Si llegamos a un encabezado de basura, terminamos esta fuente
         if any(trash in l_lower for trash in TRASH_HEADERS):
             stats["bloques_cortados"] += 1
             break
 
-        # 2. Filtro UI Noise
         if any(noise == l_lower for noise in UI_NOISE) or len(l_original) < 3:
             stats["lineas_eliminadas"] += 1
             continue
 
-        # 3. Limpieza específica Computrabajo
         if is_computrabajo:
-            # Eliminar basura legal de la plataforma DGNET y formularios
             if any(k in l_lower for k in ["dgnet", "ver más ofertas", "filtros", "denunciar", "puntuación", "hace ", "contraseña"]):
                 stats["lineas_eliminadas"] += 1
                 continue
 
-        # 4. Filtro de relevancia para fuentes externas
         if not is_official:
-            # Solo guardamos párrafos que mencionen palabras clave
             if not any(k in l_lower for k in RELEVANCE_KEYWORDS):
                 stats["lineas_eliminadas"] += 1
                 continue
 
         cleaned_lines.append(l_original)
-
     return '\n'.join(cleaned_lines)
 
 def get_semantic_section(url: str, content: str) -> str:
@@ -82,18 +71,17 @@ def build_dynamic_kb():
     if not RAW_DATA_DIR.exists(): return
 
     sections = {
-        "FUENTES OFICIALES": [], "IDENTIDAD CORPORATIVA": [], "PRODUCTOS Y SERVICIOS": [],
-        "PREGUNTAS FRECUENTES Y ATENCIÓN AL CLIENTE": [], "TALENTO HUMANO Y EMPLEO": [],
-        "POLÍTICAS, PRIVACIDAD Y DATOS PERSONALES": [], "HISTORIA, EXPANSIÓN Y CONTEXTO EMPRESARIAL": []
+        "IDENTIDAD CORPORATIVA": [],
+        "PREGUNTAS FRECUENTES Y ATENCIÓN AL CLIENTE": [],
+        "POLÍTICAS, PRIVACIDAD Y DATOS PERSONALES": [],
+        "TALENTO HUMANO Y EMPLEO": [],
+        "FUENTES OFICIALES": [],
+        "PRODUCTOS Y SERVICIOS": [],
+        "HISTORIA, EXPANSIÓN Y CONTEXTO EMPRESARIAL": []
     }
     
-    stats = {
-        "leidos": 0, "procesados": 0, "descartados": 0, 
-        "lineas_eliminadas": 0, "bloques_cortados": 0, "duplicados_bloque": 0,
-        "fuentes_lens": {}
-    }
-    
-    seen_blocks = set() # Deduplicación global de bloques grandes
+    stats = {"leidos": 0, "procesados": 0, "descartados": 0, "lineas_eliminadas": 0, "bloques_cortados": 0, "duplicados_bloque": 0, "fuentes_lens": {}}
+    seen_blocks = set()
     talla_previa_est = 0
 
     all_files = sorted(RAW_DATA_DIR.glob("*.md"))
@@ -112,13 +100,12 @@ def build_dynamic_kb():
             url = parts[0].replace("SOURCE_URL: ", "").strip()
             body = clean_noise('\n'.join(parts[1:]), url, stats)
             
-            # Deduplicación por bloques (>300 chars)
             content_blocks = []
             for block in body.split('\n\n'):
                 block = block.strip()
                 if not block: continue
                 
-                if len(block) > 300:
+                if len(block) > 200: # Bajado un poco para atrapar más duplicados
                     b_hash = get_block_hash(block)
                     if b_hash in seen_blocks:
                         stats["duplicados_bloque"] += 1
@@ -135,13 +122,13 @@ def build_dynamic_kb():
                 stats["fuentes_lens"][url] = len(final_content)
             else:
                 stats["descartados"] += 1
-
         except:
             stats["descartados"] += 1
 
-    # Construcción final
+    # Construcción final asegurando ORDEN ESTRATÉGICO
     final_md = ["# KB DOLLARCITY COLOMBIA\n", "> Contexto Curado v2 - Optimizado para gemma3:1b\n"]
-    for name, entries in sections.items():
+    for name in sections.keys(): # Esto respeta el orden de inserción en Python >= 3.7
+        entries = sections[name]
         if entries:
             final_md.append(f"## {name}")
             final_md.extend(entries)
@@ -150,18 +137,9 @@ def build_dynamic_kb():
     KB_DIR.mkdir(parents=True, exist_ok=True)
     KB_FILE_PATH.write_text("\n".join(final_md), encoding="utf-8")
 
-    # REPORTE FINAL
     print(f"\n--- 📊 REPORTE DE OPTIMIZACIÓN ---")
-    print(f"📄 Archivos (leídos/procesados): {stats['leidos']} / {stats['procesados']}")
-    print(f"❌ Archivos descartados:        {stats['descartados']}")
-    print(f"🧹 Líneas eliminadas:           {stats['lineas_eliminadas']}")
-    print(f"✂️  Fuentes cortadas (Trash):     {stats['bloques_cortados']}")
-    print(f"👯 Bloques duplicados borrados: {stats['duplicados_bloque']}")
-    print(f"📉 Reducción de tamaño:         {talla_previa_est/1024:.1f}KB -> {KB_FILE_PATH.stat().st_size/1024:.1f}KB")
-    
-    print(f"\n🔝 TOP FUENTES:")
-    for url, size in sorted(stats["fuentes_lens"].items(), key=lambda x: x[1], reverse=True)[:3]:
-        print(f"   - {size} chars | {url[:50]}...")
+    print(f"📄 Archivos procesados: {stats['procesados']}")
+    print(f"📉 Reducción de tamaño: {talla_previa_est/1024:.1f}KB -> {KB_FILE_PATH.stat().st_size/1024:.1f}KB")
 
 if __name__ == "__main__":
     build_dynamic_kb()

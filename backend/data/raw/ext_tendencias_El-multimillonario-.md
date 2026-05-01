@@ -3,6 +3,7 @@ SOURCE_URL: https://redmas.com.co/tendencias/El-multimillonario-detras-del-exito
 Tendencias
 #  El multimillonario detrás del éxito de Dollarcity en Colombia: con exitosa estrategia desafía a Tiendas D1 y Oxxo
 ## El millonario detrás de Dollarcity y que está relacionado con Avianca ha logrado posicionarse en Colombia con una estrategia que reta a Tiendas D1 y Oxxo.
+Ad
 **EL dueño de Dollarcity esta relacionado con Avianca. Fotos: Dollarcity - Avianca.**
 Gratis Siga Red+ Noticias en WhatsApp
   * 
@@ -102,3 +103,4 @@ Close the sidebar
 Te informamos que nuestro sitio web utiliza cookies que recogen datos sobre la navegación, uso y hábitos de consumo de los usuarios que ingresan en él. Las cookies guardan tus datos para poder ofrecerte una mejor experiencia online. Si continúas navegando entendemos que aceptas el tratamiento de tus datos personales a través de las cookies y la Política de tratamiento de la información de Claro
 ENTENDIDO
 Contenido premium
+Ad

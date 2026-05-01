@@ -2,7 +2,6 @@ SOURCE_URL: https://elcomercio.pe/respuestas/colombia/como-se-fundo-y-quienes-so
 
 EN VIVO
 Resultados ONPE
-Ignacio Buse vs Alejandro Tabilo
 Temas del día
   * Balcázar
   * Roberto Sánchez

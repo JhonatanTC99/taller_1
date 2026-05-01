@@ -8,7 +8,7 @@ Actualizado 9 de noviembre de 2023 3 min de lectura
   * ARNA 
   * RHDGF 
   * GETY 
-+5.20%
++6.08%
   * IRLCF 
 +15.55%
   * MHTZF 
@@ -38,4 +38,7 @@ Al 31 de diciembre de 2022, Dollarcity oficialmente contaba con 440 tiendas, rep
 Condiciones  y Política de privacidad 
 Panel de privacidad 
 * * *
+  * * * *
+
+
 El éxito detrás de Dollarcity, la millonaria tienda que vende “todo a 1 dólar”

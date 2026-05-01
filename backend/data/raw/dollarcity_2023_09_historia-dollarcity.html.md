@@ -7,28 +7,26 @@ Home emprendimiento Historias De Exito Vídeos Para Emprendedores
 domingo, septiembre 17, 2023 Publicado por  Javier Díaz
 Compartir Twittear
 Ver más
-Libros
 Libro
-Referencia geográfica
+Libros
+Historias
 En el año **2009** , un emprendedor salvadoreño, inspirado en el modelo de las tiendas de **$1 dólar** norteamericanas, decide iniciar su propia tienda con la promesa de ofrecer productos de calidad a precios bajos en países de Latinoamérica. Poco a poco, con mucha paciencia y determinación, comenzó a expandir su marca a diferentes países de la región convencido del potencial del modelo de negocios que estaba construyendo. Hoy en día, su empresa cuenta con más de **400 tiendas** , genera más de **4 mil empleos** y factura más de **$1.200 millones de dólares anuales** … **¿Cómo lo logró?**
 Historia
 ## Caso Dollarcity: ¿Cómo un emprendedor construyó un imperio comercial con tiendas de bajo costo?
 Esta historia se divide en dos partes. La primera comienza en **1992** , cuando **Larry Rossy** , un empresario canadiense, heredó de su padre 20 tiendas en **Matane** , **Quebec**. Su visión era simple, pero ambiciosa: proporcionar a los clientes productos de alta calidad a precios bajos. Lo que empezó como unas modestas tiendas bajo el concepto de **“todo a $1 dólar”** , se convertiría en un gigante minorista en **Canadá** , llamado **Dollarama**.
-Ver más
-Latinos y latinoamericanos
-Historias
-Libros y literatura
 Durante las siguientes dos décadas, **Dollarama** creció de manera exponencial. Su enfoque en ofrecer más de **6.000 productos** innovadores a precios asequibles, resonó con los canadienses de costa a costa. Las tiendas de **Dollarama** se multiplicaron en áreas metropolitanas, ciudades medianas y pequeñas.
+Latinos y latinoamericanos
 Su modelo de negocios, que permitía a los clientes comprar productos individuales o en volumen a precios fijos, demostró ser un éxito y no tardaría en replicarse en otros países.
-La segunda parte de esta historia comienza en el **2009** en **El Salvador** , el país centroamericano que se caracteriza por sus majestuosas playas y su paisaje montañoso. Allí, el emprendedor **Marco Andrés Baldocchi Kriete** , inspirado en el modelo de negocio de tiendas de bajo costo norteamericanas, como **Dollarama** , decidió iniciar su propia tienda bajo la marca **Dollarcity**. Su propósito era adaptar ese modelo, que ya funcionaba bien en países como **Estados Unidos** y **Canadá** , a las características y necesidades de su país. Sin embargo, el reto era enorme, porque en los países de **Latinoamérica** los consumidores suelen asociar los precios bajos con mala calidad. 
-Historia
+La segunda parte de esta historia comienza en el **2009** en **El Salvador** , el país centroamericano que se caracteriza por sus majestuosas playas y su paisaje montañoso. Allí, el emprendedor **Marco Andrés Baldocchi Kriete** , inspirado en el modelo de negocio de tiendas de bajo costo norteamericanas, como **Dollarama** , decidió iniciar su propia tienda bajo la marca **Dollarcity**. Su propósito era adaptar ese modelo, que ya funcionaba bien en países como **Estados Unidos** y **Canadá** , a las características y necesidades de su país. Sin embargo, el reto era enorme, porque en los países de **Latinoamérica** los consumidores suelen asociar los precios bajos con mala calidad.
 El primer **Dollarcity** abrió sus puertas en el centro comercial **Metrocentro** de la ciudad de **San Salvador** , capital de la **República de El Salvador**.
 Desde el comienzo, **Dollarcity** fue un éxito rotundo. La amplia variedad de productos llamativos y los precios sorprendentemente bajos, hicieron que la primera tienda no diera abasto, lo que motivó a **Marco Baldocchi** a establecer nuevas tiendas de su marca en otros puntos estratégicos del país.
+Historia
 > **“Somos una empresa de origen centroamericana, dedicada a agregar valor a nuestros clientes a través de productos de buena calidad a excelente precio en forma ágil, eficiente y con enfoque humano… Hemos revolucionado la industria del retail en el mercado con nuestro surtido de productos, ambientes limpios y ordenados y, sobre todo, la pasión y compromiso de nuestros equipos.”** -Afirma la empresa en su sitio web.
 ## Consolidación y expansión de Dollarcity en Latinoamérica
 En el **2013** , la compañía canadiense **Dollarama** puso sus ojos en el mercado latinoamericano, porque lo veía como una gran oportunidad de inversión teniendo en cuenta que la rentabilidad en las ventas por metro cuadrado era mucha más alta que en **Canadá**.
 Para no tener que empezar desde cero su incursión en **Latinoamérica** , **Dollarama** optó por llegar a un acuerdo con **Dollarcity** para impulsar su crecimiento en la región. El acuerdo incluía una posibilidad de compra de **Dollarcity** por parte de **Dollarama** a partir del séptimo año, plazo en el que ambas compañías analizarían el potencial del mercado y realizarían proyecciones de las inversiones requeridas.
 Tras consolidarse con éxito en **El Salvador** , y contando con el apoyo de **Dollarama** , **Dollarcity** empezó a explorar otros países de la región para expandirse.
+Latinos y latinoamericanos
 En el **2015** , luego de un exhaustivo estudio del mercado, la empresa eligió a **Guatemala** y **Colombia** como sus siguientes destinos.
 En **Guatemala** , las primeras tiendas de **Dollarcity** se establecieron en los centros comerciales **Expobodegas** , **Metronorte** , **Plaza Muxbal** y **Roosevelt**. Durante los siguientes años, la compañía se encargó de abrir nuevas tiendas en todas las ciudades principales del país centroamericano.
 En **Colombia** , la compañía abrió sus primeras tiendas en la ciudad de **Cali** en sus formatos “stand alone”, los cuales se caracterizan por ser espacios comerciales amplios y de fácil acceso con una gran variedad de productos. Posteriormente, las tiendas de **Dollarcity** se expandirían a **Bogotá** , **Medellín** y muchas otras ciudades de **Colombia** , llegando a posicionarse como uno de los almacenes más populares del país. Rápidamente, **Colombia** se convirtió en uno de los mercados más importantes para la empresa salvadoreña.
@@ -39,8 +37,8 @@ Para el año **2018** , **Dollarcity** continuaba con sus planes de expansión, 
 En el **2019** , **Dollarcity** superó las **200 tiendas** establecidas y ya contaba con un equipo de más de **2.000 personas** , consolidándose como una de las cadenas de retail más importantes de la región. Estos impresionantes resultados, conseguidos en tan solo 10 años, hicieron que **Dollarama** acelerará sus planes de inversión en **Latinoamérica** y adelantara la opción de compra de **Dollarcity**.
 Luego de varias reuniones, la exitosa cadena canadiense acordó adquirir el **50.1%** de la empresa **Dollarcity** por **$95 millones de dólares**. Esta adquisición tenía un objetivo claro: **potenciar el crecimiento de Dollarcity en América Latina**.
 > **"Nuestro sólido desempeño habla del compromiso de brindar el mejor valor durante todo el año en los productos cotidianos que ofrecemos, combinado con una experiencia de compra conveniente y consistente."** -Dijo **Neil Rossy** , presidente de **Dollarama** (casa matriz de **Dollarcity**), en entrevista para el diario **La República**.
-**Dollarama** y **Dollarcity** formalizaron la adquisición en **julio de 2019** , con planes ambiciosos de expansión que incluían la apertura de más de **225** nuevas tiendas en **Latinoamérica** en los próximos cinco años. 
-Historia
+**Dollarama** y **Dollarcity** formalizaron la adquisición en **julio de 2019** , con planes ambiciosos de expansión que incluían la apertura de más de **225** nuevas tiendas en **Latinoamérica** en los próximos cinco años.
+Latinos y latinoamericanos
 Para que **Dollarcity** no perdiera su rumbo, se acordó que **Marco Baldocchi** seguiría ejerciendo como presidente de la compañía filial.
 La unión estratégica entre **Dollarama** y **Dollarcity** marcó la cumbre del éxito para ambas empresas. **Dollarama** , con su experiencia en el mercado del retail, aportó conocimientos y recursos para fortalecer la posición de **Dollarcity** en **América Latina**.
 La combinación de estos dos gigantes minoristas les permitió ofrecer a los consumidores una selección más amplia de productos a precios competitivos, manteniendo su accesibilidad y servicio al cliente de alta calidad.
@@ -73,7 +71,7 @@ En cuanto a **Dollarama** , la compañía tiene un valor en el mercado de más d
   7. **Alianzas estratégicas para crecer:** La alianza entre **Dollarama** y **Dollarcity** fue un paso clave en el crecimiento de ambas empresas. Por una parte, **Dollarama** logró su objetivo de incursionar con éxito en un mercado rentable como el latinoamericano; y, por otra parte, **Dollarcity** obtuvo importantes recursos y experiencia para consolidar su presencia en la región y mejorar su oferta de productos y servicios. Ahora ambas compañías tienen grandes metas a futuro para seguir expandiéndose por el mundo.
 
 
-Así concluimos la fascinante historia de **Dollarcity** , una compañía salvadoreña que nació inspirada en el modelo de tiendas de bajo costo de países norteamericanos, pero que supo adaptar el modelo a las características y necesidades de los consumidores latinoamericanos, convirtiéndose así en una de las cadenas minoristas más importantes de la región y posicionándose como un referente en innovación en el sector del retail. 
+Así concluimos la fascinante historia de **Dollarcity** , una compañía salvadoreña que nació inspirada en el modelo de tiendas de bajo costo de países norteamericanos, pero que supo adaptar el modelo a las características y necesidades de los consumidores latinoamericanos, convirtiéndose así en una de las cadenas minoristas más importantes de la región y posicionándose como un referente en innovación en el sector del retail.
 Historia
 ## Más casos de emprendedores exitosos:
   * La Historia de Joe Ades, el Emprendedor que se hizo Millonario Vendiendo Peladores de Patatas en la Calle
@@ -99,5 +97,4 @@ Responder
 
 Articulo Siguiente ¿Cómo coordinar un equipo de trabajo? 
 Articulo Anterior La Historia de Joe Ades, el Emprendedor que se hizo Millonario Vendiendo Peladores de Patatas en la Calle 
-Libros
   *[domingo, septiembre 17, 2023]: 2023-09-17T10:00:00-05:00

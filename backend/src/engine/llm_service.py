@@ -18,7 +18,8 @@ class LLMService:
         self.llm = ChatOllama(
             model=model_name,
             base_url=OLLAMA_BASE_URL,
-            temperature=0.2,
+            temperature=0.1,
+            num_ctx=32000, # regla nueva, probar con modelos pequeños
             seed=42,
             top_p=0.7,
             stop=["</output>"]
@@ -84,7 +85,7 @@ class LLMService:
 
             #VALIDACIÓN SOLO PARA FAQ
             is_faq = system_template == FAQ_PROMPT
-            if is_faq and cleaned.count("Respuesta:") < 5:
+            if is_faq and cleaned.lower().count("respuesta") < 5:
                 return {
                     "content": "Error: el modelo no generó respuestas completas.",
                     "model": self.get_model_name(),

@@ -2,7 +2,7 @@ SOURCE_URL: https://www.eltiempo.com/economia/empresas/quienes-son-los-duenos-de
 
 En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí
 Entiendo
-Viernes, 01.05.2026 / 13:01
+Viernes, 01.05.2026 / 18:09
 EMPLEOS   
 
 CLUB VIVAMOS 
@@ -141,6 +141,8 @@ SUSCRÍBETE AL DIGITAL
 Información confiable para ti. Suscríbete a EL TIEMPO y consulta de forma ilimitada nuestros contenidos periodísticos.
 suscríbete
 Ponte al día
+De hipotecar la casa familiar a liderar la industria fitness: la historia de la cofundadora de Bodytech | #Cómolohicieron
+Noelia Cigüenza Riaño
 GEB fortalece su presencia en la región con la adquisición de cuatro empresas en Brasil
 Noelia Cigüenza Riaño
 Del café caliente al ‘cold brew’
@@ -151,68 +153,66 @@ Gobierno Petro convocará asamblea extraordinaria de Ecopetrol para ‘hacer alg
 Lina Quiroga Rubio
 Alemana Basf apuesta por Colombia con innovación, sostenibilidad y nuevos modelos de negocio
 Carlos Arturo García Mahecha
-Café Quindío prevé alcanzar 80 tiendas en Colombia en 2026: este es su plan de expansión
-María Camila Salas Valencia
 por Taboolapor Taboola
 Enlaces PatrocinadosEnlaces Patrocinados
 Enlaces PromovidosEnlaces Promovidos
 Te puede gustar
 Kit de perfumes importados disponible en proceso de liquidaciónPerfumes importados
 Deshacer
-Truco japonés para reducir la apnea del sueño (¡es genial!)ErgoSleep
-Deshacer
 Dermatóloga: Truco casero para rostro caído (toma 7 segundos)Piel Renovada
 Deshacer
-La fortuna de Julio Iglesias es simplemente inaceptable.33 Bridges
-Deshacer
-The Most Horrible Tourist Traps In America, Ranked In OrderDecoist
-Deshacer
-Efraín Cepeda: 'Si no pasa Abelardo o Paloma a segunda vuelta, el otro debe apoyarlo para preservar los principios democráticos'El Tiempo
-Deshacer
-Two And A Half Men: Charlie's Girlfriends, Ranked In OrderDecoist
+Truco japonés para reducir la apnea del sueño (¡es genial!)ErgoSleep
 Deshacer
 Conoce estas gafas inteligentes que pueden ver de lejos y de cercaOpticPro
 Deshacer
-Polémica por el llamado del presidente Gustavo Petro a donar recursos para la campaña de recolección de firmas de la asamblea constituyenteEl Tiempo
+Haz tu DEUDA más ligeraBravo
 Deshacer
-He Was Once An Icon In The NBA, Here's Him NowOutdoor Revival
+Iván Cepeda 'en vez de reconocerse como un comunista se cubre con el maquillaje de ‘progresista’': Mauricio VargasEl Tiempo
+Deshacer
+Liquida tus deudas en mora de manera fácil. Descubre cómoBravo
+Deshacer
+AI is changing the way you learn a languageTalkpal - AI Language Learning
+Deshacer
+Medio ecuatoriano revela detalles del viaje del presidente Gustavo Petro a Manta: hablan de fiestas y reuniones con delegados de alias FitoEl Tiempo
+Deshacer
+20 Movies That Are So Good, They're Considered PerfectDecoist
 Deshacer
 Cerrar
 ×
 Sigue leyendo
-Efraín Cepeda: 'Si no pasa Abelardo o Paloma a segunda vuelta, el otro debe apoyarlo para preservar los principios democráticos'El presidente del Partido Conservador habló con EL TIEMPO sobre la decisión de la colectividad de apoyar a Valencia. Pide unidad de la centro-derecha.El Tiempo
+Iván Cepeda 'en vez de reconocerse como un comunista se cubre con el maquillaje de ‘progresista’': Mauricio VargasEl analista de domingo en EL TIEMPO cuestiona el discurso de Cepeda frente a la realidad en cifras y escándalos del actual Gobierno Petro.El Tiempo
 Deshacer
-Polémica por el llamado del presidente Gustavo Petro a donar recursos para la campaña de recolección de firmas de la asamblea constituyenteEl llamado presidencial ha sido cuestionado, puesto que se da en plena época electoral. Ha sido asumido como una campaña política alterna.El Tiempo
+Medio ecuatoriano revela detalles del viaje del presidente Gustavo Petro a Manta: hablan de fiestas y reuniones con delegados de alias FitoEl presidente Gustavo Petro rechazó las versiones de medios ecuatorianos sobre su visita a Manta y aseguró que se trata de información falsa.El Tiempo
+Deshacer
+Esto dijo Érika Herrera, suegra de Carolina Flores, cuando fue capturada en Venezuela por asesinato de la exreinaEn medio de la detención y ante la reacción de la mujer, las autoridades venezolanas decidieron arrestarla por 'desacato a la autoridad'.El Tiempo
+Deshacer
+Carolina Ramírez, actriz de 'La Reina del Flow', mostró las secuelas del embarazo: ‘Estoy llena de manchas, pero hace parte del proceso’Desde que dio a conocer que estaba esperando su primer hijo, la caleña ha compartido detalles de cómo ha sido el proceso de gestación.El Tiempo
 Deshacer
 Sergio Fajardo dice que no se unirá a Paloma Valencia para evitar eventual triunfo de Iván Cepeda: 'Estoy haciendo política'El candidato indicó que sigue firme para la primera vuelta presidencial y que su responsabilidad no es evitar que gane nuevamente el progresismo. El Tiempo
-Deshacer
-Alianza Verde respaldará a Iván Cepeda, pero se abrió debate tras llamado del presidente Petro a buscar la ConstituyenteLa Alianza Verde realizó su Dirección Nacional y oficializó su respaldo a Iván Cepeda, quien prometió no convocar a una Constituyente. El Tiempo
-Deshacer
-Despiden a Julia Varvaro, funcionaria de Donald Trump, acusada por su exnovio de estafa millonaria en viajes por Norteamérica y EuropaLa funcionaria fue separada tras denuncia de un exnovio, quien afirmó haber gastado US$40.000 en viajes durante la relación.El Tiempo
 Deshacer
 Kit de perfumes importados disponible en proceso de liquidaciónPerfumes importados | 
 PatrocinadoPatrocinado
 Deshacer
-Truco japonés para reducir la apnea del sueño (¡es genial!)ErgoSleep | 
-PatrocinadoPatrocinado
-Deshacer
-Dura crítica de Abelardo de la Espriella contra Gustavo Petro, quien cuestionó al candidato por supuesto apoyo de Daniel Noboa, presidente de EcuadorEl intercambio se desató en redes sociales luego de una publicación de Daniel Coronell que involucró al candidato.El Tiempo
-Deshacer
-Pensaron que había muerto por sobredosis, pero necropsia reveló cruel asesinato en AntioquiaMayerly Paola Cardona Vargas fue hallada sin vida en el baño de su casa el pasado lunes 20 de abril.El Tiempo
-Deshacer
-Israel espera aval de Estados Unidos para matar a Mojtaba Jamenei tras reportes de que quedó gravemente herido en los ataques estadounidensesFuentes citadas del NYT afirmaron que el ayatolá ha sido operado 'tres veces en una pierna y está a la espera de una prótesis'.El Tiempo
-Deshacer
-Hombre que asesinó a miembros de producción de 'Sin senos sí hay paraíso', tenía antecedentes; ¿qué pasó?No era la primera vez que Josué Cubillos amenazaba a personas con arma blanca. En enero fue citado a una inspección, pero alertas no trascendieron. El Tiempo
-Deshacer
-Iván Cepeda 'en vez de reconocerse como un comunista se cubre con el maquillaje de ‘progresista’': Mauricio VargasEl analista de domingo en EL TIEMPO cuestiona el discurso de Cepeda frente a la realidad en cifras y escándalos del actual Gobierno Petro.El Tiempo
-Deshacer
 Dermatóloga: Truco casero para rostro caído (toma 7 segundos)Tengo 62 y creen que tengo 42. Este es mi secretoPiel Renovada | 
 PatrocinadoPatrocinado
 Deshacer
-La fortuna de Julio Iglesias es simplemente inaceptable.33 Bridges | 
+Duro cruce entre Paloma Valencia y Juan Daniel Oviedo por propuesta de nombrar a expresidente Álvaro Uribe como Mindefensa: 'La presidenta soy yo'Para Valencia, esta situación constituye un rechazo a la experiencia y la efectividad en seguridad que ella asocia con la figura de Uribe.El Tiempo
+Deshacer
+Efraín Cepeda: 'Si no pasa Abelardo o Paloma a segunda vuelta, el otro debe apoyarlo para preservar los principios democráticos'El presidente del Partido Conservador habló con EL TIEMPO sobre la decisión de la colectividad de apoyar a Valencia. Pide unidad de la centro-derecha.El Tiempo
+Deshacer
+Video | Un hombre indio desentierra los restos de su hermana y los lleva al banco para demostrar su deceso: quería retirar su dineroImágenes difundidas por cadenas de televisión indias lo muestran llevando al hombro lo que parece ser un cadáver humano.El Tiempo
+Deshacer
+Alianza Verde respaldará a Iván Cepeda, pero se abrió debate tras llamado del presidente Petro a buscar la ConstituyenteLa Alianza Verde realizó su Dirección Nacional y oficializó su respaldo a Iván Cepeda, quien prometió no convocar a una Constituyente. El Tiempo
+Deshacer
+Detalles de la denuncia por la que el CNE le abrió indagación preliminar a la campaña de Iván CepedaLa denuncia fue interpuesta por el exconcejal Juan Martín Bravo, quien señaló la presunta irregularidad.El Tiempo
+Deshacer
+Truco japonés para reducir la apnea del sueño (¡es genial!)ErgoSleep | 
 PatrocinadoPatrocinado
 Deshacer
-Lo que revela el video del ataque del que fueron víctimas dos miembros de 'Sin senos sí hay paraíso' en Bogotá; paciente psiquiátrico los atacóJosué Cubillos Gaviria se ve desorientado y luego saca el arma de su bolsillo.El Tiempo
+Haz tu DEUDA más ligeraDa clic y consulta tu caso para liquidar con hasta 50% menos.Bravo | 
+PatrocinadoPatrocinado
 Deshacer
-Presidente Gustavo Petro pidió pérdida de investidura de congresistas ausentes ante imposibilidad de sesionar por falta de quórum en Cámara y SenadoEl mandatario recordó que hay una amplia lista de proyectos que no están siendo debatidos por la ausencia de sesiones.El Tiempo
+Polémica por el llamado del presidente Gustavo Petro a donar recursos para la campaña de recolección de firmas de la asamblea constituyenteEl llamado presidencial ha sido cuestionado, puesto que se da en plena época electoral. Ha sido asumido como una campaña política alterna.El Tiempo
+Deshacer
+Iván Duque respondió a Gustavo Petro por pago de deuda con el FMI: 'Pagaron un crédito adquirido por el Estado colombiano en las mejores condiciones'El expresidente entre 2018 y 2022 respondió al primer mandatario luego de que informara que se pagó la totalidad de dicha deuda.El Tiempo
 Deshacer

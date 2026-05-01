@@ -33,15 +33,15 @@ Siga nuestro canal de WhatsApp
 Bogotá
 Así puede reportar huecos en las vías de Bogotá
 Bogotá tiene habilitados canales digitales, telefónicos y presenciales para reportar huecos y daños en la malla vial. 
-Regiones
-Ordenan arresto contra Jorge Iván Ospina por desacato en Nueva EPS
-El exalcalde de Cali fue sancionado por no acatar una orden judicial que exigía el reembolso de un dispositivo médico a una paciente. 
+Política
+CNE abre indagación contra Iván Cepeda por financiación de campaña
+El Consejo Nacional Electoral investiga posibles irregularidades en los aportes a la campaña de Iván Cepeda para la consulta del Pacto Histórico. 
+Mundo
+Hallan culpable de conspiración al excongresista de EE.UU. vinculado con gobierno de Maduro
+El excongresista David Rivera fue declarado culpable por conspirar para influir en el Gobierno de EE. UU. a favor del régimen de Nicolás Maduro. 
 Colombia
-Bélgica abre vacantes con sueldos de hasta $26 millones: cómo aplicar
-La Unión Europea abrió convocatorias laborales en Bruselas para perfiles administrativos y de gestión. Conozca requisitos, salarios y el proceso para postularse. 
-Bogotá
-Nuevas cámaras de fotomultas en Bogotá: dónde están y qué sancionan
-El Distrito instaló nuevas cámaras en la carrera 13 para controlar infracciones. Revise los puntos exactos, qué conductas sancionan y qué sí está permitido. 
+Capturan en Pereira a iraní pedido en extradición por tráfico de migrantes
+El hombre es requerido por la justicia de Estados Unidos por su presunta participación en una red internacional de tráfico de migrantes. 
 ×
 Copy link
 ✓

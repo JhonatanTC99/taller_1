@@ -1,8 +1,10 @@
 SOURCE_URL: https://co.computrabajo.com/dollarcityco/empleos
 
+Utilizamos cookies propias necesarias para el funcionamiento correcto y personalización del sitio web. También utilizamos cookies de terceros para fines analíticos y mostrarte publicidad relacionada según tus preferencias. Para más información sobre las cookies y configurar tus preferencias, consulta nuestra Política de Cookies
+Acepto
 # Dollarcity
 Empresa verificada
-139.778 seguidores
+139.811 seguidores
 + Seguir 
 Volver a enviar 
 Dejar de seguir 
@@ -98,130 +100,130 @@ Genial
 Vista 
 Dollarcity 
 Palmira, Valle del Cauca 
-Hace 4 horas 
+Hace 9 horas 
 Oferta oculta 
 ##  Gerente de Tienda 
 Vista 
 Dollarcity 
 Buga, Valle del Cauca 
-Hace 4 horas 
+Hace 9 horas 
 Oferta oculta 
 ##  Coordinador de Equipo Profesional Cali 
 Vista 
 Dollarcity 
 Cali, Valle del Cauca 
-Hace 5 horas 
+Hace 10 horas 
 Oferta oculta 
 ##  Auxiliar de Tienda Granada 
 Vista 
 Dollarcity 
 Granada, Meta 
-Hace 5 horas 
+Hace 11 horas 
 Oferta oculta 
 Se precisa Urgente  Empleo destacado 
 ##  Auxiliar de Tienda Fusagasuga 
 Vista 
 Dollarcity 
 Fusagasugá, Cundinamarca 
-Hace 6 horas 
+Hace 11 horas 
 Oferta oculta 
 Empleo destacado 
 ##  Auxiliar de Tienda Mosquera, Madrid, Facatativá 
 Vista 
 Dollarcity 
 Mosquera, Cundinamarca 
-Hace 7 horas 
+Hace 13 horas 
 Oferta oculta 
 Se precisa Urgente 
 ##  Auxiliar de Tienda Chía y Cajicá 
 Vista 
 Dollarcity 
 Chía, Cundinamarca 
-Hace 17 horas 
+Hace 22 horas 
 Oferta oculta 
 ##  Auxiliar sala de ventas 
 Vista 
 Dollarcity 
 Cartago, Valle del Cauca 
-Hace 17 horas 
+Hace 22 horas 
 Oferta oculta 
 ##  Auxiliar sala de ventas 
 Vista 
 Dollarcity 
 Manizales, Caldas 
-Hace 17 horas 
+Hace 23 horas 
 Oferta oculta 
 Empleo destacado 
 ##  Coordinador de equipo de Tienda Primer Empleo 
 Vista 
 Dollarcity 
 San Juan del Cesar, La Guajira 
-Hace 18 horas 
+Hace 23 horas 
 Oferta oculta 
 Se precisa Urgente 
 ##  Auxiliar de logística 
 Vista 
 Dollarcity 
 Galapa, Atlántico 
-Hace 18 horas 
+Hace 23 horas 
 Oferta oculta 
 Empleo destacado 
 ##  Auxiliar de bodega / logístico 
 Vista 
 Dollarcity 
 Caldas, Antioquia 
-Hace 18 horas 
+Hace 23 horas 
 Oferta oculta 
 ##  Auxiliar sala de ventas 
 Vista 
 Dollarcity 
 Pereira, Risaralda 
-Hace 18 horas 
+Hace 23 horas 
 Oferta oculta 
 ##  Auxiliar sala de ventas 
 Vista 
 Dollarcity 
 Cali, Valle del Cauca 
-Hace 18 horas 
+Ayer 
 Oferta oculta 
 Se precisa Urgente  Empleo destacado 
 ##  Gerente de Tienda Soacha 
 Vista 
 Dollarcity 
 Soacha, Cundinamarca 
-Hace 19 horas 
+Ayer 
 Oferta oculta 
 ##  Gerente de Tienda 
 Vista 
 Dollarcity 
 Cali, Valle del Cauca 
-Hace 19 horas 
+Ayer 
 Oferta oculta 
 Se precisa Urgente  Empleo destacado 
 ##  Subgerente de Tienda Suba 
 Vista 
 Dollarcity 
 Bogotá, D.C., Bogotá, D.C. 
-Hace 20 horas 
+Ayer 
 Oferta oculta 
 Se precisa Urgente  Empleo destacado 
 ##  Auxiliar de Tienda Bosa 
 Vista 
 Dollarcity 
 Bogotá, D.C., Bogotá, D.C. 
-Hace 20 horas 
+Ayer 
 Oferta oculta 
 ##  Coordinador de Equipo Profesional Pereira 
 Vista 
 Dollarcity 
 Pereira, Risaralda 
-Hace 21 horas 
+Ayer 
 Oferta oculta 
 ##  Auxiliar sala de ventas 
 Vista 
 Dollarcity 
 Jamundí, Valle del Cauca 
-Hace 21 horas 
+Ayer 
 Oferta oculta 
 Anterior  Siguiente 
 Ocultaste esta oferta, pulsa Recuperar oferta para verla de nuevo en los listados

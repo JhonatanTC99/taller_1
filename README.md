@@ -1,175 +1,189 @@
-# Dollarcity AI – Knowledge Assistant
+# Dollarcity AI - Knowledge Assistant
 
-Sistema inteligente de consulta basado en LLM que permite interactuar con información oficial de Dollarcity Colombia mediante un pipeline completo de scraping, curación semántica y generación de respuestas.
----
+Sistema de consulta basado en modelos de lenguaje para interactuar con una base de conocimiento semantica sobre Dollarcity Colombia. El proyecto corresponde al **Taller 1 - Aplicacion de Tecnicas Avanzadas de IA en Modelos de Lenguaje** y construye un prototipo Q&A a partir de informacion publica recolectada, limpiada y consolidada.
 
-## Elaborado Por:
- - John Carmona
- - Jhonatan Tapia
- - Erica Márquez
- - Luis Meza
+## Integrantes
 
----
+- ERICA ROCIO MARQUEZ MENESES
+- JOHN MARIO CARMONA DAVID
+- JHONATAN ANDRES TAPIA CORDOBA
+- LUIS FERNANDO MEZA RAMREZ
 
-## Arquitectura del Proyecto
+## Alcance del prototipo
 
-El sistema está dividido en tres grandes componentes:
+El sistema responde preguntas informativas con base en fuentes publicas sobre Dollarcity Colombia. Su objetivo es demostrar un flujo inicial de construccion de base de conocimiento, Prompt Engineering y Q&A contextual.
 
-### 1. Ingesta de Datos (Scraping)
-- Extracción automatizada desde el sitio oficial
-- Herramienta: `Crawl4AI + Playwright`
+El prototipo **no tiene acceso a sistemas internos de Dollarcity** y no ejecuta operaciones reales de la empresa. Por tanto:
 
-### 2. Curación Semántica
-- Limpieza, estructuración y normalización de contenido
-- Generación de una base de conocimiento confiable (KB)
+- No consulta inventario real.
+- No confirma disponibilidad de productos por tienda.
+- No procesa compras en linea.
+- No recibe pagos.
+- No genera domicilios.
+- No valida ofertas laborales en tiempo real.
+- No previene fraudes.
 
-### 3. Motor de IA (LLM)
-- Modelo local usando `Ollama`
-- Funcionalidades:
-  - Resumen ejecutivo
-  - Generación de FAQ
-  - Chat Q&A contextual
+Cuando una consulta requiere informacion actualizada, transaccional o validada directamente por la empresa, el asistente debe orientar al usuario hacia tiendas o canales oficiales.
 
-### 4. API Backend
-- Framework: `FastAPI`
-- Expone endpoints consumidos por el frontend
+## Funcionalidades
 
-### 5. Frontend
-- Framework: `React + Vite`
-- UI moderna con:
-  - TailwindCSS
-  - Framer Motion
-  - React Markdown
+- Scraping de fuentes publicas web y PDF.
+- Limpieza, filtrado, deduplicacion y curacion semantica.
+- Consolidacion de una base de conocimiento en Markdown.
+- Generacion de resumen ejecutivo.
+- Generacion automatica de FAQ.
+- Chat Q&A contextual.
+- API backend con FastAPI.
+- Interfaz web de prueba con React + Vite.
 
+## Arquitectura
 
+| Capa | Tecnologia | Funcion |
+|---|---|---|
+| Ingestion | Python, Crawl4AI, Playwright, BeautifulSoup, httpx, PyMuPDF | Extraer informacion publica desde fuentes web y PDF. |
+| Datos crudos | Archivos Markdown en `backend/data/raw/` | Conservar contenido extraido para trazabilidad. |
+| Curacion | Python | Limpiar, filtrar, deduplicar y organizar semanticamente el texto. |
+| Base de conocimiento | `backend/data/knowledge_base/dollarcity_context.md` | Centralizar el conocimiento usado por el asistente. |
+| Motor LLM | LangChain + Ollama | Ejecutar prompts de resumen, FAQ y Q&A. |
+| API | FastAPI + Uvicorn | Exponer endpoints consumidos por el frontend. |
+| Frontend | React + Vite | Probar resumen, FAQ y chat desde navegador. |
 
-## Tecnologías Utilizadas
+## Modelo LLM
 
-### Backend
-- Python 3.11+
-- FastAPI
-- LangChain
-- Ollama
-- Crawl4AI
-- Playwright
-- Uvicorn
+El proyecto se planteo para ejecutarse con `gemma4:latest` mediante Ollama local. Sin embargo, por limitaciones de recursos de hardware durante la ejecucion del prototipo se utilizo `gemma3:1b`, un modelo mas liviano que permite reducir consumo de memoria y tiempo de respuesta.
 
-### Frontend
-- React
-- Vite
-- TailwindCSS
-- Framer Motion
-- Lucide Icons
-- React Markdown
+Configuracion principal:
 
----
+- Modelo objetivo: `gemma4:latest`.
+- Modelo usado localmente por restricciones de hardware: `gemma3:1b`.
+- Proveedor: Ollama local.
+- Temperatura: `0.2`.
+- `top_p`: `0.7`.
+- Semilla: `42`.
 
-## Instalación del Proyecto
+## Estructura principal
 
-### 1. Clonar repositorio
+```text
+.
+├── backend/
+│   ├── main.py
+│   ├── src/
+│   │   ├── config/settings.py
+│   │   ├── scraper/collector.py
+│   │   ├── processor/cleaner.py
+│   │   └── engine/
+│   │       ├── llm_service.py
+│   │       └── prompts.py
+│   ├── data/
+│   │   ├── raw/
+│   │   └── knowledge_base/dollarcity_context.md
+│   └── tests/questions.py
+├── frontend/
+│   └── src/App.jsx
+└── Makefile
+```
+
+## Requisitos
+
+- Python 3.12 o superior.
+- Node.js y npm.
+- Make.
+- UV.
+- Ollama.
+
+## Instalacion
+
+### 1. Clonar el repositorio
 
 ```bash
 git clone https://github.com/JhonatanTC99/taller_1.git
 cd taller_1
-
 ```
 
-## Configuración por Sistema Operativo
-
-### Linux
-
-1. Instalar dependencias
+### 2. Instalar dependencias
 
 ```bash
-sudo apt update
-sudo apt install python3 python3-pip nodejs npm make -y
+make setup
 ```
 
-2. Instalar UV
+Este comando instala dependencias del backend, navegadores requeridos por Playwright y dependencias del frontend.
+
+### 3. Verificar modelo
+
+El `Makefile` usa por defecto `gemma3:1b` para facilitar la ejecucion local:
 
 ```bash
-pip install uv
+make check-model
 ```
 
-3. Instalar Ollama
+Si el modelo no esta instalado, se puede descargar automaticamente con:
 
 ```bash
-curl -fsSL https://ollama.com/install.sh | sh
-
+make check-model AUTO_APPROVE=1
 ```
 
-4. Ejecutar el sistema
+Para usar otro modelo compatible con Ollama:
 
 ```bash
-make run-all
-
+LLM_MODEL=gemma4:latest make backend
 ```
 
-Si el modelo no está instalado:
-```bash
-make run-all AUTO_APPROVE=1
+## Ejecucion
 
-```
-
-
-### macOS
-
-1. Instalar Homebrew (si no lo tienes)
+### Ejecutar scraping
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
+make scrape
 ```
 
-2. Instalar dependencias
+### Construir la base de conocimiento curada
 
 ```bash
-brew install python node make
-pip install uv
+make clean-data
 ```
 
-3. Instalar Ollama
-Descargar desde: https://ollama.com
-
-O con brew:
+### Levantar backend
 
 ```bash
-brew install ollama
+make backend
 ```
 
-4. Ejecutar el sistema
-```bash
-make run-all
-```
-Si falta el modelo:
+La API queda disponible en:
 
-```bash
-make run-all AUTO_APPROVE=1
+```text
+http://localhost:8000
 ```
 
-### Windows
-
-1. Instalar herramientas
-Python: https://www.python.org/downloads/
-Node.js: https://nodejs.org/
-Git: https://git-scm.com/
-
-2. Instalar UV
-```bash
-pip install uv
-```
-3. Instalar Ollama
-https://ollama.com/download
-
-Asegúrate de que esté corriendo
-
-4. Ejecutar
-```bash
-make run-all
-```
-
-Si falta el modelo:
+### Levantar frontend
 
 ```bash
-make run-all AUTO_APPROVE=1
+make frontend
 ```
+
+Vite mostrara la URL local disponible para abrir la interfaz web.
+
+### Chat por consola
+
+```bash
+make chat
+```
+
+## Endpoints principales
+
+| Endpoint | Metodo | Funcion |
+|---|---|---|
+| `/` | GET | Verificar que el backend esta en linea. |
+| `/api/summary` | GET | Generar resumen ejecutivo. |
+| `/api/faq` | GET | Generar preguntas frecuentes. |
+| `/api/chat` | POST | Responder preguntas del usuario. |
+| `/debug` | GET | Consultar informacion basica del modelo activo. |
+
+## Preguntas de prueba
+
+La bateria de evaluacion se encuentra en:
+
+```text
+backend/tests/questions.py
+```
+
+Incluye 20 preguntas sobre identidad corporativa, productos, ubicaciones, pagos, politicas, talento humano, proveedores y casos fuera de dominio.

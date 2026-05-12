@@ -1,0 +1,16 @@
+{
+    "informacion_corporativa": {
+        "nombre_legal": "Suramericana de Comercio S.A.S.",
+        "nit": "900.473.054-1",
+        "telefono_contacto": "+57 601 5141440",
+        "correo_servicio_cliente": "servicioalcliente@dollarcity.com",
+        "correo_proveedores": "proveedores@dollarcity.com",
+        "horario_general": "Lunes a Sábado de 9:00 AM a 8:00 PM / Domingos de 10:00 AM a 7:00 PM",
+        "sede_administrativa": "Bogotá, Colombia - Calle 100 # 19-61",
+        "ciudades_presencia": ["Bogotá", "Cali", "Medellín", "Barranquilla", "Bucaramanga", "Pereira", "Cartagena"],
+        "politica_devoluciones": "30 días calendario con factura original y empaque en buen estado.",
+        "facturacion_electronica": "https://facturacion.dollarcity.co/",
+        "redes_sociales": "@dollarcityco en Instagram y Facebook",
+        "empleo_canal": "Enviar CV a seleccion@dollarcity.com"
+    }
+}

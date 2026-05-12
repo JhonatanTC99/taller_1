@@ -1,3 +1,7 @@
+"""
+Módulo de configuración de rutas y entorno para el proyecto de scraping de Dollarcity.
+Este script define las constantes de directorios y asegura su existencia.
+"""
 import os
 from pathlib import Path
 from dotenv import load_dotenv
@@ -14,6 +18,17 @@ DATA_DIR = BASE_DIR / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
 KB_DIR = DATA_DIR / "knowledge_base"
 KB_FILE_PATH = KB_DIR / "dollarcity_context.md"
+CHROMA_PATH = DATA_DIR / "chroma_db"
+HISTORY_DIR = DATA_DIR / "history"
+SPECIFIC_QUESTION_DIR = DATA_DIR / "specific_questions"
+SPECIFIC_QUESTION_PATH = SPECIFIC_QUESTION_DIR / "data_corporativa.json"
+
+# --- CONFIGURACIÓN LLM ---
+# Se prioriza la variable de entorno, de lo contrario usa el default
+DEFAULT_MODEL = os.getenv("LLM_MODEL", "gemma4:latest")
+OLLAMA_BASE_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
+
+EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL_NAME", "all-MiniLM-L6-v2")
 
 # --- CONFIGURACIÓN DE SCRAPING ---
 TARGET_URLS = [
@@ -51,14 +66,10 @@ TARGET_URLS = [
     "https://directorio-empresas.einforma.co/informacion-empresa/suramerica-comercial-sas"
 ]
 
-# --- CONFIGURACIÓN LLM ---
-# Se prioriza la variable de entorno, de lo contrario usa el default
-DEFAULT_MODEL = os.getenv("LLM_MODEL", "gemma4:latest") #"gemma4:latest") 
-OLLAMA_BASE_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
 
 def ensure_dirs():
     """Crea la estructura de directorios necesaria para el proyecto."""
-    directories = [RAW_DATA_DIR, KB_DIR]
+    directories = [RAW_DATA_DIR, KB_DIR, CHROMA_PATH, HISTORY_DIR, SPECIFIC_QUESTION_DIR]
     for directory in directories:
         directory.mkdir(parents=True, exist_ok=True)
 

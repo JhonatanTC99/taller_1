@@ -4,7 +4,7 @@ import fitz
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from src.config.settings import TARGET_URLS, RAW_DATA_DIR, ensure_dirs
-from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode, BrowserConfig
+from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode
 from crawl4ai.markdown_generation_strategy import DefaultMarkdownGenerator
 
 # --- CONFIGURACIÓN DE CALIDAD ---
@@ -21,7 +21,7 @@ def is_valid_content(text: str) -> bool:
     return not any(sig in text for sig in FORBIDDEN_SIGNATURES)
 
 async def run_scraper():
-    print("\n[INFO] 🚀 Iniciando Fase 1: Extracción Flexible y Validación")
+    print("\n[INFO] Iniciando Fase 1: Extracción Flexible y Validación")
     ensure_dirs()
 
     pdf_urls = [url for url in TARGET_URLS if url.lower().endswith(".pdf")]

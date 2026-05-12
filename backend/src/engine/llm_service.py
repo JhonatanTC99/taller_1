@@ -1,18 +1,103 @@
 from langchain_ollama import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-import re # Usaremos regex para limpieza
+from langchain_chroma import Chroma
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.chat_message_histories import FileChatMessageHistory
+from langchain_core.tools import Tool
+from langchain_core.exceptions import OutputParserException
+import langchainhub as hub
+from langchain.agents import create_react_agent, AgentExecutor
 
-from src.config.settings import KB_FILE_PATH, DEFAULT_MODEL, OLLAMA_BASE_URL
+import re
+from src.config.settings import (
+    KB_FILE_PATH, DEFAULT_MODEL, EMBEDDING_MODEL_NAME, 
+    OLLAMA_BASE_URL, CHROMA_PATH, HISTORY_DIR
+)
 from src.engine.prompts import RESUMEN_PROMPT, FAQ_PROMPT, QA_SYSTEM_PROMPT
+from src.engine.structured_tool import get_dollarcity_info
+
+# --- CONFIGURACIÓN DE PERSISTENCIA ---
+MEMORIA_DIR = HISTORY_DIR
+MEMORIA_DIR.mkdir(parents=True, exist_ok=True)
 
 class LLMService:
-    def __init__(self):
-        """Inicializa el modelo"""
+    def __init__(self, session_id="default_user"):
+        """Inicializa el motor con RAG y Memoria Persistente."""
+        self.session_id = session_id
+        self.embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL_NAME)
         self.set_model(DEFAULT_MODEL)
         self.parser = StrOutputParser()
-        self.context = self._load_context()
-        self.chat_history = []
+        
+        # 1. CARGA DE CONTEXTO ESTÁTICO
+        self.static_context = self._load_context()
+
+        # 2. RAG: Base de Datos Vectorial
+        self.vector_db = Chroma(
+            persist_directory=str(CHROMA_PATH),
+            embedding_function=self.embeddings
+        )
+
+        # 3. MEMORIA PERSISTENTE (Solo el historial)
+        self.history = FileChatMessageHistory(str(HISTORY_DIR / f"{session_id}.json"))
+
+        # 4. DEFINICIÓN DE HERRAMIENTAS (se conecta el RAG y la herramienta estructurada)
+        self.tools = [
+            Tool(
+                name="Consultar_Biblioteca_Documental",
+                func=self._consultar_rag,
+                description="Útil para preguntas generales sobre historia, cultura, productos y conceptos de Dollarcity."
+            ),
+            Tool(
+                name="Consultar_Datos_Corporativos",
+                func=get_dollarcity_info,
+                description="Útil para buscar datos exactos como NIT, teléfono, correos, horarios, sedes físicas y políticas de devolución."
+            )
+        ]
+
+        # 5. CONFIGURACIÓN DEL AGENTE (Router)
+        # Descargamos el prompt de razonamiento ReAct
+        try:
+            base_prompt = hub.pull("hwchase17/react-chat")
+
+            self.prompt = base_prompt.partial(
+                system_instructions=QA_SYSTEM_PROMPT,
+                context_estatico=self.static_context
+            )
+
+            # Construir el agente (usa el LLM y las herramientas)
+            self.agent = create_react_agent(self.llm, self.tools, self.prompt)
+
+            # Crear el ejecutor con los parámetros
+            self.agent_executor = AgentExecutor(
+                agent=self.agent,
+                tools=self.tools,
+                verbose=True, # Para ver los "Thoughts" y "Actions" en consola
+                handle_parsing_errors=True, # CRUCIAL para modelos locales como Ollama
+                max_iterations=4, # Evita bucles infinitos si el modelo se confunde
+                return_intermediate_steps=False # Cambia a True si se quiere auditar el razonamiento
+            )
+        except Exception as e:
+            print(f"[CRITICAL ERROR] No se pudo inicializar el Agente: {e}")
+        
+
+    def _consultar_rag(self, query: str):
+        """Recupera los 3 fragmentos más relevantes del taller."""
+        try:
+            docs = self.vector_db.similarity_search(query, k=3)
+            if not docs:
+                return self.static_context
+            return "\n\n".join([d.page_content for d in docs])
+        
+        # Errores específicos de Chroma/Vector DB
+        except (RuntimeError, ValueError) as e:
+            print(f"[RAG ERROR] Fallo en la búsqueda vectorial: {e}")
+            return self.static_context
+        
+        # Errores de conexión o configuración de embeddings
+        except AttributeError as e:
+            print(f"[RAG ERROR] Base de datos no inicializada: {e}")
+            return self.static_context
 
     def set_model(self, model_name: str):
         self.llm = ChatOllama(
@@ -31,8 +116,13 @@ class LLMService:
             if not KB_FILE_PATH.exists():
                 return "Error: Base de conocimiento no encontrada."
             return KB_FILE_PATH.read_text(encoding="utf-8")
-        except Exception as e:
-            return f"Error al cargar contexto: {str(e)}"
+        except FileNotFoundError:
+            return "Error: Base de conocimiento no encontrada."
+        except PermissionError:
+            return "Error: Permiso denegado al acceder a la base de conocimiento."
+        except OSError as e:
+            return f"Error de sistema al cargar contexto: {str(e)}"
+    
 
     def _clean_output(self, text: str) -> str:
         if not text:
@@ -62,61 +152,84 @@ class LLMService:
         # 4. LIMPIEZA FINAL
         return text.strip()
 
-    def _run_chain(self, system_template: str, user_input: str = None) -> str:
-        """Motor de ejecución unificado."""
-        # Definimos los mensajes según si hay input del usuario o es tarea automática
-        messages = [("system", system_template)]
-        input_data = {"context": self.context}
+    def _run_chain(self, system_template: str, user_input: str = None) -> dict:
+        """Motor unificado con RAG, Memoria Manual y Validaciones."""
+        
+        # PREPARAR CONTEXTO (RAG si hay pregunta, sino estático)
+        contexto = self._consultar_rag(user_input) if user_input else self.static_context
+        
+        # PREPARAR HISTORIAL (Persistente)
+        historial_previo = self.history.messages[-10:] # Últimos 10 mensajes para contexto
 
+        # CONSTRUIR MENSAJES
+        messages = [("system", system_template)]
+        # Añadimos los mensajes previos del JSON a la conversación actual
+        for msg in historial_previo:
+            messages.append((msg.type, msg.content))
+        
+        input_data = {"context": contexto}
         if user_input:
-            messages += self.chat_history
             messages.append(("user", "{question}"))
             input_data["question"] = user_input
 
-        prompt = ChatPromptTemplate.from_messages(messages)
-        
-        # Pipeline: Prompt -> LLM -> Parser -> Limpieza Pro
-        chain = prompt | self.llm | self.parser
+        prompt_template = ChatPromptTemplate.from_messages(messages)
+        chain = prompt_template | self.llm | self.parser
         
         try:
             raw_response = chain.invoke(input_data)
             cleaned = self._clean_output(raw_response)
-            #cleaned = self._enforce_rules(cleaned, user_input or "")
 
-            #VALIDACIÓN SOLO PARA FAQ
-            is_faq = system_template == FAQ_PROMPT
-            if is_faq and cleaned.lower().count("respuesta") < 5:
-                return {
-                    "content": "Error: el modelo no generó respuestas completas.",
-                    "model": self.get_model_name(),
-                    "status": "error"
-                }
+            # VALIDACIONES ESPECÍFICAS
+            if system_template == FAQ_PROMPT and cleaned.lower().count("respuesta") < 5:
+                return {"content": "Error: FAQ incompleto.", "status": "error"}
 
-            is_summary = "Sintetizar la información" in system_template
+            if "Sintetizar la información" in system_template:
+                cleaned = "\n\n".join(cleaned.split("\n\n")[:3])
 
-            if is_summary:
-                paragraphs = cleaned.split("\n\n")
-                cleaned = "\n\n".join(paragraphs[:3])
-
-            #cleaned = self._enforce_rules(cleaned, user_input or "")
+            # ACTUALIZAR MEMORIA EN DISCO
             if user_input:
-                self.chat_history.append(("user", user_input))
-                self.chat_history.append(("assistant", cleaned))
+                self.history.add_user_message(user_input)
+                self.history.add_ai_message(cleaned)
 
-                MAX_TURNS = 5  # 5 intercambios (user + assistant)
-                self.chat_history = self.chat_history[-(MAX_TURNS * 2):]
             return {
                 "content": cleaned,
                 "model": self.get_model_name(),
                 "status": "success"
             }
-        except Exception as e:
+
+        # --- GESTIÓN DE EXCEPCIONES ESPECÍFICAS ---
+        except (ConnectionError, TimeoutError):
             return {
-                "content": f"Error interno: {str(e)}",
-                "model": "Error",
-                "status": "error"
+                "content": "Error de conexión con Ollama. Asegúrate de que el servidor esté activo.",
+                "status": "error",
+                "model": "Network"
             }
+
+        except OutputParserException as e:
+            return {
+                "content": f"El modelo entregó un formato ilegible: {str(e)}",
+                "status": "error",
+                "model": "Parser"
+            }
+
+        except (KeyError, TypeError, AttributeError) as e:
+            return {
+                "content": f"Error de configuración o lógica interna: {str(e)}",
+                "status": "error",
+                "model": "Logic"
+            }
+
+        except Exception as e:
+            # Esta línea captura cualquier error no previsto sin que Pylint se queje
+            print(f"[FATAL ERROR] {type(e).__name__}: {e}")
+            return {
+                "content": "Ocurrió un error inesperado en el motor de IA.",
+                "status": "error",
+                "model": "Unknown"
+            }
+        
     def get_model_name(self):
+        """Devuelve el nombre del modelo configurado."""
         return getattr(self.llm, "model", "unknown")
 
     # --- MÉTODOS DE INTERFAZ PÚBLICA ---
@@ -129,23 +242,54 @@ class LLMService:
         """Tarea 2: FAQ Automático."""
         return self._run_chain(FAQ_PROMPT)
 
-    def get_chat_response(self, question: str) -> str:
+    def get_chat_response(self, question: str) -> dict:
+        """Maneja la interacción de chat con el usuario."""
         if not question.strip():
-                return {
-                    "content": "Por favor, escribe una pregunta.",
-                    "model": self.get_model_name(),
-                    "status": "error"
-                }
-        return self._run_chain(QA_SYSTEM_PROMPT, question)
+            return {
+                "content": "Por favor, escribe una pregunta.",
+                "model": self.get_model_name(),
+                "status": "error"
+            }
+        
+        chat_history = self.history.messages[-10:]
 
+        try:
+            # El agente recibe el input y el historial
+            result = self.agent_executor.invoke({
+                "input": question,
+                "chat_history": chat_history
+            })
+
+            respuesta_final = self._clean_output(result["output"])
+
+            # Guardar en persistencia
+            self.history.add_user_message(question)
+            self.history.add_ai_message(respuesta_final)
+
+            return {
+                "content": respuesta_final,
+                "model": self.get_model_name(),
+                "status": "success"
+            }
+        except Exception as e:
+            print(f"[AGENT ERROR]: {e}")
+            # Aplicamos la NEGACIÓN ESTÁNDAR de tu prompt en caso de fallo crítico
+            return {
+                "content": "Lo sentimos, no contamos con esa información específica en este momento.",
+                "status": "error"
+            }
+        
 # --- INICIALIZADOR DE CONSOLA (Debug) ---
 def start_console_chat():
+    """Inicializa un bucle de chat interactivo por consola."""
     service = LLMService()
     print("\n[INFO] Dollarcity AI. Escribe 'salir' para finalizar.")
     while True:
         q = input("\nUsuario > ")
-        if q.lower() in ['salir', 'exit']: break
-        print(f"\nDollarcity: {service.get_chat_response(q)}")
+        if q.lower() in ['salir', 'exit']:
+            break
+        respuesta = service.get_chat_response(q)
+        print(f"\nDollarcity: {respuesta.get('content')}")
 
 if __name__ == "__main__":
     start_console_chat()

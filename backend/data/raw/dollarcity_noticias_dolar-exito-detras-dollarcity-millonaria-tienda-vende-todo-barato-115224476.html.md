@@ -8,7 +8,7 @@ Actualizado 9 de noviembre de 2023 3 min de lectura
   * ARNA 
   * RHDGF 
   * GETY 
-+6.08%
+-6.37%
   * IRLCF 
 +15.55%
   * MHTZF 
@@ -38,6 +38,7 @@ Al 31 de diciembre de 2022, Dollarcity oficialmente contaba con 440 tiendas, rep
 Condiciones  y Política de privacidad 
 Panel de privacidad 
 * * *
+  * * * *
   * * * *
 
 

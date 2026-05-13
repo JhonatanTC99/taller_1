@@ -1,85 +1,295 @@
+"""
+question.py
+
+Módulo de evaluación y validación del agente conversacional Dollarcity AI.
+
+Este archivo ejecuta pruebas automatizadas sobre los principales componentes de la arquitectura del agente:
+
+1. RAG (Retrieval-Augmented Generation)
+    - Valida consultas respondidas desde la base vectorial ChromaDB.
+
+2. Memory Engine
+    - Verifica la persistencia y recuperación del historial conversacional.
+
+3. Structured Tool
+    - Evalúa respuestas exactas provenientes del JSON corporativo.
+
+4. Routing Engine
+    - Comprueba que el router híbrido seleccione correctamente
+        la herramienta adecuada según la intención del usuario.
+
+Resultados:
+- Genera un archivo CSV con métricas de latencia,
+    herramienta utilizada, tipo de fuente y respuesta generada.
+
+Ejecución:
+    python question.py
+
+Salida:
+    data/evaluation_results.csv
+"""
 import argparse
 import pandas as pd
 from datetime import datetime
 from src.engine.llm_service import LLMService
+import time
 
 TEST_QUESTIONS = [
-    # --- CATEGORÍA: CORPORATIVO (Corp) ---
-    {"cat": "Corp", "q": "¿Cuál es la misión de Dollarcity?"},
-    {"cat": "Corp", "q": "¿Desde qué año opera la empresa y cuál es su visión de crecimiento?"},
-    
-    # --- CATEGORÍA: PRODUCTOS Y PRECIOS (Prod) ---
-    {"cat": "Prod", "q": "¿Puedo comprar productos a través de la página web o pedir domicilio?"},
-    {"cat": "Prod", "q": "¿Cómo puedo conocer el precio de un artículo antes de ir a la tienda?"},
-    {"cat": "Prod", "q": "¿Tienen un sistema para consultar la disponibilidad de inventario en una sucursal específica?"},
-    
-    # --- CATEGORÍA: UBICACIONES Y HORARIOS (Loc) ---
-    {"cat": "Loc", "q": "¿Dónde puedo encontrar las direcciones y los horarios de atención de las tiendas?"},
-    {"cat": "Loc", "q": "¿Cómo puedo enterarme de las próximas aperturas de Dollarcity en Colombia?"},
-    
-    # --- CATEGORÍA: SERVICIOS Y PAGOS (Serv) ---
-    {"cat": "Serv", "q": "¿Cuál es el proceso para obtener la factura electrónica de mi compra?"},
-    {"cat": "Serv", "q": "¿Aceptan pagos con Nequi y se puede usar código QR?"},
-    {"cat": "Serv", "q": "¿Qué pasa si pierdo mi tarjeta de regalo o si se agota el saldo?"},
-    {"cat": "Serv", "q": "¿Las tarjetas de regalo tienen fecha de vencimiento?"},
-    
-    # --- CATEGORÍA: POLÍTICAS Y TRÁMITES (Policy) ---
-    {"cat": "Policy", "q": "¿Cuáles son las condiciones y el plazo máximo para solicitar un cambio de producto?"},
-    {"cat": "Policy", "q": "¿Está permitido el ingreso de mascotas a las tiendas de Dollarcity?"},
-    {"cat": "Policy", "q": "¿Dollarcity ofrece el modelo de negocio por franquicias?"},
-    
-    # --- CATEGORÍA: TALENTO HUMANO Y PROVEEDORES (HR/Prov) ---
-    {"cat": "HR", "q": "¿Cómo puedo aplicar a una vacante para trabajar con ustedes?"},
-    {"cat": "HR", "q": "¿Es cierto que Dollarcity solicita pagos para exámenes médicos en los procesos de selección?"},
-    {"cat": "Prov", "q": "Soy dueño de un inmueble y quiero ofrecérselo a Dollarcity, ¿qué debo hacer?"},
-    
-    # --- CATEGORÍA: GUARDRAILS / NEGATIVAS (Guard) ---
-    {"cat": "Guard", "q": "¿Tienen servicio de guardería para niños dentro de las tiendas?"},
-    {"cat": "Guard", "q": "¿Venden medicamentos de venta libre o bajo fórmula médica?"},
-    {"cat": "Guard", "q": "¿Cuáles son las promociones actuales en las tiendas de la competencia como Tiendas D1 o Ara?"}
+
+    # =====================================================
+    # 1. PRUEBAS RAG
+    # =====================================================
+
+    {
+        "test_type": "RAG",
+        "description": "Consulta corporativa respondida desde documentos vectoriales",
+        "conversation_id": "rag_01",
+        "step": 1,
+        "question": "¿Cuál es la misión de Dollarcity?"
+    },
+
+    {
+        "test_type": "RAG",
+        "description": "Consulta histórica empresarial usando conocimiento documental",
+        "conversation_id": "rag_02",
+        "step": 1,
+        "question": "¿Desde qué año opera Dollarcity y cuál es su visión de crecimiento?"
+    },
+
+    {
+        "test_type": "RAG",
+        "description": "Consulta sobre políticas y servicios",
+        "conversation_id": "rag_03",
+        "step": 1,
+        "question": "¿Puedo comprar productos por internet o pedir domicilio?"
+    },
+
+    {
+        "test_type": "RAG",
+        "description": "Consulta sobre disponibilidad e inventario",
+        "conversation_id": "rag_04",
+        "step": 1,
+        "question": "¿Cómo puedo consultar disponibilidad de productos?"
+    },
+
+    # =====================================================
+    # 2. PRUEBAS DE MEMORIA
+    # =====================================================
+
+    {
+        "test_type": "MEMORY",
+        "description": "El agente debe recordar el nombre del usuario",
+        "conversation_id": "memory_01",
+        "step": 1,
+        "question": "Mi nombre es Erica"
+    },
+
+    {
+        "test_type": "MEMORY",
+        "description": "Pregunta dependiente del historial",
+        "conversation_id": "memory_01",
+        "step": 2,
+        "question": "¿Cómo me llamo?"
+    },
+
+    {
+        "test_type": "MEMORY",
+        "description": "Validar recuperación de historial reciente",
+        "conversation_id": "memory_02",
+        "step": 1,
+        "question": "Recuerda que soy cliente frecuente"
+    },
+
+    {
+        "test_type": "MEMORY",
+        "description": "Seguimiento contextual",
+        "conversation_id": "memory_02",
+        "step": 2,
+        "question": "¿Qué te dije anteriormente?"
+    },
+
+    # =====================================================
+    # 3. PRUEBAS DE HERRAMIENTA ESTRUCTURADA
+    # =====================================================
+
+    {
+        "test_type": "STRUCTURED_TOOL",
+        "description": "Consulta exacta de horario",
+        "conversation_id": "tool_01",
+        "step": 1,
+        "question": "¿Cuál es el horario?"
+    },
+
+    {
+        "test_type": "STRUCTURED_TOOL",
+        "description": "Consulta de NIT corporativo",
+        "conversation_id": "tool_02",
+        "step": 1,
+        "question": "¿Cuál es el NIT de Dollarcity?"
+    },
+
+    {
+        "test_type": "STRUCTURED_TOOL",
+        "description": "Consulta de canales de empleo",
+        "conversation_id": "tool_03",
+        "step": 1,
+        "question": "¿Cómo puedo aplicar a una vacante?"
+    },
+
+    {
+        "test_type": "STRUCTURED_TOOL",
+        "description": "Consulta de facturación",
+        "conversation_id": "tool_04",
+        "step": 1,
+        "question": "¿Cómo obtengo mi factura electrónica?"
+    },
+
+    # =====================================================
+    # 4. PRUEBAS DE ENRUTAMIENTO
+    # =====================================================
+
+    {
+        "test_type": "ROUTING",
+        "description": "El router debe seleccionar herramienta estructurada",
+        "conversation_id": "routing_01",
+        "step": 1,
+        "question": "¿Cuál es el horario?"
+    },
+
+    {
+        "test_type": "ROUTING",
+        "description": "El router debe activar memoria",
+        "conversation_id": "routing_01",
+        "step": 2,
+        "question": "Mi nombre es Erica"
+    },
+
+    {
+        "test_type": "ROUTING",
+        "description": "El router debe consultar memoria",
+        "conversation_id": "routing_01",
+        "step": 3,
+        "question": "¿Cómo me llamo?"
+    },
+
+    {
+        "test_type": "ROUTING",
+        "description": "El router debe usar RAG",
+        "conversation_id": "routing_01",
+        "step": 4,
+        "question": "¿Cuál es la misión de Dollarcity?"
+    },
+
+    {
+        "test_type": "ROUTING",
+        "description": "El router debe bloquear preguntas fuera de dominio",
+        "conversation_id": "routing_01",
+        "step": 5,
+        "question": "¿Quién es el presidente de Colombia?"
+    }
 ]
 
 def run_evaluation(limit: int = None):
-    print(f"\n[EVALUACIÓN] Iniciando batería de pruebas...")
-    service = LLMService()
-    results = []
+
+    print("\n[EVALUACIÓN] Validación oficial del agente IA")
+
     output_path = "data/evaluation_results.csv"
-    
-    # Limitar preguntas si se solicita
+
+    results = []
+
+    # Mantener sesiones por conversación
+    services = {}
+
     questions_to_run = TEST_QUESTIONS[:limit] if limit else TEST_QUESTIONS
 
     for i, item in enumerate(questions_to_run):
-        print(f"[{i+1}/{len(questions_to_run)}] Pregunta ({item['cat']}): {item['q']}")
-        
+
+        conversation_id = item["conversation_id"]
+
+        # Crear servicio por conversación
+        if conversation_id not in services:
+            services[conversation_id] = LLMService(
+                session_id=conversation_id
+            )
+
+        service = services[conversation_id]
+
+        print(f"\n[{i+1}/{len(questions_to_run)}]")
+        print(f"Tipo : {item['test_type']}")
+        print(f"Step : {item['step']}")
+        print(f"Q    : {item['question']}")
+
         start_time = datetime.now()
+
         try:
-            response = service.get_chat_response(item['q'])
-            status = "SUCCESS"
+
+            response = service.get_chat_response(item['question'])
+            time.sleep(5)  # Espera 5 segundos antes de procesar lo que sigue
+
+            latency = (
+                datetime.now() - start_time
+            ).total_seconds()
+
+            result = {
+                "ID": i + 1,
+                "Test_Type": item["test_type"],
+                "Description": item["description"],
+                "Conversation_ID": conversation_id,
+                "Step": item["step"],
+                "Question": item["question"],
+                "Tool_Used": response.get("tool_used"),
+                "Source_Type": response.get("source_type"),
+                "Docs_Count": response.get("docs_count"),
+                "Model": response.get("model"),
+                "Response": response.get("content"),
+                "Latency_Sec": round(latency, 2),
+                "Status": response.get("status")
+            }
+
         except Exception as e:
-            response = f"Error: {str(e)}"
-            status = "ERROR"
-            
-        latency = (datetime.now() - start_time).total_seconds()
 
-        # Registro del resultado
-        res_data = {
-            "ID": i + 1,
-            "Categoria": item['cat'],
-            "Pregunta": item['q'],
-            "Respuesta_LLM": response,
-            "Latencia_Seg": round(latency, 2),
-            "Status": status
-        }
-        results.append(res_data)
+            latency = (
+                datetime.now() - start_time
+            ).total_seconds()
 
-        # GUARDADO INCREMENTAL: Actualizar el CSV en cada iteración
-        pd.DataFrame(results).to_csv(output_path, index=False, encoding='utf-8')
+            result = {
+                "ID": i + 1,
+                "Test_Type": item["test_type"],
+                "Description": item["description"],
+                "Conversation_ID": conversation_id,
+                "Step": item["step"],
+                "Question": item["question"],
+                "Tool_Used": "ERROR",
+                "Source_Type": "ERROR",
+                "Docs_Count": 0,
+                "Model": "unknown",
+                "Response": str(e),
+                "Latency_Sec": round(latency, 2),
+                "Status": "ERROR"
+            }
 
-    print(f"\n[INFO] Pruebas terminadas. Resultados guardados en: {output_path}")
+        results.append(result)
+
+        pd.DataFrame(results).to_csv(
+            output_path,
+            index=False,
+            encoding='utf-8'
+        )
+
+    print(f"\n[INFO] Resultados guardados en: {output_path}")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--limit", type=int, help="Número de preguntas a probar")
+
+    parser = argparse.ArgumentParser(
+        description="Evaluación del agente Dollarcity AI"
+    )
+
+    parser.add_argument(
+        "--limit",
+        type=int,
+        help="Número de pruebas a ejecutar"
+    )
+
     args = parser.parse_args()
-    
+
     run_evaluation(limit=args.limit)

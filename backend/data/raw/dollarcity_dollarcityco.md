@@ -2,7 +2,7 @@ SOURCE_URL: https://co.computrabajo.com/dollarcityco
 
 # Dollarcity
 Empresa verificada
-139.815 seguidores
+140.766 seguidores
 + Seguir 
 Volver a enviar 
 Dejar de seguir 
@@ -52,7 +52,7 @@ $ 1.067.625
 $ 1.423.500
 Mostrar 154 salarios
 Empleos en Dollarcity
-Bogotá, D.C. 22 Valle del Cauca 17 Cundinamarca 8 Córdoba 6 Atlántico 5 Nariño 5 Antioquia 4 Norte de Santander 4
+Bogotá, D.C. 22 Valle del Cauca 17 Cundinamarca 8 Córdoba 6 Atlántico 5 Nariño 5 Antioquia 4 La Guajira 4
 ## Su opinión cuenta
 Tu opinión le importa a millones de personas! Evalúa esta empresa de forma anónima.
 Evaluar empresa

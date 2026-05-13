@@ -26,22 +26,22 @@ Además, de estos, los soportes para las bolsas de basura, **que además cuentan
 ## Temas relacionados
 finanzasPromocionesBelleza
 ## Más de Economía
+Servicios financieros
+###  Bancolombia suspenderá varios de sus servicios: esta es la fecha y hora del corte 
+La suspensión afectará principalmente algunos servicios virtuales que se usan a diario por millones de clientes en el país.
 Pensión en Colombia
-###  Colpensiones informa que algunos trabajadores pueden reducir su edad de pensión en 2026: estos son los requisitos 
-Estos trabajadores pueden reducir un año su edad de pensión por cada 60 semanas cotizadas, siempre que cumplan las condiciones.
-Reforma laboral
-###  Claves del impacto de la reforma laboral en Colombia: ¿qué ha cambiado tras 11 meses de implementarse? 
+###  ¿Le pueden descontar salud y pensión de la prima? Así funciona el pago 
 * * *
-Banco de la República
-###  ¿Cómo impacta mantener las tasas de interés en Colombia? Experto responde 
+Reforma pensional
+###  “No vamos a depender de una pensión estatal”: la advertencia de Jerome Sanabria sobre recursos de pensiones 
 * * *
 * * *
-Dolarización
-###  Euro en Colombia hoy: precio cerró en $4.267,85 y subió frente al 29 de abril 
-El euro en Colombia abrió en $4.236,34 y cerró en $4.267,85 este 30 de abril, con alza diaria, volatilidad de 54 puntos y avance frente a la última semana.
-Reforma laboral
-###  Jornada de trabajo el primero de mayo: así se calculan los recargos desde la implementación de la reforma laboral 
-La reforma laboral fija un recargo del 80 % por trabajar el 1 de mayo. Conozca cuánto debe recibir un trabajador y cómo se calculan los pagos.
+Euros
+###  Precio del euro en Colombia; así cerró hoy 12 de mayo de 2026 
+La cotización del euro registró un rango diario entre $4.411,67 y $4.439,96 durante la jornada cambiaria del 12 de mayo.
+auto eléctrico
+###  Carros eléctricos en Colombia: este es el costo extra que debe asumir para tenerlo en casa 
+En Colombia ha aumentado la venta de carros eléctricos en el país. En abril se matricularon 26.837 unidades.
 ## Programas
 Más Programas 
   1. Noticiero de La FM
@@ -64,51 +64,47 @@ Ver programa
 Un espacio donde las entrevistas en profundidad y la opinión se unen para ofrecer miradas auténticas sobre temas de actualidad.
 8:00 p.m. a 9:00 p.m.
 Ver programa
-  6. Siempre Contigo
-Un programa pensado para los oyentes que necesitan compañía en horas de la noche y que quieren hablar y escuchar sobre temas de bienestar.
-Lunes a viernes: 9:00 p.m. a 10:00 p.m.
-Ver programa
 
 
 Arrow pointing to the leftArrow pointing to the right
-Item 3 of 8
+Item 3 of 7
 ##  En video 
 Más videos 
-###  ¿Legítima defensa u homicidio? El caso que divide a expertos tras muerte en rodaje en Bogotá 
-###  Gustavo Bolívar revela por qué apoya a Iván Cepeda para que gane la Presidencia: "Se rodearía mejor que Gustavo Petro" 
-###  La tormenta que generó anónimo entregado al expresidente Uribe 
-###  Las seis de las 6 con Juan Lozano | jueves 30 de abril de 2026 
-###  🔴 EN VIVO | Noticiero La FM - 30 de abril de 2026 
-###  Elecciones Colombia 2026: encuestas, estrategia y polémicas marcan el cierre de campaña 
-###  Medicina Legal le responde a Petro sobre por qué no ha entregado la necropsia de Kevin Acosta: “no es por un tema político” 
-###  Expresidente Uribe recibe anónimo que vincularía a gobernador con magnicidio de Miguel Uribe 
-###  🔴 EN VIVO | Noticiero La FM - 29 de abril de 2026 
-###  Motos en Colombia: ¿por qué crece su venta y qué hay detrás del auge del sector? 
+###  Fórmula de Santiago Botero aseguró que hijo de Rodolfo Hernández le pidió $3.000 millones: "Yo no me le arrodillo a nadie" 
+###  Supuesta prelista de Colombia para el Mundial 2026 se filtró: Juan Guillermo Cuadrado y Jhon Jáder Durán, entre las sorpresas 
+###  ¿Colpensiones podría quedarse sin recursos para pagar pensiones? Esto dijo su presidente 
+###  Predicción del Mundial 2026: así le iría a Colombia, según matemático experto 
+###  Las diferencias entre la viuda y el padre del asesinado Miguel Uribe Turbay 
+###  Con o sin decreto, los fondos privados deben trasladar dinero a Colpensiones: Jaime Dussán 
+###  Luis Suárez rompe récord histórico de Jackson Martínez en Portugal 
+###  Las seis de las 6 con Juan Lozano | martes 12 de mayo de 2026 
+###  🔴 EN VIVO | Noticiero La FM - 12 de mayo de 2026 
+###  “Miguel nos tiene que unir”: María Claudia Tarazona sobre su apoyo a Paloma Valencia en la carrera presidencial 
 Ver nota completa 
 Este sitio web utiliza cookies para mejorar tu experiencia y personalizar el contenido. Al dar clic en "Aceptar", estás aceptando nuestra  Política de Cookies. 
 Aceptar 
 Últimas Noticias
-  * Congreso de la RepúblicaGobierno presiona al Congreso por inasistencia de legisladores y sanciones
-  * Asamblea Nacional ConstituyentePetro formalizó la convocatoria a la Asamblea Nacional Constituyente para cambiar “la extorsión politiquera del Congreso”
-  * mal climaCargue paraguas: Ideam pronostica lluvias fuertes en Bogotá del 1 al 3 de mayo y posible granizo
-  * Donald TrumpTrump envía una carta al Congreso asegurando que la guerra contra Irán ha "concluido"
-  * CaucaCrisis humanitaria en el Cauca: el departamento más afectado por confinamientos en 2026
-  * EcoturismoTres playas del Caribe colombiano que vale la pena conocer: planes para hacer
-  * LunaLuna de las flores y luna azul en mayo 2026: ¿Cuál es la mejor hora para verlas?
-  * Pacto HistóricoCepeda destacó a la “primera línea” como símbolo de la lucha social y dijo que es tiempo “del poder constituyente”
-  * consumidoresDerechos del consumidor: ¿Qué hacer si rompe accidentalmente un producto en un supermercado?
-  * arroz¿Se debe lavar el arroz antes de cocinarlo? La ciencia rompe con este mito
+  * bioseguridadPensaban que era un arma biológica: así apareció el hantavirus en la Guerra de Corea
+  * Delincuentes capturadosCaen dos de los asaltantes que operan en vía Mondoñedo - Soacha
+  * Cruz RojaÚltimo sorteo de la Lotería de la Cruz Roja: resultado premio mayor hoy 12 de mayo
+  * TurismoCinco municipios colombianos elegidos entre los mejores pueblos del mundo para hacer turismo
+  * MalumaMaluma dará concierto gratis en Medellín: fecha, lugar y cómo asistir
+  * TransMilenioEstación de Transmilenio estuvo cerrada durante varias horas por amenaza de bomba
+  * Servicios financierosBancolombia suspenderá varios de sus servicios: esta es la fecha y hora del corte
+  * Liga BetPlayTodos los goles | Atlético Nacional aplastó a Inter de Bogotá con goleada histórica y clasificó a semifinales de la Liga BetPlay
+  * Gustavo PetroPetro rechaza propuesta de Trump sobre convertir a Venezuela en un estado de EE. UU.
+  * NasaLa NASA lanza concurso en el que podrá ganarse 3 mil millones de pesos: estos son los requisitos para participar
 
 
-  * Congreso de la RepúblicaGobierno presiona al Congreso por inasistencia de legisladores y sanciones
-  * Asamblea Nacional ConstituyentePetro formalizó la convocatoria a la Asamblea Nacional Constituyente para cambiar “la extorsión politiquera del Congreso”
-  * mal climaCargue paraguas: Ideam pronostica lluvias fuertes en Bogotá del 1 al 3 de mayo y posible granizo
-  * Donald TrumpTrump envía una carta al Congreso asegurando que la guerra contra Irán ha "concluido"
-  * CaucaCrisis humanitaria en el Cauca: el departamento más afectado por confinamientos en 2026
-  * EcoturismoTres playas del Caribe colombiano que vale la pena conocer: planes para hacer
-  * LunaLuna de las flores y luna azul en mayo 2026: ¿Cuál es la mejor hora para verlas?
-  * Pacto HistóricoCepeda destacó a la “primera línea” como símbolo de la lucha social y dijo que es tiempo “del poder constituyente”
-  * consumidoresDerechos del consumidor: ¿Qué hacer si rompe accidentalmente un producto en un supermercado?
-  * arroz¿Se debe lavar el arroz antes de cocinarlo? La ciencia rompe con este mito
+  * bioseguridadPensaban que era un arma biológica: así apareció el hantavirus en la Guerra de Corea
+  * Delincuentes capturadosCaen dos de los asaltantes que operan en vía Mondoñedo - Soacha
+  * Cruz RojaÚltimo sorteo de la Lotería de la Cruz Roja: resultado premio mayor hoy 12 de mayo
+  * TurismoCinco municipios colombianos elegidos entre los mejores pueblos del mundo para hacer turismo
+  * MalumaMaluma dará concierto gratis en Medellín: fecha, lugar y cómo asistir
+  * TransMilenioEstación de Transmilenio estuvo cerrada durante varias horas por amenaza de bomba
+  * Servicios financierosBancolombia suspenderá varios de sus servicios: esta es la fecha y hora del corte
+  * Liga BetPlayTodos los goles | Atlético Nacional aplastó a Inter de Bogotá con goleada histórica y clasificó a semifinales de la Liga BetPlay
+  * Gustavo PetroPetro rechaza propuesta de Trump sobre convertir a Venezuela en un estado de EE. UU.
+  * NasaLa NASA lanza concurso en el que podrá ganarse 3 mil millones de pesos: estos son los requisitos para participar
 
 

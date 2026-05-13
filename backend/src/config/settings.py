@@ -28,11 +28,11 @@ LLM_PROVIDER = os.getenv("LLM_PROVIDER", "google").lower()
 
 # Configuración de Google Gen AI (Gemini)
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-GOOGLE_MODEL = os.getenv("GOOGLE_MODEL", "gemini-1.5-flash")
+GOOGLE_MODEL = "gemini-3.1-flash-lite"
 
 # Configuración de Ollama (Fallback o Local)
 OLLAMA_BASE_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
-OLLAMA_MODEL = os.getenv("LLM_MODEL", "gemma4:latest")
+OLLAMA_MODEL = "gemma4:latest"
 
 # Selección automática del modelo por defecto según el proveedor
 if LLM_PROVIDER == "google":
@@ -41,7 +41,7 @@ else:
     DEFAULT_MODEL = OLLAMA_MODEL
 
 # Modelo de Embeddings (HuggingFace)
-EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL_NAME", "all-MiniLM-L6-v2")
+EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 
 # --- CONFIGURACIÓN DE SCRAPING (TARGET_URLS) ---
 # Restaurada lista original para compatibilidad con src.scraper.collector

@@ -13,11 +13,20 @@ Dollorama Inc. es una compañía fundada en 1992 por Larry Rossy, a partir de la
 La empresa, cuyas oficinas principales quedan en Montreal, se volvió pública en octubre de 2009, su actual valor en bolsa ronda los 15,240 millones de dólares canadienses. Su presidente y CEO es Neil Rossy de 49 años, quién tomó las riendas en la primavera de 2016 cuando su padre, Larry, asumió el cargo de presidente ejecutivo. Neil es la cuarta generación de la familia Rossy, ubicada en la posición No. 40 en el ranking de las personas o familias más ricas de Canadá. Todo gracias al éxito de Dollarama que le permitió pagar los USD 95 millones. Los salvadoreños la vendieron por un múltiplo de cinco veces sus ventas brutas (EBITDA) y se concretará con un pago inicial de US$ 40 millones al cierre del acuerdo este próximo agosto. Los salvadoreños seguirán manejando la compañía y tendrán dos puestos en la junta directiva.
 De acuerdo con Nilsen, la categoría del comercio al por menor que más crece en el mundo son empresas como Dollorama y Dollarcity, los llamados “dolarazos”. En la última década, se ha presentado una reconfiguración en la apertura y cierre de tiendas físicas, solo en los Estados Unidos las que más abrieron, con un total de 11.240 puntos de venta, fueron las de productos de un dólar, seguidas por las tiendas de barrio y las farmacias.
 Dollarcity, que tiene como grupo objetivo la mujer ama de casa, incluye diferentes categorías de mesa y cocina, cuidado personal, juguetes, jardín y ferretería, ropa, accesorios personales, consumibles, decoración, organización y celebraciones. No necesariamente por un valor menor que un dólar, pero entre USD 3 y USD 4. En Canadá, los precios en Dollorama no superan los 4 dolares canadienes. En Colombia el límite son $ 10.000, entre una gran variedad de proveedores.
-AdChoices
-ADVERTISING
 La empresa que opera los almacenes Dollarcity, está registrada en Cali bajo el nombre de Suramericana Comercial SAS y según su presidente, Marco Baldocchi, la empresa está en el país para llenar un vacío en el mercado complementario. Lo cierto, es que el éxito ha sido tal que se ha convertido en un nuevo almacén ancla para los centros comerciales, y en una romería para conocerlo apenas abre sus puertas en una nueva ciudad.
 Anuncios.
 Anuncios..
+Ver más
+Archivo hemeroteca
+Edictos legales
+Debates políticos
+política
+Suscripción periódico digital
+Cultura colombiana
+Herramientas periodísticas
+Reportajes exclusivos
+Política
+Contenido multimedia
   * Youtube Videos
   * Videos
   * 40 y 50

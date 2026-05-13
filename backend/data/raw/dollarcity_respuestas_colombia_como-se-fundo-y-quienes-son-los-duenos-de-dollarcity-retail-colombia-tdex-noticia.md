@@ -3,24 +3,18 @@ SOURCE_URL: https://elcomercio.pe/respuestas/colombia/como-se-fundo-y-quienes-so
 EN VIVO
 Resultados ONPE
 Temas del día
-  * Balcázar
-  * Roberto Sánchez
-  * Copa Libertadores
-  * Universitario
+  * Elecciones
   * Dólar
-  * VRAEM
-  * López Aliaga
-  * Liga 1
-  * Feriado
+  * Roberto Sánchez
+  * Cuper
+  * Hantavirus
   * CTS
-  * Corvetto
-  * Donald Trump
-  * ONPE
-  * Fujimori
+  * Liga 1
+  * El Comercio
+  * ONP
   * Segunda vuelta
   * Temblor
   * Seguir a EC
-  * Feriados
   * Newsletters 
   * La Tinka
   * Dólar BCV
@@ -38,7 +32,6 @@ colombia
 Leer resumen
 ÚneteÚnete a El Comercio
 Seguir en
-Guardar
 Compartir
 Resumen
 Este resumen es generado por inteligencia artificial y revisado por la redacción.

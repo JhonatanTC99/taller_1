@@ -23,10 +23,23 @@ Fue la creadora de contenido en YouTube ‘Casarcoiris_Deco’ quien fue a una d
 
 
 **| Ver también:**La ciudad colombiana que fue bautizada como la ‘fábrica de atardeceres’; llena de café y bellos paisajes
-AdChoices
-ADVERTISING
 Anuncios.
+Ver más
+Ética periodística
+Opinión política
+Suscripción periódico digital
 Anuncios..
+Ver más
+Archivo hemeroteca
+Historia
+Historias locales
+Edictos legales
+Contenido multimedia
+políticos
+Noticias de Colombia
+Edición impresa
+Cursos periodismo digital
+Voz ciudadana
   * Youtube Videos
   * Videos
   * Cocinas

@@ -364,9 +364,6 @@ _Marco Andrés Baldocchi Kriete, sobrino de Roberto José Kriete._
 El presidente de la Junta Directiva y fundador de Dollarcity Holdings Inc. (dueña directa del 100% de Suramérica Comercial) es el salvadoreño Marco Andrés Baldocchi Kriete, sobrino de Roberto José Kriete (accionista de las aerolíneas Avianca de Colombia y Volaris de México).
 _**Acerca de Dollarama Inc.**_
 Es un minorista canadiense de productos económicos, que ofrece una variedad de productos de consumo, artículos generales y de temporada, tanto en tiendas físicas como en línea. Las cerca de 1.650 sucursales en Canadá brindan a los clientes productos económicos atractivos en ubicaciones convenientes, incluidas áreas metropolitanas, ciudades medianas y pueblos pequeños.
-En el 2025, ingresos de Dollarcity en Colombia crecieron 17,5%, frente al 2024, al totalizar $3,37 billones13 de marzo de 2026En «Colombia»
-Con apertura en Bogotá del local “Nomad”, compañía operadora de la cadena de comercio al detal Dollarcity llegó a cerca de 385 tiendas en Colombia12 de noviembre de 2025En «Colombia»
-De las 100 nuevas tiendas que abrió en los últimos 15 meses a nivel mundial, la canadiense Dollarama inauguró 38 en Colombia bajo la marca Dollarcity24 de marzo de 2026En «Colombia»
 
 ### FUENTE: https://co.computrabajo.com/dollarcityco
 # Dollarcity
@@ -395,6 +392,7 @@ Esta tienda, que se ha ganado el cariño de los colombianos, ofrece novedosos pr
 Fue la creadora de contenido en YouTube ‘Casarcoiris_Deco’ quien fue a una de las tiendas e hizo una lista completa de artículos que cumplieran ciertos requisitos, como por ejemplo: **ser bonitos, ser muy útiles y, sobre todo, tener un precio bajo**. Este es el compilado que hizo:
 * **Dispensador de papel aluminio con base de bambú** Dollarcity por $18.000
 **| Ver también:**La ciudad colombiana que fue bautizada como la ‘fábrica de atardeceres’; llena de café y bellos paisajes
+Noticias de Colombia
 * De Tiendas
 
 ### FUENTE: https://www.pulzo.com/empleo/como-hacer-hoja-vida-llamativa-para-conseguir-trabajo-PP5142763?utm_source=scroll_pulzo&utm_medium=pulzo_comercial&utm_campaign=scroll_pulzo
@@ -406,6 +404,25 @@ Comercio minorista colombiano arranca 2026 con ventas récord: vehículos y tecn
 María Alejandra Puentes, gerente regional de Pharmbills para Colombia / Pulzo
 **María Alejandra Puentes, gerente regional para Colombia de Pharmbills** , participó en este encuentro y brindó una charla sobre cómo mejorar la hoja de vida al momento de presentarse a un nuevo puesto de trabajo y cómo comunicarse de manera asertiva con futuros reclutadores.
 ## ¿Qué es Pharmbills y cómo opera en Colombia?
+
+### FUENTE: https://directorio-empresas.einforma.co/informacion-empresa/suramerica-comercial-sas
+Busque sin costo información de empresas y empresarios colombianos
+* Directorio de empresas de Colombia
+* > Datos de Suramerica Comercial S A S
+# Suramerica Comercial S A S
+## Datos Generales de **Suramerica Comercial S A S**
+| Razón Social  | Suramerica Comercial S A S  |
+##  Teléfono de Suramerica Comercial S A S
+| Ranking de Empresas  |  Conozca el Ranking de las 10.000 empresas más grandes de Colombia.
+La empresa Suramerica Comercial S A S tiene como domicilio principal de su actividad la dirección, AVENIDA 3 NTE 57 N 30 en la ciudad de CALI, VALLE. El teléfono de Suramerica Comercial S A S es el 6023876000. Esta empresa fué constituida como SOCIEDAD POR ACCIONES SIMPLIFICADA y se dedica a Comercio al por menor en establecimientos no especializados con surtido compuesto principalmente por productos diferentes de alimentos (viveres en general) bebidas (alcoholicas y no alcoholicas) y tabaco. Si necesita más información sobre Suramerica Comercial S A S regístrese y acceda gratis a más información de la empresa.
+## Información Comercial de **Suramerica Comercial S A S**
+La actividad principal de Suramerica Comercial S A S es Comercio al por menor en establecimientos no especializados con surtido compuesto principalmente por productos diferentes de alimentos (viveres en general) bebidas (alcoholicas y no alcoholicas) y tabaco. Cuenta con un patrimonio neto de 937.845.450.000 COP y en el ejercicio del año 2025 generó un rango de ventas 'Mayor de 100.000.000.000 COP' obteniendo un resultado del ejercicio 'Mayor de 100.000.000.000 COP'.
+Cifras expresadas en (PESO COLOMBIANO, UNIDADES)
+## Empresas similares a **Suramerica Comercial S A S** en VALLE
+A continuación le ofrecemos un listado con 10 empresas similares a Suramerica Comercial S A S en VALLE y del sector Comercio al por menor en establecimientos no especializados con surtido compuesto principalmente por productos diferentes de alimentos (viveres en general) bebidas (alcoholicas y no alcoholicas) y tabaco.
+Busque sin costo información de empresas y empresarios colombianos
+* INFORMA COLOMBIA S.A,
+**eInforma** es una marca de **INFORMA COLOMBIA S.A** , líder en el mercado de suministro de **Información Comercial, Financiera y de Marketing de empresas colombianas** , perteneciente al Grupo **INFORMA D &B**, empresa de información del GRUPO Cesce. Actualmente la base de datos de INFORMA Colombia cuenta con **información de más de 4 millones de empresas colombianas** y ha sido elegida por Dun & Bradstreet para su red mundial de información por su calidad y cobertura.
 
 
 ---
@@ -481,11 +498,11 @@ Dollarcity
 Dollarcity
 Dollarcity
 Dollarcity
-Dollarcity sigue rompiendo esquemas en el mundo del retail. Con nuestro innovador modelo de negocio hemos logrado aperturar más de 700 tiendas en 4 países de la región agregándole valor a nuestros clientes y acercándonos cada vez más a nuestra visión de llegar a toda Latinoamérica
+Dollarcity sigue rompiendo esquemas en el mundo del retail Con nuestro innovador modelo de negocio hemos logrado aperturar más de 600 tiendas en 5 países de la región agregándole valor a nuestros clientes y acercándonos cada vez mas a nuestra visión de llegar a toda Latinoamerica.
 Únete a Dollarcity y forma parte de un equipo de primer nivel, en donde nuestro ADN #TodoTerreno nos permite enfrentarnos a los desafíos diarios con agilidad, dinamismo y compromiso.
-Desarrollarás, entrenarás y motivarás a tu equipo viviendo los valores y cultura Dollarcity.
-Al ser parte de Dollarcity…
-Generarás impacto en el negocio, aportando a la rápida expansión de una compañía regional reconocida en el mundo del retail.
+Serás el responsable de la correcta ejecución de todos los procesos operativos de la tienda, incluyendo el cobro en caja, manejo de bodega, atención al cliente, entre otros. Tu misión es cumplir con los estándares más altos de Dollarcity para que la experiencia de compra de nuestros clientes sea la idónea, asegurando la exhibición y el buen preciado de nuestros productos.
+Al ser parte de Dollarcity
+• Generarás impacto en el negocio, aportando a la rápida expansión de una compañía regional reconocida en el mundo del retail.
 Acerca de Dollarcity
 Recibe notificaciones nuevas de Dollarcity Formato incorrecto
 Empresa regional con presencia en El Salvador, Guatemala y Colombia de venta al por menor, con productos de la mejor calidad al más bajo precio. Enfocados en suplir las necesidades de todos los consumidores.
@@ -500,6 +517,7 @@ La empresa, cuyas oficinas principales quedan en Montreal, se volvió pública e
 De acuerdo con Nilsen, la categoría del comercio al por menor que más crece en el mundo son empresas como Dollorama y Dollarcity, los llamados “dolarazos”. En la última década, se ha presentado una reconfiguración en la apertura y cierre de tiendas físicas, solo en los Estados Unidos las que más abrieron, con un total de 11.240 puntos de venta, fueron las de productos de un dólar, seguidas por las tiendas de barrio y las farmacias.
 Dollarcity, que tiene como grupo objetivo la mujer ama de casa, incluye diferentes categorías de mesa y cocina, cuidado personal, juguetes, jardín y ferretería, ropa, accesorios personales, consumibles, decoración, organización y celebraciones. No necesariamente por un valor menor que un dólar, pero entre USD 3 y USD 4. En Canadá, los precios en Dollorama no superan los 4 dolares canadienes. En Colombia el límite son $ 10.000, entre una gran variedad de proveedores.
 La empresa que opera los almacenes Dollarcity, está registrada en Cali bajo el nombre de Suramericana Comercial SAS y según su presidente, Marco Baldocchi, la empresa está en el país para llenar un vacío en el mercado complementario. Lo cierto, es que el éxito ha sido tal que se ha convertido en un nuevo almacén ancla para los centros comerciales, y en una romería para conocerlo apenas abre sus puertas en una nueva ciudad.
+Cultura colombiana
 
 ### FUENTE: https://www.las2orillas.co/los-canadienses-duenos-de-dollarcity-que-la-pusieron-a-volar-con-colombia-como-eje-regional-del-negocio/
 #  Los canadienses dueños de Dollarcity que la pusieron a volar con Colombia como eje regional del negocio
@@ -512,6 +530,9 @@ Larry Rossy en 2004, ante la necesidad de recursos para mantener el rápido crec
 _Larry Rossy tuvo junto con su hijo Larry la visión de que Dollarama invirtiera en Dollarcity y su rentable mercado latinoamericano_
 Larry quién es el segundo mayor accionista de la empresa, dejó la presidencia en manos de su hijo Neil Rossy en mayo 2016 luego de 43 años a cargo, aunque permaneció por dos años vinculado como director ejecutivo y ahora es director emérito. Dollorama está hoy a cargo de la cuarta generación, Neil de 55 años quién lleva vinculado cerca de 30 años a Dollorama, es su presidente, CEO y miembro de la junta directiva. Bajo el liderazgo de Neil la empresa ha triplicado sus ganancias y duplicado sus ventas, en parte gracias a la apuesta por Dollarcity que Neil ha sido el encargado de sacar adelante.
 Dollarama y Dollarcity ofrecen una mezcla balanceada de productos que incluye una mercancía general, consumibles y productos de temporada. En términos de oferta, Dollarcity ofrece una mezcla balanceada de mercancía general, consumibles y productos de temporada que incluyen artículos para el hogar, limpieza, oficina, mascotas y decoración a precios accesibles. El modelo se apoya fuertemente en las importaciones, al punto que en 2024 la compañía se posicionó como la cuarta empresa que más productos importó desde China hacia Colombia. Además de marcas externas, la cadena impulsa sellos propios como Viva Color en la categoría de maquillaje, manteniendo su promesa de ofrecer artículos de buena calidad a bajo costo en secciones dedicadas a la organización, cocina, papelería y cuidado personal.
+Noticias Colombia
+Noticias de Colombia
+* De Tiendas
 
 ### FUENTE: https://www.kienyke.com/marketing/dollarcity-cual-es-la-historia-detras-de-su-concepto
 #  Dollarcity: ¿cuál es la historia detrás de su concepto?
@@ -526,6 +547,7 @@ Colombia es el país en el que **Dollarcity tiene más fuerza con 261 sedes en C
 **Cabe destacar que el nombre "Dollarcity" se traduce directamente al español como 'ciudad del dólar'.** Este nombre no solo comunica la esencia de la cadena —productos a precios fijos y accesibles— sino que también refleja el enfoque en mantener una imagen unificada en todos los mercados donde opera.
 En países como Colombia, donde existen formatos similares de tiendas que ofrecen productos a precios fijos, Dollarcity se ha posicionado como una opción popular para los consumidores que buscan economizar sin sacrificar la calidad. **La adaptación local del modelo de negocio ha sido clave para su éxito, permitiéndole competir eficazmente en un mercado minorista diverso y competitivo.**
 Es así como Dollarcity representa un caso notable de éxito en el sector minorista, utilizando un nombre distintivo que encapsula su filosofía de negocio centrada en la accesibilidad y la simplicidad de precios. **Con su expansión continuada y adaptación local, la cadena continúa marcando una diferencia significativa en los mercados donde está presente, ofreciendo una alternativa atractiva para los consumidores conscientes del valor.**
+Colombia
 Colombia
 
 ### FUENTE: https://es-us.finanzas.yahoo.com/noticias/dolar-exito-detras-dollarcity-millonaria-tienda-vende-todo-barato-115224476.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAHjVsc0DmbKkc3QTCuxUVZBe9cy8_-WGoMDYT2ld9_sqSrZz0HKCDGObkoBy9_3xln4YL20SvxqdFu4yL-B52YgY2vC1N_bro15rnCxlaTmm50H4rviU4_c196-XMJ6VZhpECBtSM6p4aiiWI7eArMVcUR6p0Zoxx6MqmPfHAO8i

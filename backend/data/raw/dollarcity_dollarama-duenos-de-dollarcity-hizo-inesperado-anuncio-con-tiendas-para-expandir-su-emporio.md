@@ -2,6 +2,7 @@ SOURCE_URL: https://www.valoraanalitik.com/dollarama-duenos-de-dollarcity-hizo-i
 
 X
 Ir al contenido
+Añade a Valora Analitik como tu fuente
 **Dollarama Inc., reconocida en América Latina por su operación a través de Dollarcity,** confirmó la adquisición de The Reject Shop Limited, una cadena australiana con más de 390 tiendas distribuidas en todo el país.
 **Esta negociación se concretó tras recibir la aprobación de los accionistas, los entes regulatorios correspondientes** y los tribunales competentes, lo que marca la incursión formal de Dollarama en el mercado minorista de Oceanía.
 **The Reject Shop, cuya sede principal se encuentra en Melbourne, es considerada la mayor cadena australiana de tiendas de descuento**. La empresa cuenta con una plantilla superior a los 5.000 empleados y opera bajo un modelo de precios accesibles, enfocado en artículos de uso cotidiano.

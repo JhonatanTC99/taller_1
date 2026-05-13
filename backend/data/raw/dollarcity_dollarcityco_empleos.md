@@ -4,7 +4,7 @@ Utilizamos cookies propias necesarias para el funcionamiento correcto y personal
 Acepto
 # Dollarcity
 Empresa verificada
-139.811 seguidores
+140.761 seguidores
 + Seguir 
 Volver a enviar 
 Dejar de seguir 
@@ -17,18 +17,18 @@ Ordenar por
 
 Fecha
 Fecha 
-  * Urgente  30 
-  * Hoy  3 
-  * Últimos 3 días  3 
-  * Última semana  6 
-  * Últimos 15 días  45 
-  * Último mes  67 
+  * Urgente  28 
+  * Hoy  9 
+  * Últimos 3 días  9 
+  * Última semana  23 
+  * Últimos 15 días  28 
+  * Último mes  71 
 
 
 Categoría
 Categoría 
-  * Almacén / Logística / Transporte  69 
-  * Ventas  22 
+  * Almacén / Logística / Transporte  71 
+  * Ventas  25 
   * Administración / Oficina  2 
   * Producción / Operarios / Manufactura  1 
 
@@ -43,16 +43,18 @@ Departamento
   * Atlántico 5
   * Nariño 5
   * Antioquia 4
+  * La Guajira 4
   * Norte de Santander 4
   * Santander 4
   * Bolívar 3
+  * Boyacá 3
   * Caldas 3
   * Cesar 3
-  * Boyacá 2
   * Magdalena 2
-  * Meta 2
   * Risaralda 2
-  * La Guajira 1
+  * Cauca 1
+  * Meta 1
+  * Quindio 1
   * Casanare 1
 
 
@@ -61,9 +63,8 @@ Limpiar  Filtrar
 Experiencia
 Experiencia 
   * Sin Experiencia  15 
-  * 1 año  36 
-  * 2 años  1 
-  * 3-4 años  42 
+  * 1 año  39 
+  * 3-4 años  45 
 
 
 Salario
@@ -77,13 +78,13 @@ Salario
 
 Jornada
 Jornada 
-  * Tiempo Completo  92 
+  * Tiempo Completo  97 
   * Beca/prácticas  2 
 
 
 Contrato
 Contrato 
-  * Contrato a término indefinido  92 
+  * Contrato a término indefinido  97 
   * Contrato de aprendizaje  2 
 
 
@@ -93,191 +94,174 @@ Discapacidad
   * No 
 
 
-#  94  ofertas de empleo 
+#  99  ofertas de empleo 
 Genial 
 ¿Quieres recibir en tu correo nuevas vacantes? Busca por tu cargo o filtra por localidad y categoría. 
+Se precisa Urgente  Empleo destacado 
+##  Auxiliar de Tienda Girardot 
+Vista 
+Dollarcity 
+Girardot, Cundinamarca 
+Hace 8 horas 
+Oferta oculta 
+Se precisa Urgente  Empleo destacado 
+##  Auxiliar de Tienda Suba 
+Vista 
+Dollarcity 
+Bogotá, D.C., Bogotá, D.C. 
+Hace 8 horas 
+Oferta oculta 
+Se precisa Urgente  Empleo destacado 
+##  Auxiliar de Tienda Portal Norte, Toberin, Mazurén 
+Vista 
+Dollarcity 
+Bogotá, D.C., Bogotá, D.C. 
+Hace 12 horas 
+Oferta oculta 
+##  Auxiliar de Tienda Cedritos 
+Vista 
+Dollarcity 
+Bogotá, D.C., Bogotá, D.C. 
+Hace 12 horas 
+Oferta oculta 
+Se precisa Urgente  Empleo destacado 
+##  Auxiliar de Tienda Usaquén 
+Vista 
+Dollarcity 
+Bogotá, D.C., Bogotá, D.C. 
+Hace 13 horas 
+Oferta oculta 
+##  Auxiliar sala de ventas 
+Vista 
+Dollarcity 
+Tuluá, Valle del Cauca 
+Hace 13 horas 
+Oferta oculta 
+Se precisa Urgente  Empleo destacado 
+##  Auxiliar Logístico Funza 
+Vista 
+Dollarcity 
+Funza, Cundinamarca 
+Hace 14 horas 
+Oferta oculta 
 ##  Subgerente de Tienda 
 Vista 
 Dollarcity 
-Palmira, Valle del Cauca 
-Hace 9 horas 
-Oferta oculta 
-##  Gerente de Tienda 
-Vista 
-Dollarcity 
-Buga, Valle del Cauca 
-Hace 9 horas 
-Oferta oculta 
-##  Coordinador de Equipo Profesional Cali 
-Vista 
-Dollarcity 
 Cali, Valle del Cauca 
-Hace 10 horas 
-Oferta oculta 
-##  Auxiliar de Tienda Granada 
-Vista 
-Dollarcity 
-Granada, Meta 
-Hace 11 horas 
+Hace 14 horas 
 Oferta oculta 
 Se precisa Urgente  Empleo destacado 
-##  Auxiliar de Tienda Fusagasuga 
+##  Gerente de Tienda Cedritos, Mazuren y Colina 
 Vista 
 Dollarcity 
-Fusagasugá, Cundinamarca 
-Hace 11 horas 
+Bogotá, D.C., Bogotá, D.C. 
+Ayer 
 Oferta oculta 
-Empleo destacado 
-##  Auxiliar de Tienda Mosquera, Madrid, Facatativá 
-Vista 
-Dollarcity 
-Mosquera, Cundinamarca 
-Hace 13 horas 
-Oferta oculta 
-Se precisa Urgente 
-##  Auxiliar de Tienda Chía y Cajicá 
+Se precisa Urgente  Empleo destacado 
+##  Auxiliar de Tienda Chía 
 Vista 
 Dollarcity 
 Chía, Cundinamarca 
-Hace 22 horas 
-Oferta oculta 
-##  Auxiliar sala de ventas 
-Vista 
-Dollarcity 
-Cartago, Valle del Cauca 
-Hace 22 horas 
-Oferta oculta 
-##  Auxiliar sala de ventas 
-Vista 
-Dollarcity 
-Manizales, Caldas 
-Hace 23 horas 
-Oferta oculta 
-Empleo destacado 
-##  Coordinador de equipo de Tienda Primer Empleo 
-Vista 
-Dollarcity 
-San Juan del Cesar, La Guajira 
-Hace 23 horas 
-Oferta oculta 
-Se precisa Urgente 
-##  Auxiliar de logística 
-Vista 
-Dollarcity 
-Galapa, Atlántico 
-Hace 23 horas 
-Oferta oculta 
-Empleo destacado 
-##  Auxiliar de bodega / logístico 
-Vista 
-Dollarcity 
-Caldas, Antioquia 
-Hace 23 horas 
-Oferta oculta 
-##  Auxiliar sala de ventas 
-Vista 
-Dollarcity 
-Pereira, Risaralda 
-Hace 23 horas 
-Oferta oculta 
-##  Auxiliar sala de ventas 
-Vista 
-Dollarcity 
-Cali, Valle del Cauca 
 Ayer 
 Oferta oculta 
 Se precisa Urgente  Empleo destacado 
-##  Gerente de Tienda Soacha 
+##  Gerente de Tienda La Dorada 
 Vista 
 Dollarcity 
-Soacha, Cundinamarca 
+La Dorada, Caldas 
+Ayer 
+Oferta oculta 
+Se precisa Urgente  Empleo destacado 
+##  Gerente de Tienda 
+Vista 
+Dollarcity 
+Bogotá, D.C., Bogotá, D.C. 
+Ayer 
+Oferta oculta 
+##  Auxiliar sala de ventas 
+Vista 
+Dollarcity 
+Pasto, Nariño 
+Ayer 
+Oferta oculta 
+##  Auxiliar sala de ventas 
+Vista 
+Dollarcity 
+Armenia, Quindio 
+Ayer 
+Oferta oculta 
+##  Auxiliar de tienda 
+Vista 
+Dollarcity 
+Buga, Valle del Cauca 
+Ayer 
+Oferta oculta 
+##  Gerente de Tienda Yopal 
+Vista 
+Dollarcity 
+Yopal, Casanare 
 Ayer 
 Oferta oculta 
 ##  Gerente de Tienda 
 Vista 
 Dollarcity 
-Cali, Valle del Cauca 
+Barranquilla, Atlántico 
 Ayer 
 Oferta oculta 
-Se precisa Urgente  Empleo destacado 
-##  Subgerente de Tienda Suba 
+##  Gerente de Tienda 
 Vista 
 Dollarcity 
-Bogotá, D.C., Bogotá, D.C. 
+Copacabana, Antioquia 
 Ayer 
 Oferta oculta 
-Se precisa Urgente  Empleo destacado 
-##  Auxiliar de Tienda Bosa 
+##  Subgerente de Tienda 
 Vista 
 Dollarcity 
-Bogotá, D.C., Bogotá, D.C. 
+Montería, Córdoba 
 Ayer 
 Oferta oculta 
-##  Coordinador de Equipo Profesional Pereira 
+##  Subgerente de Tienda 
 Vista 
 Dollarcity 
-Pereira, Risaralda 
-Ayer 
-Oferta oculta 
-##  Auxiliar sala de ventas 
-Vista 
-Dollarcity 
-Jamundí, Valle del Cauca 
+Valledupar, Cesar 
 Ayer 
 Oferta oculta 
 Anterior  Siguiente 
 Ocultaste esta oferta, pulsa Recuperar oferta para verla de nuevo en los listados
 Eliminado de **Ofertas ocultas** Deshacer
-Subgerente de Tienda
-Palmira
+Auxiliar de Tienda Girardot
+Cundinamarca
 Dollarcity
-Palmira, Valle del Cauca
+Girardot, Cundinamarca
 Premium  Aplicar 
-Dollarcity sigue rompiendo esquemas en el mundo del retail. Con nuestro innovador modelo de negocio hemos logrado aperturar más de 700 tiendas en 4 países de la región agregándole valor a nuestros clientes y acercándonos cada vez más a nuestra visión de llegar a toda Latinoamérica   
+Dollarcity sigue rompiendo esquemas en el mundo del retail Con nuestro innovador modelo de negocio hemos logrado aperturar más de 600 tiendas en 5 países de la región agregándole valor a nuestros clientes y acercándonos cada vez mas a nuestra visión de llegar a toda Latinoamerica.   
   
 Únete a Dollarcity y forma parte de un equipo de primer nivel, en donde nuestro ADN #TodoTerreno nos permite enfrentarnos a los desafíos diarios con agilidad, dinamismo y compromiso.   
   
-Como Subgerente de Tienda:   
+Como Auxiliar de Tienda   
   
-Serás el segundo al mando en la sala de venta gestionando la correcta ejecución de todos los procesos de venta incluyendo procesos de caja, manejo de inventario, atención al cliente interno y externo, manejo del recurso humano, entre otros. Tu misión es dar dirección al equipo para que la experiencia de compra de nuestros clientes sea la idónea, asegurando la exhibición y el buen preciado de nuestros productos.   
+Serás el responsable de la correcta ejecución de todos los procesos operativos de la tienda, incluyendo el cobro en caja, manejo de bodega, atención al cliente, entre otros. Tu misión es cumplir con los estándares más altos de Dollarcity para que la experiencia de compra de nuestros clientes sea la idónea, asegurando la exhibición y el buen preciado de nuestros productos.   
   
 ¿Cómo se verá tu día a día?   
-  
-Asegurarás que se cumplan correctamente las políticas y procedimientos de la sala de venta, incluyendo: apertura/cierre, colocación de producto, manejo de efectivo, cuidado de activos, limpieza, entre otros.   
-  
-Apoyarás en la administración del inventario para que se realice de manera precisa con el fin de garantizar el reabastecimiento adecuado de las mercancías.   
-  
-Garantizarás que las reglas y regulaciones de la tienda son explicadas, entendidas y propiamente cumplidas por todos los miembros de tu equipo.   
-  
-Darás seguimiento los horarios de trabajo y vacaciones de acuerdo con la necesidad del negocio.   
-  
-Gestionarás y resolverás las quejas, preguntas y consultas por parte de los clientes.   
-  
-Velarás por la seguridad y bienestar de tu equipo de trabajo de acuerdo con lo establecido por las políticas de la compañía.   
-  
-Desarrollarás, entrenarás y motivarás a tu equipo viviendo los valores y cultura Dollarcity.   
-  
+• Brindarás servicio de calidad de cara a nuestros clientes.   
+• Mantendrás el control y orden del área de bodega.   
+• Asegurarás el correcto abastecimiento, preciado y colocación de mercadería en el piso de ventas.   
+• Velarás por el cuidado de la tienda, asegurando el cumplimiento de los estándares de imagen y limpieza.   
+• Manejarás y controlarás el efectivo en el área de caja.   
   
 ¿Qué necesitas para ser exitoso?   
+• Bachillerato Completo.   
+• Manejo básico de computación.   
+• Energía, orientación al servicio al cliente y habilidad numérica.   
+• Disponibilidad para atender horarios rotativos y movilidad.   
   
-Tecnólogo graduado.   
-Estudios Universitarios (deseable).   
-Mínimo 3 años de experiencia en posiciones similares.   
-Energía, atención a los detalles, orientación al servicio al cliente y asertividad.   
-Disponibilidad de horarios y movilidad.   
-  
-Al ser parte de Dollarcity…   
-Generarás impacto en el negocio, aportando a la rápida expansión de una compañía regional reconocida en el mundo del retail.   
-  
-Vivirás una cultura #TodoTerreno: dinámica, basada en retos y aprendizajes constantes.   
-  
-Potenciarás tu carrera profesional, desarrollándote en un ambiente internacional con equipos de primer nivel. 
+Al ser parte de Dollarcity   
+• Generarás impacto en el negocio, aportando a la rápida expansión de una compañía regional reconocida en el mundo del retail. 
 Requerimientos
-  * Educación mínima: Universidad / Carrera tecnológica
-  * 3 años de experiencia
+  * Educación mínima: Bachillerato / Educación Media
+  * 1 año de experiencia
 
 
-(actualizada) 
 Aplicar 
 Denunciar empleo 
 Acerca de Dollarcity

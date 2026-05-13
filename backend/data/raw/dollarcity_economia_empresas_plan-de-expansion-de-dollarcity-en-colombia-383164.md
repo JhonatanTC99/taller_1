@@ -2,9 +2,8 @@ SOURCE_URL: https://www.eltiempo.com/economia/empresas/plan-de-expansion-de-doll
 
 En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí
 Entiendo
-Viernes, 01.05.2026 / 18:09
-EMPLEOS   
-
+Martes, 12.05.2026 / 21:45
+EMPLEOS
 CLUB VIVAMOS 
 SUSCRÍBETE CLUB VIVAMOS 
 ¡Hola Boletines que quieras recibir con la mejor información. 
@@ -129,78 +128,78 @@ SUSCRÍBETE AL DIGITAL
 Información confiable para ti. Suscríbete a EL TIEMPO y consulta de forma ilimitada nuestros contenidos periodísticos.
 suscríbete
 Ponte al día
-De hipotecar la casa familiar a liderar la industria fitness: la historia de la cofundadora de Bodytech | #Cómolohicieron
-Noelia Cigüenza Riaño
-GEB fortalece su presencia en la región con la adquisición de cuatro empresas en Brasil
-Noelia Cigüenza Riaño
-Del café caliente al ‘cold brew’
-Andres Orlando Zambrano Diaz
-Corona redefine su liderazgo: Miguel Pardo será el nuevo presidente y Pedro Gallón asumirá Sodimac Colombia
-Laura Lesmes Díaz
-Gobierno Petro convocará asamblea extraordinaria de Ecopetrol para ‘hacer algunos ajustes en la junta directiva’
+Dólar barato le pasó factura a Cementos Argos: ganancias bajaron 12,13 % en el primer trimestre del 2026
 Lina Quiroga Rubio
-Alemana Basf apuesta por Colombia con innovación, sostenibilidad y nuevos modelos de negocio
-Carlos Arturo García Mahecha
+Grupo Éxito aumentó 64,6% sus utilidades y ganó 159.622 millones de pesos en el primer trimestre de 2026
+Laura Lesmes Díaz
+Juan Gonzalo Castaño renuncia a la Junta Directiva de Ecopetrol
+Laura Lesmes Díaz
+Ganancias de Ecopetrol siguen bajando: sumaron $ 2,88 billones en el primer trimestre tras caída del 7,7 %
+Lina Quiroga Rubio
+Lluvias del inicio de 2026 redujeron casi a la mitad las ganancias de Celsia: sumaron $ 58.393 millones
+Lina Quiroga Rubio
+Nutresa pasa de ganancias a pérdidas en el primer trimestre de 2026 pese al crecimiento de sus ventas
+Laura Lesmes Díaz
 por Taboolapor Taboola
 Enlaces PatrocinadosEnlaces Patrocinados
 Enlaces PromovidosEnlaces Promovidos
 Te puede gustar
-Dermatóloga: Truco casero para rostro caído (toma 7 segundos)Piel Renovada
-Deshacer
-Tres perfumes diferentes en un solo kit con precio especialPerfumes importados
-Deshacer
 Truco japonés para reducir la apnea del sueño (¡es genial!)ErgoSleep
 Deshacer
-Valle Del Cauca: New Way To Refresh Your HomeThe Clean Escape
+Cuando el dolor de rodilla aparezca, prueba esto (es genial)Dolor de rodilla
 Deshacer
-Liquida tus deudas en mora de manera fácil. Descubre cómoBravo
+Descubre el poder de ser atractivo con estos tenisTommy Hilfiger
 Deshacer
-Iván Cepeda 'en vez de reconocerse como un comunista se cubre con el maquillaje de ‘progresista’': Mauricio VargasEl Tiempo
+Millones sufren de apnea del sueño, pero pocos conocen este ingenioso trucoErgoSleep
 Deshacer
-Muchos ya están pagando menos… ¿y tú?Bravo
+Quien sufre de dolor de rodilla necesita leer estoDolor de rodilla
 Deshacer
-¿Te quedas en la banca?CUN
+CNE estudia revocar candidatura presidencial de Abelardo de la Espriella: los detallesEl Tiempo
 Deshacer
-General (r) Eduardo Zapateiro se retira de la campaña de Abelardo De la Espriella tras conocerse que será imputado por supuesto acoso sexualEl Tiempo
+Tu casa propia por mucho menos de lo que imaginas.Ciencuadras
 Deshacer
-Conoce estas gafas inteligentes que pueden ver de lejos y de cercaOpticPro
+Apartamentos sin cuota inicial en Colombia: con pagos mensualesKnow Quotient
+Deshacer
+Muere el actor estadounidense Jack Taylor, radicado en España y reconocido por sus papeles en el cine de terror y fantásticoEl Tiempo
+Deshacer
+Por si necesitas una razón más para beber agua de Jamaica, aquí tienes 20Outdoor Revival
 Deshacer
 Cerrar
 ×
 Sigue leyendo
-Iván Cepeda 'en vez de reconocerse como un comunista se cubre con el maquillaje de ‘progresista’': Mauricio VargasEl analista de domingo en EL TIEMPO cuestiona el discurso de Cepeda frente a la realidad en cifras y escándalos del actual Gobierno Petro.El Tiempo
+CNE estudia revocar candidatura presidencial de Abelardo de la Espriella: los detallesEl demandante asegura que el candidato tuvo una consecuencia intencional y dolosa de engañar a la Registraduría por el alto número de firmas anuladas.El Tiempo
 Deshacer
-General (r) Eduardo Zapateiro se retira de la campaña de Abelardo De la Espriella tras conocerse que será imputado por supuesto acoso sexualEn un comunicado de su cuenta de X, Zapateiro anunció su salida para centrarse en su defensa.El Tiempo
+Muere el actor estadounidense Jack Taylor, radicado en España y reconocido por sus papeles en el cine de terror y fantásticoParticipó en películas como 'Conan el bárbaro', 'Mil gritos tiene la noche' o 'The Ninth Gate', con la dirección de Roman Polanski. Tenía 99 años.El Tiempo
 Deshacer
-Esto dijo Érika Herrera, suegra de Carolina Flores, cuando fue capturada en Venezuela por asesinato de la exreinaEn medio de la detención y ante la reacción de la mujer, las autoridades venezolanas decidieron arrestarla por 'desacato a la autoridad'.El Tiempo
+¿Quiénes son las 100 mujeres más poderosas de Colombia, según la revista 'Forbes'? Francia Márquez, Shakira y Diana Trujillo destacan en la listaLa revista publicó su listado, con figuras del sector político, empresarial, cultural, científico y deportivo.El Tiempo
 Deshacer
-Sergio Fajardo dice que no se unirá a Paloma Valencia para evitar eventual triunfo de Iván Cepeda: 'Estoy haciendo política'El candidato indicó que sigue firme para la primera vuelta presidencial y que su responsabilidad no es evitar que gane nuevamente el progresismo. El Tiempo
+Encuesta de Guarumo abril 2026: Cepeda 38 %, De la Espriella 23,9 % y Paloma 22,8 %; en segunda vuelta, Valencia derrota a Cepeda y Abelardo lo empataEL TIEMPO revela la más reciente encuesta de intención de voto a un mes de la primera vuelta presidencial.El Tiempo
 Deshacer
-Efraín Cepeda: 'Si no pasa Abelardo o Paloma a segunda vuelta, el otro debe apoyarlo para preservar los principios democráticos'El presidente del Partido Conservador habló con EL TIEMPO sobre la decisión de la colectividad de apoyar a Valencia. Pide unidad de la centro-derecha.El Tiempo
-Deshacer
-Dermatóloga: Truco casero para rostro caído (toma 7 segundos)Tengo 62 y creen que tengo 42. Este es mi secretoPiel Renovada | 
-PatrocinadoPatrocinado
-Deshacer
-Tres perfumes diferentes en un solo kit con precio especialPerfumes importados | 
-PatrocinadoPatrocinado
-Deshacer
-Medio ecuatoriano revela detalles del viaje del presidente Gustavo Petro a Manta: hablan de fiestas y reuniones con delegados de alias FitoEl presidente Gustavo Petro rechazó las versiones de medios ecuatorianos sobre su visita a Manta y aseguró que se trata de información falsa.El Tiempo
-Deshacer
-Revelan por qué Erika ‘N’, suegra de la exreina Carolina Flores, habría llegado a su apartamento en México: usó a su perro como excusa para el crimenTestimonios señalan que Erika Guadalupe Herrera habría usado una mascota de Carolina Flores como pretexto para entrar a su apartamento en CDMX.El Tiempo
-Deshacer
-La llamada que hizo esposo de Carolina Flores, exreina asesinada en México, en la que confesó quién la matóSu madre, Reyna Gómez Molina, rompió el silencio y reveló detalles de la llamada que tuvo con la pareja de la víctima. El Tiempo
-Deshacer
-Carolina Ramírez, actriz de 'La Reina del Flow', mostró las secuelas del embarazo: ‘Estoy llena de manchas, pero hace parte del proceso’Desde que dio a conocer que estaba esperando su primer hijo, la caleña ha compartido detalles de cómo ha sido el proceso de gestación.El Tiempo
-Deshacer
-Polémica por el llamado del presidente Gustavo Petro a donar recursos para la campaña de recolección de firmas de la asamblea constituyenteEl llamado presidencial ha sido cuestionado, puesto que se da en plena época electoral. Ha sido asumido como una campaña política alterna.El Tiempo
+Fiscalía imputó cargos a la actriz Yeimy Paola Vargas Gómez por presunta responsabilidad en los delitos de falsedad en documento privadoEste jueves, 30 de abril, se llevó a cabo la audiencia de imputación de cargos.El Tiempo
 Deshacer
 Truco japonés para reducir la apnea del sueño (¡es genial!)ErgoSleep | 
 PatrocinadoPatrocinado
 Deshacer
-Valle Del Cauca: New Way To Refresh Your HomeDiscover tailored residential cleanings that make your home feel like a calm retreat, handled by a trusted local Colorado team. Learn moreThe Clean Escape | 
+Cuando el dolor de rodilla aparezca, prueba esto (es genial)Solo 15 minutos al día en casa y miles de colombianos ya reportan sentir la diferenciaDolor de rodilla | 
 PatrocinadoPatrocinado
 Deshacer
-Iván Duque respondió a Gustavo Petro por pago de deuda con el FMI: 'Pagaron un crédito adquirido por el Estado colombiano en las mejores condiciones'El expresidente entre 2018 y 2022 respondió al primer mandatario luego de que informara que se pagó la totalidad de dicha deuda.El Tiempo
+Duro cruce entre Paloma Valencia y Juan Daniel Oviedo por propuesta de nombrar a expresidente Álvaro Uribe como Mindefensa: 'La presidenta soy yo'Para Valencia, esta situación constituye un rechazo a la experiencia y la efectividad en seguridad que ella asocia con la figura de Uribe.El Tiempo
 Deshacer
-Video | Un hombre indio desentierra los restos de su hermana y los lleva al banco para demostrar su deceso: quería retirar su dineroImágenes difundidas por cadenas de televisión indias lo muestran llevando al hombro lo que parece ser un cadáver humano.El Tiempo
+Una condena previa, usar la cédula de su hermana y fingir ser enfermera para dopar y robar: detalles de la caída de la 'Reina de la Escopolamina'Tras su captura en una discoteca de Itagüí, las autoridades descubrieron que Indira Surgey Orrego ocultaba una condena de 90 meses.El Tiempo
+Deshacer
+Exjurado de ‘Yo Me Llamo’, Jairo Martínez, sufre aparatoso accidente en el norte de Cartagena; video muestra camioneta volcada: 'Aporreado'Los hechos ocurrieron el pasado jueves cerca del sector de Los Morros, bajo la estructura del Viaducto.El Tiempo
+Deshacer
+Video | Marta Kostyuk lo volvió a hacer: así fue el desplante que le hizo a Mirra Andreeva tras ganar el WTA 1.000 de MadridLa ucraniana es el terror de las rusas.El Tiempo
+Deshacer
+‘Rodee a los suyos no a los oportunistas’: Carlos Carrillo le responde al presidente Petro ante orden a Daniel Quintero de investigar el FomagEl mandatario le pidió al nuevo superintendente que investigue el desvío de recursos en el sistema de salud de los profesores.El Tiempo
+Deshacer
+Descubre el poder de ser atractivo con estos tenisPaga al recibirlos en casa ¡El envío es gratis!Tommy Hilfiger | 
+PatrocinadoPatrocinado
+Deshacer
+Millones sufren de apnea del sueño, pero pocos conocen este ingenioso trucoErgoSleep | 
+PatrocinadoPatrocinado
+Deshacer
+Revelan detalles del accidente y muerte de Mayerly Cruz, hermana de Dilan Cruz, quien falleció tras pedir una moto por aplicación: 'Una imprudencia'Su hermana Denis Cruz habló sobre el lamentable suceso y denunció el comportamiento del conductor.El Tiempo
+Deshacer
+El desesperado grito de un ladrón tras ver morir a su cómplice; policía disparó 17 veces para defenderse de un intento de robo: 'Ayuda, la mató'El hecho ocurrió en Argentina. El oficial, de 48 años, se entregó en una comisaría y será indagado por la Fiscalía. El Tiempo
 Deshacer

@@ -2,9 +2,8 @@ SOURCE_URL: https://www.eltiempo.com/economia/empresas/quienes-son-los-duenos-de
 
 En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí
 Entiendo
-Viernes, 01.05.2026 / 18:09
-EMPLEOS   
-
+Martes, 12.05.2026 / 21:45
+EMPLEOS
 CLUB VIVAMOS 
 SUSCRÍBETE CLUB VIVAMOS 
 ¡Hola Boletines que quieras recibir con la mejor información. 
@@ -141,78 +140,78 @@ SUSCRÍBETE AL DIGITAL
 Información confiable para ti. Suscríbete a EL TIEMPO y consulta de forma ilimitada nuestros contenidos periodísticos.
 suscríbete
 Ponte al día
-De hipotecar la casa familiar a liderar la industria fitness: la historia de la cofundadora de Bodytech | #Cómolohicieron
-Noelia Cigüenza Riaño
-GEB fortalece su presencia en la región con la adquisición de cuatro empresas en Brasil
-Noelia Cigüenza Riaño
-Del café caliente al ‘cold brew’
-Andres Orlando Zambrano Diaz
-Corona redefine su liderazgo: Miguel Pardo será el nuevo presidente y Pedro Gallón asumirá Sodimac Colombia
-Laura Lesmes Díaz
-Gobierno Petro convocará asamblea extraordinaria de Ecopetrol para ‘hacer algunos ajustes en la junta directiva’
+Dólar barato le pasó factura a Cementos Argos: ganancias bajaron 12,13 % en el primer trimestre del 2026
 Lina Quiroga Rubio
-Alemana Basf apuesta por Colombia con innovación, sostenibilidad y nuevos modelos de negocio
-Carlos Arturo García Mahecha
+Grupo Éxito aumentó 64,6% sus utilidades y ganó 159.622 millones de pesos en el primer trimestre de 2026
+Laura Lesmes Díaz
+Juan Gonzalo Castaño renuncia a la Junta Directiva de Ecopetrol
+Laura Lesmes Díaz
+Ganancias de Ecopetrol siguen bajando: sumaron $ 2,88 billones en el primer trimestre tras caída del 7,7 %
+Lina Quiroga Rubio
+Lluvias del inicio de 2026 redujeron casi a la mitad las ganancias de Celsia: sumaron $ 58.393 millones
+Lina Quiroga Rubio
+Nutresa pasa de ganancias a pérdidas en el primer trimestre de 2026 pese al crecimiento de sus ventas
+Laura Lesmes Díaz
 por Taboolapor Taboola
 Enlaces PatrocinadosEnlaces Patrocinados
 Enlaces PromovidosEnlaces Promovidos
 Te puede gustar
 Kit de perfumes importados disponible en proceso de liquidaciónPerfumes importados
 Deshacer
-Dermatóloga: Truco casero para rostro caído (toma 7 segundos)Piel Renovada
+Perfumes importados ahora con precio accesiblePerfumes importados
 Deshacer
 Truco japonés para reducir la apnea del sueño (¡es genial!)ErgoSleep
 Deshacer
-Conoce estas gafas inteligentes que pueden ver de lejos y de cercaOpticPro
+Un solo par de gafas para ver nítido a cualquier distanciaOpticPro
 Deshacer
-Haz tu DEUDA más ligeraBravo
+Tu carrera depega aquíCUN
 Deshacer
-Iván Cepeda 'en vez de reconocerse como un comunista se cubre con el maquillaje de ‘progresista’': Mauricio VargasEl Tiempo
+CNE estudia revocar candidatura presidencial de Abelardo de la Espriella: los detallesEl Tiempo
 Deshacer
-Liquida tus deudas en mora de manera fácil. Descubre cómoBravo
+Por si necesitas una razón más para beber agua de Jamaica, aquí tienes 20Outdoor Revival
 Deshacer
-AI is changing the way you learn a languageTalkpal - AI Language Learning
+40 figuras históricas que alcanzaron ser fotografiadasGameday News
 Deshacer
-Medio ecuatoriano revela detalles del viaje del presidente Gustavo Petro a Manta: hablan de fiestas y reuniones con delegados de alias FitoEl Tiempo
+Encuesta de Guarumo abril 2026: Cepeda 38 %, De la Espriella 23,9 % y Paloma 22,8 %; en segunda vuelta, Valencia derrota a Cepeda y Abelardo lo empataEl Tiempo
 Deshacer
-20 Movies That Are So Good, They're Considered PerfectDecoist
+Apartamentos sin cuota inicial en Colombia: con pagos mensualesMap in Pocket
 Deshacer
 Cerrar
 ×
 Sigue leyendo
-Iván Cepeda 'en vez de reconocerse como un comunista se cubre con el maquillaje de ‘progresista’': Mauricio VargasEl analista de domingo en EL TIEMPO cuestiona el discurso de Cepeda frente a la realidad en cifras y escándalos del actual Gobierno Petro.El Tiempo
+CNE estudia revocar candidatura presidencial de Abelardo de la Espriella: los detallesEl demandante asegura que el candidato tuvo una consecuencia intencional y dolosa de engañar a la Registraduría por el alto número de firmas anuladas.El Tiempo
 Deshacer
-Medio ecuatoriano revela detalles del viaje del presidente Gustavo Petro a Manta: hablan de fiestas y reuniones con delegados de alias FitoEl presidente Gustavo Petro rechazó las versiones de medios ecuatorianos sobre su visita a Manta y aseguró que se trata de información falsa.El Tiempo
+Encuesta de Guarumo abril 2026: Cepeda 38 %, De la Espriella 23,9 % y Paloma 22,8 %; en segunda vuelta, Valencia derrota a Cepeda y Abelardo lo empataEL TIEMPO revela la más reciente encuesta de intención de voto a un mes de la primera vuelta presidencial.El Tiempo
 Deshacer
-Esto dijo Érika Herrera, suegra de Carolina Flores, cuando fue capturada en Venezuela por asesinato de la exreinaEn medio de la detención y ante la reacción de la mujer, las autoridades venezolanas decidieron arrestarla por 'desacato a la autoridad'.El Tiempo
+Duro cruce entre Paloma Valencia y Juan Daniel Oviedo por propuesta de nombrar a expresidente Álvaro Uribe como Mindefensa: 'La presidenta soy yo'Para Valencia, esta situación constituye un rechazo a la experiencia y la efectividad en seguridad que ella asocia con la figura de Uribe.El Tiempo
 Deshacer
-Carolina Ramírez, actriz de 'La Reina del Flow', mostró las secuelas del embarazo: ‘Estoy llena de manchas, pero hace parte del proceso’Desde que dio a conocer que estaba esperando su primer hijo, la caleña ha compartido detalles de cómo ha sido el proceso de gestación.El Tiempo
+Fiscalía imputó cargos a la actriz Yeimy Paola Vargas Gómez por presunta responsabilidad en los delitos de falsedad en documento privadoEste jueves, 30 de abril, se llevó a cabo la audiencia de imputación de cargos.El Tiempo
 Deshacer
-Sergio Fajardo dice que no se unirá a Paloma Valencia para evitar eventual triunfo de Iván Cepeda: 'Estoy haciendo política'El candidato indicó que sigue firme para la primera vuelta presidencial y que su responsabilidad no es evitar que gane nuevamente el progresismo. El Tiempo
+Empresarios detrás de Lili Pink se fueron del país antes del megaoperativo en su contra por lavado y contrabandoLa Fiscalía busca hacer efectivas 8 órdenes de captura. El único detenido por el caso pidió aplazar por razones de salud.El Tiempo
 Deshacer
 Kit de perfumes importados disponible en proceso de liquidaciónPerfumes importados | 
 PatrocinadoPatrocinado
 Deshacer
-Dermatóloga: Truco casero para rostro caído (toma 7 segundos)Tengo 62 y creen que tengo 42. Este es mi secretoPiel Renovada | 
+Perfumes importados ahora con precio accesiblePerfumes importados | 
 PatrocinadoPatrocinado
 Deshacer
-Duro cruce entre Paloma Valencia y Juan Daniel Oviedo por propuesta de nombrar a expresidente Álvaro Uribe como Mindefensa: 'La presidenta soy yo'Para Valencia, esta situación constituye un rechazo a la experiencia y la efectividad en seguridad que ella asocia con la figura de Uribe.El Tiempo
+Lili Pink revela que Walter Martínez, primer capturado en el caso, no era parte de estructura empresarial ni de toma de decisiones: este era su papelLa empresa emitió nuevo comunicado en referencia al capturado por lavado de activos, contrabando, enriquecimiento ilícito y concierto para delinquir.El Tiempo
 Deshacer
-Efraín Cepeda: 'Si no pasa Abelardo o Paloma a segunda vuelta, el otro debe apoyarlo para preservar los principios democráticos'El presidente del Partido Conservador habló con EL TIEMPO sobre la decisión de la colectividad de apoyar a Valencia. Pide unidad de la centro-derecha.El Tiempo
+Florentino Pérez suma otra polémica al descalificar a una periodista por ser mujer, 'no sé si sabe de fútbol': la comunicadora le respondeUn capítulo más en la guerra abierta del máximo dirigente del Real Madrid contra la prensa. El Tiempo
 Deshacer
-Video | Un hombre indio desentierra los restos de su hermana y los lleva al banco para demostrar su deceso: quería retirar su dineroImágenes difundidas por cadenas de televisión indias lo muestran llevando al hombro lo que parece ser un cadáver humano.El Tiempo
+Ladrón perdió parte del brazo luego de que un trabajador se defendiera con un machete en un intento de robo en BrasilEl hecho fue captado por cámaras de seguridad del establecimiento, que registraron toda la secuencia del intento de robo.El Tiempo
 Deshacer
-Alianza Verde respaldará a Iván Cepeda, pero se abrió debate tras llamado del presidente Petro a buscar la ConstituyenteLa Alianza Verde realizó su Dirección Nacional y oficializó su respaldo a Iván Cepeda, quien prometió no convocar a una Constituyente. El Tiempo
+General (r) Eduardo Zapateiro se retira de la campaña de Abelardo De la Espriella tras conocerse que será imputado por supuesto acoso sexualEn un comunicado de su cuenta de X, Zapateiro anunció su salida para centrarse en su defensa.El Tiempo
 Deshacer
-Detalles de la denuncia por la que el CNE le abrió indagación preliminar a la campaña de Iván CepedaLa denuncia fue interpuesta por el exconcejal Juan Martín Bravo, quien señaló la presunta irregularidad.El Tiempo
+¿Quiénes son las 100 mujeres más poderosas de Colombia, según la revista 'Forbes'? Francia Márquez, Shakira y Diana Trujillo destacan en la listaLa revista publicó su listado, con figuras del sector político, empresarial, cultural, científico y deportivo.El Tiempo
 Deshacer
 Truco japonés para reducir la apnea del sueño (¡es genial!)ErgoSleep | 
 PatrocinadoPatrocinado
 Deshacer
-Haz tu DEUDA más ligeraDa clic y consulta tu caso para liquidar con hasta 50% menos.Bravo | 
+Un solo par de gafas para ver nítido a cualquier distanciaOpticPro | 
 PatrocinadoPatrocinado
 Deshacer
-Polémica por el llamado del presidente Gustavo Petro a donar recursos para la campaña de recolección de firmas de la asamblea constituyenteEl llamado presidencial ha sido cuestionado, puesto que se da en plena época electoral. Ha sido asumido como una campaña política alterna.El Tiempo
+Escenarios en segunda vuelta según Guarumo: Paloma derrota a Cepeda y el candidato del Pacto empata con AbelardoEL TIEMPO revela la más reciente encuesta de intención de voto presidencial. El Tiempo
 Deshacer
-Iván Duque respondió a Gustavo Petro por pago de deuda con el FMI: 'Pagaron un crédito adquirido por el Estado colombiano en las mejores condiciones'El expresidente entre 2018 y 2022 respondió al primer mandatario luego de que informara que se pagó la totalidad de dicha deuda.El Tiempo
+Álvaro Uribe se refirió a Juan Daniel Oviedo tras expresar desacuerdo con convertir al expresidente en ministro de Defensa: 'Estoy muy viejo'El líder del Centro Democrático también señaló que se sintió presionado tras las declaraciones del exdirector del Dane.El Tiempo
 Deshacer

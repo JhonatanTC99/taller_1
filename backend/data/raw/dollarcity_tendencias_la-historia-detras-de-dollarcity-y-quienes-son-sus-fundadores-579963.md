@@ -2,31 +2,31 @@ SOURCE_URL: https://www.portafolio.co/tendencias/la-historia-detras-de-dollarcit
 
 En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí
 Entiendo
-Viernes, 01.05.2026 / 18:09
+Martes, 12.05.2026 / 21:45
 BOLETINES
 Indicadores en línea 
-  * TRM  $ 3.637,51 
-  * ICOLCAP  $ 21.832,00  +0,841%  +$ 182,0 
-  * Dólar  $ 3.654,20  -0,14%  -$ 5,3 
-  * Euro  $ 4.292,59  -0,21%  -$ 9,14 
-  * Bolívar  US$ 488,330813  +0,5%  +US$ 2,429411 
-  * Peso mexicano  US$ 0,476  -0,21%  -US$ 0,001 
-  * Oro  US$ 4623,87  +0,05%  +US$ 2,28 
+  * TRM  $ 3.775,07 
+  * ICOLCAP  $ 20.886,50  -1,474%  -$ 312,5 
+  * Dólar  $ 3.772,63  +0,26%  +$ 9,93 
+  * Euro  $ 4.416,28  +0,26%  +$ 11,66 
+  * Bolívar  US$ 507,328899  +0,73%  +US$ 3,676585 
+  * Peso mexicano  US$ 0,456  -0,22%  -US$ 0,001 
+  * Oro  US$ 4698,89  -0,31%  -US$ 14,7609 
   * Tasa de usura en Colombia  28,17 % 
   * Tasa de interés del Banrep  11,25 % 
-  * Café  US$ 304,45  +0,81%  +US$ 2,45 
+  * Café  US$ 294,8 
 
 
-  * TRM  $ 3.637,51 
-  * ICOLCAP  $ 21.832,00  +0,841%  +$ 182,0 
-  * Dólar  $ 3.654,20  -0,14%  -$ 5,3 
-  * Euro  $ 4.292,59  -0,21%  -$ 9,14 
-  * Bolívar  US$ 488,330813  +0,5%  +US$ 2,429411 
-  * Peso mexicano  US$ 0,476  -0,21%  -US$ 0,001 
-  * Oro  US$ 4623,87  +0,05%  +US$ 2,28 
+  * TRM  $ 3.775,07 
+  * ICOLCAP  $ 20.886,50  -1,474%  -$ 312,5 
+  * Dólar  $ 3.772,63  +0,26%  +$ 9,93 
+  * Euro  $ 4.416,28  +0,26%  +$ 11,66 
+  * Bolívar  US$ 507,328899  +0,73%  +US$ 3,676585 
+  * Peso mexicano  US$ 0,456  -0,22%  -US$ 0,001 
+  * Oro  US$ 4698,89  -0,31%  -US$ 14,7609 
   * Tasa de usura en Colombia  28,17 % 
   * Tasa de interés del Banrep  11,25 % 
-  * Café  US$ 304,45  +0,81%  +US$ 2,45 
+  * Café  US$ 294,8 
 
 
   * Economía
@@ -91,20 +91,20 @@ PORTAFOLIO WHATSAPP
 Únete al canal de El Tiempo en WhatsApp para estar al día con las noticias más relevantes al momento.
 quiero recibirlo
 Ponte al día
-Trump declara el fin de las hostilidades con Irán en medio de presión del Congreso
+La Corte Suprema de Justicia declara que la prostitución no es un trabajo, sino explotación sexual
 Nazly Carolina Morales Herrera
-Minsalud confirma segundo caso de viruela símica clado Ib en el país
+Veterinarios de India llegarán a Colombia para avanzar en el traslado de hipopótamos
 Nazly Carolina Morales Herrera
-Burger Master 2026: ¿en dónde están los restaurantes ganadores con las mejores hamburguesas del país?
-Valentina Delgadillo Abello
-Historia de la asesina de las frambuesas llega a la ficción con nuevo libro que se presentará en la Feria del Libro
+Cinta métrica: qué indican los rombos negros y cómo se usan en construcción
+Nazly Carolina Morales Herrera
+Este será el primer artista en cantar en el DAVIarena: así será su regreso y la inauguración del escenario
+Nazly Carolina Morales Herrera
+Álvaro Uribe aseguró con Westcol que Petro y Cepeda buscan “poder absoluto” con la constituyente
 Daniel Hernandez Naranjo
-Libros en Colombia rompen récord: ventas superan $1 billón en 2025
-Nazly Carolina Morales Herrera
 Nuestros Portales
-La historia detrás del megaoperativo en Pereira para capturar a un iraní que llevaba 20 años oculto en esa ciudad 
+Esto es lo que se sabe del viaje que Jeffrey Epstein y Ghislaine Maxwell hicieron al país en 2002 y 2007: los datos que reveló Migración Colombia 
 EL TIEMPO 
-Sin relajarse: Once Caldas 0-0 Nacional EN VIVO a mantener el ritmo 
+Vea goles de Rodallega: así le gana Santa Fe a América en El Campín 
 FUTBOL RED 
-Más de 160.000 viajeros saldrán de la capital este viernes de puente festivo 
+Intento de robo a carro de valores en Soacha deja un muerto y dos escoltas heridos 
 CITY TV 

@@ -1,16 +1,15 @@
 """
-Módulo de configuración de rutas y entorno para el proyecto de scraping de Dollarcity.
-Este script define las constantes de directorios y asegura su existencia.
+Módulo de configuración de rutas y entorno para el proyecto de Dollarcity.
+Fusiona la configuración original de scraping con la arquitectura de Gemini/Ollama.
 """
 import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-# Cargar variables de entorno desde .env si existe
+# Cargar variables de entorno
 load_dotenv()
 
-# --- RUTAS DEL PROYECTO (Absolutas para evitar errores de contexto) ---
-# BASE_DIR apunta a la raíz del proyecto
+# --- RUTAS DEL PROYECTO (Absolutas) ---
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 # Carpetas de datos
@@ -24,13 +23,28 @@ SPECIFIC_QUESTION_DIR = DATA_DIR / "specific_questions"
 SPECIFIC_QUESTION_PATH = SPECIFIC_QUESTION_DIR / "data_corporativa.json"
 
 # --- CONFIGURACIÓN LLM ---
-# Se prioriza la variable de entorno, de lo contrario usa el default
-DEFAULT_MODEL = os.getenv("LLM_MODEL", "gemma4:latest")
-OLLAMA_BASE_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
+# Proveedor principal: 'google' o 'ollama'
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "google").lower()
 
+# Configuración de Google Gen AI (Gemini)
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_MODEL = os.getenv("GOOGLE_MODEL", "gemini-1.5-flash")
+
+# Configuración de Ollama (Fallback o Local)
+OLLAMA_BASE_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
+OLLAMA_MODEL = os.getenv("LLM_MODEL", "gemma4:latest")
+
+# Selección automática del modelo por defecto según el proveedor
+if LLM_PROVIDER == "google":
+    DEFAULT_MODEL = GOOGLE_MODEL
+else:
+    DEFAULT_MODEL = OLLAMA_MODEL
+
+# Modelo de Embeddings (HuggingFace)
 EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL_NAME", "all-MiniLM-L6-v2")
 
-# --- CONFIGURACIÓN DE SCRAPING ---
+# --- CONFIGURACIÓN DE SCRAPING (TARGET_URLS) ---
+# Restaurada lista original para compatibilidad con src.scraper.collector
 TARGET_URLS = [
     "https://dollarcity.com/co/",
     "https://dollarcity.com/nuestro-equipo/",
@@ -66,14 +80,23 @@ TARGET_URLS = [
     "https://directorio-empresas.einforma.co/informacion-empresa/suramerica-comercial-sas"
 ]
 
-
 def ensure_dirs():
-    """Crea la estructura de directorios necesaria para el proyecto."""
-    directories = [RAW_DATA_DIR, KB_DIR, CHROMA_PATH, HISTORY_DIR, SPECIFIC_QUESTION_DIR]
+    """Crea la estructura de directorios necesaria para todas las fases del proyecto."""
+    directories = [
+        RAW_DATA_DIR, 
+        KB_DIR, 
+        CHROMA_PATH, 
+        HISTORY_DIR, 
+        SPECIFIC_QUESTION_DIR
+    ]
     for directory in directories:
         directory.mkdir(parents=True, exist_ok=True)
 
+# Ejecución automática al importar para asegurar carpetas
+ensure_dirs()
+
 if __name__ == "__main__":
     print(f"[INFO] Inicializando entorno en: {BASE_DIR}")
-    ensure_dirs()
-    print("[SUCCESS] Directorios de datos verificados.")
+    print(f"[INFO] Proveedor LLM activo: {LLM_PROVIDER}")
+    print(f"[INFO] Modelo por defecto: {DEFAULT_MODEL}")
+    print("[SUCCESS] Configuración cargada y directorios verificados.")

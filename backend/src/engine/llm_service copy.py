@@ -1,6 +1,5 @@
 import re
 import os
-import time
 import traceback
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_ollama import ChatOllama
@@ -71,6 +70,7 @@ class LLMService:
         # Validar contra modelos permitidos en settings
         allowed_models = [DEFAULT_MODEL, GOOGLE_MODEL, OLLAMA_MODEL]
         if model_name not in allowed_models:
+            print(f"[LLM SERVICE] Modelo ignorado por no estar en lista permitida: {model_name}")
             return False
 
         try:
@@ -112,7 +112,7 @@ class LLMService:
             "acuérdate que", "acuerdate que", "como me llamo", "cómo me llamo",
             "como era que me llamaba", "cómo era que me llamaba", "cual es mi nombre",
             "cuál es mi nombre", "que te dije", "qué te dije", "recuerdas mi nombre",
-            "recuerda mi nombre", "+"
+            "recuerda mi nombre"
         ]
         return any(intent in q for intent in intents)
 
@@ -202,7 +202,8 @@ class LLMService:
                 "docs_count": 0
             }
 
-        return self.get_chat_response(question)
+        # Fallback de seguridad dentro de memoria (no debería llegar aquí por el router)
+        return self.get_chat_response(question) # Re-rutear si fue falso positivo
 
     def _normalize_llm_content(self, response_or_content) -> str:
         """Normaliza la salida del LLM a un string plano."""
@@ -231,10 +232,12 @@ class LLMService:
         return text.strip()
 
     def _consultar_rag(self, query: str) -> dict:
-        """Recupera fragmentos de Chroma o usa contexto estático con límites para optimizar latencia."""
+        """Recupera fragmentos de Chroma o usa contexto estático como fallback."""
+        print(f"\n[DEBUG RAG] Path: {CHROMA_PATH} | Existe: {os.path.exists(CHROMA_PATH)}")
         try:
             docs = self.vector_db.similarity_search(query, k=3)
             if docs:
+                print(f"[DEBUG RAG] ÉXITO: {len(docs)} documentos recuperados de Chroma.")
                 retrieved_chunks = []
                 for d in docs:
                     retrieved_chunks.append({
@@ -244,37 +247,25 @@ class LLMService:
                         "preview": d.page_content[:350],
                         "metadata": d.metadata
                     })
-                
-                # Truncar contexto para el chat (máx 5000 chars)
-                full_context = "\n\n".join([d.page_content for d in docs])
-                final_context = full_context[:5000]
-
                 return {
-                    "context": final_context,
+                    "context": "\n\n".join([d.page_content for d in docs]),
                     "docs_count": len(docs),
                     "source_type": "vector_db",
-                    "retrieved_chunks": retrieved_chunks,
-                    "context_length": len(final_context)
+                    "retrieved_chunks": retrieved_chunks
                 }
-            
-            # Fallback truncado (máx 4000 chars)
-            final_fallback = self.static_context[:4000]
             return {
-                "context": final_fallback,
+                "context": self.static_context,
                 "docs_count": 0,
                 "source_type": "static_context_fallback",
-                "retrieved_chunks": [],
-                "context_length": len(final_fallback)
+                "retrieved_chunks": []
             }
         except Exception as e:
             print(f"[ERROR CHROMA]: {str(e)}")
-            error_fallback = self.static_context[:4000]
             return {
-                "context": error_fallback,
+                "context": self.static_context,
                 "docs_count": 0,
                 "source_type": "error_fallback",
-                "retrieved_chunks": [],
-                "context_length": len(error_fallback)
+                "retrieved_chunks": []
             }
 
     def debug_rag_query(self, question: str) -> dict:
@@ -296,9 +287,8 @@ class LLMService:
         }
 
     def _invoke_llm_with_context(self, system_template: str, question: str, context: str) -> str:
-        """Gestiona la cadena de invocación inyectando memoria e historial acotado."""
-        # Reducción a 6 mensajes para optimizar el prompt enviado al LLM en chat
-        historial = self.history.messages[-6:]
+        """Gestiona la cadena de invocación inyectando memoria e historial."""
+        historial = self.history.messages[-10:]
         prompt_template = ChatPromptTemplate.from_messages([
             ("system", system_template),
             *[(msg.type, msg.content) for msg in historial],
@@ -339,7 +329,7 @@ class LLMService:
             return {"status": "error", "error": str(e), "provider": LLM_PROVIDER}
 
     def get_summary(self) -> dict:
-        """Genera el resumen ejecutivo corporativo usando el contexto completo."""
+        """Genera el resumen ejecutivo corporativo."""
         try:
             res = self._invoke_llm_with_context(RESUMEN_PROMPT, "Genera el resumen corporativo.", self.static_context)
             return {"content": self._clean_output(res), "model": self.get_model_name(), "status": "success"}
@@ -347,7 +337,7 @@ class LLMService:
             return {"content": f"Error en Resumen: {str(e)}", "status": "error"}
 
     def get_faq(self) -> dict:
-        """Genera el listado dinámico de FAQ usando el contexto completo."""
+        """Genera el listado dinámico de FAQ."""
         try:
             res = self._invoke_llm_with_context(FAQ_PROMPT, "Genera el FAQ.", self.static_context)
             return {"content": self._clean_output(res), "model": self.get_model_name(), "status": "success"}
@@ -355,8 +345,7 @@ class LLMService:
             return {"content": f"Error en FAQ: {str(e)}", "status": "error"}
 
     def get_chat_response(self, question: str) -> dict:
-        """Router Híbrido Avanzado con Fast-Path de optimización incremental."""
-        start_total = time.perf_counter()
+        """Router Híbrido Avanzado: Decide entre Structured Tool, Memory Engine o RAG Engine."""
         q = question.lower().strip()
         print(f"\n[ROUTER] Entrada: '{question}'")
 
@@ -387,63 +376,21 @@ class LLMService:
             print("[ROUTER] Ruta elegida: memory_engine")
             return self._handle_memory_intent(question)
 
-        # 3. RUTA: Rule Engine - Fuera de Dominio Evidente
-        out_of_domain = ["presidente", "clima", "fútbol", "futbol", "política", "politica", "noticias", "dólar hoy", "dolar hoy"]
-        if any(w in q for w in out_of_domain):
-            print("[ROUTER] Ruta elegida: rule_engine (out-of-domain)")
-            ans = "Lo sentimos, no contamos con esa información específica. Nuestra labor se centra en ofrecerte la mejor experiencia en nuestras tiendas Dollarcity."
-            return {
-                "content": ans,
-                "model": self.get_model_name(),
-                "status": "success",
-                "tool_used": "rule_engine",
-                "source_type": "rule",
-                "docs_count": 0
-            }
-
-        # 4. RUTA: Rule Engine - Producto Ambiguo
-        product_trigger = ["venden", "tienen", "hay"]
-        if any(w in q for w in product_trigger) and len(q.split()) < 7:
-            print("[ROUTER] Ruta elegida: rule_engine (ambiguous-product)")
-            ans = "Para consultar disponibilidad de productos específicos, te sugerimos visitar tu tienda Dollarcity más cercana o revisar nuestros canales oficiales."
-            return {
-                "content": ans,
-                "model": self.get_model_name(),
-                "status": "success",
-                "tool_used": "rule_engine",
-                "source_type": "rule",
-                "docs_count": 0
-            }
-
-        # 5. RUTA: Motor RAG (Conocimiento Corporativo) con Medición de Latencia
+        # 3. RUTA: Motor RAG (Conocimiento Corporativo)
         print("[ROUTER] Ruta elegida: rag_engine")
-        t_retrieval_start = time.perf_counter()
         rag_data = self._consultar_rag(question)
-        t_retrieval_end = time.perf_counter()
-
         try:
-            t_gen_start = time.perf_counter()
             raw_res = self._invoke_llm_with_context(QA_SYSTEM_PROMPT, question, rag_data['context'])
             final_ans = self._clean_output(raw_res)
-            t_gen_end = time.perf_counter()
-            
             self.history.add_user_message(question)
             self.history.add_ai_message(final_ans)
-            
-            end_total = time.perf_counter()
-            
             return {
                 "content": final_ans,
                 "model": self.get_model_name(),
                 "status": "success",
                 "tool_used": "rag_engine",
                 "source_type": rag_data['source_type'],
-                "docs_count": rag_data['docs_count'],
-                "timing_ms": {
-                    "retrieval": round((t_retrieval_end - t_retrieval_start) * 1000, 2),
-                    "generation": round((t_gen_end - t_gen_start) * 1000, 2),
-                    "total": round((end_total - start_total) * 1000, 2)
-                }
+                "docs_count": rag_data['docs_count']
             }
         except Exception as e:
             traceback.print_exc()

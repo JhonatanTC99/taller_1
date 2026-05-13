@@ -8,3 +8,12 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Entorno y Secretos
+.env
+.env.local
+
+# Datos de persistencia (No subir DB ni historiales)
+data/chroma_db/
+data/history/
+data/raw/

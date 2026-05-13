@@ -1,6 +1,6 @@
 # KB DOLLARCITY COLOMBIA
 
-> Contexto Curado v2 - Optimizado para gemma3:1b
+> Contexto Curado v2.2 - Windows Locking Fix
 
 ## IDENTIDAD CORPORATIVA
 ### FUENTE: https://dollarcity.com/quienes-somos/

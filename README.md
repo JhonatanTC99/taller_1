@@ -52,7 +52,7 @@ Cuando una consulta requiere informacion actualizada, transaccional o validada d
 | Memoria | LangChain `FileChatMessageHistory` | Guardar historial por sesion y permitir preguntas de seguimiento. |
 | Herramienta estructurada | JSON + Python | Responder datos exactos como NIT, telefono, horarios y correos. |
 | Router | Python + LangChain | Elegir entre RAG, memoria, herramienta estructurada o reglas. |
-| Motor LLM | LangChain + Ollama/Gemini | Ejecutar prompts de resumen, FAQ y respuestas con contexto. |
+| Motor LLM | LangChain + Google Generative AI / Gemini | Ejecutar prompts de resumen, FAQ y respuestas con contexto. |
 | API | FastAPI + Uvicorn | Exponer endpoints consumidos por el frontend. |
 | Frontend | React + Vite | Probar resumen, FAQ y chat con historial desde navegador. |
 
@@ -68,14 +68,14 @@ Usuario -> Frontend React -> API FastAPI -> Router
 
 ## Modelo LLM
 
-El proyecto puede ejecutarse con Ollama local o con Google Generative AI, segun variables de entorno. Para la ejecucion local se usa por defecto `gemma3:1b`, un modelo liviano que permite reducir consumo de memoria y tiempo de respuesta.
+El proyecto usa Google Generative AI como proveedor LLM principal. La configuracion se carga desde el archivo `backend/.env`, por lo que el backend no debe forzar variables de entorno desde el comando de ejecucion.
 
 Configuracion principal:
 
-- Proveedor local por defecto: Ollama.
-- Modelo local por defecto: `gemma3:1b`.
-- Proveedor alternativo: Google Generative AI.
-- Modelo alternativo configurable: `gemini-3.1-flash-lite`.
+- Proveedor LLM: Google Generative AI.
+- Variable de proveedor: `LLM_PROVIDER=google`.
+- Variable de API key: `GOOGLE_API_KEY`.
+- Modelo configurable: `gemini-3.1-flash-lite`.
 - Temperatura: `0.1`.
 - Embeddings: `all-MiniLM-L6-v2`.
 
@@ -84,6 +84,7 @@ Configuracion principal:
 ```text
 .
 ├── backend/
+│   ├── .env
 │   ├── main.py
 │   ├── src/
 │   │   ├── config/settings.py
@@ -105,13 +106,21 @@ Configuracion principal:
 └── Makefile
 ```
 
+El archivo `backend/.env` debe tener esta estructura:
+
+```env
+LLM_PROVIDER=google
+GOOGLE_API_KEY=tu_api_key_de_google
+GOOGLE_MODEL=gemini-3.1-flash-lite
+```
+
 ## Requisitos
 
 - Python 3.12 o superior.
 - Node.js y npm.
 - Make.
 - UV.
-- Ollama.
+- Una API key de Google AI Studio para Gemini.
 
 ## Instalacion
 
@@ -130,25 +139,24 @@ make setup
 
 Este comando instala dependencias del backend, navegadores requeridos por Playwright y dependencias del frontend.
 
-### 3. Verificar modelo
+### 3. Configurar variables de entorno
 
-El `Makefile` usa por defecto `gemma3:1b` para facilitar la ejecucion local:
+Crea o edita el archivo `backend/.env` con la configuracion del proveedor LLM:
 
-```bash
-make check-model
+```env
+LLM_PROVIDER=google
+GOOGLE_API_KEY=tu_api_key_de_google
+GOOGLE_MODEL=gemini-3.1-flash-lite
 ```
 
-Si el modelo no esta instalado, se puede descargar automaticamente con:
+La API key se obtiene desde Google AI Studio:
 
-```bash
-make check-model AUTO_APPROVE=1
+```text
+https://aistudio.google.com/app/apikey
 ```
 
-Para usar otro modelo compatible con Ollama:
+No subas el archivo `.env` al repositorio.
 
-```bash
-LLM_MODEL=gemma4:latest make backend
-```
 
 ## Ejecucion
 

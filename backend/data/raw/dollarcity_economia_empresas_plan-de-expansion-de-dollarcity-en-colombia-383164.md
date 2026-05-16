@@ -2,7 +2,7 @@ SOURCE_URL: https://www.eltiempo.com/economia/empresas/plan-de-expansion-de-doll
 
 En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí
 Entiendo
-Martes, 12.05.2026 / 21:45
+Viernes, 15.05.2026 / 21:46
 EMPLEOS
 CLUB VIVAMOS 
 SUSCRÍBETE CLUB VIVAMOS 
@@ -128,78 +128,79 @@ SUSCRÍBETE AL DIGITAL
 Información confiable para ti. Suscríbete a EL TIEMPO y consulta de forma ilimitada nuestros contenidos periodísticos.
 suscríbete
 Ponte al día
-Dólar barato le pasó factura a Cementos Argos: ganancias bajaron 12,13 % en el primer trimestre del 2026
+Grupo Energía Bogotá y La Caisse crean una de las mayores plataformas de transmisión eléctrica en Brasil
 Lina Quiroga Rubio
-Grupo Éxito aumentó 64,6% sus utilidades y ganó 159.622 millones de pesos en el primer trimestre de 2026
+Grupo SURA ganó 509.000 millones de pesos en el primer trimestre de 2026
 Laura Lesmes Díaz
-Juan Gonzalo Castaño renuncia a la Junta Directiva de Ecopetrol
-Laura Lesmes Díaz
-Ganancias de Ecopetrol siguen bajando: sumaron $ 2,88 billones en el primer trimestre tras caída del 7,7 %
+Ganancias del GEB cayeron 43 % por devaluación del dólar, impuesto al patrimonio y deudas de Air-e
 Lina Quiroga Rubio
-Lluvias del inicio de 2026 redujeron casi a la mitad las ganancias de Celsia: sumaron $ 58.393 millones
+Grupo Argos reportó caída del 21 % en sus ganancias; ingresos cedieron 7 % al cierre del primer trimestre
 Lina Quiroga Rubio
-Nutresa pasa de ganancias a pérdidas en el primer trimestre de 2026 pese al crecimiento de sus ventas
+A la conquista de Silicon Valley
+Andres Orlando Zambrano Diaz
+Google destrona a Apple y valor de las marcas globales crece 22 por ciento impulsado por la inteligencia artificial
 Laura Lesmes Díaz
 por Taboolapor Taboola
 Enlaces PatrocinadosEnlaces Patrocinados
 Enlaces PromovidosEnlaces Promovidos
 Te puede gustar
-Truco japonés para reducir la apnea del sueño (¡es genial!)ErgoSleep
+Tu carrera depega aquíCUN
 Deshacer
-Cuando el dolor de rodilla aparezca, prueba esto (es genial)Dolor de rodilla
+Siéntete poderoso y a la moda con estos exclusivos tenisTommy Hilfiger
 Deshacer
-Descubre el poder de ser atractivo con estos tenisTommy Hilfiger
+Pasate a Prepago Digital: Rápido, fácil y seguro.Movistar Prepago
 Deshacer
-Millones sufren de apnea del sueño, pero pocos conocen este ingenioso trucoErgoSleep
+¿Rostro caído? Olvida el colágeno. Haz esto por la noche (muy fácil)Piel Renovada
 Deshacer
-Quien sufre de dolor de rodilla necesita leer estoDolor de rodilla
+Kit de perfumes importados disponible en proceso de liquidaciónPerfumes importados
 Deshacer
 CNE estudia revocar candidatura presidencial de Abelardo de la Espriella: los detallesEl Tiempo
 Deshacer
-Tu casa propia por mucho menos de lo que imaginas.Ciencuadras
+Pasate a Movistar: Registrate y llevate 40GB por $20.000.Movistar Prepago
 Deshacer
-Apartamentos sin cuota inicial en Colombia: con pagos mensualesKnow Quotient
+Apartamentos sin cuota inicial en Colombia: con pagos mensualesMap in Pocket
 Deshacer
-Muere el actor estadounidense Jack Taylor, radicado en España y reconocido por sus papeles en el cine de terror y fantásticoEl Tiempo
+Ernesto Calzadilla, presentador de ‘Yo Me Llamo’, sorprendió en redes con su cambio de lookEl Tiempo
 Deshacer
-Por si necesitas una razón más para beber agua de Jamaica, aquí tienes 20Outdoor Revival
+57 fotos antiguas que te harán recordar viejos tiemposchillinghistory.com
 Deshacer
 Cerrar
 ×
 Sigue leyendo
 CNE estudia revocar candidatura presidencial de Abelardo de la Espriella: los detallesEl demandante asegura que el candidato tuvo una consecuencia intencional y dolosa de engañar a la Registraduría por el alto número de firmas anuladas.El Tiempo
 Deshacer
-Muere el actor estadounidense Jack Taylor, radicado en España y reconocido por sus papeles en el cine de terror y fantásticoParticipó en películas como 'Conan el bárbaro', 'Mil gritos tiene la noche' o 'The Ninth Gate', con la dirección de Roman Polanski. Tenía 99 años.El Tiempo
+Ernesto Calzadilla, presentador de ‘Yo Me Llamo’, sorprendió en redes con su cambio de lookSus seguidores quedaron preocupados al ver que ahora luce una apariencia física más delgada y con facciones más marcadas en su rostro.El Tiempo
 Deshacer
-¿Quiénes son las 100 mujeres más poderosas de Colombia, según la revista 'Forbes'? Francia Márquez, Shakira y Diana Trujillo destacan en la listaLa revista publicó su listado, con figuras del sector político, empresarial, cultural, científico y deportivo.El Tiempo
+Tareck El Aissami, exaliado de Maduro, rompe el silencio desde prisión: denuncia cómo funciona el chavismo por dentro y las torturas que dice sufrirAsegura que las confesiones que realizó en la trama de corrupción de la que se le acusa fueron obtenidas bajo coacción, amenazas o el uso de drogas.El Tiempo
 Deshacer
-Encuesta de Guarumo abril 2026: Cepeda 38 %, De la Espriella 23,9 % y Paloma 22,8 %; en segunda vuelta, Valencia derrota a Cepeda y Abelardo lo empataEL TIEMPO revela la más reciente encuesta de intención de voto a un mes de la primera vuelta presidencial.El Tiempo
+¿Jessi Uribe fue arrestado por la Policía? El cantante de música popular respondió por imagen falsa: 'La gente tiene el demonio adentro, qué pesar'El artista reaccionó mediante una historia de Instagram luego de que circulara una falsa imagen sobre su supuesta captura.El Tiempo
 Deshacer
-Fiscalía imputó cargos a la actriz Yeimy Paola Vargas Gómez por presunta responsabilidad en los delitos de falsedad en documento privadoEste jueves, 30 de abril, se llevó a cabo la audiencia de imputación de cargos.El Tiempo
+Ladrón perdió parte del brazo luego de que un trabajador se defendiera con un machete en un intento de robo en BrasilEl hecho fue captado por cámaras de seguridad del establecimiento, que registraron toda la secuencia del intento de robo.El Tiempo
 Deshacer
-Truco japonés para reducir la apnea del sueño (¡es genial!)ErgoSleep | 
+Tu carrera depega aquíNo es solo un lugar, es el impulso para llegar a donde siempre soñaste. El fútbol te emociona, la CUN te posiciona. La cima te queda bien.CUN | 
 PatrocinadoPatrocinado
 Deshacer
-Cuando el dolor de rodilla aparezca, prueba esto (es genial)Solo 15 minutos al día en casa y miles de colombianos ya reportan sentir la diferenciaDolor de rodilla | 
+¿Rostro caído? Olvida el colágeno. Haz esto por la noche (muy fácil)Piel Renovada | 
 PatrocinadoPatrocinado
 Deshacer
-Duro cruce entre Paloma Valencia y Juan Daniel Oviedo por propuesta de nombrar a expresidente Álvaro Uribe como Mindefensa: 'La presidenta soy yo'Para Valencia, esta situación constituye un rechazo a la experiencia y la efectividad en seguridad que ella asocia con la figura de Uribe.El Tiempo
+Las 3 pistas para dar con el paradero de mujer que desapareció de centro estético tras riesgoso procedimientoPolicía completa 40 horas buscando a Yulixa Toloza. Un testigo entregó información clave sobre los dueños del establecimiento ilegal.El Tiempo
 Deshacer
-Una condena previa, usar la cédula de su hermana y fingir ser enfermera para dopar y robar: detalles de la caída de la 'Reina de la Escopolamina'Tras su captura en una discoteca de Itagüí, las autoridades descubrieron que Indira Surgey Orrego ocultaba una condena de 90 meses.El Tiempo
+Video | Intensa tormenta de granizo y viento deja más de 100 muertos y 50 heridos en IndiaDurante la tormenta, el fuerte viento levantó vallas publicitarias, arrancó árboles y levantó una espesa capa de polvo. El Tiempo
 Deshacer
-Exjurado de ‘Yo Me Llamo’, Jairo Martínez, sufre aparatoso accidente en el norte de Cartagena; video muestra camioneta volcada: 'Aporreado'Los hechos ocurrieron el pasado jueves cerca del sector de Los Morros, bajo la estructura del Viaducto.El Tiempo
+Mujer lloraba en videos de TikTok por la muerte de su bebé de 19 días; el caso dio un giro inesperado y fue condenada por asesinato: 'Escalofriante'El caso ocurrió en Escocia y dio un giro tras conocerse los resultados forenses que contradijeron la versión inicial de la madre. El Tiempo
 Deshacer
-Video | Marta Kostyuk lo volvió a hacer: así fue el desplante que le hizo a Mirra Andreeva tras ganar el WTA 1.000 de MadridLa ucraniana es el terror de las rusas.El Tiempo
+Atención: capturan al presunto responsable de asesinar a joven estudiante en estación de TransMilenio Minuto de Dios, en Bogotá; esto se sabeLa detención se llevó a cabo en el barrio Garcés Navas, en la localidad de Engativá, en cumplimiento de una orden judicial.El Tiempo
 Deshacer
-‘Rodee a los suyos no a los oportunistas’: Carlos Carrillo le responde al presidente Petro ante orden a Daniel Quintero de investigar el FomagEl mandatario le pidió al nuevo superintendente que investigue el desvío de recursos en el sistema de salud de los profesores.El Tiempo
+Lanzan campaña para ayudar a María Angélica Mallarino: la icónica artista pasa por un momento complejo de saludUna iniciativa impulsada por familiares y antiguos alumnos busca recaudar 60 millones de pesos para cubrir tratamientos médicos especializados.El Tiempo
 Deshacer
-Descubre el poder de ser atractivo con estos tenisPaga al recibirlos en casa ¡El envío es gratis!Tommy Hilfiger | 
+Kit de perfumes importados disponible en proceso de liquidaciónPerfumes importados | 
 PatrocinadoPatrocinado
 Deshacer
-Millones sufren de apnea del sueño, pero pocos conocen este ingenioso trucoErgoSleep | 
+Pasate a Movistar: Registrate y llevate 40GB por $20.000.Activa 4x1 en datos con eSIM Movistar Prepago y disfruta más gigas este mesMovistar Prepago | 
 PatrocinadoPatrocinado
 Deshacer
-Revelan detalles del accidente y muerte de Mayerly Cruz, hermana de Dilan Cruz, quien falleció tras pedir una moto por aplicación: 'Una imprudencia'Su hermana Denis Cruz habló sobre el lamentable suceso y denunció el comportamiento del conductor.El Tiempo
+Esto es lo que se sabe sobre la muerte de un joven en un ascensor del centro comercial Nuestro BogotáTrabajaba en un reconocido restaurante. Se indagan fallas mecánicas en el aparato. Centro Comercial se pronuncia.El Tiempo
 Deshacer
-El desesperado grito de un ladrón tras ver morir a su cómplice; policía disparó 17 veces para defenderse de un intento de robo: 'Ayuda, la mató'El hecho ocurrió en Argentina. El oficial, de 48 años, se entregó en una comisaría y será indagado por la Fiscalía. El Tiempo
+Habla pasajero señalado de agredir sexualmente a mujer en vuelo de Avianca; evalúan pedir circular azul de InterpolEL TIEMPO estableció que tiene ciudadanía colombiana y española. El sujeto dice que viajaba por trabajo y que señalamientos son falsos.El Tiempo
 Deshacer
+Inscríbase para recibir notificaciones

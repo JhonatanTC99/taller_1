@@ -7,20 +7,17 @@ Home emprendimiento Historias De Exito Vídeos Para Emprendedores
 domingo, septiembre 17, 2023 Publicado por  Javier Díaz
 Compartir Twittear
 Ver más
+Libro
 historia
-Historia
 Historias
 En el año **2009** , un emprendedor salvadoreño, inspirado en el modelo de las tiendas de **$1 dólar** norteamericanas, decide iniciar su propia tienda con la promesa de ofrecer productos de calidad a precios bajos en países de Latinoamérica. Poco a poco, con mucha paciencia y determinación, comenzó a expandir su marca a diferentes países de la región convencido del potencial del modelo de negocios que estaba construyendo. Hoy en día, su empresa cuenta con más de **400 tiendas** , genera más de **4 mil empleos** y factura más de **$1.200 millones de dólares anuales** … **¿Cómo lo logró?**
 Historia
 ## Caso Dollarcity: ¿Cómo un emprendedor construyó un imperio comercial con tiendas de bajo costo?
 Esta historia se divide en dos partes. La primera comienza en **1992** , cuando **Larry Rossy** , un empresario canadiense, heredó de su padre 20 tiendas en **Matane** , **Quebec**. Su visión era simple, pero ambiciosa: proporcionar a los clientes productos de alta calidad a precios bajos. Lo que empezó como unas modestas tiendas bajo el concepto de **“todo a $1 dólar”** , se convertiría en un gigante minorista en **Canadá** , llamado **Dollarama**.
-Ver más
-Servicios de comercio electrónico
-historia
-Historias
 Durante las siguientes dos décadas, **Dollarama** creció de manera exponencial. Su enfoque en ofrecer más de **6.000 productos** innovadores a precios asequibles, resonó con los canadienses de costa a costa. Las tiendas de **Dollarama** se multiplicaron en áreas metropolitanas, ciudades medianas y pequeñas.
 Su modelo de negocios, que permitía a los clientes comprar productos individuales o en volumen a precios fijos, demostró ser un éxito y no tardaría en replicarse en otros países.
 La segunda parte de esta historia comienza en el **2009** en **El Salvador** , el país centroamericano que se caracteriza por sus majestuosas playas y su paisaje montañoso. Allí, el emprendedor **Marco Andrés Baldocchi Kriete** , inspirado en el modelo de negocio de tiendas de bajo costo norteamericanas, como **Dollarama** , decidió iniciar su propia tienda bajo la marca **Dollarcity**. Su propósito era adaptar ese modelo, que ya funcionaba bien en países como **Estados Unidos** y **Canadá** , a las características y necesidades de su país. Sin embargo, el reto era enorme, porque en los países de **Latinoamérica** los consumidores suelen asociar los precios bajos con mala calidad.
+Historia
 El primer **Dollarcity** abrió sus puertas en el centro comercial **Metrocentro** de la ciudad de **San Salvador** , capital de la **República de El Salvador**.
 Desde el comienzo, **Dollarcity** fue un éxito rotundo. La amplia variedad de productos llamativos y los precios sorprendentemente bajos, hicieron que la primera tienda no diera abasto, lo que motivó a **Marco Baldocchi** a establecer nuevas tiendas de su marca en otros puntos estratégicos del país.
 > **“Somos una empresa de origen centroamericana, dedicada a agregar valor a nuestros clientes a través de productos de buena calidad a excelente precio en forma ágil, eficiente y con enfoque humano… Hemos revolucionado la industria del retail en el mercado con nuestro surtido de productos, ambientes limpios y ordenados y, sobre todo, la pasión y compromiso de nuestros equipos.”** -Afirma la empresa en su sitio web.
@@ -97,5 +94,4 @@ Responder
 
 Articulo Siguiente ¿Cómo coordinar un equipo de trabajo? 
 Articulo Anterior La Historia de Joe Ades, el Emprendedor que se hizo Millonario Vendiendo Peladores de Patatas en la Calle 
-Historia
   *[domingo, septiembre 17, 2023]: 2023-09-17T10:00:00-05:00

@@ -3,7 +3,6 @@ SOURCE_URL: https://redmas.com.co/tendencias/Dueno-de-Dollarcity-toma-decision-d
 Tendencias
 #  Dueño de Dollarcity toma decisión determinante para la cadena de supermercados con presencia en Colombia: 'Es estrategia'
 ## La querida cadena de tiendas de bajo costo expresó la nueva decisión de la compañía por medio de un comunicado. 
-Ad
 **La compañía cuenta con más de 540 tiendas físicas en Latinoamérica. Foto: Canva.**
 Gratis Siga Red+ Noticias en WhatsApp
   * 
@@ -81,4 +80,3 @@ Close the sidebar
 Te informamos que nuestro sitio web utiliza cookies que recogen datos sobre la navegación, uso y hábitos de consumo de los usuarios que ingresan en él. Las cookies guardan tus datos para poder ofrecerte una mejor experiencia online. Si continúas navegando entendemos que aceptas el tratamiento de tus datos personales a través de las cookies y la Política de tratamiento de la información de Claro
 ENTENDIDO
 Contenido premium
-Ad

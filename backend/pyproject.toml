@@ -31,6 +31,7 @@ dependencies = [
     "sympy>=1.14.0",
     "langchainhub>=0.1.21",
     "sentence-transformers>=5.5.0",
+    "langsmith>=0.7.33",
 ]
 
 [dependency-groups]

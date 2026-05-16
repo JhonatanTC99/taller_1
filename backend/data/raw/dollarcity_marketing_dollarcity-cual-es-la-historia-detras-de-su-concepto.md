@@ -5,7 +5,6 @@ Marketing +
 #  Dollarcity: ¿cuál es la historia detrás de su concepto? 
 Dom, 21/07/2024 - 08:00 
 Este fue el concepto con el que Marco Andrés Baldocchi Kriete, un empresario salvadoreño creó Dollarcity. 
-CompartirWhatsAppFacebookX
 Créditos:
 Dollarcity
 En el mundo del comercio minorista, la estrategia de ofrecer productos a precios fijos ha demostrado ser exitosa en diversas partes del mundo. **Dollarcity** , una cadena presente en varios países de América Latina, adopta este modelo bajo un nombre que refleja directamente su propósito: ofrecer productos a precios accesibles, generalmente en la moneda local pero manteniendo una identidad que evoca el dólar estadounidense.
@@ -22,21 +21,16 @@ Empresas internacionales
 Siga a KIENYKE en Google News 
 Siga nuestro canal de WhatsApp 
 ##### Más KienyKe
+Mundo
+Bachelet busca llegar a la ONU con apoyo de México y Brasil
+México ratificó su apoyo a Michelle Bachelet para la ONU, pese a que Chile retiró su respaldo a la exmandataria. 
+Fútbol
+Arrancan las semifinales de la Liga: Tolima vs. Nacional y Santa Fe vs. Junior. ¿A qué horas juegan?
+Este sábado se disputarán los partidos de ida de las semifinales de la Liga BetPlay. Así llegan los equipos. 
 Colombia
-Abelardo de la Espriella tuvo tenso cruce con Malú
-El candidato discutió con María Lucía Fernández en Noticias Caracol por una pregunta sobre ética, derecho y gobierno. 
+Presidente Petro pidió perdón al pueblo U'wa por vulneración de derechos
+El presidente Gustavo Petro pidió perdón al pueblo U'wa y reconoció la responsabilidad del Estado colombiano en la vulneración de sus derechos territoriales y culturales. 
 Bogotá
-Congreso iberoamericano sobre educación artística reúne a 19 países en Bogotá
-Bogotá acoge un congreso iberoamericano con 19 países para debatir sobre educación artística, cultura y paz como derechos fundamentales en la región. 
-Entretenimiento
-‘Rápidos y Furiosos’ crecerá: Vin Diesel confirma cuatro nuevas series
-Vin Diesel anunció que el universo de ‘Rápidos y Furiosos’ tendrá cuatro nuevas series para Peacock, aunque solo una está en desarrollo activo. 
-Colombia
-Turismo con propósito para cambiar la forma de viajar
-Una guía propone repensar los viajes desde la sostenibilidad, la ética y el beneficio para las comunidades anfitrionas. 
+Supersalud verifica acciones tras caso de Yulixa Toloza
+La Superintendencia Nacional de Salud pidió información a la Secretaría Distrital de Salud de Bogotá sobre las acciones de inspección y vigilancia adelantadas frente al establecimiento ubicado en Venecia. 
 ×
-Copy link
-✓
-¡Gracias por compartir!
-Find any service
-Más…

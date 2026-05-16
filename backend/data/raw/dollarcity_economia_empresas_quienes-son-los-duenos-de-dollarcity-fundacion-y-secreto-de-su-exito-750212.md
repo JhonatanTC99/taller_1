@@ -2,7 +2,7 @@ SOURCE_URL: https://www.eltiempo.com/economia/empresas/quienes-son-los-duenos-de
 
 En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí
 Entiendo
-Martes, 12.05.2026 / 21:45
+Viernes, 15.05.2026 / 21:46
 EMPLEOS
 CLUB VIVAMOS 
 SUSCRÍBETE CLUB VIVAMOS 
@@ -140,78 +140,17 @@ SUSCRÍBETE AL DIGITAL
 Información confiable para ti. Suscríbete a EL TIEMPO y consulta de forma ilimitada nuestros contenidos periodísticos.
 suscríbete
 Ponte al día
-Dólar barato le pasó factura a Cementos Argos: ganancias bajaron 12,13 % en el primer trimestre del 2026
+Grupo Energía Bogotá y La Caisse crean una de las mayores plataformas de transmisión eléctrica en Brasil
 Lina Quiroga Rubio
-Grupo Éxito aumentó 64,6% sus utilidades y ganó 159.622 millones de pesos en el primer trimestre de 2026
+Grupo SURA ganó 509.000 millones de pesos en el primer trimestre de 2026
 Laura Lesmes Díaz
-Juan Gonzalo Castaño renuncia a la Junta Directiva de Ecopetrol
-Laura Lesmes Díaz
-Ganancias de Ecopetrol siguen bajando: sumaron $ 2,88 billones en el primer trimestre tras caída del 7,7 %
+Ganancias del GEB cayeron 43 % por devaluación del dólar, impuesto al patrimonio y deudas de Air-e
 Lina Quiroga Rubio
-Lluvias del inicio de 2026 redujeron casi a la mitad las ganancias de Celsia: sumaron $ 58.393 millones
+Grupo Argos reportó caída del 21 % en sus ganancias; ingresos cedieron 7 % al cierre del primer trimestre
 Lina Quiroga Rubio
-Nutresa pasa de ganancias a pérdidas en el primer trimestre de 2026 pese al crecimiento de sus ventas
+A la conquista de Silicon Valley
+Andres Orlando Zambrano Diaz
+Google destrona a Apple y valor de las marcas globales crece 22 por ciento impulsado por la inteligencia artificial
 Laura Lesmes Díaz
-por Taboolapor Taboola
-Enlaces PatrocinadosEnlaces Patrocinados
-Enlaces PromovidosEnlaces Promovidos
-Te puede gustar
-Kit de perfumes importados disponible en proceso de liquidaciónPerfumes importados
-Deshacer
-Perfumes importados ahora con precio accesiblePerfumes importados
-Deshacer
-Truco japonés para reducir la apnea del sueño (¡es genial!)ErgoSleep
-Deshacer
-Un solo par de gafas para ver nítido a cualquier distanciaOpticPro
-Deshacer
-Tu carrera depega aquíCUN
-Deshacer
-CNE estudia revocar candidatura presidencial de Abelardo de la Espriella: los detallesEl Tiempo
-Deshacer
-Por si necesitas una razón más para beber agua de Jamaica, aquí tienes 20Outdoor Revival
-Deshacer
-40 figuras históricas que alcanzaron ser fotografiadasGameday News
-Deshacer
-Encuesta de Guarumo abril 2026: Cepeda 38 %, De la Espriella 23,9 % y Paloma 22,8 %; en segunda vuelta, Valencia derrota a Cepeda y Abelardo lo empataEl Tiempo
-Deshacer
-Apartamentos sin cuota inicial en Colombia: con pagos mensualesMap in Pocket
-Deshacer
 Cerrar
 ×
-Sigue leyendo
-CNE estudia revocar candidatura presidencial de Abelardo de la Espriella: los detallesEl demandante asegura que el candidato tuvo una consecuencia intencional y dolosa de engañar a la Registraduría por el alto número de firmas anuladas.El Tiempo
-Deshacer
-Encuesta de Guarumo abril 2026: Cepeda 38 %, De la Espriella 23,9 % y Paloma 22,8 %; en segunda vuelta, Valencia derrota a Cepeda y Abelardo lo empataEL TIEMPO revela la más reciente encuesta de intención de voto a un mes de la primera vuelta presidencial.El Tiempo
-Deshacer
-Duro cruce entre Paloma Valencia y Juan Daniel Oviedo por propuesta de nombrar a expresidente Álvaro Uribe como Mindefensa: 'La presidenta soy yo'Para Valencia, esta situación constituye un rechazo a la experiencia y la efectividad en seguridad que ella asocia con la figura de Uribe.El Tiempo
-Deshacer
-Fiscalía imputó cargos a la actriz Yeimy Paola Vargas Gómez por presunta responsabilidad en los delitos de falsedad en documento privadoEste jueves, 30 de abril, se llevó a cabo la audiencia de imputación de cargos.El Tiempo
-Deshacer
-Empresarios detrás de Lili Pink se fueron del país antes del megaoperativo en su contra por lavado y contrabandoLa Fiscalía busca hacer efectivas 8 órdenes de captura. El único detenido por el caso pidió aplazar por razones de salud.El Tiempo
-Deshacer
-Kit de perfumes importados disponible en proceso de liquidaciónPerfumes importados | 
-PatrocinadoPatrocinado
-Deshacer
-Perfumes importados ahora con precio accesiblePerfumes importados | 
-PatrocinadoPatrocinado
-Deshacer
-Lili Pink revela que Walter Martínez, primer capturado en el caso, no era parte de estructura empresarial ni de toma de decisiones: este era su papelLa empresa emitió nuevo comunicado en referencia al capturado por lavado de activos, contrabando, enriquecimiento ilícito y concierto para delinquir.El Tiempo
-Deshacer
-Florentino Pérez suma otra polémica al descalificar a una periodista por ser mujer, 'no sé si sabe de fútbol': la comunicadora le respondeUn capítulo más en la guerra abierta del máximo dirigente del Real Madrid contra la prensa. El Tiempo
-Deshacer
-Ladrón perdió parte del brazo luego de que un trabajador se defendiera con un machete en un intento de robo en BrasilEl hecho fue captado por cámaras de seguridad del establecimiento, que registraron toda la secuencia del intento de robo.El Tiempo
-Deshacer
-General (r) Eduardo Zapateiro se retira de la campaña de Abelardo De la Espriella tras conocerse que será imputado por supuesto acoso sexualEn un comunicado de su cuenta de X, Zapateiro anunció su salida para centrarse en su defensa.El Tiempo
-Deshacer
-¿Quiénes son las 100 mujeres más poderosas de Colombia, según la revista 'Forbes'? Francia Márquez, Shakira y Diana Trujillo destacan en la listaLa revista publicó su listado, con figuras del sector político, empresarial, cultural, científico y deportivo.El Tiempo
-Deshacer
-Truco japonés para reducir la apnea del sueño (¡es genial!)ErgoSleep | 
-PatrocinadoPatrocinado
-Deshacer
-Un solo par de gafas para ver nítido a cualquier distanciaOpticPro | 
-PatrocinadoPatrocinado
-Deshacer
-Escenarios en segunda vuelta según Guarumo: Paloma derrota a Cepeda y el candidato del Pacto empata con AbelardoEL TIEMPO revela la más reciente encuesta de intención de voto presidencial. El Tiempo
-Deshacer
-Álvaro Uribe se refirió a Juan Daniel Oviedo tras expresar desacuerdo con convertir al expresidente en ministro de Defensa: 'Estoy muy viejo'El líder del Centro Democrático también señaló que se sintió presionado tras las declaraciones del exdirector del Dane.El Tiempo
-Deshacer

@@ -25,34 +25,10 @@ Fue la creadora de contenido en YouTube ‘Casarcoiris_Deco’ quien fue a una d
 **| Ver también:**La ciudad colombiana que fue bautizada como la ‘fábrica de atardeceres’; llena de café y bellos paisajes
 Anuncios.
 Ver más
-Ética periodística
-Opinión política
-Suscripción periódico digital
+Artículos del hogar
+artículos de hogar
+Cocina y comedor
 Anuncios..
-Ver más
-Archivo hemeroteca
-Historia
-Historias locales
-Edictos legales
-Contenido multimedia
-políticos
-Noticias de Colombia
-Edición impresa
-Cursos periodismo digital
-Voz ciudadana
-  * Youtube Videos
-  * Videos
-  * Cocinas
-  * Como Por
-  * Comprador
-
-
-  * Creadora
-  * De Tiendas
-  * Después De
-  * Dispensador de papel aluminio
-
-
 #### Por Las Dos Orillas
 Somos un equipo de periodistas que queremos mostrar, además del país de siempre, ese que está olvidado, el de la otra orilla.
 Copy link

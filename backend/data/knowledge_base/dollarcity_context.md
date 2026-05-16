@@ -377,7 +377,31 @@ Desde el 2009 hasta el día de hoy, buscamos construir una empresa exitosa enfoc
 Empleos en Dollarcity
 Recibe notificaciones nuevas de Dollarcity
 
+### FUENTE: https://co.computrabajo.com/dollarcityco/empleos
+# Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+Dollarcity
+
 ### FUENTE: https://www.lafm.com.co/economia/los-cinco-productos-de-dollarcity-que-no-pueden-faltar-322827
+Los cinco productos de Dollarcity que no pueden faltar
 # Los cinco productos de Dollarcity que no pueden faltar en su casa
 Estos productos del Dollarcity resultarán siendo muy útiles en su hogar.
 **Crédito: dollarcity**
@@ -392,8 +416,6 @@ Esta tienda, que se ha ganado el cariño de los colombianos, ofrece novedosos pr
 Fue la creadora de contenido en YouTube ‘Casarcoiris_Deco’ quien fue a una de las tiendas e hizo una lista completa de artículos que cumplieran ciertos requisitos, como por ejemplo: **ser bonitos, ser muy útiles y, sobre todo, tener un precio bajo**. Este es el compilado que hizo:
 * **Dispensador de papel aluminio con base de bambú** Dollarcity por $18.000
 **| Ver también:**La ciudad colombiana que fue bautizada como la ‘fábrica de atardeceres’; llena de café y bellos paisajes
-Noticias de Colombia
-* De Tiendas
 
 ### FUENTE: https://www.pulzo.com/empleo/como-hacer-hoja-vida-llamativa-para-conseguir-trabajo-PP5142763?utm_source=scroll_pulzo&utm_medium=pulzo_comercial&utm_campaign=scroll_pulzo
 ## María Alejandra Puentes, gerente regional para Colombia de Pharmbills, compartió estos consejos durante el 'workshop' 'Florece y factura' que desarrolló Pulzo.
@@ -420,6 +442,7 @@ La actividad principal de Suramerica Comercial S A S es Comercio al por menor en
 Cifras expresadas en (PESO COLOMBIANO, UNIDADES)
 ## Empresas similares a **Suramerica Comercial S A S** en VALLE
 A continuación le ofrecemos un listado con 10 empresas similares a Suramerica Comercial S A S en VALLE y del sector Comercio al por menor en establecimientos no especializados con surtido compuesto principalmente por productos diferentes de alimentos (viveres en general) bebidas (alcoholicas y no alcoholicas) y tabaco.
+| MERCADEO INSTITUCIONAL COLOMBIANO LTDA  | CARRERA 54 1 A 51 OF 805, CALI, VALLE  |
 Busque sin costo información de empresas y empresarios colombianos
 * INFORMA COLOMBIA S.A,
 **eInforma** es una marca de **INFORMA COLOMBIA S.A** , líder en el mercado de suministro de **Información Comercial, Financiera y de Marketing de empresas colombianas** , perteneciente al Grupo **INFORMA D &B**, empresa de información del GRUPO Cesce. Actualmente la base de datos de INFORMA Colombia cuenta con **información de más de 4 millones de empresas colombianas** y ha sido elegida por Dun & Bradstreet para su red mundial de información por su calidad y cobertura.
@@ -475,38 +498,6 @@ Dollarama tendrá importante expansión en Australia. Foto: Instagram (@dollarci
 Recomendado: **Dollarcity: El mercado retail que se hace gigante en Colombia con precios competitivos**
 **La integración de esta cadena permitirá a Dollarama implementar sinergias en áreas clave como abastecimiento, logística, estrategias** de comercialización y expansión territorial. El modelo operativo que ha sido exitoso en Canadá y América Latina se adaptará al mercado australiano, con el objetivo de fortalecer la eficiencia operativa y mantener una estructura de precios competitiva.
 
-### FUENTE: https://co.computrabajo.com/dollarcityco/empleos
-# Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity
-Dollarcity sigue rompiendo esquemas en el mundo del retail Con nuestro innovador modelo de negocio hemos logrado aperturar más de 600 tiendas en 5 países de la región agregándole valor a nuestros clientes y acercándonos cada vez mas a nuestra visión de llegar a toda Latinoamerica.
-Únete a Dollarcity y forma parte de un equipo de primer nivel, en donde nuestro ADN #TodoTerreno nos permite enfrentarnos a los desafíos diarios con agilidad, dinamismo y compromiso.
-Serás el responsable de la correcta ejecución de todos los procesos operativos de la tienda, incluyendo el cobro en caja, manejo de bodega, atención al cliente, entre otros. Tu misión es cumplir con los estándares más altos de Dollarcity para que la experiencia de compra de nuestros clientes sea la idónea, asegurando la exhibición y el buen preciado de nuestros productos.
-Al ser parte de Dollarcity
-• Generarás impacto en el negocio, aportando a la rápida expansión de una compañía regional reconocida en el mundo del retail.
-Acerca de Dollarcity
-Recibe notificaciones nuevas de Dollarcity Formato incorrecto
-Empresa regional con presencia en El Salvador, Guatemala y Colombia de venta al por menor, con productos de la mejor calidad al más bajo precio. Enfocados en suplir las necesidades de todos los consumidores.
-
 ### FUENTE: https://www.las2orillas.co/la-genial-idea-de-dollarcity-que-enriquecio-un-par-de-salvadorenos/
 #  La genial idea de Dollarcity que enriqueció a un par de salvadoreños
 Fueron dos salvadoreños, Marco Andrés Baldocchi Kriete y su socio, los fundadores de Dollarcity, un negocio en el que ningún producto cuesta más de $ 10 mil. A Colombia llegaron a finales de 2016 y en menos de tres años se expandieron hasta tener 91 locales en distintos sectores de la ciudad, donde los compradores colombianos llegan a conseguir productos más baratos que la competencia. La compañía nació en el 2010, en su país cuentan con 45 tiendas y continuaron su expansión a Guatemala, donde poseen 56 tiendas. Después de casi diez años lograron hacer un negocio redondo: le vendieron el 50.1% del negocio por un valor cercano a los USD 95 millones a la canadiense Dollorama. La transacción le garantiza a Dollorama una plataforma para acceder al mercado latinoaméricano, donde han detectado una mayor rentabilidad en las ventas por metro cuadrado frente a las posibilidades en Canadá.
@@ -517,7 +508,6 @@ La empresa, cuyas oficinas principales quedan en Montreal, se volvió pública e
 De acuerdo con Nilsen, la categoría del comercio al por menor que más crece en el mundo son empresas como Dollorama y Dollarcity, los llamados “dolarazos”. En la última década, se ha presentado una reconfiguración en la apertura y cierre de tiendas físicas, solo en los Estados Unidos las que más abrieron, con un total de 11.240 puntos de venta, fueron las de productos de un dólar, seguidas por las tiendas de barrio y las farmacias.
 Dollarcity, que tiene como grupo objetivo la mujer ama de casa, incluye diferentes categorías de mesa y cocina, cuidado personal, juguetes, jardín y ferretería, ropa, accesorios personales, consumibles, decoración, organización y celebraciones. No necesariamente por un valor menor que un dólar, pero entre USD 3 y USD 4. En Canadá, los precios en Dollorama no superan los 4 dolares canadienes. En Colombia el límite son $ 10.000, entre una gran variedad de proveedores.
 La empresa que opera los almacenes Dollarcity, está registrada en Cali bajo el nombre de Suramericana Comercial SAS y según su presidente, Marco Baldocchi, la empresa está en el país para llenar un vacío en el mercado complementario. Lo cierto, es que el éxito ha sido tal que se ha convertido en un nuevo almacén ancla para los centros comerciales, y en una romería para conocerlo apenas abre sus puertas en una nueva ciudad.
-Cultura colombiana
 
 ### FUENTE: https://www.las2orillas.co/los-canadienses-duenos-de-dollarcity-que-la-pusieron-a-volar-con-colombia-como-eje-regional-del-negocio/
 #  Los canadienses dueños de Dollarcity que la pusieron a volar con Colombia como eje regional del negocio
@@ -530,9 +520,6 @@ Larry Rossy en 2004, ante la necesidad de recursos para mantener el rápido crec
 _Larry Rossy tuvo junto con su hijo Larry la visión de que Dollarama invirtiera en Dollarcity y su rentable mercado latinoamericano_
 Larry quién es el segundo mayor accionista de la empresa, dejó la presidencia en manos de su hijo Neil Rossy en mayo 2016 luego de 43 años a cargo, aunque permaneció por dos años vinculado como director ejecutivo y ahora es director emérito. Dollorama está hoy a cargo de la cuarta generación, Neil de 55 años quién lleva vinculado cerca de 30 años a Dollorama, es su presidente, CEO y miembro de la junta directiva. Bajo el liderazgo de Neil la empresa ha triplicado sus ganancias y duplicado sus ventas, en parte gracias a la apuesta por Dollarcity que Neil ha sido el encargado de sacar adelante.
 Dollarama y Dollarcity ofrecen una mezcla balanceada de productos que incluye una mercancía general, consumibles y productos de temporada. En términos de oferta, Dollarcity ofrece una mezcla balanceada de mercancía general, consumibles y productos de temporada que incluyen artículos para el hogar, limpieza, oficina, mascotas y decoración a precios accesibles. El modelo se apoya fuertemente en las importaciones, al punto que en 2024 la compañía se posicionó como la cuarta empresa que más productos importó desde China hacia Colombia. Además de marcas externas, la cadena impulsa sellos propios como Viva Color en la categoría de maquillaje, manteniendo su promesa de ofrecer artículos de buena calidad a bajo costo en secciones dedicadas a la organización, cocina, papelería y cuidado personal.
-Noticias Colombia
-Noticias de Colombia
-* De Tiendas
 
 ### FUENTE: https://www.kienyke.com/marketing/dollarcity-cual-es-la-historia-detras-de-su-concepto
 #  Dollarcity: ¿cuál es la historia detrás de su concepto?
@@ -548,7 +535,7 @@ Colombia es el país en el que **Dollarcity tiene más fuerza con 261 sedes en C
 En países como Colombia, donde existen formatos similares de tiendas que ofrecen productos a precios fijos, Dollarcity se ha posicionado como una opción popular para los consumidores que buscan economizar sin sacrificar la calidad. **La adaptación local del modelo de negocio ha sido clave para su éxito, permitiéndole competir eficazmente en un mercado minorista diverso y competitivo.**
 Es así como Dollarcity representa un caso notable de éxito en el sector minorista, utilizando un nombre distintivo que encapsula su filosofía de negocio centrada en la accesibilidad y la simplicidad de precios. **Con su expansión continuada y adaptación local, la cadena continúa marcando una diferencia significativa en los mercados donde está presente, ofreciendo una alternativa atractiva para los consumidores conscientes del valor.**
 Colombia
-Colombia
+El presidente Gustavo Petro pidió perdón al pueblo U'wa y reconoció la responsabilidad del Estado colombiano en la vulneración de sus derechos territoriales y culturales.
 
 ### FUENTE: https://es-us.finanzas.yahoo.com/noticias/dolar-exito-detras-dollarcity-millonaria-tienda-vende-todo-barato-115224476.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAHjVsc0DmbKkc3QTCuxUVZBe9cy8_-WGoMDYT2ld9_sqSrZz0HKCDGObkoBy9_3xln4YL20SvxqdFu4yL-B52YgY2vC1N_bro15rnCxlaTmm50H4rviU4_c196-XMJ6VZhpECBtSM6p4aiiWI7eArMVcUR6p0Zoxx6MqmPfHAO8i
 # El éxito detrás de Dollarcity, la millonaria tienda que vende “todo a 1 dólar”

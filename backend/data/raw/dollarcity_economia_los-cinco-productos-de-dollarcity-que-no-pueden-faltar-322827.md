@@ -1,5 +1,6 @@
 SOURCE_URL: https://www.lafm.com.co/economia/los-cinco-productos-de-dollarcity-que-no-pueden-faltar-322827
 
+Los cinco productos de Dollarcity que no pueden faltar
 finanzas
 # Los cinco productos de Dollarcity que no pueden faltar en su casa
 Estos productos del Dollarcity resultarán siendo muy útiles en su hogar.
@@ -26,22 +27,22 @@ Además, de estos, los soportes para las bolsas de basura, **que además cuentan
 ## Temas relacionados
 finanzasPromocionesBelleza
 ## Más de Economía
-Servicios financieros
-###  Bancolombia suspenderá varios de sus servicios: esta es la fecha y hora del corte 
-La suspensión afectará principalmente algunos servicios virtuales que se usan a diario por millones de clientes en el país.
+Subastas
+###  Desde $5 millones: el Gobierno puso en venta decenas de inmuebles en varias ciudades 
+El catálogo tiene más de 200 propiedades disponibles y puede consultarse de manera virtual.
 Pensión en Colombia
-###  ¿Le pueden descontar salud y pensión de la prima? Así funciona el pago 
+###  Última oportunidad: Colpensiones lanza jornada especial para traslados desde fondos privados en una sola visita 
 * * *
-Reforma pensional
-###  “No vamos a depender de una pensión estatal”: la advertencia de Jerome Sanabria sobre recursos de pensiones 
+Air-e
+###  Cuestionamientos por la designación de un nuevo agente interventor para Air-e, afirman que el recaudo bajó al 73% 
 * * *
 * * *
-Euros
-###  Precio del euro en Colombia; así cerró hoy 12 de mayo de 2026 
-La cotización del euro registró un rango diario entre $4.411,67 y $4.439,96 durante la jornada cambiaria del 12 de mayo.
-auto eléctrico
-###  Carros eléctricos en Colombia: este es el costo extra que debe asumir para tenerlo en casa 
-En Colombia ha aumentado la venta de carros eléctricos en el país. En abril se matricularon 26.837 unidades.
+Medellín, Colombia
+###  “Ni en Miami”: Fico explotó por altos arriendos y precios en restaurantes de Medellín y habló de “abusos” 
+El alcalde aseguró que la ciudad se está volviendo invivible para muchos habitantes por el aumento descontrolado del costo de vida.
+Reforma laboral
+###  Reforma laboral fijó nuevo límite semanal entre jornada ordinaria y horas extra 
+Cambios clave en las reglas laborales comenzarán a aplicarse en Colombia desde 2026 y modificarán la organización del trabajo.
 ## Programas
 Más Programas 
   1. Noticiero de La FM
@@ -70,41 +71,41 @@ Arrow pointing to the leftArrow pointing to the right
 Item 3 of 7
 ##  En video 
 Más videos 
-###  Fórmula de Santiago Botero aseguró que hijo de Rodolfo Hernández le pidió $3.000 millones: "Yo no me le arrodillo a nadie" 
-###  Supuesta prelista de Colombia para el Mundial 2026 se filtró: Juan Guillermo Cuadrado y Jhon Jáder Durán, entre las sorpresas 
-###  ¿Colpensiones podría quedarse sin recursos para pagar pensiones? Esto dijo su presidente 
-###  Predicción del Mundial 2026: así le iría a Colombia, según matemático experto 
-###  Las diferencias entre la viuda y el padre del asesinado Miguel Uribe Turbay 
-###  Con o sin decreto, los fondos privados deben trasladar dinero a Colpensiones: Jaime Dussán 
-###  Luis Suárez rompe récord histórico de Jackson Martínez en Portugal 
-###  Las seis de las 6 con Juan Lozano | martes 12 de mayo de 2026 
-###  🔴 EN VIVO | Noticiero La FM - 12 de mayo de 2026 
-###  “Miguel nos tiene que unir”: María Claudia Tarazona sobre su apoyo a Paloma Valencia en la carrera presidencial 
+###  Las historias de dos mujeres que transformaron sus ideas en negocios millonarios 
+###  Medio campista colombiano convocado al mundial saldría de La Liga por problemas con directivos: ¿Qué sucedió? 
+###  'La lipólisis láser es una liposucción': médico advirtió que procedimientos estéticos con anestesia local pueden ser más peligrosos 
+###  “Les pedimos que le pusieran oxígeno y nos dijeron que no tenían”: amiga de Yulixa Toloza reveló nuevos detalles 
+###  Esta fue la cirugía y el valor que pagó Yulixa Toloza en centro de estética en Bogotá 
+###  “La decisión final es del Presidente, pero hay obligaciones internacionales”: Corte Suprema alerta por posible incumplimiento en proceso de paz 
+###  Las seis de las 6 con Juan Lozano | viernes 15 de mayo de 2026 
+###  Nuevo ataque del presidente a la Corte Suprema de Justicia 
+###  🔴 EN VIVO | Noticiero La FM - 15 de mayo de 2026 
+###  Shakira la 'saca del estadio' y vuelve oficialmente al Mundial: así suena completa la canción 'Dai, Dai' 
 Ver nota completa 
 Este sitio web utiliza cookies para mejorar tu experiencia y personalizar el contenido. Al dar clic en "Aceptar", estás aceptando nuestra  Política de Cookies. 
 Aceptar 
 Últimas Noticias
-  * bioseguridadPensaban que era un arma biológica: así apareció el hantavirus en la Guerra de Corea
-  * Delincuentes capturadosCaen dos de los asaltantes que operan en vía Mondoñedo - Soacha
-  * Cruz RojaÚltimo sorteo de la Lotería de la Cruz Roja: resultado premio mayor hoy 12 de mayo
-  * TurismoCinco municipios colombianos elegidos entre los mejores pueblos del mundo para hacer turismo
-  * MalumaMaluma dará concierto gratis en Medellín: fecha, lugar y cómo asistir
-  * TransMilenioEstación de Transmilenio estuvo cerrada durante varias horas por amenaza de bomba
-  * Servicios financierosBancolombia suspenderá varios de sus servicios: esta es la fecha y hora del corte
-  * Liga BetPlayTodos los goles | Atlético Nacional aplastó a Inter de Bogotá con goleada histórica y clasificó a semifinales de la Liga BetPlay
-  * Gustavo PetroPetro rechaza propuesta de Trump sobre convertir a Venezuela en un estado de EE. UU.
-  * NasaLa NASA lanza concurso en el que podrá ganarse 3 mil millones de pesos: estos son los requisitos para participar
+  * SubastasDesde $5 millones: el Gobierno puso en venta decenas de inmuebles en varias ciudades
+  * Parejas¿Por qué fracasan las relaciones? Experto habló sobre los patrones que se repiten en las parejas
+  * Pico y placaPico y placa regional Bogotá del 18 de mayo de 2026: horarios, vías y restricciones
+  * HollywoodFamosos que perdieron la custodia de sus hijos: Mel Gibson, Britney Spears y más celebridades
+  * Pensión en ColombiaÚltima oportunidad: Colpensiones lanza jornada especial para traslados desde fondos privados en una sola visita
+  * CapturadosSe conocen detalles de la captura del presunto homicida del estudiante Freddy Guzmán en TransMilenio
+  * TatuajeExpotatuaje rompió el silencio tras muerte de joven en Medellín: “cumplimos todos los protocolos”
+  * Elecciones presidenciales“Claro que a mí me gusta el salario mínimo y el aumento de los recargos laborales”: Paloma Valencia
+  * Valle del CaucaAbelardo De la Espriella arremetió contra los partidos tradicionales en su gira por el Valle: "Eso es esclavitud política"
+  * EmpresasLas historias de dos mujeres que transformaron sus ideas en negocios millonarios
 
 
-  * bioseguridadPensaban que era un arma biológica: así apareció el hantavirus en la Guerra de Corea
-  * Delincuentes capturadosCaen dos de los asaltantes que operan en vía Mondoñedo - Soacha
-  * Cruz RojaÚltimo sorteo de la Lotería de la Cruz Roja: resultado premio mayor hoy 12 de mayo
-  * TurismoCinco municipios colombianos elegidos entre los mejores pueblos del mundo para hacer turismo
-  * MalumaMaluma dará concierto gratis en Medellín: fecha, lugar y cómo asistir
-  * TransMilenioEstación de Transmilenio estuvo cerrada durante varias horas por amenaza de bomba
-  * Servicios financierosBancolombia suspenderá varios de sus servicios: esta es la fecha y hora del corte
-  * Liga BetPlayTodos los goles | Atlético Nacional aplastó a Inter de Bogotá con goleada histórica y clasificó a semifinales de la Liga BetPlay
-  * Gustavo PetroPetro rechaza propuesta de Trump sobre convertir a Venezuela en un estado de EE. UU.
-  * NasaLa NASA lanza concurso en el que podrá ganarse 3 mil millones de pesos: estos son los requisitos para participar
+  * SubastasDesde $5 millones: el Gobierno puso en venta decenas de inmuebles en varias ciudades
+  * Parejas¿Por qué fracasan las relaciones? Experto habló sobre los patrones que se repiten en las parejas
+  * Pico y placaPico y placa regional Bogotá del 18 de mayo de 2026: horarios, vías y restricciones
+  * HollywoodFamosos que perdieron la custodia de sus hijos: Mel Gibson, Britney Spears y más celebridades
+  * Pensión en ColombiaÚltima oportunidad: Colpensiones lanza jornada especial para traslados desde fondos privados en una sola visita
+  * CapturadosSe conocen detalles de la captura del presunto homicida del estudiante Freddy Guzmán en TransMilenio
+  * TatuajeExpotatuaje rompió el silencio tras muerte de joven en Medellín: “cumplimos todos los protocolos”
+  * Elecciones presidenciales“Claro que a mí me gusta el salario mínimo y el aumento de los recargos laborales”: Paloma Valencia
+  * Valle del CaucaAbelardo De la Espriella arremetió contra los partidos tradicionales en su gira por el Valle: "Eso es esclavitud política"
+  * EmpresasLas historias de dos mujeres que transformaron sus ideas en negocios millonarios
 
 

@@ -2,31 +2,31 @@ SOURCE_URL: https://www.portafolio.co/tendencias/la-historia-detras-de-dollarcit
 
 En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí
 Entiendo
-Martes, 12.05.2026 / 21:45
+Viernes, 15.05.2026 / 21:46
 BOLETINES
 Indicadores en línea 
-  * TRM  $ 3.775,07 
-  * ICOLCAP  $ 20.886,50  -1,474%  -$ 312,5 
-  * Dólar  $ 3.772,63  +0,26%  +$ 9,93 
-  * Euro  $ 4.416,28  +0,26%  +$ 11,66 
-  * Bolívar  US$ 507,328899  +0,73%  +US$ 3,676585 
-  * Peso mexicano  US$ 0,456  -0,22%  -US$ 0,001 
-  * Oro  US$ 4698,89  -0,31%  -US$ 14,7609 
+  * TRM  $ 3.784,70 
+  * ICOLCAP  $ 21.360,00  -0,035%  -$ 7,5 
+  * Dólar  $ 3.791,51  +0,4%  +$ 15,06 
+  * Euro  $ 4.406,87  +0,02%  +$ 0,76 
+  * Bolívar  US$ 516,6669953  +0,86%  +US$ 4,381718 
+  * Peso mexicano  US$ 0,456 
+  * Oro  US$ 4538,0151  -2,4%  -US$ 111,46 
   * Tasa de usura en Colombia  28,17 % 
   * Tasa de interés del Banrep  11,25 % 
-  * Café  US$ 294,8 
+  * Café  US$ 286,75 
 
 
-  * TRM  $ 3.775,07 
-  * ICOLCAP  $ 20.886,50  -1,474%  -$ 312,5 
-  * Dólar  $ 3.772,63  +0,26%  +$ 9,93 
-  * Euro  $ 4.416,28  +0,26%  +$ 11,66 
-  * Bolívar  US$ 507,328899  +0,73%  +US$ 3,676585 
-  * Peso mexicano  US$ 0,456  -0,22%  -US$ 0,001 
-  * Oro  US$ 4698,89  -0,31%  -US$ 14,7609 
+  * TRM  $ 3.784,70 
+  * ICOLCAP  $ 21.360,00  -0,035%  -$ 7,5 
+  * Dólar  $ 3.791,51  +0,4%  +$ 15,06 
+  * Euro  $ 4.406,87  +0,02%  +$ 0,76 
+  * Bolívar  US$ 516,6669953  +0,86%  +US$ 4,381718 
+  * Peso mexicano  US$ 0,456 
+  * Oro  US$ 4538,0151  -2,4%  -US$ 111,46 
   * Tasa de usura en Colombia  28,17 % 
   * Tasa de interés del Banrep  11,25 % 
-  * Café  US$ 294,8 
+  * Café  US$ 286,75 
 
 
   * Economía
@@ -91,20 +91,20 @@ PORTAFOLIO WHATSAPP
 Únete al canal de El Tiempo en WhatsApp para estar al día con las noticias más relevantes al momento.
 quiero recibirlo
 Ponte al día
-La Corte Suprema de Justicia declara que la prostitución no es un trabajo, sino explotación sexual
+Estafa en WhatsApp: así funciona el fraude del "hijo en apuros" que llega desde un número desconocido y roba dinero
 Nazly Carolina Morales Herrera
-Veterinarios de India llegarán a Colombia para avanzar en el traslado de hipopótamos
-Nazly Carolina Morales Herrera
-Cinta métrica: qué indican los rombos negros y cómo se usan en construcción
-Nazly Carolina Morales Herrera
-Este será el primer artista en cantar en el DAVIarena: así será su regreso y la inauguración del escenario
-Nazly Carolina Morales Herrera
-Álvaro Uribe aseguró con Westcol que Petro y Cepeda buscan “poder absoluto” con la constituyente
-Daniel Hernandez Naranjo
+Estos fueron los últimos videos registrados de Yulixa Toloza el día en que desapareció
+Julian Andres Gonzalez Vargas
+Shakira donará 100% de ingresos de 'Dai Dai', himno de la Copa Mundial Fifa 2026, a un fondo global de educación
+Brayan Franzua Silva Hernandez
+Bogotá mundialista: los mejores planes, bares y restaurantes para vivirlo
+María Camila Monsalve Martínez
+Shakira, Madonna y BTS actuarán en el espectáculo de medio tiempo de la final del Mundial 2026
+Johana Lorduy
 Nuestros Portales
-Esto es lo que se sabe del viaje que Jeffrey Epstein y Ghislaine Maxwell hicieron al país en 2002 y 2007: los datos que reveló Migración Colombia 
+Cortos en Cannes 
 EL TIEMPO 
-Vea goles de Rodallega: así le gana Santa Fe a América en El Campín 
+El calor pone en jaque al Mundial: ¿Podrían suspender partidos? 
 FUTBOL RED 
-Intento de robo a carro de valores en Soacha deja un muerto y dos escoltas heridos 
+Habla trabajadora del centro estético donde desapareció Yulixa Toloza 
 CITY TV 

@@ -7,6 +7,10 @@ Añade a Valora Analitik como tu fuente
 **Esta negociación se concretó tras recibir la aprobación de los accionistas, los entes regulatorios correspondientes** y los tribunales competentes, lo que marca la incursión formal de Dollarama en el mercado minorista de Oceanía.
 **The Reject Shop, cuya sede principal se encuentra en Melbourne, es considerada la mayor cadena australiana de tiendas de descuento**. La empresa cuenta con una plantilla superior a los 5.000 empleados y opera bajo un modelo de precios accesibles, enfocado en artículos de uso cotidiano.
 **Para Dollarama, esta adquisición representa una decisión estratégica alineada con su plan de crecimiento internacional** , que incluye su consolidación en América Latina mediante la marca Dollarcity, presente en países como Colombia, donde inició operaciones en 2015 y ha mostrado una rápida expansión.
+Valora te recomienda:
+Megaproyecto del túnel del Toyo asegura millonaria inversión para continuar con obras
+Gobierno proyecta ahorro histórico de US$15.000 millones en intereses y reducción masiva de su deuda pública
+Gobierno Petro quiere regular el uso de patinetas, bicicletas eléctricas y scooters: Así tendrían que ser
 **Neil Rossy, presidente y director ejecutivo de Dollarama, destacó esta etapa como un avance significativo para los objetivos de largo plaz** o de la compañía. “Nos complace dar la bienvenida oficial al equipo de The Reject Shop a la familia Dollarama. Esta adquisición refuerza nuestra estrategia de crecimiento sostenido y constituye un paso relevante hacia la construcción de una plataforma internacional centrada en el valor para el consumidor”, expresó Rossy en un comunicado.
 Dollarama tendrá importante expansión en Australia. Foto: Instagram (@dollarcityco)
 Recomendado: **Dollarcity: El mercado retail que se hace gigante en Colombia con precios competitivos**
@@ -19,3 +23,7 @@ Síguenos en WhatsApp channels
 ¿Ya eres Premium? Suscríbete acá 
 ##  También te puede interesar: 
 ### Comienza a escribir y presiona enter para buscar
+×
+Te recomendamos leer:
+La empresa colombiana que movió internamente a 1.370 colaboradores en 2025 y consolidó una cantera propia de liderazgo directivo
+Ver más Cerrar

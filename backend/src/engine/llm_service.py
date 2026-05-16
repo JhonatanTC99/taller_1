@@ -9,6 +9,10 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.chat_message_histories import FileChatMessageHistory
+from dotenv import load_dotenv
+from langsmith import traceable
+
+load_dotenv()
 
 # Configuración del proyecto
 from src.config.settings import (
@@ -17,7 +21,7 @@ from src.config.settings import (
     LLM_PROVIDER, GOOGLE_API_KEY, GOOGLE_MODEL, OLLAMA_MODEL
 )
 # Prompts y Herramientas reales
-from src.engine.prompts import IDENTITY_BLOCK, GOVERNANCE_RULES, RESUMEN_PROMPT, FAQ_PROMPT, QA_SYSTEM_PROMPT
+from src.engine.prompts import RESUMEN_PROMPT, FAQ_PROMPT, QA_SYSTEM_PROMPT
 from src.engine.structured_tool import get_dollarcity_info
 
 class LLMService:
@@ -112,11 +116,11 @@ class LLMService:
             "acuérdate que", "acuerdate que", "como me llamo", "cómo me llamo",
             "como era que me llamaba", "cómo era que me llamaba", "cual es mi nombre",
             "cuál es mi nombre", "que te dije", "qué te dije", "recuerdas mi nombre",
-            "recuerda mi nombre", "+"
+            "recuerda mi nombre"
         ]
         return any(intent in q for intent in intents)
 
-    def _extract_user_name_from_text(self, text: str) -> str or None:
+    def _extract_user_name_from_text(self, text: str) -> str | None:
         """Extrae el nombre propio de una frase de presentación."""
         text = text.lower().strip()
         patterns = [
@@ -133,7 +137,7 @@ class LLMService:
                 return name.title()
         return None
 
-    def _get_user_name_from_history(self) -> str or None:
+    def _get_user_name_from_history(self) -> str | None:
         """Busca el nombre del usuario recorriendo el historial de atrás hacia adelante."""
         for msg in reversed(self.history.messages):
             if msg.type == "human":
@@ -229,7 +233,8 @@ class LLMService:
         if not text: return ""
         text = re.sub(r'</?output>', '', text, flags=re.IGNORECASE)
         return text.strip()
-
+    
+    @traceable(name="Chroma Retrieval", run_type="retriever")
     def _consultar_rag(self, query: str) -> dict:
         """Recupera fragmentos de Chroma o usa contexto estático con límites para optimizar latencia."""
         try:
@@ -353,7 +358,8 @@ class LLMService:
             return {"content": self._clean_output(res), "model": self.get_model_name(), "status": "success"}
         except Exception as e:
             return {"content": f"Error en FAQ: {str(e)}", "status": "error"}
-
+    
+    @traceable(name="Dollarcity Chat Router", run_type="chain")
     def get_chat_response(self, question: str) -> dict:
         """Router Híbrido Avanzado con Fast-Path de optimización incremental."""
         start_total = time.perf_counter()
@@ -458,6 +464,7 @@ class LLMService:
             }
 
 def start_console_chat():
+    """Inicia un bucle de chat interactivo en la consola con el servicio de IA de Dollarcity."""
     service = LLMService()
     print("\n      DOLLARCITY AI - MODO CONSOLA")
     while True:

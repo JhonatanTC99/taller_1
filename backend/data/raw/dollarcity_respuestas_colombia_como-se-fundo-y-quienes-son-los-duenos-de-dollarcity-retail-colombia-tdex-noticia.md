@@ -1,19 +1,23 @@
 SOURCE_URL: https://elcomercio.pe/respuestas/colombia/como-se-fundo-y-quienes-son-los-duenos-de-dollarcity-retail-colombia-tdex-noticia/
 
 EN VIVO
-Resultados ONPE
+Resultados ONPE 100%
+Universitario vs Atlético Grau
 Temas del día
   * Elecciones
+  * CTS
+  * San Marcos
+  * PUCP
+  * Cúper
+  * El Comercio
+  * U vs Atlético Grau
+  * Temblor
   * Dólar
   * Roberto Sánchez
-  * Cuper
   * Hantavirus
-  * CTS
   * Liga 1
-  * El Comercio
   * ONP
   * Segunda vuelta
-  * Temblor
   * Seguir a EC
   * Newsletters 
   * La Tinka
@@ -32,6 +36,7 @@ colombia
 Leer resumen
 ÚneteÚnete a El Comercio
 Seguir en
+Guardar
 Compartir
 Resumen
 Este resumen es generado por inteligencia artificial y revisado por la redacción.
@@ -63,4 +68,31 @@ Seguir temas
 #### Dollarcity
 #### Retail Colombia
 Ver Más
+Política
+### Elecciones 2026: ONPE culmina conteo de votos de la primera vuelta presidencial al 100% de actas
+El ComercioMexico
+### Amazon Prime Video gratis: cómo ver Chivas Guadalajara vs Cruz Azul por semifinal vuelta de la Liga MX
+El ComercioMexico
+### Chivas de Guadalajara vs Cruz Azul: fecha del partido, canales TV y dónde ver semifinal vuelta de la Liga MX
+El ComercioMexico
+### Canales que pasan Chivas Guadalajara vs Cruz Azul: horarios del partido por semifinal vuelta de Liga MX
+El Comercio
+Colombia
+### Temblor hoy en Colombia: Últimas noticias de la actividad sísmica hoy, viernes 15 de mayo
+El ComercioColombia
+### Vea Sinuano HOY, viernes 15 de mayo: Últimos resultados del sorteo
+El ComercioColombia
+### Vea La Caribeña HOY, viernes 15 de mayo: Revisa los últimos resultados
+El ComercioColombia
+### Lotería Santander HOY, viernes 15 de mayo: horario y dónde ver el sorteo
+El Comercio
+Colombia
+### Temblor hoy en Colombia: Últimas noticias de la actividad sísmica hoy, viernes 15 de mayo
+El ComercioColombia
+### Vea Sinuano HOY, viernes 15 de mayo: Últimos resultados del sorteo
+El ComercioColombia
+### Vea La Caribeña HOY, viernes 15 de mayo: Revisa los últimos resultados
+El ComercioColombia
+### Lotería Santander HOY, viernes 15 de mayo: horario y dónde ver el sorteo
+El Comercio
 Pregúntale a Merlín IA

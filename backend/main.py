@@ -3,12 +3,28 @@ import asyncio
 import uvicorn
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
 
-# Lógica interna del motor
+# Ingestión, procesamiento y lógica del motor síncrono preexistente
 from src.scraper.collector import run_scraper
 from src.processor.cleaner import build_dynamic_kb as run_semantic_curation
 from src.engine.llm_service import LLMService, start_console_chat
+
+# Orquestador agéntico avanzado del Módulo 3
+from src.engine.agent_service import get_agent_service
+
+# Contratos unificados de entrada/salida para producción (Módulo 3)
+from src.schemas.chat import (
+    ChannelChatRequest,
+    ChannelChatResponse,
+    LegacyChatRequest
+)
+
+# Conmutadores de arquitectura empresariales (Feature Flags)
+from src.config.settings import (
+    ENABLE_AGENT_V3,
+    ENABLE_CONVERSATION_LOGGING,
+    ENABLE_HITL
+)
 
 # --- CONFIGURACIÓN DE LA APP ---
 app = FastAPI(title="Dollarcity AI API - Taller 2")
@@ -25,7 +41,7 @@ _service = None
 
 def get_service() -> LLMService:
     """
-    Implementación de Singleton con Lazy Loading.
+    Implementación de Singleton con Lazy Loading para el servicio síncrono.
     Evita inicializar ChromaDB durante la ejecución de comandos CLI de limpieza.
     """
     global _service
@@ -33,25 +49,29 @@ def get_service() -> LLMService:
         _service = LLMService()
     return _service
 
-class ChatQuery(BaseModel):
-    question: str
-    model: str | None = None
 
 # --- ENDPOINTS ---
 
 @app.get("/")
 def home():
-    return {"status": "Backend Dollarcity Online", "version": "2.2-StabilityFix"}
+    """Devuelve el estado operativo básico del API de backend e indica el estado del contrato."""
+    return {"status": "Backend Dollarcity Online", "version": "3.0-channel-contract"}
+
 
 @app.get("/debug")
 def debug():
-    """Valida el estado del servidor y el modelo activo."""
+    """Valida el estado de la inicialización, modelo activo y estado de las variables de entorno v3."""
     service = get_service()
     return {
         "msg": "ESTOY EN MAIN.PY",
         "model": service.get_model_name(),
-        "session_id": service.session_id
+        "session_id": service.session_id,
+        "enable_agent_v3": ENABLE_AGENT_V3,
+        "enable_conversation_logging": ENABLE_CONVERSATION_LOGGING,
+        "enable_hitl": ENABLE_HITL,
+        "channel_endpoint_mode": "agent_v3" if ENABLE_AGENT_V3 else "legacy_bridge"
     }
+
 
 @app.get("/api/llm-health")
 def llm_health():
@@ -59,24 +79,34 @@ def llm_health():
     service = get_service()
     return service.test_llm_connection()
 
+
 @app.get("/api/rag-diagnostics")
 def rag_diagnostics():
     """Analiza la salud de la Vector DB (Chroma) y Contexto."""
     service = get_service()
     return service.get_rag_diagnostics()
 
+
 @app.get("/api/summary")
 def get_summary():
+    """Recupera la síntesis corporativa de conocimiento pre-calculada."""
     service = get_service()
     return service.get_summary() 
 
+
 @app.get("/api/faq")
 def get_faq():
+    """Recupera el listado estructurado de preguntas frecuentes."""
     service = get_service()
     return service.get_faq()
 
+
 @app.post("/api/chat")
-def chat(query: ChatQuery):
+def chat(query: LegacyChatRequest):
+    """
+    Endpoint síncrono heredado del Módulo 2.
+    Mantiene compatibilidad retrospectiva directa con el frontend de validación local.
+    """
     try:
         service = get_service()
         q = query.question.lower().strip()
@@ -112,10 +142,73 @@ def chat(query: ChatQuery):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.post("/api/rag-debug")
-def rag_debug(query: ChatQuery):
+
+@app.post("/api/channel/chat", response_model=ChannelChatResponse)
+def channel_chat(query: ChannelChatRequest):
     """
-    Nuevo endpoint de trazabilidad.
+    Endpoint adaptativo de producción para orquestación multiproveedor (Módulo 3).
+
+    Funciona bajo un mecanismo de conmutación de características (Feature Flag Routing). 
+    Si ENABLE_AGENT_V3 es activo, despacha la solicitud directamente al motor agéntico 
+    de LangChain/LangGraph (AgentService), preservando la traza intermedia y los metadatos. 
+    Si es inactivo, conmuta de forma segura al puente adaptativo lineal síncrono preexistente 
+    (LLMService) sin interrumpir los flujos webhooks externos de N8N, WhatsApp o Telegram.
+    """
+    try:
+        if ENABLE_AGENT_V3:
+            # Enrutamiento hacia la infraestructura agéntica avanzada del Módulo 3
+            result = get_agent_service().invoke(
+                user_id=query.user_id,
+                message=query.message,
+                channel=query.channel,
+                metadata=query.metadata
+            )
+            
+            # Recuperación estructurada para no destruir la telemetría generada en la tool o agente
+            meta_dict = result.get("metadata", {})
+            if not isinstance(meta_dict, dict):
+                meta_dict = {"raw_agent_metadata": meta_dict}
+            
+            meta_dict["agent_v3"] = True
+            meta_dict["legacy_bridge"] = False
+            
+        else:
+            # Enrutamiento retrospectivo hacia el motor síncrono del Módulo 2 (Legacy Bridge)
+            service = get_service()
+            if query.model:
+                service.set_model(query.model)
+                
+            result = service.get_chat_response(query.message)
+            
+            # Compilación estructural de metadatos del adaptador temporal
+            meta_dict = {
+                "agent_v3": False,
+                "legacy_bridge": True,
+                "input_metadata": query.metadata
+            }
+        
+        # Mapeo y conformación estricta al esquema corporativo de salida v3
+        return ChannelChatResponse(
+            content=result.get("content", ""),
+            status=result.get("status", "success"),
+            model=result.get("model") or (get_agent_service().get_model_name() if ENABLE_AGENT_V3 else get_service().get_model_name()),
+            session_id=query.user_id,
+            channel=query.channel,
+            tool_used=result.get("tool_used"),
+            source_type=result.get("source_type"),
+            docs_count=result.get("docs_count"),
+            timing_ms=result.get("timing_ms"),
+            metadata=meta_dict
+        )
+    except Exception as e:
+        # Control estricto de excepciones para evitar la divulgación involuntaria de secretos del sistema
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/rag-debug")
+def rag_debug(query: LegacyChatRequest):
+    """
+    Endpoint de trazabilidad técnica.
     Devuelve los fragmentos recuperados para una pregunta sin pasar por el LLM.
     """
     try:
@@ -123,6 +216,7 @@ def rag_debug(query: ChatQuery):
         return service.debug_rag_query(query.question)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
 
 # --- ORQUESTADOR ---
 
@@ -142,7 +236,6 @@ def run_orchestrator():
 
     if args.full or args.clean:
         print("\n>>> FASE 2: CURACIÓN SEMÁNTICA E INDEXACIÓN...")
-        # Aquí no llamamos a get_service() para no borrar Chroma antes de usarlo
         run_semantic_curation()
 
     if args.chat:
@@ -155,6 +248,7 @@ def run_orchestrator():
 
     if not any(vars(args).values()):
         parser.print_help()
+
 
 if __name__ == "__main__":
     run_orchestrator()

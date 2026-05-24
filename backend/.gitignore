@@ -5,15 +5,28 @@ build/
 dist/
 wheels/
 *.egg-info
+.pytest_cache/
 
 # Virtual environments
-.venv
+.venv/
+venv/
 
-# Entorno y Secretos
+# Entorno y secretos
 .env
-.env.local
+.env.*
+!.env.example
 
-# Datos de persistencia (No subir DB ni historiales)
+# Datos de persistencia local
 data/chroma_db/
 data/history/
 data/raw/
+data/logs/
+data/*.sqlite3
+*.sqlite3
+
+# Docker / PostgreSQL local
+postgres_data/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

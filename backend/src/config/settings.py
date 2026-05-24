@@ -1,18 +1,76 @@
 """
-Módulo de configuración de rutas y entorno para el proyecto de Dollarcity.
-Fusiona la configuración original de scraping con la arquitectura de Gemini/Ollama.
+Módulo de configuración centralizado para el sistema conversacional de Dollarcity.
+
+Este componente gestiona las variables de entorno, la inicialización de rutas 
+absolutas del proyecto y la parametrización de las arquitecturas de ejecución.
+Mantiene compatibilidad retrospectiva con los componentes de extracción y procesamiento
+del Módulo 2 (Legacy) y define la infraestructura de configuración requerida para la
+orquestación agéntica, persistencia distribuida y observabilidad avanzadas del Módulo 3.
+
+Asignatura: Técnicas Avanzadas de IA Aplicadas en Modelos de Lenguaje
+Ruta Seleccionada: Ruta A (Arquitectura Tradicional Enterprise)
 """
+
 import os
+import re
 from pathlib import Path
 from dotenv import load_dotenv
 
-# Cargar variables de entorno
+# Carga de variables de entorno globales desde el archivo de configuración .env
 load_dotenv()
 
-# --- RUTAS DEL PROYECTO (Absolutas) ---
+
+def get_bool_env(name: str, default: bool = False) -> bool:
+    """
+    Evalúa de forma estricta variables de entorno para su conversión a tipos booleanos.
+
+    Args:
+        name (str): Nombre de la variable de entorno a evaluar.
+        default (bool): Valor de retorno por defecto en caso de ausencia o indeterminación.
+
+    Returns:
+        bool: Representación booleana interpretada del valor de entorno.
+    """
+    value = os.getenv(name)
+    if value is None:
+        return default
+    
+    clean_value = value.strip().lower()
+    if clean_value in ("true", "1", "yes", "y", "on"):
+        return True
+    if clean_value in ("false", "0", "no", "n", "off"):
+        return False
+        
+    return default
+
+
+def mask_database_url(url: str) -> str:
+    """
+    Ofusca las credenciales explícitas dentro de una cadena de conexión (URI) de base de datos.
+    Previene la fuga de información sensible en los flujos de diagnóstico del backend.
+
+    Args:
+        url (str): URI completa de conexión a la base de datos.
+
+    Returns:
+        str: Cadena de conexión modificada con la contraseña enmascarada.
+    """
+    if not url:
+        return ""
+    # Patrón estándar para capturar esquemas tipo dialecto://usuario:contraseña@host
+    pattern = r"^(?P<protocol>[^:]+://)(?P<user>[^:]+):(?P<password>[^@]+)(?P<rest>@.+)$"
+    match = re.match(pattern, url)
+    if match:
+        return f"{match.group('protocol')}{match.group('user')}:******{match.group('rest')}"
+    return url
+
+
+# =====================================================================
+# SECCIÓN I: ARQUITECTURA DE RUTAS DEL PROYECTO (Rutas Absolutas)
+# =====================================================================
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
-# Carpetas de datos
+# Directorios de datos y almacenamiento persistente local
 DATA_DIR = BASE_DIR / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
 KB_DIR = DATA_DIR / "knowledge_base"
@@ -22,29 +80,87 @@ HISTORY_DIR = DATA_DIR / "history"
 SPECIFIC_QUESTION_DIR = DATA_DIR / "specific_questions"
 SPECIFIC_QUESTION_PATH = SPECIFIC_QUESTION_DIR / "data_corporativa.json"
 
-# --- CONFIGURACIÓN LLM ---
-# Proveedor principal: 'google' o 'ollama'
+# Nuevos directorios de producción para el Módulo 3
+LOG_DIR = DATA_DIR / "logs"
+CONVERSATION_LOG_PATH = LOG_DIR / "conversation_logs.jsonl"
+NOTEBOOKS_DIR = BASE_DIR / "notebooks"
+REPORTS_DIR = BASE_DIR / "reports"
+
+
+# =====================================================================
+# SECCIÓN II: INFRAESTRUCTURA LLM LEGACY (Módulo 2 / Componentes Base)
+# =====================================================================
+# Identificador del proveedor de inferencia: 'google' o 'ollama'
 LLM_PROVIDER = os.getenv("LLM_PROVIDER", "google").lower()
 
-# Configuración de Google Gen AI (Gemini)
+# Configuración del entorno Google Gen AI (API de Gemini)
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-GOOGLE_MODEL = "gemini-3.1-flash-lite"
+GOOGLE_MODEL = os.getenv("GOOGLE_MODEL", "gemini-3.1-flash-lite")
 
-# Configuración de Ollama (Fallback o Local)
+# Configuración de servicios locales mediante Ollama
 OLLAMA_BASE_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
-OLLAMA_MODEL = "gemma4:latest"
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "gemma4:latest")
 
-# Selección automática del modelo por defecto según el proveedor
+# Selección determinista del modelo por defecto para componentes síncronos lineales
 if LLM_PROVIDER == "google":
     DEFAULT_MODEL = GOOGLE_MODEL
 else:
     DEFAULT_MODEL = OLLAMA_MODEL
 
-# Modelo de Embeddings (HuggingFace)
+# Modelo de representación vectorial de texto (Embeddings locales)
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 
-# --- CONFIGURACIÓN DE SCRAPING (TARGET_URLS) ---
-# Restaurada lista original para compatibilidad con src.scraper.collector
+
+# =====================================================================
+# SECCIÓN III: MOTOR DE AGENTES MÓDULO 3 (LangChain / LangGraph)
+# =====================================================================
+AGENT_PROVIDER = os.getenv("AGENT_PROVIDER", LLM_PROVIDER).lower()
+AGENT_MODEL = os.getenv("AGENT_MODEL", DEFAULT_MODEL)
+AGENT_TEMPERATURE = float(os.getenv("AGENT_TEMPERATURE", "0.1"))
+AGENT_MAX_RETRIES = int(os.getenv("AGENT_MAX_RETRIES", "2"))
+
+
+# =====================================================================
+# SECCIÓN IV: CAPA DE PERSISTENCIA DISTRIBUIDA (PostgreSQL / Checkpointing)
+# =====================================================================
+# Cadena de conexión requerida por la clase PostgresSaver para persistencia de grafos
+DATABASE_URL = os.getenv(
+    "DATABASE_URL", 
+    "postgresql://postgres:postgres@localhost:5432/dollarcity_agent"
+)
+# Prefijo estructural para las tablas de checkpoints gestionadas por LangGraph
+CHECKPOINT_TABLE_PREFIX = os.getenv("CHECKPOINT_TABLE_PREFIX", "dollarcity_agent")
+
+
+# =====================================================================
+# SECCIÓN V: INTERFACES Y CANALES DE INTEGRACIÓN EXTERNA
+# =====================================================================
+PUBLIC_API_BASE_URL = os.getenv("PUBLIC_API_BASE_URL", "http://127.0.0.1:8000")
+N8N_WEBHOOK_SECRET = os.getenv("N8N_WEBHOOK_SECRET", "")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+WHATSAPP_VERIFY_TOKEN = os.getenv("WHATSAPP_VERIFY_TOKEN", "")
+
+
+# =====================================================================
+# SECCIÓN VI: CONMUTADORES DE ARQUITECTURA (Feature Flags)
+# =====================================================================
+ENABLE_AGENT_V3 = get_bool_env("ENABLE_AGENT_V3", False)
+ENABLE_CONVERSATION_LOGGING = get_bool_env("ENABLE_CONVERSATION_LOGGING", True)
+ENABLE_HITL = get_bool_env("ENABLE_HITL", False)
+ENABLE_LEGACY_CHAT = get_bool_env("ENABLE_LEGACY_CHAT", True)
+ENABLE_RAG_DEBUG = get_bool_env("ENABLE_RAG_DEBUG", True)
+
+
+# =====================================================================
+# SECCIÓN VII: OBSERVABILIDAD Y TRAZABILIDAD EMPRESARIAL
+# =====================================================================
+LANGSMITH_TRACING = get_bool_env("LANGSMITH_TRACING", False)
+LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
+
+
+# =====================================================================
+# SECCIÓN VIII: FUENTES DE DATOS PARA SCRAPING (Backward Compatibility)
+# =====================================================================
 TARGET_URLS = [
     "https://dollarcity.com/co/",
     "https://dollarcity.com/nuestro-equipo/",
@@ -80,23 +196,47 @@ TARGET_URLS = [
     "https://directorio-empresas.einforma.co/informacion-empresa/suramerica-comercial-sas"
 ]
 
+
 def ensure_dirs():
-    """Crea la estructura de directorios necesaria para todas las fases del proyecto."""
+    """
+    Garantiza la existencia física de la estructura de directorios del proyecto.
+    Crea las rutas necesarias de forma segura si no se encuentran en el sistema de archivos.
+    """
     directories = [
         RAW_DATA_DIR, 
         KB_DIR, 
         CHROMA_PATH, 
         HISTORY_DIR, 
-        SPECIFIC_QUESTION_DIR
+        SPECIFIC_QUESTION_DIR,
+        LOG_DIR,
+        NOTEBOOKS_DIR,
+        REPORTS_DIR
     ]
     for directory in directories:
         directory.mkdir(parents=True, exist_ok=True)
 
-# Ejecución automática al importar para asegurar carpetas
+
+# Inicialización automatizada del entorno de directorios durante el proceso de importación
 ensure_dirs()
 
+# =====================================================================
+# SECCIÓN IX: VERIFICACIÓN Y DIAGNÓSTICO DE CONFIGURACIÓN
+# =====================================================================
 if __name__ == "__main__":
-    print(f"[INFO] Inicializando entorno en: {BASE_DIR}")
-    print(f"[INFO] Proveedor LLM activo: {LLM_PROVIDER}")
-    print(f"[INFO] Modelo por defecto: {DEFAULT_MODEL}")
-    print("[SUCCESS] Configuración cargada y directorios verificados.")
+    print("=====================================================================")
+    print(" DIAGNÓSTICO SISTEMA CONVERSACIONAL DOLLARCITY - CONFIGURACIÓN V3")
+    print("=====================================================================")
+    print(f"BASE_DIR:                    {BASE_DIR}")
+    print(f"DATA_DIR:                    {DATA_DIR}")
+    print(f"CHROMA_PATH:                 {CHROMA_PATH}")
+    print(f"KB_FILE_PATH:                {KB_FILE_PATH}")
+    print(f"LLM_PROVIDER (Legacy):       {LLM_PROVIDER}")
+    print(f"DEFAULT_MODEL (Legacy):      {DEFAULT_MODEL}")
+    print(f"AGENT_PROVIDER (V3):         {AGENT_PROVIDER}")
+    print(f"AGENT_MODEL (V3):            {AGENT_MODEL}")
+    print(f"ENABLE_AGENT_V3:             {ENABLE_AGENT_V3}")
+    print(f"ENABLE_CONVERSATION_LOGGING: {ENABLE_CONVERSATION_LOGGING}")
+    print(f"ENABLE_HITL:                 {ENABLE_HITL}")
+    print(f"DATABASE_URL (Persistencia): {mask_database_url(DATABASE_URL)}")
+    print("=====================================================================")
+    print("[SUCCESS] Archivo settings.py importable y validado correctamente.")

@@ -68,17 +68,17 @@ Seguir temas
 #### Dollarcity
 #### Retail Colombia
 Ver Más
-Política
-### Elecciones 2026: ONPE culmina conteo de votos de la primera vuelta presidencial al 100% de actas
+Oriente Medio
+### Israel ataca el sur del Líbano un día después de anunciar la extensión del alto el fuego
 El ComercioMexico
-### Amazon Prime Video gratis: cómo ver Chivas Guadalajara vs Cruz Azul por semifinal vuelta de la Liga MX
-El ComercioMexico
-### Chivas de Guadalajara vs Cruz Azul: fecha del partido, canales TV y dónde ver semifinal vuelta de la Liga MX
-El ComercioMexico
-### Canales que pasan Chivas Guadalajara vs Cruz Azul: horarios del partido por semifinal vuelta de Liga MX
+### Temblor en México hoy, sábado 16 de mayo: hora exacta, epicentro y magnitud del último sismo
+El ComercioPerú
+### Gobierno amplía contrato de Petro-Perú en el Lote Z-69 y modifica esquema de regalías
+El ComercioColombia
+### Temblor en Colombia hoy, sábado 16 de mayo: reportes de los últimos sismos según el SGC
 El Comercio
 Colombia
-### Temblor hoy en Colombia: Últimas noticias de la actividad sísmica hoy, viernes 15 de mayo
+### Temblor en Colombia hoy, sábado 16 de mayo: reportes de los últimos sismos según el SGC
 El ComercioColombia
 ### Vea Sinuano HOY, viernes 15 de mayo: Últimos resultados del sorteo
 El ComercioColombia
@@ -87,7 +87,7 @@ El ComercioColombia
 ### Lotería Santander HOY, viernes 15 de mayo: horario y dónde ver el sorteo
 El Comercio
 Colombia
-### Temblor hoy en Colombia: Últimas noticias de la actividad sísmica hoy, viernes 15 de mayo
+### Temblor en Colombia hoy, sábado 16 de mayo: reportes de los últimos sismos según el SGC
 El ComercioColombia
 ### Vea Sinuano HOY, viernes 15 de mayo: Últimos resultados del sorteo
 El ComercioColombia

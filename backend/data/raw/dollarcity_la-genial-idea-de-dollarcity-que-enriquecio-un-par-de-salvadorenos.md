@@ -16,6 +16,21 @@ Dollarcity, que tiene como grupo objetivo la mujer ama de casa, incluye diferent
 La empresa que opera los almacenes Dollarcity, está registrada en Cali bajo el nombre de Suramericana Comercial SAS y según su presidente, Marco Baldocchi, la empresa está en el país para llenar un vacío en el mercado complementario. Lo cierto, es que el éxito ha sido tal que se ha convertido en un nuevo almacén ancla para los centros comerciales, y en una romería para conocerlo apenas abre sus puertas en una nueva ciudad.
 Anuncios.
 Anuncios..
+  * Youtube Videos
+  * Videos
+  * 40 y 50
+  * Ancla
+  * Celebraciones
+  * Cocinas
+
+
+  * Compra Por
+  * Comprador
+  * Creación
+  * Cuadrado
+  * Youtube Videos
+
+
 #### Por Adriana Arcila
 Somos un equipo de periodistas que queremos mostrar, además del país de siempre, ese que está olvidado, el de la otra orilla.
 Copy link

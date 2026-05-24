@@ -27,22 +27,22 @@ Además, de estos, los soportes para las bolsas de basura, **que además cuentan
 ## Temas relacionados
 finanzasPromocionesBelleza
 ## Más de Economía
+Reforma laboral
+###  Así operarán las horas extra y descansos obligatorios a partir de julio de 2026 
+Desde julio de 2026 aumentarán los recargos dominicales y festivos en Colombia, mientras la jornada laboral bajará a 42 horas semanales.
 Subastas
 ###  Desde $5 millones: el Gobierno puso en venta decenas de inmuebles en varias ciudades 
-El catálogo tiene más de 200 propiedades disponibles y puede consultarse de manera virtual.
+* * *
 Pensión en Colombia
 ###  Última oportunidad: Colpensiones lanza jornada especial para traslados desde fondos privados en una sola visita 
 * * *
+* * *
 Air-e
 ###  Cuestionamientos por la designación de un nuevo agente interventor para Air-e, afirman que el recaudo bajó al 73% 
-* * *
-* * *
+Líderes aseguran que, la empresa no ha tenido mejoría, pero reconocen reducción en el costo de la tarifa.
 Medellín, Colombia
 ###  “Ni en Miami”: Fico explotó por altos arriendos y precios en restaurantes de Medellín y habló de “abusos” 
 El alcalde aseguró que la ciudad se está volviendo invivible para muchos habitantes por el aumento descontrolado del costo de vida.
-Reforma laboral
-###  Reforma laboral fijó nuevo límite semanal entre jornada ordinaria y horas extra 
-Cambios clave en las reglas laborales comenzarán a aplicarse en Colombia desde 2026 y modificarán la organización del trabajo.
 ## Programas
 Más Programas 
   1. Noticiero de La FM
@@ -71,6 +71,7 @@ Arrow pointing to the leftArrow pointing to the right
 Item 3 of 7
 ##  En video 
 Más videos 
+###  Álvaro Uribe denuncia presión armada en elecciones: “Obligan a votar por Iván Cepeda” 
 ###  Las historias de dos mujeres que transformaron sus ideas en negocios millonarios 
 ###  Medio campista colombiano convocado al mundial saldría de La Liga por problemas con directivos: ¿Qué sucedió? 
 ###  'La lipólisis láser es una liposucción': médico advirtió que procedimientos estéticos con anestesia local pueden ser más peligrosos 
@@ -80,32 +81,31 @@ Más videos
 ###  Las seis de las 6 con Juan Lozano | viernes 15 de mayo de 2026 
 ###  Nuevo ataque del presidente a la Corte Suprema de Justicia 
 ###  🔴 EN VIVO | Noticiero La FM - 15 de mayo de 2026 
-###  Shakira la 'saca del estadio' y vuelve oficialmente al Mundial: así suena completa la canción 'Dai, Dai' 
 Ver nota completa 
 Este sitio web utiliza cookies para mejorar tu experiencia y personalizar el contenido. Al dar clic en "Aceptar", estás aceptando nuestra  Política de Cookies. 
 Aceptar 
 Últimas Noticias
-  * SubastasDesde $5 millones: el Gobierno puso en venta decenas de inmuebles en varias ciudades
-  * Parejas¿Por qué fracasan las relaciones? Experto habló sobre los patrones que se repiten en las parejas
-  * Pico y placaPico y placa regional Bogotá del 18 de mayo de 2026: horarios, vías y restricciones
-  * HollywoodFamosos que perdieron la custodia de sus hijos: Mel Gibson, Britney Spears y más celebridades
-  * Pensión en ColombiaÚltima oportunidad: Colpensiones lanza jornada especial para traslados desde fondos privados en una sola visita
-  * CapturadosSe conocen detalles de la captura del presunto homicida del estudiante Freddy Guzmán en TransMilenio
-  * TatuajeExpotatuaje rompió el silencio tras muerte de joven en Medellín: “cumplimos todos los protocolos”
-  * Elecciones presidenciales“Claro que a mí me gusta el salario mínimo y el aumento de los recargos laborales”: Paloma Valencia
-  * Valle del CaucaAbelardo De la Espriella arremetió contra los partidos tradicionales en su gira por el Valle: "Eso es esclavitud política"
-  * EmpresasLas historias de dos mujeres que transformaron sus ideas en negocios millonarios
+  * Envejecimiento¿Quién nos va a cuidar? El envejecimiento abre debate sobre pensiones, salud y empleo
+  * Reforma laboralAsí operarán las horas extra y descansos obligatorios a partir de julio de 2026
+  * Procedimientos Estéticos“Me ofrecieron pago por mi silencio”: habla mujer operada en la misma estética de Yulixa Toloza
+  * HomicidiosRechazo por asesinato del coordinador de campaña de Abelardo De La Espriella en Cubarral (Meta)
+  * Elecciones en ColombiaÁlvaro Uribe denuncia presión armada en elecciones: “Obligan a votar por Iván Cepeda”
+  * Universidad NacionalConsejo de Estado respalda decisión del MinEducación sobre rectoría encargada de la Universidad Nacional
+  * EducaciónMinEducación identificó más de 1.200 irregularidades en procesos docentes de Antioquia y Medellín
+  * Estadio El CampínDesde el Concejo cuestionan que El Campín priorice conciertos y no el fútbol
+  * IsisTrump informa que eliminó en Nigeria al número dos del Estado Islámico
+  * AsesinatoAsesinan a coordinador de la campaña de Abelardo de la Espriella en Cubarral, Meta
 
 
-  * SubastasDesde $5 millones: el Gobierno puso en venta decenas de inmuebles en varias ciudades
-  * Parejas¿Por qué fracasan las relaciones? Experto habló sobre los patrones que se repiten en las parejas
-  * Pico y placaPico y placa regional Bogotá del 18 de mayo de 2026: horarios, vías y restricciones
-  * HollywoodFamosos que perdieron la custodia de sus hijos: Mel Gibson, Britney Spears y más celebridades
-  * Pensión en ColombiaÚltima oportunidad: Colpensiones lanza jornada especial para traslados desde fondos privados en una sola visita
-  * CapturadosSe conocen detalles de la captura del presunto homicida del estudiante Freddy Guzmán en TransMilenio
-  * TatuajeExpotatuaje rompió el silencio tras muerte de joven en Medellín: “cumplimos todos los protocolos”
-  * Elecciones presidenciales“Claro que a mí me gusta el salario mínimo y el aumento de los recargos laborales”: Paloma Valencia
-  * Valle del CaucaAbelardo De la Espriella arremetió contra los partidos tradicionales en su gira por el Valle: "Eso es esclavitud política"
-  * EmpresasLas historias de dos mujeres que transformaron sus ideas en negocios millonarios
+  * Envejecimiento¿Quién nos va a cuidar? El envejecimiento abre debate sobre pensiones, salud y empleo
+  * Reforma laboralAsí operarán las horas extra y descansos obligatorios a partir de julio de 2026
+  * Procedimientos Estéticos“Me ofrecieron pago por mi silencio”: habla mujer operada en la misma estética de Yulixa Toloza
+  * HomicidiosRechazo por asesinato del coordinador de campaña de Abelardo De La Espriella en Cubarral (Meta)
+  * Elecciones en ColombiaÁlvaro Uribe denuncia presión armada en elecciones: “Obligan a votar por Iván Cepeda”
+  * Universidad NacionalConsejo de Estado respalda decisión del MinEducación sobre rectoría encargada de la Universidad Nacional
+  * EducaciónMinEducación identificó más de 1.200 irregularidades en procesos docentes de Antioquia y Medellín
+  * Estadio El CampínDesde el Concejo cuestionan que El Campín priorice conciertos y no el fútbol
+  * IsisTrump informa que eliminó en Nigeria al número dos del Estado Islámico
+  * AsesinatoAsesinan a coordinador de la campaña de Abelardo de la Espriella en Cubarral, Meta
 
 

@@ -2,7 +2,7 @@ SOURCE_URL: https://www.eltiempo.com/economia/empresas/quienes-son-los-duenos-de
 
 En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí
 Entiendo
-Viernes, 15.05.2026 / 21:46
+Sábado, 16.05.2026 / 10:08
 EMPLEOS
 CLUB VIVAMOS 
 SUSCRÍBETE CLUB VIVAMOS 

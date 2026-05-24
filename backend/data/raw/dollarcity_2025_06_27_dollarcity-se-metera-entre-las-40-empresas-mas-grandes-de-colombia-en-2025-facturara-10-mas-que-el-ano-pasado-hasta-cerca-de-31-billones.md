@@ -25,3 +25,6 @@ Es un minorista canadiense de productos económicos, que ofrece una variedad de 
 La mercancía se vende a precios fijos seleccionados de hasta U$5. Al corte del año fiscal que cerró en septiembre del 2024, la empresa registró ingresos operacionales por US$4.532 millones, con un crecimiento de 7,1%, contra igual periodo del 2023, cuando se ubicaron en US$4.228 millones
 Ir a inicio
 ### _Relacionado_
+En el 2025, ingresos de Dollarcity en Colombia crecieron 17,5%, frente al 2024, al totalizar $3,37 billones13 de marzo de 2026En «Colombia»
+Con apertura en Bogotá del local “Nomad”, compañía operadora de la cadena de comercio al detal Dollarcity llegó a cerca de 385 tiendas en Colombia12 de noviembre de 2025En «Colombia»
+De las 100 nuevas tiendas que abrió en los últimos 15 meses a nivel mundial, la canadiense Dollarama inauguró 38 en Colombia bajo la marca Dollarcity24 de marzo de 2026En «Colombia»

@@ -2,7 +2,7 @@ SOURCE_URL: https://www.portafolio.co/tendencias/la-historia-detras-de-dollarcit
 
 En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí
 Entiendo
-Viernes, 15.05.2026 / 21:46
+Sábado, 16.05.2026 / 10:08
 BOLETINES
 Indicadores en línea 
   * TRM  $ 3.784,70 
@@ -91,20 +91,20 @@ PORTAFOLIO WHATSAPP
 Únete al canal de El Tiempo en WhatsApp para estar al día con las noticias más relevantes al momento.
 quiero recibirlo
 Ponte al día
+Colombia recuperó el liderazgo mundial en el Global Big Day con 1.566 especies de aves registradas
+Paula Galeano Balaguera
+Recomendados Portafolio: Energía: perspectivas regulatorias
+César Giraldo
 Estafa en WhatsApp: así funciona el fraude del "hijo en apuros" que llega desde un número desconocido y roba dinero
 Nazly Carolina Morales Herrera
 Estos fueron los últimos videos registrados de Yulixa Toloza el día en que desapareció
 Julian Andres Gonzalez Vargas
 Shakira donará 100% de ingresos de 'Dai Dai', himno de la Copa Mundial Fifa 2026, a un fondo global de educación
 Brayan Franzua Silva Hernandez
-Bogotá mundialista: los mejores planes, bares y restaurantes para vivirlo
-María Camila Monsalve Martínez
-Shakira, Madonna y BTS actuarán en el espectáculo de medio tiempo de la final del Mundial 2026
-Johana Lorduy
 Nuestros Portales
-Cortos en Cannes 
+Fenómeno de El Niño intensifica calor en Caribe: alertan por incendios, sequía y altas temperaturas en la región 
 EL TIEMPO 
-El calor pone en jaque al Mundial: ¿Podrían suspender partidos? 
+Davinson Sánchez, a ritmo colombiano: así celebró título en Turquía 
 FUTBOL RED 
-Habla trabajadora del centro estético donde desapareció Yulixa Toloza 
+Habla empleada del centro estético donde fue atendida Yulixa Toloza 
 CITY TV 

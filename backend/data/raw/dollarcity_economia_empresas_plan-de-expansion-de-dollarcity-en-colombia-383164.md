@@ -2,7 +2,7 @@ SOURCE_URL: https://www.eltiempo.com/economia/empresas/plan-de-expansion-de-doll
 
 En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí
 Entiendo
-Viernes, 15.05.2026 / 21:46
+Sábado, 16.05.2026 / 10:08
 EMPLEOS
 CLUB VIVAMOS 
 SUSCRÍBETE CLUB VIVAMOS 
@@ -140,67 +140,5 @@ A la conquista de Silicon Valley
 Andres Orlando Zambrano Diaz
 Google destrona a Apple y valor de las marcas globales crece 22 por ciento impulsado por la inteligencia artificial
 Laura Lesmes Díaz
-por Taboolapor Taboola
-Enlaces PatrocinadosEnlaces Patrocinados
-Enlaces PromovidosEnlaces Promovidos
-Te puede gustar
-Tu carrera depega aquíCUN
-Deshacer
-Siéntete poderoso y a la moda con estos exclusivos tenisTommy Hilfiger
-Deshacer
-Pasate a Prepago Digital: Rápido, fácil y seguro.Movistar Prepago
-Deshacer
-¿Rostro caído? Olvida el colágeno. Haz esto por la noche (muy fácil)Piel Renovada
-Deshacer
-Kit de perfumes importados disponible en proceso de liquidaciónPerfumes importados
-Deshacer
-CNE estudia revocar candidatura presidencial de Abelardo de la Espriella: los detallesEl Tiempo
-Deshacer
-Pasate a Movistar: Registrate y llevate 40GB por $20.000.Movistar Prepago
-Deshacer
-Apartamentos sin cuota inicial en Colombia: con pagos mensualesMap in Pocket
-Deshacer
-Ernesto Calzadilla, presentador de ‘Yo Me Llamo’, sorprendió en redes con su cambio de lookEl Tiempo
-Deshacer
-57 fotos antiguas que te harán recordar viejos tiemposchillinghistory.com
-Deshacer
 Cerrar
 ×
-Sigue leyendo
-CNE estudia revocar candidatura presidencial de Abelardo de la Espriella: los detallesEl demandante asegura que el candidato tuvo una consecuencia intencional y dolosa de engañar a la Registraduría por el alto número de firmas anuladas.El Tiempo
-Deshacer
-Ernesto Calzadilla, presentador de ‘Yo Me Llamo’, sorprendió en redes con su cambio de lookSus seguidores quedaron preocupados al ver que ahora luce una apariencia física más delgada y con facciones más marcadas en su rostro.El Tiempo
-Deshacer
-Tareck El Aissami, exaliado de Maduro, rompe el silencio desde prisión: denuncia cómo funciona el chavismo por dentro y las torturas que dice sufrirAsegura que las confesiones que realizó en la trama de corrupción de la que se le acusa fueron obtenidas bajo coacción, amenazas o el uso de drogas.El Tiempo
-Deshacer
-¿Jessi Uribe fue arrestado por la Policía? El cantante de música popular respondió por imagen falsa: 'La gente tiene el demonio adentro, qué pesar'El artista reaccionó mediante una historia de Instagram luego de que circulara una falsa imagen sobre su supuesta captura.El Tiempo
-Deshacer
-Ladrón perdió parte del brazo luego de que un trabajador se defendiera con un machete en un intento de robo en BrasilEl hecho fue captado por cámaras de seguridad del establecimiento, que registraron toda la secuencia del intento de robo.El Tiempo
-Deshacer
-Tu carrera depega aquíNo es solo un lugar, es el impulso para llegar a donde siempre soñaste. El fútbol te emociona, la CUN te posiciona. La cima te queda bien.CUN | 
-PatrocinadoPatrocinado
-Deshacer
-¿Rostro caído? Olvida el colágeno. Haz esto por la noche (muy fácil)Piel Renovada | 
-PatrocinadoPatrocinado
-Deshacer
-Las 3 pistas para dar con el paradero de mujer que desapareció de centro estético tras riesgoso procedimientoPolicía completa 40 horas buscando a Yulixa Toloza. Un testigo entregó información clave sobre los dueños del establecimiento ilegal.El Tiempo
-Deshacer
-Video | Intensa tormenta de granizo y viento deja más de 100 muertos y 50 heridos en IndiaDurante la tormenta, el fuerte viento levantó vallas publicitarias, arrancó árboles y levantó una espesa capa de polvo. El Tiempo
-Deshacer
-Mujer lloraba en videos de TikTok por la muerte de su bebé de 19 días; el caso dio un giro inesperado y fue condenada por asesinato: 'Escalofriante'El caso ocurrió en Escocia y dio un giro tras conocerse los resultados forenses que contradijeron la versión inicial de la madre. El Tiempo
-Deshacer
-Atención: capturan al presunto responsable de asesinar a joven estudiante en estación de TransMilenio Minuto de Dios, en Bogotá; esto se sabeLa detención se llevó a cabo en el barrio Garcés Navas, en la localidad de Engativá, en cumplimiento de una orden judicial.El Tiempo
-Deshacer
-Lanzan campaña para ayudar a María Angélica Mallarino: la icónica artista pasa por un momento complejo de saludUna iniciativa impulsada por familiares y antiguos alumnos busca recaudar 60 millones de pesos para cubrir tratamientos médicos especializados.El Tiempo
-Deshacer
-Kit de perfumes importados disponible en proceso de liquidaciónPerfumes importados | 
-PatrocinadoPatrocinado
-Deshacer
-Pasate a Movistar: Registrate y llevate 40GB por $20.000.Activa 4x1 en datos con eSIM Movistar Prepago y disfruta más gigas este mesMovistar Prepago | 
-PatrocinadoPatrocinado
-Deshacer
-Esto es lo que se sabe sobre la muerte de un joven en un ascensor del centro comercial Nuestro BogotáTrabajaba en un reconocido restaurante. Se indagan fallas mecánicas en el aparato. Centro Comercial se pronuncia.El Tiempo
-Deshacer
-Habla pasajero señalado de agredir sexualmente a mujer en vuelo de Avianca; evalúan pedir circular azul de InterpolEL TIEMPO estableció que tiene ciudadanía colombiana y española. El sujeto dice que viajaba por trabajo y que señalamientos son falsos.El Tiempo
-Deshacer
-Inscríbase para recibir notificaciones

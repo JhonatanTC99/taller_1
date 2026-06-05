@@ -1,7 +1,7 @@
 SOURCE_URL: https://colombiaretail.com/los-canadienses-duenos-de-dollarcity-que-la-pusieron-a-volar-con-colombia-como-eje-regional-del-negocio-las2orillas/
 
 Últimas noticias
-Lidl y Aldi crecen más que Mercadona en el primer cuatrimestre de 2026 | FRSEl Hard Discount no está compitiendo: está reescribiendo las reglas IGNACIO GOMEZ ESCOBAREl hard discount en Colombia ya no es un formato. Es infraestructura. Durante años lo explicamos asi:¿Por qué hablo tanto de Hard Discount?El dilema del fabricante: ¿Adaptarse a la maquila o desaparecer? – AmericaMalls & Retail
+¿Nuevo rival para D1 y Ara? Don Salva, la apuesta de Cencosud en Colombia – PULZO¿Cómo logró el modelo ‘Hard Discount’ transformar por completo los hábitos de consumo en Colombia?Análisis de Datos: El Boom de los Discounters en Colombia (Kantar 2024)Cencosud lanza la cadena de «hard discount» Don Salva: ¿Llegará a la Argentina? – IPROFESIONALDescodificando el éxito de Trader Joe’s: Menos SKUs, más psicología y una cultura inquebrantable.
 Saltar al contenido
 Anterior Siguiente
   * Ver imagen más grande
@@ -26,33 +26,21 @@ Dollarama y Dollarcity ofrecen una mezcla balanceada de productos que incluye un
 ### Comentarios
 Publicar un comentario
 #### Compartir este artículo
-FacebookTwitterRedditLinkedInWhatsAppPinterestVkCorreo electrónico
+FacebookXRedditLinkedInWhatsAppPinterestVkCorreo electrónico
 ##  Sobre el Autor: Colombia Retail
 ##  Artículos relacionados
-¿Por qué hablo tanto de Hard Discount?
-####  ¿Por qué hablo tanto de Hard Discount? 
-El dilema del fabricante: ¿Adaptarse a la maquila o desaparecer? – AmericaMalls & Retail
-####  El dilema del fabricante: ¿Adaptarse a la maquila o desaparecer? – AmericaMalls & Retail 
-EE. UU.: La revolución de «ALDI»: de marca propia a marca de gran poder global.
-####  EE. UU.: La revolución de «ALDI»: de marca propia a marca de gran poder global. 
-Lidl y Aldi crecen más que Mercadona en el primer cuatrimestre de 2026 | FRS
-####  Lidl y Aldi crecen más que Mercadona en el primer cuatrimestre de 2026 | FRS 
-El Hard Discount no está compitiendo: está reescribiendo las reglas IGNACIO GOMEZ ESCOBAR
-####  El Hard Discount no está compitiendo: está reescribiendo las reglas IGNACIO GOMEZ ESCOBAR 
-El hard discount en Colombia ya no es un formato. Es infraestructura. Durante años lo explicamos asi:
-####  El hard discount en Colombia ya no es un formato. Es infraestructura. Durante años lo explicamos asi: 
-¿Por qué hablo tanto de Hard Discount?
-####  ¿Por qué hablo tanto de Hard Discount? 
-El dilema del fabricante: ¿Adaptarse a la maquila o desaparecer? – AmericaMalls & Retail
-####  El dilema del fabricante: ¿Adaptarse a la maquila o desaparecer? – AmericaMalls & Retail 
-EE. UU.: La revolución de «ALDI»: de marca propia a marca de gran poder global.
-####  EE. UU.: La revolución de «ALDI»: de marca propia a marca de gran poder global. 
-Lidl y Aldi crecen más que Mercadona en el primer cuatrimestre de 2026 | FRS
-####  Lidl y Aldi crecen más que Mercadona en el primer cuatrimestre de 2026 | FRS 
-El Hard Discount no está compitiendo: está reescribiendo las reglas IGNACIO GOMEZ ESCOBAR
-####  El Hard Discount no está compitiendo: está reescribiendo las reglas IGNACIO GOMEZ ESCOBAR 
-El hard discount en Colombia ya no es un formato. Es infraestructura. Durante años lo explicamos asi:
-####  El hard discount en Colombia ya no es un formato. Es infraestructura. Durante años lo explicamos asi: 
+¿Nuevo rival para D1 y Ara? Don Salva, la apuesta de Cencosud en Colombia – PULZO
+####  ¿Nuevo rival para D1 y Ara? Don Salva, la apuesta de Cencosud en Colombia – PULZO 
+¿Cómo logró el modelo ‘Hard Discount’ transformar por completo los hábitos de consumo en Colombia?
+####  ¿Cómo logró el modelo ‘Hard Discount’ transformar por completo los hábitos de consumo en Colombia? 
+Análisis de Datos: El Boom de los Discounters en Colombia (Kantar 2024)
+####  Análisis de Datos: El Boom de los Discounters en Colombia (Kantar 2024) 
+Cencosud lanza la cadena de «hard discount» Don Salva: ¿Llegará a la Argentina? – IPROFESIONAL
+####  Cencosud lanza la cadena de «hard discount» Don Salva: ¿Llegará a la Argentina? – IPROFESIONAL 
+Descodificando el éxito de Trader Joe’s: Menos SKUs, más psicología y una cultura inquebrantable.
+####  Descodificando el éxito de Trader Joe’s: Menos SKUs, más psicología y una cultura inquebrantable. 
+EN RETAIL – La colonización territorial: cuando ganar es densidad, no tiendas – IGNACIO GOMEZ ESCOBAR
+####  EN RETAIL – La colonización territorial: cuando ganar es densidad, no tiendas – IGNACIO GOMEZ ESCOBAR 
 ## Deja tu comentario Cancelar la respuesta
 ### **Sobre nosotros**
 **COLOMBIA RETAIL**, nace de la asociación de un grupo de amigos con un propósito común, la difusión y profesionalización del **RETAIL** en Colombia y con impacto en otros mercados latinoamericanos e hispano parlantes. Este propósito comprende fuertes alianzas con gremios, universidades, escuelas de negocios, industrias del sector y otras organizaciones que tengan con **COLOMBIA RETAIL** objetivos comunes centrados en la profesionalización del **RETAIL.**

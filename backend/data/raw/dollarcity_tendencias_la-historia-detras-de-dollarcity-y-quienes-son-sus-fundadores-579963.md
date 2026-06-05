@@ -2,31 +2,31 @@ SOURCE_URL: https://www.portafolio.co/tendencias/la-historia-detras-de-dollarcit
 
 En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí
 Entiendo
-Sábado, 16.05.2026 / 10:08
+Viernes, 05.06.2026 / 09:38
 BOLETINES
 Indicadores en línea 
-  * TRM  $ 3.784,70 
-  * ICOLCAP  $ 21.360,00  -0,035%  -$ 7,5 
-  * Dólar  $ 3.791,51  +0,4%  +$ 15,06 
-  * Euro  $ 4.406,87  +0,02%  +$ 0,76 
-  * Bolívar  US$ 516,6669953  +0,86%  +US$ 4,381718 
-  * Peso mexicano  US$ 0,456 
-  * Oro  US$ 4538,0151  -2,4%  -US$ 111,46 
-  * Tasa de usura en Colombia  28,17 % 
+  * TRM  $ 3.565,32 
+  * ICOLCAP  $ 22.145,50 
+  * Dólar  $ 3.558,76  -0,12%  -$ 4,12 
+  * Euro  $ 4.136,15  +0,16%  +$ 6,6 
+  * Bolívar  US$ 561,880977  +0,52%  +US$ 2,906615 
+  * Peso mexicano  US$ 0,484 
+  * Oro  US$ 4469,9  -0,09%  -US$ 3,9931 
+  * Tasa de usura en Colombia  28,79 % 
   * Tasa de interés del Banrep  11,25 % 
-  * Café  US$ 286,75 
+  * Café  US$ 246,05  -0,45%  -US$ 1,1 
 
 
-  * TRM  $ 3.784,70 
-  * ICOLCAP  $ 21.360,00  -0,035%  -$ 7,5 
-  * Dólar  $ 3.791,51  +0,4%  +$ 15,06 
-  * Euro  $ 4.406,87  +0,02%  +$ 0,76 
-  * Bolívar  US$ 516,6669953  +0,86%  +US$ 4,381718 
-  * Peso mexicano  US$ 0,456 
-  * Oro  US$ 4538,0151  -2,4%  -US$ 111,46 
-  * Tasa de usura en Colombia  28,17 % 
+  * TRM  $ 3.565,32 
+  * ICOLCAP  $ 22.145,50 
+  * Dólar  $ 3.558,76  -0,12%  -$ 4,12 
+  * Euro  $ 4.136,15  +0,16%  +$ 6,6 
+  * Bolívar  US$ 561,880977  +0,52%  +US$ 2,906615 
+  * Peso mexicano  US$ 0,484 
+  * Oro  US$ 4469,9  -0,09%  -US$ 3,9931 
+  * Tasa de usura en Colombia  28,79 % 
   * Tasa de interés del Banrep  11,25 % 
-  * Café  US$ 286,75 
+  * Café  US$ 246,05  -0,45%  -US$ 1,1 
 
 
   * Economía
@@ -91,20 +91,20 @@ PORTAFOLIO WHATSAPP
 Únete al canal de El Tiempo en WhatsApp para estar al día con las noticias más relevantes al momento.
 quiero recibirlo
 Ponte al día
-Colombia recuperó el liderazgo mundial en el Global Big Day con 1.566 especies de aves registradas
-Paula Galeano Balaguera
-Recomendados Portafolio: Energía: perspectivas regulatorias
+PGA Tour Américas: Colombia en la ruta
 César Giraldo
-Estafa en WhatsApp: así funciona el fraude del "hijo en apuros" que llega desde un número desconocido y roba dinero
+Oviedo no descarta diálogo con Cepeda ni De la Espriella antes de segunda vuelta
 Nazly Carolina Morales Herrera
-Estos fueron los últimos videos registrados de Yulixa Toloza el día en que desapareció
-Julian Andres Gonzalez Vargas
-Shakira donará 100% de ingresos de 'Dai Dai', himno de la Copa Mundial Fifa 2026, a un fondo global de educación
-Brayan Franzua Silva Hernandez
+Abogada de Sean ‘Diddy’ Combs entra al equipo de defensa de Nicolás Maduro en EE. UU.
+Nazly Carolina Morales Herrera
+Nacional ofrece devolver la plata de boletas tras goleada del Junior: así será el proceso
+Nazly Carolina Morales Herrera
+Selección Colombia viaja a San Diego para amistoso frente a Jordania antes del debut oficial
+Juan Martín Murillo Herrera
 Nuestros Portales
-Fenómeno de El Niño intensifica calor en Caribe: alertan por incendios, sequía y altas temperaturas en la región 
+Irán afirma haber lanzado 'misiles de advertencia' contra buques de guerra de Estados Unidos cerca de sus costas, pero Washington lo niega 
 EL TIEMPO 
-Davinson Sánchez, a ritmo colombiano: así celebró título en Turquía 
+Análisis Cabo Verde en el Mundial 2026: predicciones y cuotas 
 FUTBOL RED 
-Habla empleada del centro estético donde fue atendida Yulixa Toloza 
+Polémica por el comportamiento de James Rodríguez con la hija del presidente Gustavo Petro 
 CITY TV 

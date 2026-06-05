@@ -8,8 +8,6 @@ La familia Rossy dueña de Dollorama se quedó con la mayoría de la empresa fun
 WhatsAppFacebookXLinkedInEmailThreads
 Desde su llegada a Colombia a través de Cali a finales de 2016, Dollarcity ha experimentado una expansión meteórica que la ha consolidado como la empresa líder en ventas de productos misceláneos de bajo costo en el país. Actualmente, Colombia se ha convertido en su mercado más grande en la región con 390 tiendas, superando ampliamente a Guatemala con 110, Perú con 90 y El Salvador con cerca de 80 establecimientos. En total, la cadena suma cerca de 700 tiendas en Latinoamérica, con una proyección ambiciosa de superar los 850 puntos de venta para el año 2029 tras su reciente incursión en el mercado mexicano.
 La clave del éxito de Dollarcity reside en su modelo de negocio, concebido originalmente por el salvadoreño Marco Andrés Baldocchi Kriete, sobrino del accionista mayoritario de Avianca, Roberto José Kriete, quien junto con su socio abrieron la primera tienda en El Salvador en 2010 inspirados en el modelo de tiendas de descuento, entre ellas la canadiense Dollorama. En 2013, ambas compañías firmaron un acuerdo que permitía a Dollarama probar el concepto en la región antes de ejecutar una opción de compra. Este proceso se aceleró en 2019, cuando la firma canadiense finalmente decidió expandirse a Latinoamérica y adquirió el 50.1% de la mayoría accionaria por aproximadamente USD $95 millones para financiar el crecimiento regional. Posteriormente, en junio de 2024, Dollarama aumentó su participación al 60.1 % tras una inversión adicional de USD $554 millones, manteniendo la opción de adquirir un 9.89 % extra antes de finalizar 2027.
-AdChoices
-PUBLICIDAD
 La familia Baldocchi continúa controlando el resto accionario de Dollarcity, donde **Marco Andrés Baldocchi Kriete** , sigue siendo la figura clave en la gestión de la empresa, es el rostro visible de la operación regional y comparte la junta directiva con **Neil Rossy** , CEO de Dollarama, encargado de supervisar la expansión estratégica internacional de ambas marcas, consolidando el crecimiento en Latinoamérica con Dollarcity.
 **Dollorama Inc** es una compañía fundada en 1992 por Larry Rossy, a partir de la tienda de departamentos S. Rossy Inc. fundada por su abuelo, Salim Rossy quién emigró del Libano a Montreal. Su hijo George tomó el control en 1927 y manejó la empresa hasta su muerte en 1973, cuando su hijo Larry asumió el liderazgo de una compañía con 20 tiendas. A Larry se le debe la transformación del concepto a una tienda de articulos de menos de $ 1 dólar canadiense, que inició en 1992 con una tienda en Matane, Quebec, y catapulto la empresa en las siguientes dos decadas.
 Larry Rossy en 2004, ante la necesidad de recursos para mantener el rápido crecimiento en tiendas, decidió asociarse con el fondo de inversión BainCapital a quien le vendió el 80 % de la compañía. Cinco después, en 2009, cuando la empresa se volvió pública, Dollorama era ya más grande retailer de mercancias de bajo costo de Canadá.
@@ -19,31 +17,11 @@ Dollarama y Dollarcity ofrecen una mezcla balanceada de productos que incluye un
 **Le podría interesar:**Los Calleja dueños del Éxito se quedaron también con los Centros comerciales Viva que quieren hacer crecer  
 
 Anuncios.
-Anuncios..
 Ver más
-Debates políticos
 historia
-Opinión política
-Suscripción periódico digital
-Noticias Colombia
 Cultura colombiana
-Cursos periodismo digital
-Historia
-Política
-Archivo hemeroteca
-  * Youtube Videos
-  * Videos
-  * Ambiciosa
-  * Ampliamente
-  * Cocinas
-
-
-  * Cuidado Personal
-  * De Tiendas
-  * Después De
-  * Duplicado
-
-
+Periodismo digital
+Anuncios..
 #### Por Adriana Arcila
 Fundadora y periodista de Las2orillas.
 Copy link

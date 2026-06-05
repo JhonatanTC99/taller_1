@@ -26,6 +26,14 @@ from src.config.settings import (
     ENABLE_HITL
 )
 
+# --- CONFIGURACIÓN DE COLORES ANSI PARA OBSERVABILIDAD EN CONSOLA ---
+ANSI_CYAN = "\033[96m"
+ANSI_YELLOW = "\033[93m"
+ANSI_GREEN = "\033[92m"
+ANSI_RESET = "\033[0m"
+ANSI_BOLD = "\033[1m"
+
+
 # --- CONFIGURACIÓN DE LA APP ---
 app = FastAPI(title="Dollarcity AI API - Taller 2")
 
@@ -155,7 +163,13 @@ def channel_chat(query: ChannelChatRequest):
     (LLMService) sin interrumpir los flujos webhooks externos de N8N, WhatsApp o Telegram.
     """
     try:
+        # [Punto de Entrada]: Logging visual al recibir una petición externa
+        print(f"\n{ANSI_CYAN}{ANSI_BOLD}[⚡ NUEVA PETICIÓN] Canal: {query.channel} | Usuario: {query.user_id} | Mensaje: \"{query.message}\"{ANSI_RESET}")
+
         if ENABLE_AGENT_V3:
+            # [Indicador de Motor]: Agente V3 activo
+            print(f"{ANSI_YELLOW}[⚙️ MOTOR]: Enrutando al Agente V3 (LangGraph)....{ANSI_RESET}")
+
             # Enrutamiento hacia la infraestructura agéntica avanzada del Módulo 3
             result = get_agent_service().invoke(
                 user_id=query.user_id,
@@ -173,6 +187,9 @@ def channel_chat(query: ChannelChatRequest):
             meta_dict["legacy_bridge"] = False
             
         else:
+            # [Indicador de Motor]: Flujo Legacy activo
+            print(f"{ANSI_YELLOW}[⚙️ MOTOR]: Enrutando al Legacy Bridge....{ANSI_RESET}")
+
             # Enrutamiento retrospectivo hacia el motor síncrono del Módulo 2 (Legacy Bridge)
             service = get_service()
             if query.model:
@@ -187,10 +204,19 @@ def channel_chat(query: ChannelChatRequest):
                 "input_metadata": query.metadata
             }
         
+        # Extracción y preparación de variables para el Punto de Salida
+        tool = result.get("tool_used") or result.get("source_type") or "N/A"
+        status = result.get("status", "success")
+        raw_content = result.get("content", "")
+        content_snippet = raw_content[:80] + "..." if len(raw_content) > 80 else raw_content
+
+        # [Punto de Salida]: Impresión del resumen estructurado con colores antes del retorno
+        print(f"{ANSI_GREEN}{ANSI_BOLD}[✅ RESPUESTA] Tool: {tool} | Status: {status} | 💬 \"{content_snippet}\"{ANSI_RESET}\n")
+
         # Mapeo y conformación estricta al esquema corporativo de salida v3
         return ChannelChatResponse(
-            content=result.get("content", ""),
-            status=result.get("status", "success"),
+            content=raw_content,
+            status=status,
             model=result.get("model") or (get_agent_service().get_model_name() if ENABLE_AGENT_V3 else get_service().get_model_name()),
             session_id=query.user_id,
             channel=query.channel,

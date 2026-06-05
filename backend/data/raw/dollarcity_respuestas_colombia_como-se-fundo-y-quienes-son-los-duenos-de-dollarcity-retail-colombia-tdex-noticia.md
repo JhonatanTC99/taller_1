@@ -1,25 +1,20 @@
 SOURCE_URL: https://elcomercio.pe/respuestas/colombia/como-se-fundo-y-quienes-son-los-duenos-de-dollarcity-retail-colombia-tdex-noticia/
 
-EN VIVO
-Resultados ONPE 100%
-Universitario vs Atlético Grau
 Temas del día
-  * Elecciones
-  * CTS
-  * San Marcos
-  * PUCP
-  * Cúper
-  * El Comercio
-  * U vs Atlético Grau
-  * Temblor
+  * Mundial
+  * Cierre de campañas
+  * Sánchez
+  * Keiko
+  * Ley Seca
+  * Local de votación
   * Dólar
-  * Roberto Sánchez
-  * Hantavirus
-  * Liga 1
-  * ONP
-  * Segunda vuelta
+  * Flash electoral
+  * Temblor
+  * Feriados
+  * El Comercio
   * Seguir a EC
   * Newsletters 
+  * Efemérides
   * La Tinka
   * Dólar BCV
   * Horóscopo
@@ -68,31 +63,31 @@ Seguir temas
 #### Dollarcity
 #### Retail Colombia
 Ver Más
-Oriente Medio
-### Israel ataca el sur del Líbano un día después de anunciar la extensión del alto el fuego
-El ComercioMexico
-### Temblor en México hoy, sábado 16 de mayo: hora exacta, epicentro y magnitud del último sismo
-El ComercioPerú
-### Gobierno amplía contrato de Petro-Perú en el Lote Z-69 y modifica esquema de regalías
+Televisión
+### Del streaming a la TV: Edson Dávila estrena “Edson pa’ qué más” en América TV
+El ComercioTendencias
+### De Miraflores al Centro Histórico: los mejores lugares en Lima para ver el Mundial 
+El ComercioQué
+### ¿Votarás este domingo 7 de junio? Evita estos errores que podrían invalidar tu voto en las Elecciones 2026
+El ComercioLocal US
+### ¿El precio de la gasolina en California subirá desde el 1 de julio? Esto es lo que se sabe
+MAG.
+Colombia
+### Temblor en Colombia HOY, viernes 5 de junio: hora exacta, epicentro y magnitud de los últimos sismos vía el SGC
 El ComercioColombia
-### Temblor en Colombia hoy, sábado 16 de mayo: reportes de los últimos sismos según el SGC
+### Temblor en Colombia: reporte sísmico del jueves 4 de junio según el SGC
+El ComercioColombia
+### Lotería Caribeña HOY, jueves 4 de junio: revisa los resultados y número ganador 
+El ComercioColombia
+### Lotería Sinuano HOY, viernes 4 de junio: revisa los resultados y número ganador 
 El Comercio
 Colombia
-### Temblor en Colombia hoy, sábado 16 de mayo: reportes de los últimos sismos según el SGC
+### Temblor en Colombia HOY, viernes 5 de junio: hora exacta, epicentro y magnitud de los últimos sismos vía el SGC
 El ComercioColombia
-### Vea Sinuano HOY, viernes 15 de mayo: Últimos resultados del sorteo
-El ComercioColombia
-### Vea La Caribeña HOY, viernes 15 de mayo: Revisa los últimos resultados
-El ComercioColombia
-### Lotería Santander HOY, viernes 15 de mayo: horario y dónde ver el sorteo
-El Comercio
-Colombia
-### Temblor en Colombia hoy, sábado 16 de mayo: reportes de los últimos sismos según el SGC
-El ComercioColombia
-### Vea Sinuano HOY, viernes 15 de mayo: Últimos resultados del sorteo
-El ComercioColombia
-### Vea La Caribeña HOY, viernes 15 de mayo: Revisa los últimos resultados
-El ComercioColombia
-### Lotería Santander HOY, viernes 15 de mayo: horario y dónde ver el sorteo
+### Temblor en Colombia: reporte sísmico del jueves 4 de junio según el SGC
+El ComercioEEUU
+### Estados Unidos amenaza con retirar visas a quienes manipulen las elecciones en Colombia
+El ComercioLatinoamérica
+### Confirman condena de 28 años contra hermano de Álvaro Uribe por crear un grupo paramilitar en Colombia
 El Comercio
 Pregúntale a Merlín IA

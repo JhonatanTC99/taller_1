@@ -5,7 +5,7 @@ Marketing +
 #  Dollarcity: ¿cuál es la historia detrás de su concepto? 
 Dom, 21/07/2024 - 08:00 
 Este fue el concepto con el que Marco Andrés Baldocchi Kriete, un empresario salvadoreño creó Dollarcity. 
-CompartirWhatsAppFacebookX
+ShareWhatsAppFacebookX
 Créditos:
 Dollarcity
 En el mundo del comercio minorista, la estrategia de ofrecer productos a precios fijos ha demostrado ser exitosa en diversas partes del mundo. **Dollarcity** , una cadena presente en varios países de América Latina, adopta este modelo bajo un nombre que refleja directamente su propósito: ofrecer productos a precios accesibles, generalmente en la moneda local pero manteniendo una identidad que evoca el dólar estadounidense.
@@ -23,20 +23,20 @@ Siga a KIENYKE en Google News
 Siga nuestro canal de WhatsApp 
 ##### Más KienyKe
 Colombia
-Cecilia López analiza el gobierno Petro: ¿cambio histórico o pausa política?
-En su libro Gobierno Petro ¿Solo una pausa?, la exministra Cecilia López Montaño revisa el paso del primer gobierno de izquierda por Colombia, sus quiebres, errores, tensiones y posibles efectos hacia el futuro. 
+Exmilitares devuelven medallas tras reconocer 209 falsos positivos
+Veintisiete exmilitares aceptaron ante la JEP su responsabilidad por asesinatos y desapariciones forzadas en Meta. 
+Colombia
+Ataque en sede de De la Espriella: ¿qué pasó y qué se sabe?
+La Alcaldía reportó arengas e intimidación frente a la sede de campaña en Teusaquillo, sin daños ni heridos. 
 Regiones
-Asesinan a Rogers Mauricio Devia, exalcalde de Cubarral y aliado de De la Espriella
-Rogers Mauricio Devia, exalcalde de Cubarral y coordinador de campaña de Abelardo de la Espriella en Meta, fue asesinado en un ataque armado en zona rural. 
-Tendencias
-¿Cuál es la mejor hora para cenar? Expertos recomiendan
-Existen muchos mitos sobre la última comida del día, la cena, pero ¿qué es lo que realmente opinan los expertos? 
+Explosión en mina de Sutatausa deja una persona muerta y cuatro atrapadas
+Según la Alcaldía municipal, continúan las actividades de verificación en la zona. 
 Entretenimiento
-Diddy habría tenido romance con este miembro de la familia real británica
-Sean 'Diddy' Combs habría tenido un romance con uno de los personajes más polémicos de la realeza británica. 
+¿Qué fue lo que pasó entre James Rodríguez y Antonella Petro?
+En redes se viralizó un video que muestra a Antonella Petro, hija menor de Gustavo Petro, pidiéndole una foto a James Rodríguez pero él sigue derecho. 
 ×
 Copy link
 ✓
-¡Gracias por compartir!
+Thanks for sharing!
 Find any service
-Más…
+More…

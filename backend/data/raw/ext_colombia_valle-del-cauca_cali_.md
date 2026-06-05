@@ -18,3 +18,6 @@ GRANDE
 La República MÁS
 Esta es la plataforma de beneficios exclusivos para nuestros suscriptores, donde encontrará contenidos oportunos y relevantes para tomar decisiones empresariales, financieras y económicas acertadas.
 VER RESULTADOS FINANCIEROS
+COOKIES
+Este sitio web usa cookies propias y de terceros para analizar el tráfico, mejorar nuestros servicio y conocer el comportamiento del usuario. Para conocer más, acceda a nuestra Política de Cookies. 
+ENTENDIDO

@@ -2,7 +2,7 @@ SOURCE_URL: https://www.eltiempo.com/economia/empresas/plan-de-expansion-de-doll
 
 En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí
 Entiendo
-Sábado, 16.05.2026 / 10:08
+Viernes, 05.06.2026 / 09:38
 EMPLEOS
 CLUB VIVAMOS 
 SUSCRÍBETE CLUB VIVAMOS 
@@ -128,17 +128,78 @@ SUSCRÍBETE AL DIGITAL
 Información confiable para ti. Suscríbete a EL TIEMPO y consulta de forma ilimitada nuestros contenidos periodísticos.
 suscríbete
 Ponte al día
-Grupo Energía Bogotá y La Caisse crean una de las mayores plataformas de transmisión eléctrica en Brasil
+Frontera Energy evalúa entrar al negocio de generación de energía con una térmica a gas; esta es su estrategia
 Lina Quiroga Rubio
-Grupo SURA ganó 509.000 millones de pesos en el primer trimestre de 2026
+Avianca transporta a la Selección Colombia a EE. UU. y refuerza su operación con 600.000 sillas para el torneo
 Laura Lesmes Díaz
-Ganancias del GEB cayeron 43 % por devaluación del dólar, impuesto al patrimonio y deudas de Air-e
+Claudia Bejarano deja la presidencia de Cerrejón: Edgar Alfonso asumirá el cargo desde el 1.° de julio
 Lina Quiroga Rubio
-Grupo Argos reportó caída del 21 % en sus ganancias; ingresos cedieron 7 % al cierre del primer trimestre
+Mexicana Tendencys convierte a Colombia en su 'hub' regional tras multiplicar por 20 su operación en tres años
+Carlos Arturo García Mahecha
+Qbano apuesta por ciudades intermedias y planea fortalecer su red de franquicias con 10 puntos nuevos por año
+Carlos Arturo García Mahecha
+Grupo Aval invertirá más de $ 75.000 millones en infraestructura vial y educativa a través de Obras por Impuestos
 Lina Quiroga Rubio
-A la conquista de Silicon Valley
-Andres Orlando Zambrano Diaz
-Google destrona a Apple y valor de las marcas globales crece 22 por ciento impulsado por la inteligencia artificial
-Laura Lesmes Díaz
+por Taboolapor Taboola
+Enlaces PatrocinadosEnlaces Patrocinados
+Enlaces PromovidosEnlaces Promovidos
+Te puede gustar
+Lo que los residentes en Colombia están notando últimamentePoint News
+Deshacer
+Por qué todos usan esta nueva fuente de ingresosPoint News
+Deshacer
+Quien sufre de dolor de rodilla necesita leer estoDolor de rodilla
+Deshacer
+¿Rostro caído? Olvida el colágeno. Haz esto por la noche (muy fácil)Piel Renovada
+Deshacer
+Cuando el dolor de rodilla aparezca, prueba esto (es genial)Dolor de rodilla
+Deshacer
+Juez ordena a Abelardo de la Espriella disculparse públicamente por comentarios indebidos a la periodista Laura Rodríguez en programa radialEl Tiempo
+Deshacer
+Santiago De Cali: Nuevas casas de 2 dormitorios para adultos mayores son impresionantes - ¡echa un vistazo adentro!WonderMapped
+Deshacer
+Truco japonés para reducir la apnea del sueño (¡es genial!)Sueño Perfecto
+Deshacer
+Presidente Gustavo Petro asegura que Donald Trump traicionó 'acuerdo' tras expresar apoyo a Abelardo de la Espriella: 'No intervenir en Colombia'El Tiempo
+Deshacer
+Kit de perfumes importados disponible en proceso de liquidaciónPerfumes importados
+Deshacer
 Cerrar
 ×
+Sigue leyendo
+Juez ordena a Abelardo de la Espriella disculparse públicamente por comentarios indebidos a la periodista Laura Rodríguez en programa radialLa jueza señaló que este hecho fue 'profundamente violento' al venir de un candidato con una capacidad de influencia política considerable.El Tiempo
+Deshacer
+Presidente Gustavo Petro asegura que Donald Trump traicionó 'acuerdo' tras expresar apoyo a Abelardo de la Espriella: 'No intervenir en Colombia'El jefe de Estado también afirmó que no tiene ninguna intención de ponerse al frente de la campaña de Iván Cepeda.El Tiempo
+Deshacer
+El lío familiar del 'Pibe' Valderrama se sacude y las hijas del denunciante salieron en defensa del exjugador de la Selección: 'No es lógico'Las sobrinas de 'el Pibe' se mostraron indignadas por el nivel de 'desagradecimiento' de su padre.El Tiempo
+Deshacer
+Comunidades de universidades públicas y privadas de Medellín se unieron para citar a Iván Cepeda y Abelardo de la Espriella a un debate: ¿aceptarán?Tras conocerse los históricos resultados de la primera vuelta de las elecciones presidenciales, las comunidades académicas plantearon el debate.El Tiempo
+Deshacer
+Claudia López reveló su postura para la segunda vuelta de las elecciones entre De la Espriella y CepedaLa exalcaldesa de Bogotá se refirió este miércoles 3 de junio al panorama del país tras resultados de este 31 de mayo. El Tiempo
+Deshacer
+Lo que los residentes en Colombia están notando últimamentePoint News | 
+PatrocinadoPatrocinado
+Deshacer
+Por qué todos usan esta nueva fuente de ingresosPoint News | 
+PatrocinadoPatrocinado
+Deshacer
+Equipos forenses recuperan 48 cuerpos tras los combates entre disidencias de ‘Mordisco’ y ‘Calarcá’ en GuaviareLos cadáveres serán trasladados a Villavicencio para su identificación por Medicina Legal.El Tiempo
+Deshacer
+CNE da por concluido el escrutinio: así quedaron las votaciones finales Abelardo de la Espriella, Iván Cepeda y los demás candidatosEl CNE hará la declaratoria para la segunda vuelta entre Cepeda y De la Espriella. El presidente sigue sin reconocer los resultados.El Tiempo
+Deshacer
+Atención: Consejo de Estado ordena al presidente Gustavo Petro abstenerse de difundir propaganda electoralRevocó una sentencia proferida por el Tribunal de Cundinamarca y declaró el incumplimiento de la norma que prohíbe la participación en política.El Tiempo
+Deshacer
+Esto dijo la firma de abogados de Carlos 'el Pibe' Valderrama tras acusaciones de supuestas amenazas y desalojo en Santa Marta: 'Difamación'Ricaurte Tobías Redondo acusa al exfutbolista de haber contratado personas armadas para intimidarlo y obligarlo a abandonar un lote.El Tiempo
+Deshacer
+En video quedó registrado el momento exacto cuando turista se lanzó a la Fontana di Trevi para refrescarse en medio de las altas temperaturas en RomaEn un video, la mujer aparece nadando sin mostrar preocupación ni arrepentimiento por haber incumplido las normas.El Tiempo
+Deshacer
+Quien sufre de dolor de rodilla necesita leer estoColombianos dicen que este dispositivo reduce el dolor de rodilla "como ningún otro"Dolor de rodilla | 
+PatrocinadoPatrocinado
+Deshacer
+¿Rostro caído? Olvida el colágeno. Haz esto por la noche (muy fácil)Piel Renovada | 
+PatrocinadoPatrocinado
+Deshacer
+Habló el abogado de la familia de Yulixa Toloza y pidió 'no hacer justicia por mano propia' contra capturados tras procedimiento estético en BogotáSe conoció lo que dijo el anestesiólogo del centro estético cuando habrían intentado llevar a Yulixa Toloza a un hospital antes de su muerte.El Tiempo
+Deshacer
+Revelan lo que dijo anestesiólogo de centro estético cuando habrían intentado llevar a Yulixa Toloza a un hospital antes de morir: 'No hay delito'Las palabras de María Fernanda, Edison y Eduardo tras su captura, indicaron dónde y cómo fue abandonado el cuerpo de la mujer de 52 años en Apulo.El Tiempo
+Deshacer

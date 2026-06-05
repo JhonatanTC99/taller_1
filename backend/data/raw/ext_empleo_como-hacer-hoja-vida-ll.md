@@ -55,7 +55,6 @@ Al concluir, María Alejandra Puentes destacó la importancia de saber comunicar
 (Lea también: Claro Colombia hace llamado a jóvenes sin experiencia para contratarlos y paga buenos sueldos)
 En Colombia, la compañía opera mediante la contratación independiente de talento local que trabaja de forma remota o híbrida para clientes internacionales. Desde aquí, los equipos se encargan de tareas administrativas y de soporte vinculadas al sistema de salud estadounidense, bajo modelos de tercerización de procesos y servicios especializados, lo que permite exportar servicios profesionales desde el mercado colombiano.
 * Pulzo.com se escribe con Z
-Publicidad
 LO ÚLTIMO
 Temas Relacionados:
 Empleo 

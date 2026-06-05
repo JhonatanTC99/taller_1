@@ -2,7 +2,7 @@ SOURCE_URL: https://www.eltiempo.com/economia/empresas/quienes-son-los-duenos-de
 
 En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí
 Entiendo
-Sábado, 16.05.2026 / 10:08
+Viernes, 05.06.2026 / 09:38
 EMPLEOS
 CLUB VIVAMOS 
 SUSCRÍBETE CLUB VIVAMOS 
@@ -140,17 +140,78 @@ SUSCRÍBETE AL DIGITAL
 Información confiable para ti. Suscríbete a EL TIEMPO y consulta de forma ilimitada nuestros contenidos periodísticos.
 suscríbete
 Ponte al día
-Grupo Energía Bogotá y La Caisse crean una de las mayores plataformas de transmisión eléctrica en Brasil
+Frontera Energy evalúa entrar al negocio de generación de energía con una térmica a gas; esta es su estrategia
 Lina Quiroga Rubio
-Grupo SURA ganó 509.000 millones de pesos en el primer trimestre de 2026
+Avianca transporta a la Selección Colombia a EE. UU. y refuerza su operación con 600.000 sillas para el torneo
 Laura Lesmes Díaz
-Ganancias del GEB cayeron 43 % por devaluación del dólar, impuesto al patrimonio y deudas de Air-e
+Claudia Bejarano deja la presidencia de Cerrejón: Edgar Alfonso asumirá el cargo desde el 1.° de julio
 Lina Quiroga Rubio
-Grupo Argos reportó caída del 21 % en sus ganancias; ingresos cedieron 7 % al cierre del primer trimestre
+Mexicana Tendencys convierte a Colombia en su 'hub' regional tras multiplicar por 20 su operación en tres años
+Carlos Arturo García Mahecha
+Qbano apuesta por ciudades intermedias y planea fortalecer su red de franquicias con 10 puntos nuevos por año
+Carlos Arturo García Mahecha
+Grupo Aval invertirá más de $ 75.000 millones en infraestructura vial y educativa a través de Obras por Impuestos
 Lina Quiroga Rubio
-A la conquista de Silicon Valley
-Andres Orlando Zambrano Diaz
-Google destrona a Apple y valor de las marcas globales crece 22 por ciento impulsado por la inteligencia artificial
-Laura Lesmes Díaz
+por Taboolapor Taboola
+Enlaces PatrocinadosEnlaces Patrocinados
+Enlaces PromovidosEnlaces Promovidos
+Te puede gustar
+Por qué todos usan esta nueva fuente de ingresosPoint News
+Deshacer
+Lo que los residentes en Colombia están notando últimamentePoint News
+Deshacer
+Cuando el dolor de rodilla aparezca, prueba esto (es genial)Dolor de rodilla
+Deshacer
+La causa oculta del dolor de rodilla (¡no es la edad!)Dolor de rodilla
+Deshacer
+Santiago De Cali: Nuevas casas de 2 dormitorios para adultos mayores son impresionantes - ¡echa un vistazo adentro!WonderMapped
+Deshacer
+Juez ordena a Abelardo de la Espriella disculparse públicamente por comentarios indebidos a la periodista Laura Rodríguez en programa radialEl Tiempo
+Deshacer
+¿Rostro caído? Olvida el colágeno. Haz esto por la noche (muy fácil)Piel Renovada
+Deshacer
+Kit de cuchillos japoneses premium entra en liquidación en ColombiaCuchillos japoneses
+Deshacer
+Indignación en Barranquilla por domiciliario wayuu que fue asesinado de una puñalada tras oponerse a un robo en La Ceiba: tenía 20 añosEl Tiempo
+Deshacer
+Truco casero para el rostro caído (toma 7 segundos)Piel Renovada
+Deshacer
 Cerrar
 ×
+Sigue leyendo
+Juez ordena a Abelardo de la Espriella disculparse públicamente por comentarios indebidos a la periodista Laura Rodríguez en programa radialLa jueza señaló que este hecho fue 'profundamente violento' al venir de un candidato con una capacidad de influencia política considerable.El Tiempo
+Deshacer
+Indignación en Barranquilla por domiciliario wayuu que fue asesinado de una puñalada tras oponerse a un robo en La Ceiba: tenía 20 añosEn medio del asalto, se produjo un forcejeo breve, pero suficiente para que el atacante le propinara una puñalada en el pecho. La herida fue mortal.El Tiempo
+Deshacer
+Presidente Gustavo Petro asegura que Donald Trump traicionó 'acuerdo' tras expresar apoyo a Abelardo de la Espriella: 'No intervenir en Colombia'El jefe de Estado también afirmó que no tiene ninguna intención de ponerse al frente de la campaña de Iván Cepeda.El Tiempo
+Deshacer
+Fajardo llama a De la Espriella y a Cepeda a campaña limpia y anuncia que presentará 'decálogo del millón de votos'El excandidato alertó por los discursos y anunció un documento sobre lo que representa el más de un millón de sufragios que obtuvo en primera vuelta.El Tiempo
+Deshacer
+CNE da por concluido el escrutinio: así quedaron las votaciones finales Abelardo de la Espriella, Iván Cepeda y los demás candidatosEl CNE hará la declaratoria para la segunda vuelta entre Cepeda y De la Espriella. El presidente sigue sin reconocer los resultados.El Tiempo
+Deshacer
+Por qué todos usan esta nueva fuente de ingresosPoint News | 
+PatrocinadoPatrocinado
+Deshacer
+Lo que los residentes en Colombia están notando últimamentePoint News | 
+PatrocinadoPatrocinado
+Deshacer
+Aberrante: mujer explotaba sexualmente a su hija menor de edad en Cartagena y vendía videos a extranjeroLa mujer enviaba archivos íntimos de su propia hija a cambio de dineroEl Tiempo
+Deshacer
+La dura embestida del candidato Abelardo De La Espriella contra Ricardo Roa tras hablar del llamado plan para salvar a EcopetrolUsó duros calificativos. Dijo que han irrespetado el gobierno corporativo y que ya tenía el reemplazo de la ficha de Gustavo Petro. El Tiempo
+Deshacer
+Esto recibirían De La Espriella, Cepeda, Valencia y Fajardo por reposición de gastos por votosClaudia López, Mauricio Lizcano y Roy Barreras no obtendrán un solo peso. Y a Paloma Valencia no le alcanzaría para cubrir gastos. El Tiempo
+Deshacer
+En Valledupar capturan a docente, designada como jurado de votación, por presunto voto fraudulento: habría incurrido en doble votaciónDurante el proceso electoral presidencial también se incautó material electoral irregular.El Tiempo
+Deshacer
+Habló el abogado de la familia de Yulixa Toloza y pidió 'no hacer justicia por mano propia' contra capturados tras procedimiento estético en BogotáSe conoció lo que dijo el anestesiólogo del centro estético cuando habrían intentado llevar a Yulixa Toloza a un hospital antes de su muerte.El Tiempo
+Deshacer
+Cuando el dolor de rodilla aparezca, prueba esto (es genial)Solo 15 minutos al día en casa y miles de colombianos ya reportan sentir la diferenciaDolor de rodilla | 
+PatrocinadoPatrocinado
+Deshacer
+La causa oculta del dolor de rodilla (¡no es la edad!)Solo 15 minutos al día en casa y miles de colombianos ya reportan sentir la diferenciaDolor de rodilla | 
+PatrocinadoPatrocinado
+Deshacer
+¿Cómo quedaron las votaciones presidenciales en primera vuelta? Abelardo de la Espriella le ganó a Iván Cepeda e irán juntos a segunda vueltaLos dos candidatos se enfrentarán el próximo 21 de junio para disputar la Presidencia de la República y el rumbo político del país. El Tiempo
+Deshacer
+Presidente Petro se pronuncia sobre suspensión de la constituyente y reconoce que tiene que ver con resultados de primera vueltaEl mandatario, quien impulsó el mecanismo, aseguró ahora que la división reflejada en las urnas impide avanzar con esa iniciativa.El Tiempo
+Deshacer

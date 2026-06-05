@@ -1,5 +1,5 @@
 """
-question.py
+questions.py
 
 Módulo de evaluación y validación del agente conversacional Dollarcity AI.
 
@@ -23,7 +23,7 @@ Resultados:
     herramienta utilizada, tipo de fuente y respuesta generada.
 
 Ejecución:
-    python question.py
+    python questions.py
 
 Salida:
     data/evaluation_results.csv
@@ -31,7 +31,7 @@ Salida:
 import argparse
 import pandas as pd
 from datetime import datetime
-from src.engine.llm_service import LLMService
+from src.engine.agent_service import get_agent_service
 import time
 
 TEST_QUESTIONS = [
@@ -197,22 +197,14 @@ def run_evaluation(limit: int = None):
 
     results = []
 
-    # Mantener sesiones por conversación
-    services = {}
+    # Instanciación única del servicio del agente V3 (Patrón Singleton)
+    agent = get_agent_service()
 
     questions_to_run = TEST_QUESTIONS[:limit] if limit else TEST_QUESTIONS
 
     for i, item in enumerate(questions_to_run):
 
         conversation_id = item["conversation_id"]
-
-        # Crear servicio por conversación
-        if conversation_id not in services:
-            services[conversation_id] = LLMService(
-                session_id=conversation_id
-            )
-
-        service = services[conversation_id]
 
         print(f"\n[{i+1}/{len(questions_to_run)}]")
         print(f"Tipo : {item['test_type']}")
@@ -222,13 +214,12 @@ def run_evaluation(limit: int = None):
         start_time = datetime.now()
 
         try:
-
-            response = service.get_chat_response(item['question'])
+            # Invocación al nuevo motor de AgentService usando conversation_id como user_id (thread_id)
+            response = agent.invoke(user_id=conversation_id, message=item['question'], channel="test_script")
             time.sleep(5)  # Espera 5 segundos antes de procesar lo que sigue
 
-            latency = (
-                datetime.now() - start_time
-            ).total_seconds()
+            # Captura de latencia nativa desde los metadatos devueltos por el agente nuevo
+            latency = response.get("timing_ms", {}).get("total", 0) / 1000.0
 
             result = {
                 "ID": i + 1,
@@ -247,7 +238,7 @@ def run_evaluation(limit: int = None):
             }
 
         except Exception as e:
-
+            # Cálculo nativo de respaldo en caso de que ocurra algún fallo
             latency = (
                 datetime.now() - start_time
             ).total_seconds()
@@ -270,6 +261,7 @@ def run_evaluation(limit: int = None):
 
         results.append(result)
 
+        # Lógica de pandas intacta para la preservación de la estructura del CSV
         pd.DataFrame(results).to_csv(
             output_path,
             index=False,

@@ -1,10 +1,8 @@
 SOURCE_URL: https://co.computrabajo.com/dollarcityco/empleos
 
-Utilizamos cookies propias necesarias para el funcionamiento correcto y personalización del sitio web. También utilizamos cookies de terceros para fines analíticos y mostrarte publicidad relacionada según tus preferencias. Para más información sobre las cookies y configurar tus preferencias, consulta nuestra Política de Cookies
-Acepto
 # Dollarcity
 Empresa verificada
-140.986 seguidores
+143.013 seguidores
 + Seguir 
 Volver a enviar 
 Dejar de seguir 
@@ -17,42 +15,44 @@ Ordenar por
 
 Fecha
 Fecha 
-  * Urgente  27 
-  * Últimos 3 días  3 
-  * Última semana  12 
+  * Urgente  31 
+  * Hoy  5 
+  * Últimos 3 días  17 
+  * Última semana  18 
   * Últimos 15 días  26 
-  * Último mes  61 
+  * Último mes  54 
 
 
 Categoría
 Categoría 
-  * Almacén / Logística / Transporte  63 
-  * Ventas  25 
-  * Administración / Oficina  2 
+  * Almacén / Logística / Transporte  77 
+  * Ventas  21 
+  * Administración / Oficina  1 
   * Producción / Operarios / Manufactura  1 
 
 
 Lugar de trabajo 
 Lugar de trabajo 
 Departamento 
-  * Bogotá, D.C. 19
-  * Valle del Cauca 17
-  * Cundinamarca 8
-  * Córdoba 5
+  * Bogotá, D.C. 20
+  * Valle del Cauca 14
+  * Antioquia 8
+  * Atlántico 7
+  * Cundinamarca 7
+  * Norte de Santander 7
   * Nariño 5
-  * Antioquia 4
-  * Atlántico 4
-  * La Guajira 4
-  * Norte de Santander 4
-  * Santander 4
+  * Santander 5
   * Bolívar 3
+  * Boyacá 3
   * Caldas 3
-  * Boyacá 2
-  * Magdalena 2
-  * Meta 2
+  * Cesar 3
+  * Córdoba 3
+  * Meta 3
+  * Cauca 2
+  * La Guajira 2
   * Risaralda 2
-  * Cauca 1
-  * Cesar 1
+  * Huila 1
+  * Magdalena 1
   * Quindio 1
 
 
@@ -60,9 +60,10 @@ Ciudad
 Limpiar  Filtrar 
 Experiencia
 Experiencia 
-  * Sin Experiencia  16 
-  * 1 año  36 
-  * 3-4 años  39 
+  * Sin Experiencia  20 
+  * 1 año  38 
+  * 2 años  1 
+  * 3-4 años  41 
 
 
 Salario
@@ -76,14 +77,15 @@ Salario
 
 Jornada
 Jornada 
-  * Tiempo Completo  89 
-  * Beca/prácticas  2 
+  * Tiempo Completo  99 
+  * Beca/prácticas  1 
 
 
 Contrato
 Contrato 
-  * Contrato a término indefinido  89 
-  * Contrato de aprendizaje  2 
+  * Contrato a término indefinido  98 
+  * Contrato de aprendizaje  1 
+  * Contrato a término fijo  1 
 
 
 Discapacidad
@@ -92,144 +94,146 @@ Discapacidad
   * No 
 
 
-#  91  ofertas de empleo 
+#  100  ofertas de empleo 
 Genial 
 ¿Quieres recibir en tu correo nuevas vacantes? Busca por tu cargo o filtra por localidad y categoría. 
 ##  Coordinador de equipo de Tienda Primer Empleo 
 Vista 
 Dollarcity 
-Bucaramanga, Santander 
-Hace 53 minutos 
-Oferta oculta 
-##  Subgerente de Tienda 
-Vista 
-Dollarcity 
-Bucaramanga, Santander 
-Hace 1 hora 
-Oferta oculta 
-##  Gerente de Tienda 
-Vista 
-Dollarcity 
-Bucaramanga, Santander 
-Hace 1 hora 
-Oferta oculta 
-##  Auxiliar de bodega / logístico 
-Vista 
-Dollarcity 
-Caldas, Antioquia 
-Hace 2 horas 
-Oferta oculta 
-Se precisa Urgente 
-##  Auxiliar de logística 
-Vista 
-Dollarcity 
-Galapa, Atlántico 
-Hace 3 horas 
-Oferta oculta 
-Empleo destacado 
-##  Coordinador de equipo de Tienda Primer Empleo 
-Vista 
-Dollarcity 
-San Juan del Cesar, La Guajira 
-Hace 3 horas 
-Oferta oculta 
-##  Subgerente de Tienda Villeta 
-Vista 
-Dollarcity 
-Villeta, Cundinamarca 
-Hace 5 horas 
-Oferta oculta 
-Se precisa Urgente  Empleo destacado 
-##  Gerente de tienda 
-Vista 
-Dollarcity 
-Bogotá, D.C., Bogotá, D.C. 
-Hace 23 horas 
-Oferta oculta 
-Empleo destacado 
-##  Coordinador de Equipo Profesional 
-Vista 
-Dollarcity 
-Bogotá, D.C., Bogotá, D.C. 
-Ayer 
-Oferta oculta 
-##  Subgerente de Tienda 
-Vista 
-Dollarcity 
 Barranquilla, Atlántico 
-Ayer 
-Oferta oculta 
-##  Gerente de Tienda 
-Vista 
-Dollarcity 
-Roldanillo, Valle del Cauca 
-Ayer 
-Oferta oculta 
-##  Subgerente de Tienda 
-Vista 
-Dollarcity 
-Roldanillo, Valle del Cauca 
-Ayer 
-Oferta oculta 
-##  Aprendiz SENA 
-Vista 
-Dollarcity 
-Medellín, Antioquia 
-Ayer 
-Oferta oculta 
-##  Aprendiz Sena en Etapa Productiva Carreras Administrativas para RRHH 
-Vista 
-Dollarcity 
-Bogotá, D.C., Bogotá, D.C. 
-Ayer 
-Oferta oculta 
-##  Coordinador de Equipo Profesional Usaquen 
-Vista 
-Dollarcity 
-Bogotá, D.C., Bogotá, D.C. 
-Ayer 
+Hace 2 horas 
 Oferta oculta 
 Se precisa Urgente  Empleo destacado 
 ##  Gerente de Tienda Kennedy 
 Vista 
 Dollarcity 
 Bogotá, D.C., Bogotá, D.C. 
-Ayer 
+Hace 3 horas 
 Oferta oculta 
 Se precisa Urgente  Empleo destacado 
-##  Auxiliar de Tienda Acacias 
+##  Auxiliar de Tienda Neiva 
 Vista 
 Dollarcity 
-Acacías, Meta 
-Ayer 
+Neiva, Huila 
+Hace 4 horas 
 Oferta oculta 
-##  Aprendiz SENA 
+##  Coordinador de Equipo Profesional Roldanillo 
 Vista 
 Dollarcity 
-Caucasia, Antioquia 
-Ayer 
+Roldanillo, Valle del Cauca 
+Hace 19 horas 
+Oferta oculta 
+##  Gerente de Tienda 
+Vista 
+Dollarcity 
+Ipiales, Nariño 
+Hace 19 horas 
+Oferta oculta 
+##  Subgerente de Tienda 
+Vista 
+Dollarcity 
+Ipiales, Nariño 
+Hace 20 horas 
+Oferta oculta 
+##  Coordinador de Equipo Profesional Suba 
+Vista 
+Dollarcity 
+Bogotá, D.C., Bogotá, D.C. 
+Hace 20 horas 
+Oferta oculta 
+##  Auxiliar de Tienda La Dorada 
+Vista 
+Dollarcity 
+La Dorada, Caldas 
+Hace 21 horas 
+Oferta oculta 
+##  Auxiliar sala de ventas 
+Vista 
+Dollarcity 
+Armenia, Quindio 
+Hace 21 horas 
+Oferta oculta 
+##  Auxiliar sala de ventas 
+Vista 
+Dollarcity 
+Pasto, Nariño 
+Hace 22 horas 
 Oferta oculta 
 Se precisa Urgente  Empleo destacado 
-##  Subgerente de Tienda Cedritos, Usaquen 
+##  Gerente de Tienda 
+Vista 
+Dollarcity 
+Bogotá, D.C., Bogotá, D.C. 
+Hace 22 horas 
+Oferta oculta 
+##  Auxiliar sala de ventas 
+Vista 
+Dollarcity 
+Cali, Valle del Cauca 
+Hace 22 horas 
+Oferta oculta 
+##  Auxiliar sala de ventas 
+Vista 
+Dollarcity 
+Ipiales, Nariño 
+Hace 22 horas 
+Oferta oculta 
+Se precisa Urgente  Empleo destacado 
+##  Gerente de Tienda La Dorada 
+Vista 
+Dollarcity 
+La Dorada, Caldas 
+Hace 23 horas 
+Oferta oculta 
+Empleo destacado 
+##  Auxiliar de Tienda Barrios Unidos y Chapinero 
+Vista 
+Dollarcity 
+Bogotá, D.C., Bogotá, D.C. 
+Hace 23 horas 
+Oferta oculta 
+Empleo destacado 
+##  Auxiliar de Tienda Puente Aranda y Mártires 
+Vista 
+Dollarcity 
+Bogotá, D.C., Bogotá, D.C. 
+Hace 23 horas 
+Oferta oculta 
+Empleo destacado 
+##  Auxiliar de Tienda Restrepo, Antonio Narño y Rafael Uribe 
+Vista 
+Dollarcity 
+Bogotá, D.C., Bogotá, D.C. 
+Hace 23 horas 
+Oferta oculta 
+Se precisa Urgente  Empleo destacado 
+##  Auxiliar de Tienda Chía 
+Vista 
+Dollarcity 
+Chía, Cundinamarca 
+Hace 23 horas 
+Oferta oculta 
+Se precisa Urgente  Empleo destacado 
+##  Gerente de Tienda Cedritos, Mazuren y Colina 
 Vista 
 Dollarcity 
 Bogotá, D.C., Bogotá, D.C. 
 Ayer 
 Oferta oculta 
 Se precisa Urgente  Empleo destacado 
-##  Auxiliar de Tienda Usaquén 
+##  Auxiliar de Tienda 
 Vista 
 Dollarcity 
-Bogotá, D.C., Bogotá, D.C. 
+Roldanillo, Valle del Cauca 
 Ayer 
 Oferta oculta 
 Anterior  Siguiente 
 Ocultaste esta oferta, pulsa Recuperar oferta para verla de nuevo en los listados
 Eliminado de **Ofertas ocultas** Deshacer
 Coordinador de equipo de Tienda Primer Empleo
-Bucaramanga
+Barranquilla
 Dollarcity
-Bucaramanga, Santander
+Barranquilla, Atlántico
 Premium  Aplicar 
 Dollarcity sigue rompiendo esquemas en el mundo del retail. Con nuestro innovador modelo de negocio hemos logrado aperturar más de 700 tiendas en 5 países de la región, agregándole valor a nuestros clientes y acercándonos cada vez más a nuestra visión de llegar a toda Latinoamérica. Únete a Dollarcity y forma parte de un equipo de primer nivel, en donde nuestro ADN #TodoTerreno nos permite enfrentarnos a los desafíos diarios con agilidad, dinamismo y compromiso.   
   

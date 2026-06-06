@@ -30,7 +30,6 @@ LangGraph Agent
       |-- PostgreSQL / PostgresSaver para memoria por usuario
       |-- ChromaDB para consultas RAG
       |-- JSON corporativo para datos deterministas
-      |-- Human-in-the-Loop para acciones sensibles
       |
 Respuesta JSON hacia N8N y WhatsApp
 ```
@@ -42,7 +41,7 @@ El agente selecciona herramientas de forma autonoma segun la intencion del usuar
 - `consultar_dato_corporativo`: consulta datos estructurados como NIT, telefonos, correos, horarios, ciudades, devoluciones, facturacion, redes y empleo.
 - `consultar_base_conocimiento_rag`: recupera contexto desde ChromaDB para preguntas abiertas sobre historia, expansion, noticias, cultura y modelo de negocio de Dollarcity.
 - `responder_fuera_de_dominio`: aplica contencion cuando la pregunta no pertenece al dominio de Dollarcity.
-- `registrar_lead_interesado`: registra intenciones de empleo, proveedores o contacto comercial y puede activar revision humana cuando `ENABLE_HITL=true`.
+- `registrar_lead_interesado`: identifica intenciones de empleo, proveedores o contacto comercial y devuelve una respuesta controlada de pre-registro pendiente.
 
 ## Requisitos
 
